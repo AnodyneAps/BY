@@ -1,0 +1,386 @@
+{
+  "current": {
+    "heading_color": "#303030",
+    "text_color": "#303030",
+    "text_light_color": "#6b655f",
+    "link_color": "#6b655f",
+    "background": "#ffffff",
+    "light_background": "#ffffff",
+    "product_on_sale_color": "#f94c43",
+    "button_background": "#9edfbf",
+    "button_text_color": "#ffffff",
+    "button_text_color_hover": "#595959",
+    "button_background_hover": "#ffffff",
+    "button_second_background": "#9edfbf",
+    "button_second_text_color": "#342e29",
+    "button_second_background_hover": "rgba(0,0,0,0)",
+    "header_background": "#ffffff",
+    "header_heading_color": "#303030",
+    "header_light_color": "#595959",
+    "footer_background": "#f6f6f6",
+    "footer_heading_color": "#342e29",
+    "footer_text_color": "#6b655f",
+    "footer_newsletter_background": "#858e80",
+    "navigation_background": "#ffffff",
+    "navigation_text_color": "#303030",
+    "newsletter_popup_background": "#ffffff",
+    "newsletter_popup_text_color": "#303030",
+    "secondary_elements_background": "#6b655f",
+    "secondary_elements_text_color": "#ffffff",
+    "heading_font": "din_neuzeit_grotesk_n3",
+    "heading_size": "small",
+    "uppercase_heading": true,
+    "text_font": "futura_n4",
+    "base_text_font_size": 14,
+    "country_selector": false,
+    "currency_code_enabled": true,
+    "color_swatch_config": "Beige: #ffffff;\nSort: #000;",
+    "show_page_transition": true,
+    "show_button_transition": true,
+    "show_image_zooming": false,
+    "show_element_staggering": false,
+    "search_mode": "product,article,page",
+    "product_show_price_on_hover": false,
+    "product_show_secondary_image": true,
+    "show_product_rating": true,
+    "product_info_alignment": "right",
+    "product_image_size": "natural",
+    "product_list_horizontal_spacing": "medium",
+    "product_list_vertical_spacing": "small",
+    "cart_type": "drawer",
+    "cart_enable_notes": false,
+    "cart_show_free_shipping_threshold": false,
+    "cart_free_shipping_threshold": "399",
+    "social_facebook": "https:\/\/www.facebook.com\/ByFritzDenmark",
+    "social_instagram": "https:\/\/www.instagram.com\/vonfritzdesign",
+    "favicon": "shopify:\/\/shop_images\/SHABES_ICON_BEIGE.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/byfritz_logo.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_color": "#ffffff",
+    "checkout_accent_color": "#342e29",
+    "checkout_button_color": "#342e29",
+    "sections": {
+      "sidebar-menu": {
+        "type": "sidebar-menu",
+        "settings": {
+          "primary_menu": "main-menu",
+          "secondary_menu": "",
+          "show_social_media": true
+        }
+      },
+      "announcement": {
+        "type": "announcement",
+        "settings": {
+          "enable_bar": true,
+          "home_page_only": false,
+          "posistion_fixed": false,
+          "background": "#afe0c8",
+          "text_color": "#646464",
+          "enable_bar_one": false,
+          "content": "Fri fragt ved køb fra 399 kr",
+          "link": "",
+          "fadein_one": "Fri fragt ved køb over 399 kr",
+          "icon_selector1": "package",
+          "fadein_two": "30 dages returrret",
+          "icon_selector2": "shipping",
+          "fadein_three": "Professionel kundeservice",
+          "icon_selector3": "heart",
+          "fadein_four": "Nem og sikker betaling",
+          "icon_selector4": "cards"
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "use_sticky_header": true,
+          "logo_max_width": 200,
+          "mobile_logo_max_width": 200,
+          "show_currency_selector": false,
+          "show_locale_selector": false,
+          "navigation_menu": "main-menu",
+          "navigation_style": "center",
+          "show_icons": true,
+          "enable_transparent_header": false,
+          "enable_transparent_header_collection": false,
+          "show_transparent_header_border": false,
+          "transparent_text_color": "#646464",
+          "transparent_logo": "shopify:\/\/shop_images\/byfritz_logo.png"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "show_payment_methods": true,
+          "show_language_selector": false,
+          "language_selector_header": "Language selector header",
+          "newsletter_header": "sign up til vores nyhedsbrev og hold dig opdateret om nye produkter og tilbud.",
+          "newsletter_image": "shopify:\/\/shop_images\/by_fritz_newsletter_eb31b9c8-8fb7-4890-8352-7da23b3158d1.jpg",
+          "text_box_header": "Om byFritz®",
+          "text_box_text": "<p>ByFritz følger de førende økologiske bæredygtige standarder, vores økologiske produkter er allergi-venlige og indeholder ingen skadelige kemikalier og stoffer. Så du kan trygt bruge vores tekstiler tæt på huden hver dag.<br\/><\/p><p>Kig dig lidt rundt i mit univers af smukt økologisk sengetøj, håndklæder og viskestykker og lad dig inspirere 💞<\/p>",
+          "linkbox_1_header": "kategorier",
+          "linkbox_1_menu": "",
+          "linkbox_2_header": "Kundeservice",
+          "linkbox_2_menu": "footer",
+          "contact_box_header": "Kontakt os",
+          "contact_box_phone": "Tlf:",
+          "contact_box_number": "+45 22 62 89 90",
+          "contact_box_mail": "E-mail:",
+          "contact_box_mail_text": "info@byfritz.dk",
+          "contact_box_day_week": "Man-fre",
+          "contact_box_day_week_time": "09.00-16.00",
+          "contact_box_day_weekend": "Vi bestræber os på at svare indenfor max 24 timer",
+          "contact_box_day_weekend_time": "",
+          "copyright_text": "2022, byFritz ApS. All rights reserved",
+          "copyright_text_company": "<p><strong>CVR:<\/strong> XXXXXXXX<\/p>"
+        }
+      },
+      "popup": {
+        "type": "popup",
+        "settings": {
+          "show_popup": true,
+          "show_only_on_index": false,
+          "show_only_for_visitors": true,
+          "show_only_once": true,
+          "title": "Gå ikke glip af noget",
+          "content": "<p>Tilmeld dig til vores nyhedsbrev og hold dig opdateret om alt det nye der sker.<\/p>",
+          "show_newsletter": true,
+          "apparition_delay": 3
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  },
+  "presets": {
+    "Allure": {
+      "heading_color": "#1c1b1b",
+      "text_color": "#1c1b1b",
+      "text_light_color": "#6a6a6a",
+      "link_color": "#6a6a6a",
+      "background": "#efefef",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#1c1b1b",
+      "button_text_color": "#ffffff",
+      "header_background": "#ffffff",
+      "header_heading_color": "#1c1b1b",
+      "header_light_color": "#6a6a6a",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#1c1b1b",
+      "footer_text_color": "#6a6a6a",
+      "newsletter_popup_background": "#1c1b1b",
+      "newsletter_popup_text_color": "#ffffff",
+      "secondary_elements_background": "#1c1b1b",
+      "secondary_elements_text_color": "#ffffff",
+      "navigation_background": "#1c1b1b",
+      "navigation_text_color": "#ffffff",
+      "heading_font": "montserrat_n5",
+      "heading_size": "small",
+      "uppercase_heading": true,
+      "text_font": "nunito_sans_n4",
+      "base_text_font_size": 14,
+      "show_page_transition": false,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": false,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "center",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "medium",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "drawer",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "center",
+      "checkout_logo_size": "small",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#efefef",
+      "checkout_accent_color": "#1c1b1b",
+      "checkout_button_color": "#1c1b1b",
+      "sections": {
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "content": "Announce something here"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "inline",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        }
+      }
+    },
+    "Couture": {
+      "heading_color": "#5c5c5c",
+      "text_color": "#5c5c5c",
+      "text_light_color": "#939393",
+      "link_color": "#323232",
+      "background": "#ffffff",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#5c5c5c",
+      "button_text_color": "#ffffff",
+      "header_background": "#ffffff",
+      "header_heading_color": "#5c5c5c",
+      "header_light_color": "#939393",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#5c5c5c",
+      "footer_text_color": "#939393",
+      "newsletter_popup_background": "#ffffff",
+      "newsletter_popup_text_color": "#1c1b1b",
+      "secondary_elements_background": "#5c5c5c",
+      "secondary_elements_text_color": "#ffffff",
+      "navigation_background": "#ffffff",
+      "navigation_text_color": "#5c5c5c",
+      "heading_font": "futura_n4",
+      "heading_size": "large",
+      "uppercase_heading": false,
+      "text_font": "century_gothic_n4",
+      "base_text_font_size": 15,
+      "show_page_transition": false,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": true,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "left",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "small",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "drawer",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "center",
+      "checkout_logo_size": "small",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_accent_color": "#323232",
+      "checkout_button_color": "#5c5c5c",
+      "sections": {
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#f3f3f3",
+            "text_color": "#5c5c5c",
+            "content": "Announce something here"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "center",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        }
+      }
+    },
+    "Vogue": {
+      "heading_color": "#303030",
+      "text_color": "#303030",
+      "text_light_color": "#595959",
+      "link_color": "#000000",
+      "background": "#ffffff",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#f5db8b",
+      "button_text_color": "#303030",
+      "header_background": "#ffffff",
+      "header_heading_color": "#303030",
+      "header_light_color": "#595959",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#303030",
+      "footer_text_color": "#595959",
+      "navigation_background": "#ffffff",
+      "navigation_text_color": "#303030",
+      "newsletter_popup_background": "#ffffff",
+      "newsletter_popup_text_color": "#303030",
+      "secondary_elements_background": "#fce7a8",
+      "secondary_elements_text_color": "#303030",
+      "heading_font": "din_neuzeit_grotesk_n3",
+      "heading_size": "small",
+      "uppercase_heading": true,
+      "text_font": "futura_n4",
+      "base_text_font_size": 14,
+      "show_page_transition": false,
+      "show_element_staggering": false,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": true,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "center",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "medium",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "drawer",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_accent_color": "#a17c5e",
+      "checkout_button_color": "#454545",
+      "sections": {
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#f1e4d8",
+            "text_color": "#343434",
+            "content": "Announce something here"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "inline",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,409 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/byfritz_frontpage.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/byfritz_frontpage_mobile.jpg",
+            "image_position": "center center",
+            "apply_overlay": true,
+            "content_position": "bottomCenter",
+            "subheading": "Velkommen til byFritz®",
+            "title": "Sengetøj og boligtekstiler",
+            "button_1_text": "SHOP",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide-0"
+      ],
+      "settings": {
+        "show_fullscreen": false,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "heading_size": 62,
+        "sub_heading_size": 30,
+        "text_color": "#ffffff",
+        "button_color": "#ffffff",
+        "button_background": "#9edfbf",
+        "button_color_hover": "#595959",
+        "button_background_hover": "#f6f6f6"
+      }
+    },
+    "163276763442e7599e": {
+      "type": "text-area",
+      "settings": {
+        "padding_small": false,
+        "hide_desktop": false,
+        "float_left": false,
+        "background_img": "none",
+        "background": "#ccd9ed",
+        "text_color": "#1c1b1b",
+        "title": "Velkommen til byFritz.com",
+        "h1": true,
+        "heading_size": 25,
+        "margin_heading": false,
+        "heading_size_mobile": 22,
+        "content": "<p>byFritz® er et nordisk univers af boligtekstiler. Skabt med tanke på bæredygtighed og slowfashion. Udtrykket er rent og enkelt. <em><br\/><br\/>\"Jeg har med byFritz® en drøm og et ønske om at bidrage til en grønnere verden. En verden hvor vi kommer væk fra køb-og-smid-væk kulturen og i stedet fokuserer på kvalitet og det gode håndværk. Jeg tror på at æstetik og etik kan forenes således at det smukke økologiske sengetøj, håndklæder og viskestykker vi fremstiller, ikke gør skade på vores klode eller på os.\" <br\/><br\/><\/em><strong>Tina Andersen<br\/>CEO & Founder<\/strong><\/p>",
+        "max_content": false,
+        "max_content_size": 100,
+        "max_box_size": 120,
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "00b8dc28-7728-42ad-862e-b27e6304968d": {
+          "type": "collection",
+          "settings": {
+            "collection": "frontpage",
+            "title": "SENGESÆT",
+            "text_box": "",
+            "grid_items_count": 4,
+            "button_text": "SE UDVALG"
+          }
+        }
+      },
+      "block_order": [
+        "00b8dc28-7728-42ad-862e-b27e6304968d"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 35,
+        "margin_heading": false,
+        "heading_size_mobile": 22,
+        "background-color": "#fafafa",
+        "background_img": "none",
+        "layout_mode": "grid",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": true,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 4
+      }
+    },
+    "16328296399e7c669c": {
+      "type": "customer-testimonials",
+      "blocks": {
+        "c49bb351-a46d-4c17-8654-d9b8d003f729": {
+          "type": "review",
+          "settings": {
+            "review_heading": "Helt vild med jeres sengetøj!",
+            "review_richtext": "<p>Jeg er helt vild med jeres sengetøj! Modtog det i går til min fødselsdag og sov i næsten 10 timer uden at vågne overhovedet.<\/p>",
+            "review_name": "Pernille Krause"
+          }
+        },
+        "fae94813-7994-4ed2-986d-e51788072dee": {
+          "type": "review",
+          "settings": {
+            "review_heading": "Helt vild med jeres sengetøj!",
+            "review_richtext": "<p>Jeg er helt vild med jeres sengetøj! Modtog det i går til min fødselsdag og sov i næsten 10 timer uden at vågne overhovedet.<\/p>",
+            "review_name": "Pernille Krause"
+          }
+        },
+        "c36a7bbd-4eba-4564-a5fa-ed42620432e9": {
+          "type": "review",
+          "settings": {
+            "review_heading": "Helt vild med jeres sengetøj",
+            "review_richtext": "<p>Jeg er helt vild med jeres sengetøj! Modtog det i går til min fødselsdag og sov i næsten 10 timer uden at vågne overhovedet.<\/p>",
+            "review_name": "Pernille Krause"
+          }
+        },
+        "ed508a72-fcc7-4944-ac4b-fcd366457689": {
+          "type": "review",
+          "settings": {
+            "review_heading": "Helt vild med jeres sengetøj",
+            "review_richtext": "<p>Jeg er helt vild med jeres sengetøj! Modtog det i går til min fødselsdag og sov i næsten 10 timer uden at vågne overhovedet.<\/p>",
+            "review_name": "Pernille Krause"
+          }
+        }
+      },
+      "block_order": [
+        "c49bb351-a46d-4c17-8654-d9b8d003f729",
+        "fae94813-7994-4ed2-986d-e51788072dee",
+        "c36a7bbd-4eba-4564-a5fa-ed42620432e9",
+        "ed508a72-fcc7-4944-ac4b-fcd366457689"
+      ],
+      "settings": {
+        "background-color": "#ecd8cb",
+        "autoplay": true,
+        "cycle_speed": 3.5,
+        "draggable": true,
+        "arrows": true,
+        "title": "Hvad siger vores kunder",
+        "heading_size": 30,
+        "heading_size_mobile": 20
+      }
+    },
+    "1632827034e58962e0": {
+      "type": "collection-list",
+      "blocks": {
+        "1632827034e58962e0-0": {
+          "type": "collection",
+          "settings": {
+            "hide_mobile": false,
+            "hide_link": false,
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/by_Fritz_image.jpg",
+            "image_alignment": "top center",
+            "content_position": "bottomCenter",
+            "subheading": "",
+            "title": "Hvorfor vælge ByFritz®",
+            "richtext": "<p>Med byFritz har jeg gentænkt fremstillingen af boligtekstiler ved at kombinere min kærlighed for design, kvalitet og håndværk med nøje gennemtænkte bæredygtige materialer. Fælles for alle materialerne er at de er naturmaterialer. <\/p>",
+            "button_text": "Læs mere",
+            "button_link": "shopify:\/\/pages\/om-os",
+            "apply_overlay": true,
+            "apply_overlay_extra": true,
+            "add_logo": false,
+            "logo_color": "#ffffff",
+            "logo_size": 150
+          }
+        },
+        "1632827034e58962e0-1": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "hide_mobile": false,
+            "hide_link": false,
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Skaermbillede_2022-03-05_kl._17.18.57.png",
+            "image_alignment": "center center",
+            "content_position": "bottomCenter",
+            "subheading": "",
+            "title": "Bæredygtighed og økologi i fokus",
+            "richtext": "",
+            "button_text": "læs mere",
+            "button_link": "shopify:\/\/pages\/alt-om-shapewear",
+            "apply_overlay": true,
+            "apply_overlay_extra": false,
+            "add_logo": false,
+            "logo_color": "#ffffff",
+            "logo_size": 150
+          }
+        }
+      },
+      "block_order": [
+        "1632827034e58962e0-0",
+        "1632827034e58962e0-1"
+      ],
+      "settings": {
+        "image_size": "large",
+        "spacing": "add_spacing",
+        "heading_size": 26,
+        "sub_heading_size": 20,
+        "expand_collection": true,
+        "stack_on_mobile": true,
+        "text_color": "#ffffff",
+        "richtext_size": 14,
+        "button_size": 16,
+        "button_color": "#f6f6f6",
+        "button_border_color": "rgba(0,0,0,0)",
+        "button_fill": "#9edfbf",
+        "button_color_hoover": "#595959",
+        "button_fill_hoover": "#f6f6f6"
+      }
+    },
+    "1646509594f49b0adf": {
+      "type": "featured-collections",
+      "blocks": {
+        "164650959376907057-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "frontpage",
+            "title": "",
+            "text_box": "",
+            "grid_items_count": 4,
+            "button_text": "Se flere"
+          }
+        }
+      },
+      "block_order": [
+        "164650959376907057-0"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 26,
+        "margin_heading": false,
+        "heading_size_mobile": 15,
+        "background-color": "#fafafa",
+        "background_img": "none",
+        "layout_mode": "grid",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 4
+      }
+    },
+    "1646509727cbcbfcf9": {
+      "type": "collection-list",
+      "blocks": {
+        "16465097273177f6de-0": {
+          "type": "collection",
+          "settings": {
+            "hide_mobile": false,
+            "hide_link": true,
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/byfritz_mission_image.jpg",
+            "image_alignment": "center center",
+            "content_position": "bottomCenter",
+            "subheading": "",
+            "title": "Bæredygtighed og økologi i fokus",
+            "richtext": "<p>Vores produkter er naturligvis GOTS certificeret (The Global Organic Textile Standard). GOTS er en standard for økologiske fibre. Den er kendt og anerkendt i hele verden.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "apply_overlay": true,
+            "apply_overlay_extra": false,
+            "add_logo": false,
+            "logo_color": "#ffffff",
+            "logo_size": 150
+          }
+        },
+        "16465097273177f6de-1": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "hide_mobile": false,
+            "hide_link": false,
+            "collection": "",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "Sub-heading",
+            "title": "Collection name",
+            "richtext": "",
+            "button_text": "View products",
+            "button_link": "",
+            "apply_overlay": true,
+            "apply_overlay_extra": false,
+            "add_logo": false,
+            "logo_color": "#ffffff",
+            "logo_size": 150
+          }
+        },
+        "16465097273177f6de-2": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "hide_mobile": false,
+            "hide_link": false,
+            "collection": "",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "Sub-heading",
+            "title": "Collection name",
+            "richtext": "",
+            "button_text": "View products",
+            "button_link": "",
+            "apply_overlay": true,
+            "apply_overlay_extra": false,
+            "add_logo": false,
+            "logo_color": "#ffffff",
+            "logo_size": 150
+          }
+        }
+      },
+      "block_order": [
+        "16465097273177f6de-0",
+        "16465097273177f6de-1",
+        "16465097273177f6de-2"
+      ],
+      "settings": {
+        "image_size": "normal",
+        "spacing": "add_spacing",
+        "heading_size": 26,
+        "sub_heading_size": 20,
+        "expand_collection": true,
+        "stack_on_mobile": true,
+        "text_color": "#ffffff",
+        "richtext_size": 14,
+        "button_size": 16,
+        "button_color": "#ffffff",
+        "button_border_color": "#ffffff",
+        "button_fill": "#ffffff",
+        "button_color_hoover": "#342e29",
+        "button_fill_hoover": "#ffffff"
+      }
+    },
+    "16465097626c2f1f44": {
+      "type": "featured-collections",
+      "blocks": {
+        "16465097623b2991d2-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "frontpage",
+            "title": "",
+            "text_box": "",
+            "grid_items_count": 4,
+            "button_text": "Se flere"
+          }
+        }
+      },
+      "block_order": [
+        "16465097623b2991d2-0"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 26,
+        "margin_heading": false,
+        "heading_size_mobile": 15,
+        "background-color": "#fafafa",
+        "background_img": "none",
+        "layout_mode": "grid",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 4
+      }
+    },
+    "1632770742cb2c7b8c": {
+      "type": "text-area",
+      "settings": {
+        "padding_small": false,
+        "hide_desktop": false,
+        "float_left": false,
+        "background_img": "none",
+        "background": "#eeeacb",
+        "text_color": "#1c1b1b",
+        "title": "Æstetik og etik går hånd i hånd",
+        "h1": false,
+        "heading_size": 30,
+        "margin_heading": false,
+        "heading_size_mobile": 20,
+        "content": "<p>Med byFritz har jeg gentænkt fremstillingen af boligtekstiler ved at kombinere min kærlighed for design, kvalitet og håndværk med nøje gennemtænkte bæredygtige materialer. Fælles for alle materialerne er at de er naturmaterialer. <\/p><p>Jeg skaber smukt økologisk sengetøj, håndklæder og viskestykker af høj kvalitet og med lang levetid. Kvaliteterne udvikles således at produkterne kan bruges igen og igen og endda gå i arv med den rigtige pleje. <\/p>",
+        "max_content": false,
+        "max_content_size": 50,
+        "max_box_size": 50,
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "1633001842c9af7c59": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "163276763442e7599e",
+    "featured-collections",
+    "16328296399e7c669c",
+    "1632827034e58962e0",
+    "1646509594f49b0adf",
+    "1646509727cbcbfcf9",
+    "16465097626c2f1f44",
+    "1632770742cb2c7b8c",
+    "1633001842c9af7c59"
+  ]
+}
