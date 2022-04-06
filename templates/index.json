@@ -93,7 +93,6 @@
     },
     "16328296399e7c669c": {
       "type": "customer-testimonials",
-      "disabled": true,
       "blocks": {
         "c49bb351-a46d-4c17-8654-d9b8d003f729": {
           "type": "review",
