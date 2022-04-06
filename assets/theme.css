@@ -9,7 +9,7 @@
  * Base
  */
 
- @font-face {
+ /* @font-face {
   font-family: "DinNext";
   src: url("../assets/DinNext.woff2") format("woff2"),
        url("../assets/DinNext.woff") format("woff");
@@ -37,9 +37,40 @@
   font-family: "Neuzeit";
   src: url("../assets/Neuzeit.woff2") format("woff2"),
        url("../assets/Neuzeit.woff") format("woff");
+} */
+
+ @font-face {
+  font-family: "DidotBold";
+  src: url("../assets/Didot-HTF-B16-Bold.ttf") format("ttf");
 }
 
+@font-face {
+  font-family: "DidotBoldItalic";
+  src: url("../assets/Didot-HTF-B24-Bold-Ital.ttf") format("ttf");
+}  
 
+@font-face {
+  font-family: "DidotMedium";
+  src: url("../assets/Didot-HTF-M16-Medium.ttf") format("ttf");
+}
+@font-face {
+  font-family: "DidotMediumItalic";
+  src: url("../assets/Didot-HTF-M24-Medium-Ital.ttf") format("ttf");
+}
+@font-face {
+  font-family: "DidotLight";
+  src: url("../assets/Didot-HTF-L16-Light.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "DidotLightItalic";
+  src: url("../assets/Didot-HTF-L16-Light-Ital.ttf") format("ttf");
+}
+@font-face {
+  font-family: "AvertaRegular";
+  src: url("../assets/Averta-Regular.woff2") format("woff2"),
+       url("../assets/Averta-Regular.woff") format("woff");
+} 
 
 *,
 *:before,
