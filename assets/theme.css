@@ -4834,6 +4834,13 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
  * Newsletter (home page)
  * ----------------------------------------------------------------------------
  */
+ .Footer__Newsletter-home {
+   padding: 5rem 0;
+   background-color: #ede9e4;
+ }
+ .Footer__Newsletter-home .Heading{
+  text-align: center;
+}
 .Newsletter .Form__Input::-moz-placeholder {
   color: inherit;
 }
@@ -4869,7 +4876,8 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   }
 
   .Newsletter .Form__Input {
-    min-width: 100%;
+    min-width: 80%;
+    width: 80%;
   }
 
   .Newsletter .Form__Submit {
