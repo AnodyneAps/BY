@@ -104,10 +104,10 @@
           "navigation_menu": "main-menu",
           "navigation_style": "logoLeft",
           "show_icons": true,
-          "enable_transparent_header": false,
+          "enable_transparent_header": true,
           "enable_transparent_header_collection": false,
           "show_transparent_header_border": false,
-          "transparent_text_color": "#646464",
+          "transparent_text_color": "#6b655f",
           "transparent_logo": "shopify:\/\/shop_images\/byfritz_logo.png"
         }
       },
