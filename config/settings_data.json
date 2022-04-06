@@ -80,7 +80,7 @@
           "posistion_fixed": false,
           "background": "#ede9e4",
           "text_color": "#454545",
-          "enable_bar_one": false,
+          "enable_bar_one": true,
           "content": "Fri fragt ved køb fra 399 kr",
           "link": "shopify:\/\/collections\/all",
           "fadein_one": "Fri fragt ved køb over 399 kr",
