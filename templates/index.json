@@ -46,7 +46,7 @@
         "background_img": "none",
         "background": "#ede9e4",
         "text_color": "#1c1b1b",
-        "title": "byFritz sengetøj, håndklæder og viskestykker",
+        "title": "Velkommen til byFritz",
         "h1": true,
         "heading_size": 25,
         "margin_heading": false,
@@ -66,7 +66,7 @@
           "type": "collection",
           "settings": {
             "collection": "sengetoj",
-            "title": "Sengetøj",
+            "title": "SENGETØJ",
             "text_box": "",
             "grid_items_count": 4,
             "button_text": "SE UDVALG"
@@ -93,7 +93,6 @@
     },
     "16328296399e7c669c": {
       "type": "customer-testimonials",
-      "disabled": true,
       "blocks": {
         "c49bb351-a46d-4c17-8654-d9b8d003f729": {
           "type": "review",
@@ -373,7 +372,7 @@
         "hide_desktop": false,
         "float_left": false,
         "background_img": "none",
-        "background": "#eee9e4",
+        "background": "#ffffff",
         "text_color": "#1c1b1b",
         "title": "Æstetik og etik går hånd i hånd",
         "h1": false,
