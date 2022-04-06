@@ -11,7 +11,7 @@
     "button_text_color": "#ffffff",
     "button_text_color_hover": "#d6c6b8",
     "button_background_hover": "#ffffff",
-    "button_second_background": "#ea8d61",
+    "button_second_background": "#1f120d",
     "button_second_text_color": "#ffffff",
     "button_second_background_hover": "rgba(0,0,0,0)",
     "header_background": "#ffffff",
