@@ -78,7 +78,7 @@
           "enable_bar": true,
           "home_page_only": false,
           "posistion_fixed": false,
-          "background": "#ede9e4",
+          "background": "#ffffff",
           "text_color": "#454545",
           "enable_bar_one": true,
           "content": "Fri fragt ved køb fra 399 kr",
@@ -132,10 +132,10 @@
           "contact_box_mail_text": "info@byfritz.dk",
           "contact_box_day_week": "Man-fre:",
           "contact_box_day_week_time": "09.00-16.00",
-          "contact_box_day_weekend": "Vi bestræber os på at svare indenfor max 24 timer.",
+          "contact_box_day_weekend": "Vi bestræber os på at svare indenfor max 24 timer",
           "contact_box_day_weekend_time": "",
           "copyright_text": "2022, byFritz ApS. All rights reserved",
-          "copyright_text_company": "<p>CVR: 41412704<\/p>"
+          "copyright_text_company": "<p><strong>CVR:<\/strong> XXXXXXXX<\/p>"
         }
       },
       "popup": {
