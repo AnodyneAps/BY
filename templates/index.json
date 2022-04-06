@@ -220,7 +220,7 @@
           "type": "collection",
           "settings": {
             "collection": "sengetoj",
-            "title": "",
+            "title": "Håndklæder",
             "text_box": "",
             "grid_items_count": 4,
             "button_text": "Se flere"
@@ -341,7 +341,7 @@
           "type": "collection",
           "settings": {
             "collection": "sengetoj",
-            "title": "",
+            "title": "Viskestykker",
             "text_box": "",
             "grid_items_count": 4,
             "button_text": "Se flere"
