@@ -65,7 +65,7 @@
         "00b8dc28-7728-42ad-862e-b27e6304968d": {
           "type": "collection",
           "settings": {
-            "collection": "frontpage",
+            "collection": "sengetoj",
             "title": "SENGESÆT",
             "text_box": "",
             "grid_items_count": 4,
@@ -218,7 +218,7 @@
         "164650959376907057-0": {
           "type": "collection",
           "settings": {
-            "collection": "frontpage",
+            "collection": "sengetoj",
             "title": "",
             "text_box": "",
             "grid_items_count": 4,
@@ -339,7 +339,7 @@
         "16465097623b2991d2-0": {
           "type": "collection",
           "settings": {
-            "collection": "frontpage",
+            "collection": "sengetoj",
             "title": "",
             "text_box": "",
             "grid_items_count": 4,
