@@ -4834,11 +4834,6 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
  * Newsletter (home page)
  * ----------------------------------------------------------------------------
  */
-
-.ImageHero--newsletter .SectionHeader.SectionHeader {
-  margin-bottom: 30px;
-}
-
 .Newsletter .Form__Input::-moz-placeholder {
   color: inherit;
 }
@@ -4856,14 +4851,10 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 }
 
 .Newsletter .Form__Submit {
-  width: 100%;
+  width: 255px;
 }
 
 @media screen and (max-width: 640px) {
-  .ImageHero--newsletter {
-    min-height: 450px !important;
-  }
-
   .ImageHero--newsletter .ImageHero__ContentOverlay {
     padding-left: 25px;
     padding-right: 25px;
@@ -4871,13 +4862,14 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 }
 
 @media screen and (min-width: 641px) {
-  .Newsletter__Inner {
+  .Newsletter__Email {
     display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .Newsletter .Form__Input {
-    min-width: 395px;
-    width: 395px;
+    min-width: 100%;
   }
 
   .Newsletter .Form__Submit {
