@@ -4,7 +4,7 @@
       <div class="AnnouncementBar">
         <div class="AnnouncementBar__Wrapper">
           {% if section.settings.enable_bar_one %}
-            <p class="AnnouncementBar__Content Heading">
+            <p class="AnnouncementBar__Content text">
               {%- if section.settings.link -%}
                 <a href="{{ section.settings.link }}">{{ section.settings.content | escape }}</a>
               {%- else -%}

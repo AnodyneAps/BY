@@ -1686,8 +1686,8 @@ input.spr-button-primary,
   font-size: 12px;
   text-align: center;
   letter-spacing: .05em;
-  font-family: var(--heading-font-family);
-  font-weight: var(--heading-font-weight);
+  font-family: var(--text-font-family);
+  font-weight: 300;
   font-style: var(--heading-font-style);
   background-color: transparent;
   transition: all .2s ease-in-out;
@@ -4649,6 +4649,9 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 .AnnouncementBar__Content {
   color: inherit;
   margin: 0;
+}
+.AnnouncementBar__Content.text a{
+  font-size: .8rem;
 }
 
 .AnnouncementBar__Wrapper ul {
@@ -8780,7 +8783,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 
 .Header .Heading,
 .Header .Link--secondary{
-  font-family: var(--header-heading-font-family);
+  font-family: var(--text-font-family);
   font-size: 16px;
 }
 
@@ -8796,13 +8799,18 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   color: var(--header-light-text-color);
 }
 
-.Header {
+/* .Header {
+  background: var(--header-background);
+  color: var(--header-heading-color);
+  box-shadow: 0 -1px var(--header-border-color) inset;
+  transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+} */
+.scroll-header{
   background: var(--header-background);
   color: var(--header-heading-color);
   box-shadow: 0 -1px var(--header-border-color) inset;
   transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
-
 .Header__Wrapper {
   display: flex;
   align-items: center;

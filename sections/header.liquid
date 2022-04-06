@@ -497,6 +497,14 @@ HEADER CONTENT
 
 <script>
   document.documentElement.style.setProperty('--header-height', document.getElementById('shopify-section-header').offsetHeight + 'px');
+
+  function scrollHeader() {
+	const header = document.querySelector('.Header');
+	// when the scroll is greater than 50 viewport height , add background color
+	if(this.scrollY >= 20) header.classList.add('scroll-header'); else header.classList.remove('scroll-header');
+
+}
+window.addEventListener('scroll', scrollHeader);
 </script>
 
 {% schema %}
