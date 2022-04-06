@@ -66,7 +66,7 @@
           "type": "collection",
           "settings": {
             "collection": "sengetoj",
-            "title": "Sengetøj",
+            "title": "SENGETØJ",
             "text_box": "",
             "grid_items_count": 4,
             "button_text": "SE UDVALG"
@@ -93,7 +93,6 @@
     },
     "16328296399e7c669c": {
       "type": "customer-testimonials",
-      "disabled": true,
       "blocks": {
         "c49bb351-a46d-4c17-8654-d9b8d003f729": {
           "type": "review",
@@ -208,9 +207,9 @@
         "button_size": 16,
         "button_color": "#f6f6f6",
         "button_border_color": "rgba(0,0,0,0)",
-        "button_fill": "#604b43",
+        "button_fill": "#c5a88d",
         "button_color_hoover": "#595959",
-        "button_fill_hoover": "#f6f6f6"
+        "button_fill_hoover": "#dcc7b3"
       }
     },
     "1646509594f49b0adf": {
@@ -220,7 +219,7 @@
           "type": "collection",
           "settings": {
             "collection": "sengetoj",
-            "title": "Håndklæder",
+            "title": "",
             "text_box": "",
             "grid_items_count": 4,
             "button_text": "Se flere"
@@ -341,7 +340,7 @@
           "type": "collection",
           "settings": {
             "collection": "sengetoj",
-            "title": "Viskestykker",
+            "title": "",
             "text_box": "",
             "grid_items_count": 4,
             "button_text": "Se flere"
