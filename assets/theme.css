@@ -13910,7 +13910,7 @@ shopify-payment-terms {
   right: 0;
   bottom: 0;
   left: 0;
-  background: #000;
+  background: var(--b-secondary-clr);
   z-index: 1;
 }
 .videoBackground .videoBoxInfoBtn, .videoBackground .imageBoxInfoBtn {
