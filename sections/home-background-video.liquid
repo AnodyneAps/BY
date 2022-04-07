@@ -1,0 +1,302 @@
+{%- if section.blocks.size > 0 -%}
+	{%- for block in section.blocks -%}
+		{%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+
+		{% if block.type == 'video' %}
+			<div class="videoBox aos-init" style="{%- if block.settings.video_link == blank -%}background-image: url('{{ block.settings.video_image  | img_url: 'master' }}');{%- endif -%}" data-aos="overflow__animation">
+
+				{%- if block.settings.video_link != blank -%}
+					<div class="fullscreen-video-wrap">
+						<video class="video-js" loop autoplay preload="none" muted playsinline
+						poster="https:{{ block.settings.video_image | img_url: 'master' }}">
+							<source src="{{ block.settings.video_link }}" type="video/mp4">
+						</video>
+					</div>
+				{% endif %}
+
+				<div class="overlay" style="opacity: 0.{{ block.settings.overlay_opacity }}"></div>
+				<div class="videoBoxInfo">
+					{% if block.settings.title != blank %}
+						<h1 class="videoBoxInfoTitle" style="color: {{ block.settings.color_text }}">
+							{{ block.settings.title | escape }}
+						</h1>
+					{% endif %}
+
+					{%- style -%}
+						.videoBackground .imageBoxInfoDescription p {
+							color: {{ block.settings.color_text }}!important;
+						}
+					{%- endstyle -%}
+
+					{% if block.settings.text != blank %}
+						<div class="imageBoxInfoDescription" id="{{ block.id }}" style="color: {{ block.settings.color_text }}">
+							{{ block.settings.text }}
+						</div>
+					{% endif %}
+
+					{% if block.settings.button_link != blank and block.settings.button_label != blank %}
+						<a href="{{ block.settings.button_link }}" class="videoBoxInfoBtn" style="color: {{ block.settings.color_btn_text }}; background: {{ block.settings.color_btn_bg }}">
+							{{ block.settings.button_label | escape }}
+						</a>
+					{% endif %}
+				</div>
+			</div>
+			{% else %}
+				<div class="imageBox" style="background-color: {{ block.settings.color_bg }}; {%- if block.settings.image_bg != blank -%}background-image: url('{{ block.settings.image_bg | img_url: 'master' }}');{%- endif -%}">
+
+					<div class="overlay" style="opacity: 0.{{ block.settings.overlay_opacity }}"></div>
+
+					<div class="imageBoxInfo">
+						{% if block.settings.title != blank %}
+							<h1 class="imageBoxInfoTitle" style="color: {{ block.settings.color_text }}">
+								{{ block.settings.title | escape }}
+							</h1>
+						{% endif %}
+
+						{%- style -%}
+							.videoBackground .imageBoxInfoDescription p {
+								color: {{ block.settings.color_text }}!important;
+							}
+						{%- endstyle -%}
+
+						{% if block.settings.text != blank %}
+							<div class="imageBoxInfoDescription" id="{{ block.id }}" style="color: {{ block.settings.color_text }}">
+								{{ block.settings.text }}
+							</div>
+						{% endif %}
+
+						{% if block.settings.button_link != blank and block.settings.button_label != blank %}
+							<a href="{{ block.settings.button_link }}" class="imageBoxInfoBtn" style="color: {{ block.settings.color_btn_text }}; background: {{ block.settings.color_btn_bg }}">
+								{{ block.settings.button_label | escape }}
+							</a>
+						{% endif %}
+					</div>
+				</div>
+		{% endif %}
+	{%- endfor -%}
+
+{% else %}
+	 <div class="placeholderNoblocks">
+      	This section doesn’t currently include any content. Add content to this section using the sidebar.
+    </div>
+{%- endif -%}
+
+{% schema %}
+{
+"name": {
+		"en": "Home Video Background"
+	},
+	"class": "videoBackground",
+	"max_blocks": 1,
+	"blocks": [
+		{
+		"type": "video",
+		"name": "Video",
+		"settings": [
+			{
+				"type": "url",
+				"id": "video_link",
+				"label": {
+				"en": "Video link"
+				}
+			},
+			{
+				"type": "image_picker",
+				"id": "video_image",
+				"label": {
+				"en": "Cover image"
+				}
+			},
+			{
+				"type": "range",
+				"id": "overlay_opacity",
+				"label": {
+					"en": "Overlay opacity"
+				},
+				"min": 0,
+				"max": 99,
+				"step": 1,
+				"unit": {
+					"en": "%"
+				},
+				"default": 0
+			},
+			{
+				"type": "header",
+				"content": {
+					"en": "Text"
+				}
+			},
+			{
+				"type": "text",
+				"id": "title",
+				"label": {
+					"en": "Heading"
+				},
+				"default": "Video slide"
+			},
+			{
+				"type": "richtext",
+				"id": "text",
+				"label": {
+					"en": "Description"
+				},
+				"default": {
+					"en": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+				}
+			},
+			{
+				"type": "color",
+				"id": "color_text",
+				"label": {
+					"en": "Text color"
+				},
+				"default": "#ffffff"
+			},
+			{
+				"type": "text",
+				"id": "button_label",
+				"label": {
+					"en": "Button label"
+				}
+			},
+			{
+				"type": "url",
+				"id": "button_link",
+				"label": {
+					"en": "Button link"
+				}
+			},
+			{
+				"type": "color",
+				"id": "color_btn_bg",
+				"label": {
+					"en": "Background button color"
+				},
+				"default": "#ffffff"
+			},
+			{
+				"type": "color",
+				"id": "color_btn_text",
+				"label": {
+					"en": "Button text color"
+				},
+				"default": "#ffffff"
+			}
+		]
+		},
+		{
+		"type": "image",
+		"name": "Image",
+		"settings": [
+			{
+				"type": "color",
+				"id": "color_bg",
+				"label": {
+					"en": "Background color (optional)"
+				},
+				"default": "#16165b"
+			},
+			{
+				"type": "image_picker",
+				"id": "image_bg",
+				"label": {
+					"en": "or use an image (required)"
+				}
+			},
+			{
+				"type": "range",
+				"id": "overlay_opacity",
+				"label": {
+					"en": "Overlay opacity"
+				},
+				"min": 0,
+				"max": 99,
+				"step": 1,
+				"unit": {
+					"en": "%"
+				},
+				"default": 0
+			},
+			{
+				"type": "header",
+				"content": {
+					"en": "Text"
+				}
+			},
+			{
+				"type": "text",
+				"id": "title",
+				"default": "Image slide",
+				"label": {
+					"en": "Heading"
+				}
+			},
+			{
+				"type": "richtext",
+				"id": "text",
+				"label": {
+					"en": "Description"
+				},
+				"default": {
+					"en": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+				}
+			},
+			{
+				"type": "color",
+				"id": "color_text",
+				"label": {
+					"en": "Text color"
+				},
+				"default": "#ffffff"
+			},
+			{
+				"type": "text",
+				"id": "button_label",
+				"label": {
+					"en": "Button label"
+				}
+			},
+			{
+				"type": "url",
+				"id": "button_link",
+				"label": {
+					"en": "Button link"
+				}
+			},
+			{
+				"type": "color",
+				"id": "color_btn_bg",
+				"label": {
+					"en": "Background button color"
+				},
+				"default": "#ffffff"
+			},
+			{
+				"type": "color",
+				"id": "color_btn_text",
+				"label": {
+					"en": "Button text color"
+				},
+				"default": "#ffffff"
+			}
+		]
+		}
+	],
+	"presets": [
+		{
+			"name": {
+				"en": "Home Video Background"
+			},
+			"category": {
+				"en": "Main"
+			},
+			"blocks": [
+				{
+					"type": "video"
+				}
+			]
+		}
+	]
+}
+{% endschema %}
