@@ -473,6 +473,53 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "164933691648296685": {
+      "type": "featured-categories",
+      "blocks": {
+        "164933691656e2a119-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "handklaeder",
+            "btn__shopnow": "sdfasdf"
+          }
+        },
+        "164933691656e2a119-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "btn__shopnow": ""
+          }
+        },
+        "164933691656e2a119-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "btn__shopnow": ""
+          }
+        }
+      },
+      "block_order": [
+        "164933691656e2a119-0",
+        "164933691656e2a119-1",
+        "164933691656e2a119-2"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "full_width": false,
+        "title": "Collection list",
+        "subtitle": "",
+        "section_style": "section-blank",
+        "section_height": "medium",
+        "show_view_all": false,
+        "button_label": "View all",
+        "button_link": "shopify:\/\/collections",
+        "button_style": "btn-outline-primary",
+        "slider_featured_collections": true,
+        "arrows": true,
+        "dots": true
+      }
     }
   },
   "order": [
@@ -487,6 +534,7 @@
     "1646509727cbcbfcf9",
     "16465097626c2f1f44",
     "1632770742cb2c7b8c",
-    "1633001842c9af7c59"
+    "1633001842c9af7c59",
+    "164933691648296685"
   ]
 }
