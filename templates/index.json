@@ -97,10 +97,21 @@
             "grid_items_count": 4,
             "button_text": "SE UDVALG"
           }
+        },
+        "ff54230b-c44b-40be-8bc6-2ace6c3792d8": {
+          "type": "collection",
+          "settings": {
+            "collection": "handklaeder",
+            "title": "Håndklæder",
+            "text_box": "<p>If none is set, collection title is used.If none is set, collection title is used.<\/p>",
+            "grid_items_count": 8,
+            "button_text": "View all products"
+          }
         }
       },
       "block_order": [
-        "00b8dc28-7728-42ad-862e-b27e6304968d"
+        "00b8dc28-7728-42ad-862e-b27e6304968d",
+        "ff54230b-c44b-40be-8bc6-2ace6c3792d8"
       ],
       "settings": {
         "title": "",
