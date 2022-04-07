@@ -107,11 +107,22 @@
             "grid_items_count": 8,
             "button_text": "View all products"
           }
+        },
+        "2bdc9a02-fe08-4dcb-9db6-b42de1bcd92f": {
+          "type": "collection",
+          "settings": {
+            "collection": "viskestykker",
+            "title": "Viskestykker",
+            "text_box": "<p>If none is set, collection title is used.If none is set, collection title is used.If none is set, collection title is used.If none is set, collection title is used.<\/p>",
+            "grid_items_count": 8,
+            "button_text": "View all products"
+          }
         }
       },
       "block_order": [
         "00b8dc28-7728-42ad-862e-b27e6304968d",
-        "ff54230b-c44b-40be-8bc6-2ace6c3792d8"
+        "ff54230b-c44b-40be-8bc6-2ace6c3792d8",
+        "2bdc9a02-fe08-4dcb-9db6-b42de1bcd92f"
       ],
       "settings": {
         "title": "",
