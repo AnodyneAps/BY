@@ -3,6 +3,10 @@
     "main": {
       "type": "main-blog",
       "settings": {
+        "show_rss": false,
+        "show_tags": false,
+        "show_featured_article": true,
+        "show_category": false
       }
     },
     "shop-now": {
@@ -11,6 +15,8 @@
         "quote": {
           "type": "quote",
           "settings": {
+            "content": "<p>byFritz® er et nordisk univers af boligtekstiler. Skabt med tanke på bæredygtighed og slowfashion. Udtrykket er rent og enkelt.<\/p>",
+            "author": ""
           }
         }
       },
@@ -18,6 +24,12 @@
         "quote"
       ],
       "settings": {
+        "title": "Shop now",
+        "collection": "",
+        "grid_items_count": 6,
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false
       }
     }
   },
