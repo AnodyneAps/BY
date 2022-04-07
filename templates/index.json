@@ -141,6 +141,7 @@
     },
     "16493357443a88c7d8": {
       "type": "featured-collections",
+      "disabled": true,
       "blocks": {
         "1649335743e3b02a44-0": {
           "type": "collection",
@@ -295,6 +296,7 @@
     },
     "1646509594f49b0adf": {
       "type": "featured-collections",
+      "disabled": true,
       "blocks": {
         "164650959376907057-0": {
           "type": "collection",
@@ -323,95 +325,6 @@
         "show_color_swatch": false,
         "grid_mobile_items_per_row": "2",
         "grid_desktop_items_per_row": 4
-      }
-    },
-    "1646509727cbcbfcf9": {
-      "type": "collection-list",
-      "blocks": {
-        "16465097273177f6de-0": {
-          "type": "collection",
-          "settings": {
-            "hide_mobile": false,
-            "hide_link": true,
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/byfritz_mission_image.jpg",
-            "image_alignment": "center center",
-            "content_position": "bottomCenter",
-            "subheading": "",
-            "title": "Bæredygtighed og økologi i fokus",
-            "richtext": "<p>Vores produkter er naturligvis GOTS certificeret (The Global Organic Textile Standard). GOTS er en standard for økologiske fibre. Den er kendt og anerkendt i hele verden.<\/p>",
-            "button_text": "",
-            "button_link": "",
-            "apply_overlay": true,
-            "apply_overlay_extra": false,
-            "add_logo": false,
-            "logo_color": "#ffffff",
-            "logo_size": 150
-          }
-        },
-        "16465097273177f6de-1": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "hide_mobile": false,
-            "hide_link": false,
-            "collection": "",
-            "image_alignment": "center center",
-            "content_position": "bottomLeft",
-            "subheading": "Sub-heading",
-            "title": "Collection name",
-            "richtext": "",
-            "button_text": "View products",
-            "button_link": "",
-            "apply_overlay": true,
-            "apply_overlay_extra": false,
-            "add_logo": false,
-            "logo_color": "#ffffff",
-            "logo_size": 150
-          }
-        },
-        "16465097273177f6de-2": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "hide_mobile": false,
-            "hide_link": false,
-            "collection": "",
-            "image_alignment": "center center",
-            "content_position": "bottomLeft",
-            "subheading": "Sub-heading",
-            "title": "Collection name",
-            "richtext": "",
-            "button_text": "View products",
-            "button_link": "",
-            "apply_overlay": true,
-            "apply_overlay_extra": false,
-            "add_logo": false,
-            "logo_color": "#ffffff",
-            "logo_size": 150
-          }
-        }
-      },
-      "block_order": [
-        "16465097273177f6de-0",
-        "16465097273177f6de-1",
-        "16465097273177f6de-2"
-      ],
-      "settings": {
-        "image_size": "normal",
-        "spacing": "add_spacing",
-        "heading_size": 26,
-        "sub_heading_size": 20,
-        "expand_collection": true,
-        "stack_on_mobile": true,
-        "text_color": "#ffffff",
-        "richtext_size": 14,
-        "button_size": 16,
-        "button_color": "#ffffff",
-        "button_border_color": "#ffffff",
-        "button_fill": "#ffffff",
-        "button_color_hoover": "#342e29",
-        "button_fill_hoover": "#ffffff"
       }
     },
     "16465097626c2f1f44": {
@@ -474,51 +387,90 @@
         "include_margins": true
       }
     },
-    "164933691648296685": {
-      "type": "featured-categories",
+    "1649338946aef6d2c0": {
+      "type": "collection-list",
       "blocks": {
-        "164933691656e2a119-0": {
+        "1649338945ace414df-0": {
           "type": "collection",
           "settings": {
+            "hide_mobile": false,
+            "hide_link": false,
             "collection": "sengetoj",
-            "btn__shopnow": "sdfasdf"
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "Sub-heading",
+            "title": "Collection name",
+            "richtext": "",
+            "button_text": "View products",
+            "button_link": "shopify:\/\/collections\/sengetoj",
+            "apply_overlay": false,
+            "apply_overlay_extra": false,
+            "add_logo": true,
+            "logo_color": "#ffffff",
+            "logo_size": 70
           }
         },
-        "164933691656e2a119-1": {
+        "1649338945ace414df-1": {
           "type": "collection",
           "settings": {
-            "collection": "sengetoj",
-            "btn__shopnow": "sdfs"
-          }
-        },
-        "164933691656e2a119-2": {
-          "type": "collection",
-          "settings": {
+            "hide_mobile": false,
+            "hide_link": false,
             "collection": "",
-            "btn__shopnow": ""
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "Sub-heading",
+            "title": "Collection name",
+            "richtext": "",
+            "button_text": "View products",
+            "button_link": "",
+            "apply_overlay": true,
+            "apply_overlay_extra": false,
+            "add_logo": false,
+            "logo_color": "#ffffff",
+            "logo_size": 150
+          }
+        },
+        "1649338945ace414df-2": {
+          "type": "collection",
+          "settings": {
+            "hide_mobile": false,
+            "hide_link": false,
+            "collection": "",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "Sub-heading",
+            "title": "Collection name",
+            "richtext": "",
+            "button_text": "View products",
+            "button_link": "",
+            "apply_overlay": true,
+            "apply_overlay_extra": false,
+            "add_logo": false,
+            "logo_color": "#ffffff",
+            "logo_size": 150
           }
         }
       },
       "block_order": [
-        "164933691656e2a119-0",
-        "164933691656e2a119-1",
-        "164933691656e2a119-2"
+        "1649338945ace414df-0",
+        "1649338945ace414df-1",
+        "1649338945ace414df-2"
       ],
       "settings": {
-        "show_on_desktop": true,
-        "show_on_mobile": true,
-        "full_width": false,
-        "title": "Collection list",
-        "subtitle": "asss",
-        "section_style": "section-blank",
-        "section_height": "medium",
-        "show_view_all": true,
-        "button_label": "View all",
-        "button_link": "shopify:\/\/collections",
-        "button_style": "btn-outline-primary",
-        "slider_featured_collections": false,
-        "arrows": false,
-        "dots": false
+        "image_size": "normal",
+        "spacing": "add_spacing",
+        "heading_size": 26,
+        "sub_heading_size": 20,
+        "expand_collection": false,
+        "stack_on_mobile": true,
+        "text_color": "#ffffff",
+        "richtext_size": 14,
+        "button_size": 16,
+        "button_color": "#ffffff",
+        "button_border_color": "#ffffff",
+        "button_fill": "#ffffff",
+        "button_color_hoover": "#342E29",
+        "button_fill_hoover": "#ffffff"
       }
     }
   },
@@ -531,10 +483,9 @@
     "16328296399e7c669c",
     "1632827034e58962e0",
     "1646509594f49b0adf",
-    "1646509727cbcbfcf9",
     "16465097626c2f1f44",
     "1632770742cb2c7b8c",
     "1633001842c9af7c59",
-    "164933691648296685"
+    "1649338946aef6d2c0"
   ]
 }
