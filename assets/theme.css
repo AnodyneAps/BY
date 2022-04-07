@@ -4667,7 +4667,6 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
     padding: 0;
     max-width: 1200px;
     margin: 0 auto;
-    font-size: 14px !important;
 }
 
 .AnnouncementBar__Wrapper li {
@@ -4675,7 +4674,9 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   padding-bottom: 0px;
   padding-top: 0px;
   align-items: center;
+  font-size: 0.8rem;
   color: #ffffff;
+  text-transform: initial;
 }
 
 .AnnouncementBar__Wrapper .Icon {
