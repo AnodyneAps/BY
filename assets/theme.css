@@ -8792,6 +8792,11 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 .Header .Link--primary:hover {
   color: var(--header-heading-color);
 }
+.waiting-toScroll  .Heading,
+.waiting-toScroll .Link--secondary,
+.waiting-toScroll .Link--primary:hover {
+  color: var(--b-white-clr) !important;
+}
 
 .Header .Text--subdued,
 .Header .Link--primary,
@@ -8834,7 +8839,9 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   position: relative;
   margin-bottom: 0;
 }
-
+.waiting-toScroll .Header__Logo svg .st0 {
+  fill: var(--b-white-clr);
+}
 .Header__Logo .Icon{
   height: unset;
 }
@@ -8897,7 +8904,10 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 .supports-sticky .Search[aria-hidden=true] + .Header--transparent .Text--subdued {
   color: currentColor;
 }
-
+.waiting-toScroll .Header__Icon .a,
+.waiting-toScroll .Header__Icon .b {
+  stroke: var(--b-white-clr);
+}
 .Header__Icon .Icon--nav {
   height: 15px;
   width: 20px;
@@ -9124,13 +9134,13 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 .Header__LinkSpacer::after {
   position: absolute;
   content: "";
-  bottom: 0;
+  bottom: -5px;
   left: 0;
   width: 100%;
   opacity: 0;
   transform: scale(0, 1);
   transform-origin: left center;
-  border-bottom: 2px solid var(--header-heading-color);
+  border-bottom: 2px solid var(--heading-color);
   transition: transform 0.3s, opacity 0.3s;
 }
 
@@ -9139,7 +9149,6 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   opacity: 1;
   transform: scale(1, 1);
 }
-
 /**
  * ----------------------------------------------------------------------------
  * Dropdown menu
@@ -9198,7 +9207,9 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   padding-left: 25px;
   padding-right: 40px;
 }
-
+.waiting-toScroll .DropdownMenu .Link {
+  color: var(--heading-color) !important;
+}
 .DropdownMenu svg {
   position: absolute;
   width: 6px;
@@ -13840,9 +13851,6 @@ shopify-payment-terms {
 }
 
 /* video background section styles  */
-.main-content .videoBackground {
-  margin-top: 60px;
-}
 .videoBackground {
   height: 100%;
   position: relative;
@@ -13881,8 +13889,8 @@ shopify-payment-terms {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 500px;
-      max-height: 800px;
-      height: calc(100vh - 165px);
+  max-height: 800px;
+  height:  calc(100vh - 180px);
   position: relative;
 }
 .videoBackground .imageBox {
@@ -13895,13 +13903,13 @@ shopify-payment-terms {
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  min-height: calc(100vh - 165px);
+  min-height: calc(100vh - 180px);
   height: auto;
 }
 .videoBackground .videoBoxInfo, .videoBackground .imageBoxInfo {
   z-index: 2;
   text-align: center;
-  width: 60%;
+  width: 100%;
 }
 .videoBackground .overlay {
   content: "";
@@ -13910,7 +13918,7 @@ shopify-payment-terms {
   right: 0;
   bottom: 0;
   left: 0;
-  background: var(--b-secondary-clr);
+  background: var(--b-main-clr);
   z-index: 1;
 }
 .videoBackground .videoBoxInfoBtn, .videoBackground .imageBoxInfoBtn {
@@ -13929,14 +13937,14 @@ shopify-payment-terms {
   vertical-align: middle;
   cursor: pointer;
   border: 2px solid transparent;
-  border-radius: 100px;
+  border-radius: 5px;
   padding: 10px 25px;
   font-style: normal;
+  font-family: var(--text-font-family);
   text-transform: uppercase;
   letter-spacing: 0.06em;
   white-space: normal;
-  font-size: 18px;
-  margin-top: 10px;
+  margin-top: 1.6rem;
   line-height: 1.42;
   transition: var(--colorBtnPrimaryBgTransition);
 }
@@ -13944,16 +13952,18 @@ shopify-payment-terms {
   opacity: 0.9
 }
 .videoBackground .videoBoxInfoTitle, .videoBackground .imageBoxInfoTitle {
-  color: var(--color-body);
-  font-size: 77px;
-  line-height: 70px;
+  font-family: var(--heading-font-family);
+  font-weight: 900;
+  color: var(--b-white-clr);
+  font-size: 3.6rem;
+  line-height: 3rem;
 }
 .videoBackground .videoBoxInfoDescription, .videoBackground .imageBoxInfoDescription {
   max-width: 90%;
   margin: 0 auto;
 }
 .videoBackground .videoBoxInfoDescription p, .videoBackground .imageBoxInfoDescription p {
-  font-size: 30px;
+  font-size: 1.2rem;
   line-height: 28px;
 }
 .videoBackground .placeholderNoblocks {
@@ -13961,39 +13971,8 @@ shopify-payment-terms {
   max-width: 500px;
   margin: 0 auto;
 }
-  @media screen and (max-width: 767px) {
-  .main-content .videoBackground {
-    margin-top: -35px;
-  }
-  .videoBackground .fullscreen-video-wrap {
-    z-index: 3;
-  }
-  .videoBackground .videoBox {
-  min-height: 600px;
-  height: 100%;
-  position: relative;
-  padding: 0;
-  }
-  .videoBackground .videoBoxInfoTitle, .videoBackground .imageBoxInfoTitle {
-    font-size: 36px;
-    line-height: 34px;
-  }
-  .videoBackground .fullscreen-video-wrap {
-    position: relative;
-    min-height: 400px;
-  }
-  .videoBackground .videoBoxInfo {
-    padding: 40px 20px;
-    background: var(--color-body-dark);
-    width: 100%;
-  }
-  .videoBackground .videoBoxInfoBtn, .videoBackground .imageBoxInfoBtn {
-    padding: 8px 23px;
-    font-size: 16px;
-    margin-top: 0;
-  }
-  .videoBackground .videoBoxInfoDescription p, .videoBackground .imageBoxInfoDescription p {
-    font-size: 22px;
-    line-height: 20px;
-  }
+  @media screen and (min-width: 767px) {
+    .videoBackground .videoBoxInfo, .videoBackground .imageBoxInfo {
+      width: 60%;
+    }
   }

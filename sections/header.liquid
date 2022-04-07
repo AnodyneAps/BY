@@ -156,7 +156,7 @@ HEADER CONTENT
 {%- endcapture -%}
 
 <header id="section-{{ section.id }}"
-        class="Header Header--{{ section.settings.navigation_style }} {% if section.settings.navigation_style != 'inline' and section.settings.navigation_style != 'logoLeft' %}Header--initialized{% endif %} {% if use_transparent_header %}Header--transparent{% endif %} {% if section.settings.show_icons or section.settings.navigation_style == 'sidebar' %}Header--withIcons{% endif %}"
+        class="Header Header--{{ section.settings.navigation_style }} {% if section.settings.navigation_style != 'inline' and section.settings.navigation_style != 'logoLeft' %}Header--initialized{% endif %} {% if use_transparent_header %}Header--transparent{% endif %} {% if section.settings.show_icons or section.settings.navigation_style == 'sidebar' %}Header--withIcons{% endif %} waiting-toScroll"
         data-section-id="{{ section.id }}"
         data-section-type="header"
         data-section-settings='{{ section_settings }}'
@@ -501,7 +501,14 @@ HEADER CONTENT
   function scrollHeader() {
 	const header = document.querySelector('.Header');
 	// when the scroll is greater than 50 viewport height , add background color
-	if(this.scrollY >= 20) header.classList.add('scroll-header'); else header.classList.remove('scroll-header');
+	if(this.scrollY >= 20) {
+    header.classList.add('scroll-header');
+    header.classList.remove('waiting-toScroll');
+  }
+  else{ header.classList.remove('scroll-header');
+        header.classList.add('waiting-toScroll');
+    
+  };
 
 }
 window.addEventListener('scroll', scrollHeader);
