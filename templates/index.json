@@ -103,7 +103,7 @@
             "button_link": "shopify:\/\/collections\/sengetoj",
             "apply_overlay": false,
             "apply_overlay_extra": false,
-            "add_logo": true,
+            "add_logo": false,
             "logo_color": "#ffffff",
             "logo_size": 70
           }
