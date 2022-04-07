@@ -139,6 +139,38 @@
         "grid_desktop_items_per_row": 4
       }
     },
+    "16493357443a88c7d8": {
+      "type": "featured-collections",
+      "blocks": {
+        "1649335743e3b02a44-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "sengetoj",
+            "title": "Sengetøj",
+            "text_box": "",
+            "grid_items_count": 7,
+            "button_text": "SE UDVALG"
+          }
+        }
+      },
+      "block_order": [
+        "1649335743e3b02a44-0"
+      ],
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": 26,
+        "margin_heading": false,
+        "heading_size_mobile": 15,
+        "background-color": "#fafafa",
+        "background_img": "none",
+        "layout_mode": "grid",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 4
+      }
+    },
     "16328296399e7c669c": {
       "type": "customer-testimonials",
       "disabled": true,
@@ -448,6 +480,7 @@
     "slideshow",
     "163276763442e7599e",
     "featured-collections",
+    "16493357443a88c7d8",
     "16328296399e7c669c",
     "1632827034e58962e0",
     "1646509594f49b0adf",
