@@ -7313,6 +7313,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 0;
+    justify-content: center;
   }
 
   .CollectionList::after {
@@ -7362,15 +7363,15 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   }
 
   .CollectionItem {
-    min-width: 33.33333%;
+    min-width: 30.33333%;
   }
 
   .CollectionItem__Wrapper {
-    height: 600px;
+    height: 300px;
   }
 
   .CollectionItem__Wrapper--small {
-    height: 500px;
+    height: 260px;
   }
 
   .CollectionItem__Wrapper--large {
