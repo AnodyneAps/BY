@@ -51,7 +51,7 @@
           {%- for block in section.blocks limit: collection_limit -%}
             {%- capture current -%}{% cycle 1, 2, 3, 4, 5, 6 %}{%- endcapture -%}
             {%- assign collection = collections[block.settings.collection] -%}
-          <p>collection</p>
+            {%- render 'collection-grid-item' with collection as collection, block: block, current: current -%}
           {%- endfor -%}
         </div>
 
