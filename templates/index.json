@@ -85,6 +85,92 @@
         "button_link": ""
       }
     },
+    "1649338946aef6d2c0": {
+      "type": "collection-list",
+      "blocks": {
+        "1649338945ace414df-0": {
+          "type": "collection",
+          "settings": {
+            "hide_mobile": false,
+            "hide_link": false,
+            "collection": "sengetoj",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "Sub-heading",
+            "title": "Collection name",
+            "richtext": "",
+            "button_text": "View products",
+            "button_link": "shopify:\/\/collections\/sengetoj",
+            "apply_overlay": false,
+            "apply_overlay_extra": false,
+            "add_logo": true,
+            "logo_color": "#ffffff",
+            "logo_size": 70
+          }
+        },
+        "1649338945ace414df-1": {
+          "type": "collection",
+          "settings": {
+            "hide_mobile": false,
+            "hide_link": false,
+            "collection": "",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "Sub-heading",
+            "title": "Collection name",
+            "richtext": "",
+            "button_text": "View products",
+            "button_link": "",
+            "apply_overlay": true,
+            "apply_overlay_extra": false,
+            "add_logo": false,
+            "logo_color": "#ffffff",
+            "logo_size": 150
+          }
+        },
+        "1649338945ace414df-2": {
+          "type": "collection",
+          "settings": {
+            "hide_mobile": false,
+            "hide_link": false,
+            "collection": "",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "Sub-heading",
+            "title": "Collection name",
+            "richtext": "",
+            "button_text": "View products",
+            "button_link": "",
+            "apply_overlay": true,
+            "apply_overlay_extra": false,
+            "add_logo": false,
+            "logo_color": "#ffffff",
+            "logo_size": 150
+          }
+        }
+      },
+      "block_order": [
+        "1649338945ace414df-0",
+        "1649338945ace414df-1",
+        "1649338945ace414df-2"
+      ],
+      "settings": {
+        "image_size": "normal",
+        "spacing": "add_spacing",
+        "heading_size": 26,
+        "sub_heading_size": 20,
+        "expand_collection": false,
+        "stack_on_mobile": true,
+        "text_color": "#ffffff",
+        "richtext_size": 14,
+        "button_size": 16,
+        "button_color": "#ffffff",
+        "button_border_color": "#ffffff",
+        "button_fill": "#ffffff",
+        "button_color_hoover": "#342E29",
+        "button_fill_hoover": "#ffffff"
+      }
+    },
     "featured-collections": {
       "type": "featured-collections",
       "blocks": {
@@ -386,98 +472,13 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "1649338946aef6d2c0": {
-      "type": "collection-list",
-      "blocks": {
-        "1649338945ace414df-0": {
-          "type": "collection",
-          "settings": {
-            "hide_mobile": false,
-            "hide_link": false,
-            "collection": "sengetoj",
-            "image_alignment": "center center",
-            "content_position": "bottomLeft",
-            "subheading": "Sub-heading",
-            "title": "Collection name",
-            "richtext": "",
-            "button_text": "View products",
-            "button_link": "shopify:\/\/collections\/sengetoj",
-            "apply_overlay": false,
-            "apply_overlay_extra": false,
-            "add_logo": true,
-            "logo_color": "#ffffff",
-            "logo_size": 70
-          }
-        },
-        "1649338945ace414df-1": {
-          "type": "collection",
-          "settings": {
-            "hide_mobile": false,
-            "hide_link": false,
-            "collection": "",
-            "image_alignment": "center center",
-            "content_position": "bottomLeft",
-            "subheading": "Sub-heading",
-            "title": "Collection name",
-            "richtext": "",
-            "button_text": "View products",
-            "button_link": "",
-            "apply_overlay": true,
-            "apply_overlay_extra": false,
-            "add_logo": false,
-            "logo_color": "#ffffff",
-            "logo_size": 150
-          }
-        },
-        "1649338945ace414df-2": {
-          "type": "collection",
-          "settings": {
-            "hide_mobile": false,
-            "hide_link": false,
-            "collection": "",
-            "image_alignment": "center center",
-            "content_position": "bottomLeft",
-            "subheading": "Sub-heading",
-            "title": "Collection name",
-            "richtext": "",
-            "button_text": "View products",
-            "button_link": "",
-            "apply_overlay": true,
-            "apply_overlay_extra": false,
-            "add_logo": false,
-            "logo_color": "#ffffff",
-            "logo_size": 150
-          }
-        }
-      },
-      "block_order": [
-        "1649338945ace414df-0",
-        "1649338945ace414df-1",
-        "1649338945ace414df-2"
-      ],
-      "settings": {
-        "image_size": "normal",
-        "spacing": "add_spacing",
-        "heading_size": 26,
-        "sub_heading_size": 20,
-        "expand_collection": false,
-        "stack_on_mobile": true,
-        "text_color": "#ffffff",
-        "richtext_size": 14,
-        "button_size": 16,
-        "button_color": "#ffffff",
-        "button_border_color": "#ffffff",
-        "button_fill": "#ffffff",
-        "button_color_hoover": "#342E29",
-        "button_fill_hoover": "#ffffff"
-      }
     }
   },
   "order": [
     "16493219980674aef0",
     "slideshow",
     "163276763442e7599e",
+    "1649338946aef6d2c0",
     "featured-collections",
     "16493357443a88c7d8",
     "16328296399e7c669c",
@@ -485,7 +486,6 @@
     "1646509594f49b0adf",
     "16465097626c2f1f44",
     "1632770742cb2c7b8c",
-    "1633001842c9af7c59",
-    "1649338946aef6d2c0"
+    "1633001842c9af7c59"
   ]
 }
