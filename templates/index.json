@@ -1,7 +1,33 @@
 {
   "sections": {
+    "16493219980674aef0": {
+      "type": "home-background-video",
+      "blocks": {
+        "16493219983c170ed0-0": {
+          "type": "video",
+          "settings": {
+            "video_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0554\/6072\/4814\/files\/byfritz-hero-video.mp4?v=1649321974",
+            "video_image": "shopify:\/\/shop_images\/video-bg.png",
+            "overlay_opacity": 56,
+            "title": "Video slide",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "color_text": "#ffffff",
+            "button_label": "Shop",
+            "button_link": "shopify:\/\/collections\/all",
+            "color_btn_bg": "#f26623",
+            "color_btn_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "16493219983c170ed0-0"
+      ],
+      "settings": {
+      }
+    },
     "slideshow": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "slide-0": {
           "type": "image",
@@ -396,6 +422,7 @@
     }
   },
   "order": [
+    "16493219980674aef0",
     "slideshow",
     "163276763442e7599e",
     "featured-collections",
