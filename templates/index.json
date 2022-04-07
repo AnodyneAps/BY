@@ -388,10 +388,10 @@
         "16465097623b2991d2-0": {
           "type": "collection",
           "settings": {
-            "collection": "sengetoj",
+            "collection": "viskestykker",
             "title": "Viskestykker",
             "text_box": "",
-            "grid_items_count": 4,
+            "grid_items_count": 2,
             "button_text": "Se udvalg"
           }
         }
