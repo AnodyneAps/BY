@@ -19,7 +19,18 @@
 {%- assign button_label   = section.settings.button_label -%}
 {%- assign button_link    = section.settings.button_link | default: collection.url -%}
 {%- assign button_style   = section.settings.button_style -%}
-
+{%- comment -%}
+Get featured image if not exist get first image from products
+{%- endcomment -%}
+{%- capture collection_image -%}
+    <div class="image__container">
+          {% if collection.image %}
+          {{ collection.image.src | collection_img_url: '1080x350' | img_tag: collection.title }}
+  {% else %}
+          {{ collection.products.first.featured_image.src | product_img_url: '1080x350' | img_tag: collection.title }}
+      {% endif %}
+      </div>
+{%- endcapture -%}
 <div
   id="section-{{ section.id }}"
   class="{% unless section.settings.show_on_desktop %} medium--hide large--hide{% endunless %} {% unless section.settings.show_on_mobile %} small--hide{% endunless %}{% if full_width %}section-full-width{% endif %} {% if no_header %}section-no-title{% endif %} {{ section.settings.section_style }}"
@@ -51,7 +62,7 @@
           {%- for block in section.blocks limit: collection_limit -%}
             {%- capture current -%}{% cycle 1, 2, 3, 4, 5, 6 %}{%- endcapture -%}
             {%- assign collection = collections[block.settings.collection] -%}
-            {%- render 'collection-grid-item' with collection as collection, block: block, current: current -%}
+           {{collection_image}}
           {%- endfor -%}
         </div>
 
