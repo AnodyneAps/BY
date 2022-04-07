@@ -25,6 +25,66 @@
       "settings": {
       }
     },
+    "slideshow": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "slide-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/byfritz_frontpage.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/byfritz_frontpage_mobile.jpg",
+            "image_position": "center center",
+            "apply_overlay": true,
+            "content_position": "bottomCenter",
+            "subheading": "",
+            "title": "Økologisk sengetøj og boligtekstiler",
+            "button_1_text": "SHOP",
+            "button_1_link": "shopify:\/\/collections\/all",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide-0"
+      ],
+      "settings": {
+        "show_fullscreen": false,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "heading_size": 62,
+        "sub_heading_size": 30,
+        "text_color": "#ffffff",
+        "button_color": "#ffffff",
+        "button_background": "#c5a88d",
+        "button_color_hover": "#595959",
+        "button_background_hover": "#f6f6f6"
+      }
+    },
+    "163276763442e7599e": {
+      "type": "text-area",
+      "settings": {
+        "padding_small": false,
+        "hide_desktop": false,
+        "float_left": false,
+        "background_img": "none",
+        "background": "#ede9e4",
+        "text_color": "#1c1b1b",
+        "title": "byFritz økologisk sengetøj, håndklæder og viskestykker",
+        "h1": true,
+        "heading_size": 25,
+        "margin_heading": false,
+        "heading_size_mobile": 22,
+        "content": "<p><em>\"Jeg har med byFritz® en drøm og et ønske om at bidrage til en grønnere verden. En verden hvor vi kommer væk fra køb-og-smid-væk kulturen og i stedet fokuserer på kvalitet og det gode håndværk. Jeg tror på at æstetik og etik kan forenes således at det smukke økologiske sengetøj, håndklæder og viskestykker vi fremstiller, ikke gør skade på vores klode eller på os.\" <br\/><br\/><\/em><strong>Tina Andersen<br\/>CEO & Founder<\/strong><\/p>",
+        "max_content": false,
+        "max_content_size": 100,
+        "max_box_size": 120,
+        "button_label": "",
+        "button_link": ""
+      }
+    },
     "1649338946aef6d2c0": {
       "type": "collection-list",
       "blocks": {
@@ -109,66 +169,6 @@
         "button_fill": "#ffffff",
         "button_color_hoover": "#342E29",
         "button_fill_hoover": "#ffffff"
-      }
-    },
-    "slideshow": {
-      "type": "slideshow",
-      "disabled": true,
-      "blocks": {
-        "slide-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/byfritz_frontpage.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/byfritz_frontpage_mobile.jpg",
-            "image_position": "center center",
-            "apply_overlay": true,
-            "content_position": "bottomCenter",
-            "subheading": "",
-            "title": "Økologisk sengetøj og boligtekstiler",
-            "button_1_text": "SHOP",
-            "button_1_link": "shopify:\/\/collections\/all",
-            "button_2_text": "",
-            "button_2_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide-0"
-      ],
-      "settings": {
-        "show_fullscreen": false,
-        "show_arrow": false,
-        "autoplay": true,
-        "cycle_speed": 5,
-        "heading_size": 62,
-        "sub_heading_size": 30,
-        "text_color": "#ffffff",
-        "button_color": "#ffffff",
-        "button_background": "#c5a88d",
-        "button_color_hover": "#595959",
-        "button_background_hover": "#f6f6f6"
-      }
-    },
-    "163276763442e7599e": {
-      "type": "text-area",
-      "settings": {
-        "padding_small": false,
-        "hide_desktop": false,
-        "float_left": false,
-        "background_img": "none",
-        "background": "#ede9e4",
-        "text_color": "#1c1b1b",
-        "title": "byFritz økologisk sengetøj, håndklæder og viskestykker",
-        "h1": true,
-        "heading_size": 25,
-        "margin_heading": false,
-        "heading_size_mobile": 22,
-        "content": "<p><em>\"Jeg har med byFritz® en drøm og et ønske om at bidrage til en grønnere verden. En verden hvor vi kommer væk fra køb-og-smid-væk kulturen og i stedet fokuserer på kvalitet og det gode håndværk. Jeg tror på at æstetik og etik kan forenes således at det smukke økologiske sengetøj, håndklæder og viskestykker vi fremstiller, ikke gør skade på vores klode eller på os.\" <br\/><br\/><\/em><strong>Tina Andersen<br\/>CEO & Founder<\/strong><\/p>",
-        "max_content": false,
-        "max_content_size": 100,
-        "max_box_size": 120,
-        "button_label": "",
-        "button_link": ""
       }
     },
     "featured-collections": {
@@ -476,9 +476,9 @@
   },
   "order": [
     "16493219980674aef0",
-    "1649338946aef6d2c0",
     "slideshow",
     "163276763442e7599e",
+    "1649338946aef6d2c0",
     "featured-collections",
     "16493357443a88c7d8",
     "16328296399e7c669c",
