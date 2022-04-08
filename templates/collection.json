@@ -30,7 +30,7 @@
         "filter_menu": "",
         "grid_items_per_page": 8,
         "grid_mobile_items_per_row": "2",
-        "grid_desktop_items_per_row": 3,
+        "grid_desktop_items_per_row": 4,
         "section_size": "preserveRatio",
         "video_url": ""
       }
