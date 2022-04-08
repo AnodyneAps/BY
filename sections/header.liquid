@@ -503,7 +503,7 @@ HEADER CONTENT
 	// when the scroll is greater than 50 viewport height , add background color
 	if(this.scrollY >= 20) {
     header.classList.add('scroll-header');
-    //header.classList.remove('waiting-toScroll');
+      if('waiting-toScroll' != null) {header.classList.remove('waiting-toScroll')};
   }
   else{ header.classList.remove('scroll-header');
         //header.classList.add('waiting-toScroll');
