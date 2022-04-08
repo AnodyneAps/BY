@@ -8849,6 +8849,9 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 .waiting-toScroll .Header__Logo svg .st0 {
   fill: var(--b-white-clr);
 }
+.scroll-header .Header__Logo svg .st0 {
+  fill: var(--b-main-clr) !important;
+}
 .Header__Logo .Icon{
   height: unset;
 }
