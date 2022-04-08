@@ -412,6 +412,28 @@
         "grid_desktop_items_per_row": 4
       }
     },
+    "1632770742cb2c7b8c": {
+      "type": "text-area",
+      "settings": {
+        "padding_small": false,
+        "hide_desktop": false,
+        "float_left": false,
+        "background_img": "none",
+        "background": "#ffffff",
+        "text_color": "#1c1b1b",
+        "title": "Æstetik og etik går hånd i hånd",
+        "h1": false,
+        "heading_size": 30,
+        "margin_heading": false,
+        "heading_size_mobile": 20,
+        "content": "<p>Med byFritz har jeg gentænkt fremstillingen af boligtekstiler ved at kombinere min kærlighed for design, kvalitet og håndværk med nøje gennemtænkte bæredygtige materialer. Fælles for alle materialerne er at de er naturmaterialer. <\/p><p>Jeg skaber smukt økologisk sengetøj, håndklæder og viskestykker af høj kvalitet og med lang levetid. Kvaliteterne udvikles således at produkterne kan bruges igen og igen og endda gå i arv med den rigtige pleje. <\/p>",
+        "max_content": false,
+        "max_content_size": 50,
+        "max_box_size": 50,
+        "button_label": "",
+        "button_link": ""
+      }
+    },
     "16465097626c2f1f44": {
       "type": "featured-collections",
       "blocks": {
@@ -444,28 +466,6 @@
         "grid_desktop_items_per_row": 4
       }
     },
-    "1632770742cb2c7b8c": {
-      "type": "text-area",
-      "settings": {
-        "padding_small": false,
-        "hide_desktop": false,
-        "float_left": false,
-        "background_img": "none",
-        "background": "#ffffff",
-        "text_color": "#1c1b1b",
-        "title": "Æstetik og etik går hånd i hånd",
-        "h1": false,
-        "heading_size": 30,
-        "margin_heading": false,
-        "heading_size_mobile": 20,
-        "content": "<p>Med byFritz har jeg gentænkt fremstillingen af boligtekstiler ved at kombinere min kærlighed for design, kvalitet og håndværk med nøje gennemtænkte bæredygtige materialer. Fælles for alle materialerne er at de er naturmaterialer. <\/p><p>Jeg skaber smukt økologisk sengetøj, håndklæder og viskestykker af høj kvalitet og med lang levetid. Kvaliteterne udvikles således at produkterne kan bruges igen og igen og endda gå i arv med den rigtige pleje. <\/p>",
-        "max_content": false,
-        "max_content_size": 50,
-        "max_box_size": 50,
-        "button_label": "",
-        "button_link": ""
-      }
-    },
     "1633001842c9af7c59": {
       "type": "apps",
       "settings": {
@@ -483,8 +483,8 @@
     "16328296399e7c669c",
     "1632827034e58962e0",
     "1646509594f49b0adf",
-    "16465097626c2f1f44",
     "1632770742cb2c7b8c",
+    "16465097626c2f1f44",
     "1633001842c9af7c59"
   ]
 }
