@@ -8821,7 +8821,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 .scroll-header  .Heading,
 .scroll-header .Link--secondary,
 .scroll-header .Link--primary:hover {
-  color: var(--b-white-clr) !important;
+  color: var(--b-main-clr) !important;
 }
 .Header__Wrapper {
   display: flex;
