@@ -323,6 +323,7 @@
             "collection": "",
             "image": "shopify:\/\/shop_images\/Billede1.jpg",
             "image_alignment": "top center",
+            "image_mobile": "shopify:\/\/shop_images\/Billede1.jpg",
             "content_position": "bottomCenter",
             "subheading": "",
             "title": "Hvorfor vælge byFritz®",
