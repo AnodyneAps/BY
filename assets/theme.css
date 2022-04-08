@@ -8918,6 +8918,10 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 .waiting-toScroll .Header__Icon .b {
   stroke: var(--b-white-clr);
 }
+.scroll-header .Header__Icon .a,
+.scroll-header .Header__Icon .b {
+  stroke: var(--b-white-clr);
+}
 .Header__Icon .Icon--nav {
   height: 15px;
   width: 20px;
