@@ -330,7 +330,7 @@
             "button_text": "Læs mere",
             "button_link": "shopify:\/\/pages\/om-byfritz",
             "apply_overlay": true,
-            "apply_overlay_extra": true,
+            "apply_overlay_extra": false,
             "add_logo": false,
             "logo_color": "#ffffff",
             "logo_size": 150
