@@ -8818,6 +8818,11 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   box-shadow: 0 -1px var(--header-border-color) inset;
   transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
+.scroll-header  .Heading,
+.scroll-header .Link--secondary,
+.scroll-header .Link--primary:hover {
+  color: var(--b-white-clr) !important;
+}
 .Header__Wrapper {
   display: flex;
   align-items: center;
