@@ -167,12 +167,13 @@
         "button_color": "#ffffff",
         "button_border_color": "#f57f47",
         "button_fill": "#f26623",
-        "button_color_hoover": "#342E29",
+        "button_color_hoover": "#342e29",
         "button_fill_hoover": "#ffffff"
       }
     },
     "featured-collections": {
       "type": "featured-collections",
+      "disabled": true,
       "blocks": {
         "00b8dc28-7728-42ad-862e-b27e6304968d": {
           "type": "collection",
