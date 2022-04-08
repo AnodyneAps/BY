@@ -3,9 +3,7 @@
     "1633281870251e33c5": {
       "type": "collection-header",
       "settings": {
-        "imageDesktop": "shopify:\/\/shop_images\/95227_1.jpg",
         "image-alignment": "center center",
-        "imageMobile": "shopify:\/\/shop_images\/95227_1.jpg",
         "image-alignment-mobile": "center center",
         "image-fixed": false,
         "color-overlay": true,
@@ -48,9 +46,9 @@
         "expand_filters": false,
         "filter_position": "drawer",
         "filter_menu": "",
-        "grid_items_per_page": 16,
+        "grid_items_per_page": 40,
         "grid_mobile_items_per_row": "2",
-        "grid_desktop_items_per_row": 3,
+        "grid_desktop_items_per_row": 4,
         "section_size": "preserveRatio",
         "video_url": "https:\/\/vimeo.com\/623365744"
       }
