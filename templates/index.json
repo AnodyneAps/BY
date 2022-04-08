@@ -173,7 +173,6 @@
     },
     "featured-collections": {
       "type": "featured-collections",
-      "disabled": true,
       "blocks": {
         "00b8dc28-7728-42ad-862e-b27e6304968d": {
           "type": "collection",
@@ -228,7 +227,6 @@
     },
     "16493357443a88c7d8": {
       "type": "featured-collections",
-      "disabled": true,
       "blocks": {
         "1649335743e3b02a44-0": {
           "type": "collection",
@@ -383,7 +381,6 @@
     },
     "1646509594f49b0adf": {
       "type": "featured-collections",
-      "disabled": true,
       "blocks": {
         "164650959376907057-0": {
           "type": "collection",
