@@ -3,9 +3,11 @@
     "1633281870251e33c5": {
       "type": "collection-header",
       "settings": {
+        "imageDesktop": "shopify:\/\/shop_images\/byfritz_mission_image.jpg",
         "image-alignment": "center center",
+        "imageMobile": "shopify:\/\/shop_images\/IMG_6171.jpg",
         "image-alignment-mobile": "center center",
-        "image-fixed": false,
+        "image-fixed": true,
         "color-overlay": true,
         "text_color": "#ffffff"
       }
@@ -37,7 +39,7 @@
         "apply_overlay": true,
         "show_color_swatch": true,
         "show_vendor": false,
-        "collection_image_size": "normal",
+        "collection_image_size": "small",
         "show_sort_by": false,
         "show_layout_switch": false,
         "toolbar_position": "top",
