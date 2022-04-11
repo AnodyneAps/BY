@@ -157,7 +157,7 @@
       "settings": {
         "image_size": "normal",
         "spacing": "add_spacing",
-        "heading_size": 26,
+        "heading_size": 36,
         "sub_heading_size": 20,
         "expand_collection": false,
         "stack_on_mobile": true,
@@ -165,8 +165,8 @@
         "richtext_size": 14,
         "button_size": 15,
         "button_color": "#ffffff",
-        "button_border_color": "#f57f47",
-        "button_fill": "#f26623",
+        "button_border_color": "#dcc7b3",
+        "button_fill": "#c5a88d",
         "button_color_hoover": "#342e29",
         "button_fill_hoover": "#ffffff"
       }
