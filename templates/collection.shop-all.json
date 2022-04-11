@@ -12,25 +12,6 @@
         "text_color": "#ffffff"
       }
     },
-    "16334226477fd6df41": {
-      "type": "usp-blocks",
-      "settings": {
-        "usp_autoplay": true,
-        "usp_cycle_speed": 5,
-        "icon_selector1": "package",
-        "icon_1_heading": "Gratis levering",
-        "icon_1_richtext": "<p>Uanset om du vil have vores produkter leveret til døren eller pakkeshop.<\/p>",
-        "icon_selector2": "shipping",
-        "icon_2_heading": "Gratis 30 dages retur",
-        "icon_2_richtext": "<p>Vi ved, at du vil elske vores shapewear. Derfor lover vi selvfølgelig altid fri og nem retur.<\/p>",
-        "icon_selector3": "heart",
-        "icon_3_heading": "ALTID TIL RÅDIGHED",
-        "icon_3_richtext": "<p>Har du brug for hjælp? Vores designere er online og altid klar til at hjælpe dig<\/p>",
-        "icon_selector4": "cards",
-        "icon_4_heading": "Nem og sikker betaling",
-        "icon_4_richtext": "<p>Når du handler hos os, betaler du med kendte og sikre betalingsløsninger<\/p>"
-      }
-    },
     "main": {
       "type": "main-collection",
       "settings": {
@@ -55,8 +36,28 @@
         "video_url": ""
       }
     },
+    "16334226477fd6df41": {
+      "type": "usp-blocks",
+      "settings": {
+        "usp_autoplay": true,
+        "usp_cycle_speed": 5,
+        "icon_selector1": "package",
+        "icon_1_heading": "Gratis levering",
+        "icon_1_richtext": "<p>Uanset om du vil have vores produkter leveret til døren eller pakkeshop.<\/p>",
+        "icon_selector2": "shipping",
+        "icon_2_heading": "Gratis 30 dages retur",
+        "icon_2_richtext": "<p>Vi ved, at du vil elske vores shapewear. Derfor lover vi selvfølgelig altid fri og nem retur.<\/p>",
+        "icon_selector3": "heart",
+        "icon_3_heading": "ALTID TIL RÅDIGHED",
+        "icon_3_richtext": "<p>Har du brug for hjælp? Vores designere er online og altid klar til at hjælpe dig<\/p>",
+        "icon_selector4": "cards",
+        "icon_4_heading": "Nem og sikker betaling",
+        "icon_4_richtext": "<p>Når du handler hos os, betaler du med kendte og sikre betalingsløsninger<\/p>"
+      }
+    },
     "1633105453d9ab1568": {
       "type": "customer-testimonials",
+      "disabled": true,
       "blocks": {
         "1633105453d9ab1568-0": {
           "type": "review",
@@ -164,6 +165,7 @@
     },
     "1639742442018b3a2d": {
       "type": "two-text-blocks-image",
+      "disabled": true,
       "settings": {
         "max_content": false,
         "max_content_size": 50,
@@ -183,8 +185,8 @@
   },
   "order": [
     "1633281870251e33c5",
-    "16334226477fd6df41",
     "main",
+    "16334226477fd6df41",
     "1633105453d9ab1568",
     "1633105440fb57a17a",
     "1639742442018b3a2d"
