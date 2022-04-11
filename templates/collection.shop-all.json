@@ -108,12 +108,13 @@
     },
     "1633105440fb57a17a": {
       "type": "five-reasons",
+      "disabled": true,
       "blocks": {
         "1633105440fb57a17a-0": {
           "type": "icon",
           "settings": {
             "icon_selector": "reason-1",
-            "icon-color": "#d8beac",
+            "icon-color": "#614f42",
             "icon_size": 200,
             "icon_heading": "Produktet virker – Maksimum løfteeffekt!",
             "icon_text": "<p>Vores opstrammende materialer kombineret med konstruktionen i vores shapewear sikrer dig, at numsen altid sidder som den skal, at maven og lårene altid glattes ud, en timeglasfigur og et smil på læben. Vi har 100% tilfredshedsgaranti.<\/p>"
