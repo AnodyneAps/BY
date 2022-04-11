@@ -8,14 +8,14 @@
           "settings": {
             "show_vendor": false,
             "show_sku": false,
-            "show_product_rating": true,
+            "show_product_rating": false,
             "show_taxes_included": false
           }
         },
         "variant_selector": {
           "type": "variant_selector",
           "settings": {
-            "selector_mode": "block",
+            "selector_mode": "dropdown",
             "show_color_swatch": false,
             "show_color_carousel": false,
             "size_chart": "size-chart"
@@ -108,7 +108,7 @@
         "cd6e4361-d237-45fa-9aeb-01d0e976786a"
       ],
       "settings": {
-        "image_size": "large",
+        "image_size": "medium",
         "stack_images": true,
         "show_thumbnails": true,
         "enable_image_zoom": true,
