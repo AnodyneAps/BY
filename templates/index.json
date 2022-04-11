@@ -158,7 +158,7 @@
         "image_size": "normal",
         "spacing": "add_spacing",
         "heading_size": 36,
-        "sub_heading_size": 20,
+        "sub_heading_size": 16,
         "expand_collection": false,
         "stack_on_mobile": true,
         "text_color": "#ffffff",
