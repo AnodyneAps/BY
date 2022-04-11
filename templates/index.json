@@ -113,14 +113,14 @@
           "settings": {
             "hide_mobile": false,
             "hide_link": false,
-            "collection": "",
+            "collection": "handklaeder",
             "image_alignment": "center center",
             "content_position": "bottomLeft",
-            "subheading": "Sub-heading",
-            "title": "Collection name",
+            "subheading": "",
+            "title": "{{ block.settings.collection.title }}",
             "richtext": "",
             "button_text": "View products",
-            "button_link": "",
+            "button_link": "shopify:\/\/collections\/handklaeder",
             "apply_overlay": true,
             "apply_overlay_extra": false,
             "add_logo": false,
@@ -238,10 +238,21 @@
             "grid_items_count": 4,
             "button_text": "SE UDVALG"
           }
+        },
+        "94f0d3ef-dcb4-45c7-a032-0c9ed56b09f1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "text_box": "",
+            "grid_items_count": 8,
+            "button_text": "View all products"
+          }
         }
       },
       "block_order": [
-        "1649335743e3b02a44-0"
+        "1649335743e3b02a44-0",
+        "94f0d3ef-dcb4-45c7-a032-0c9ed56b09f1"
       ],
       "settings": {
         "title": "",
