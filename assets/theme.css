@@ -7539,6 +7539,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 
 .ProductItem__ImageWrapper {
   display: block;
+  background-color: var(--b-cream-clr);
 }
 
 .ProductItem__Image--alternate {
@@ -12962,12 +12963,12 @@ shopify-payment-terms {
  */
 
 .ImageHero--collection-size{
-  min-height: 230px;
+  min-height: 200px;
 }
 
 @media screen and (min-width: 810px) {
   .ImageHero--collection-size{
-    min-height: 500px;
+    min-height: 400px;
   }
 }
 
@@ -12994,7 +12995,7 @@ shopify-payment-terms {
     text-align: center;
     background-size: cover;
     background-position: center;
-    min-height: 250px;
+    min-height: 200px;
     width: 100%;
     overflow: hidden;
 }
@@ -13006,13 +13007,13 @@ shopify-payment-terms {
 
 }
 
-@media screen and (min-width: 810px){
+/* @media screen and (min-width: 810px){
   .ImageHero-collection .ImageHero__ContentOverlay{
   position: absolute;
     left: 0;
   }
 
-}
+} */
 
 .ImageHero-collection .SectionHeader__Description {
   margin-top: 0;
@@ -13024,12 +13025,11 @@ shopify-payment-terms {
 
 
 .collection-header {
-  font-size: 40px !important;
-  margin: unset !important;
-  text-transform: uppercase;
+  font-size: 4rem !important;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 @media screen and (max-width: 980px){ 
