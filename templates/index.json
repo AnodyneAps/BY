@@ -142,7 +142,7 @@
             "subheading": "",
             "title": "{{ block.settings.collection.title }}",
             "richtext": "",
-            "button_text": "View products",
+            "button_text": "Shop nu",
             "button_link": "shopify:\/\/collections\/viskestykker",
             "apply_overlay": true,
             "apply_overlay_extra": false,
