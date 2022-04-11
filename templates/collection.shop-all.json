@@ -48,7 +48,7 @@
         "filter_menu": "",
         "grid_items_per_page": 40,
         "grid_mobile_items_per_row": "2",
-        "grid_desktop_items_per_row": 4,
+        "grid_desktop_items_per_row": 2,
         "section_size": "preserveRatio",
         "video_url": "https:\/\/vimeo.com\/623365744"
       }
