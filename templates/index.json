@@ -381,7 +381,7 @@
       "settings": {
         "image_size": "normal",
         "spacing": "add_spacing",
-        "heading_size": 26,
+        "heading_size": 50,
         "sub_heading_size": 20,
         "expand_collection": true,
         "stack_on_mobile": true,
