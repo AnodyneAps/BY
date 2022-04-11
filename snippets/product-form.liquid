@@ -226,6 +226,9 @@ for size, we use it to display a size chart (if applicable)
   {%- else -%}
     <input type="hidden" name="id" data-sku="{{ selected_variant.sku }}" value="{{ selected_variant.id }}">
   {%- endunless -%}
+  <div class="Popover__inner">
+    {{- product_popovers -}}
+  </div>
 </div>
 
 {%- if size_chart_page != empty -%}
@@ -260,6 +263,5 @@ in the DOM tree, and do not show below the content
 {%- endcomment -%}
 
 <div class="Product__OffScreen">
-  {{- product_popovers -}}
   {{- product_modals -}}
 </div>
