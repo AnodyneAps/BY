@@ -14,6 +14,7 @@
         },
         "variant_selector": {
           "type": "variant_selector",
+          "disabled": true,
           "settings": {
             "selector_mode": "dropdown",
             "show_color_swatch": false,
@@ -26,21 +27,6 @@
           "settings": {
             "show_price_in_button": true,
             "show_payment_button": false
-          }
-        },
-        "f4cce94d-6434-4928-a9a9-d142eb3b4702": {
-          "type": "product_usp",
-          "settings": {
-            "usp_autoplay": true,
-            "usp_cycle_speed": 3,
-            "icon_selector1": "package",
-            "icon_1_heading": "∘ Fri levering fra 399 kr",
-            "icon_selector2": "shipping",
-            "icon_2_heading": "∘ 30 dages fuld returret",
-            "icon_selector3": "cards",
-            "icon_3_heading": "∘ Nem og sikker betaling",
-            "icon_selector4": "heart",
-            "icon_4_heading": "∘ Professionel kundeservice"
           }
         },
         "description": {
@@ -72,6 +58,21 @@
             "page": "baeredygtighed-info"
           }
         },
+        "f4cce94d-6434-4928-a9a9-d142eb3b4702": {
+          "type": "product_usp",
+          "settings": {
+            "usp_autoplay": true,
+            "usp_cycle_speed": 3,
+            "icon_selector1": "package",
+            "icon_1_heading": "∘ Fri levering fra 399 kr",
+            "icon_selector2": "shipping",
+            "icon_2_heading": "∘ 30 dages fuld returret",
+            "icon_selector3": "cards",
+            "icon_3_heading": "∘ Nem og sikker betaling",
+            "icon_selector4": "heart",
+            "icon_4_heading": "∘ Professionel kundeservice"
+          }
+        },
         "b5ea8457-163f-4cc0-9652-0f966b5b6b81": {
           "type": "buy_it_with",
           "disabled": true,
@@ -99,11 +100,11 @@
         "product_meta",
         "variant_selector",
         "buy_buttons",
-        "f4cce94d-6434-4928-a9a9-d142eb3b4702",
         "description",
         "0ea1b043-eff1-4e99-946d-d1923fd15e88",
         "c0ab2312-1a63-481b-98d5-778ca72c7b2a",
         "17147ba3-3eb8-4b38-bf0a-81e6a99fb9a1",
+        "f4cce94d-6434-4928-a9a9-d142eb3b4702",
         "b5ea8457-163f-4cc0-9652-0f966b5b6b81",
         "cd6e4361-d237-45fa-9aeb-01d0e976786a"
       ],
