@@ -98,7 +98,7 @@
             "image_alignment": "center center",
             "content_position": "bottomLeft",
             "subheading": "",
-            "title": "Sengtøj",
+            "title": "Sengetøj",
             "richtext": "",
             "button_text": "View products",
             "button_link": "shopify:\/\/collections\/sengetoj",
@@ -451,6 +451,7 @@
     },
     "16465097626c2f1f44": {
       "type": "featured-collections",
+      "disabled": true,
       "blocks": {
         "16465097623b2991d2-0": {
           "type": "collection",
