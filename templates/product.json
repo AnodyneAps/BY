@@ -36,6 +36,7 @@
         },
         "f4cce94d-6434-4928-a9a9-d142eb3b4702": {
           "type": "product_usp",
+          "disabled": true,
           "settings": {
             "usp_autoplay": true,
             "usp_cycle_speed": 3,
@@ -51,6 +52,7 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
           }
         },
