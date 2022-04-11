@@ -1,7 +1,6 @@
 
 
 {%- assign collection_image = block.settings.image | default: collection.image | default: collection.products.first.featured_image -%}
-
 <a {% if block.settings.hide_link != true %}href="{{ block.settings.button_link | default: collection.url }}"{% endif %} {{ block.shopify_attributes }} class="CollectionItem {% if section.settings.expand_collection %}CollectionItem--expand{% endif %} {% if section.settings.spacing == 'add_spacing' %}CollectionList--spaced{% endif %} {% if section.settings.spacing == 'add_spacing_single' %}CollectionList--spaced_single{% endif %} {% if template == 'index' %}Carousel__Cell {% if forloop.first %}is-selected{% endif %}{% endif %} {% if block.settings.hide_mobile %}hidden-phone hidden-tablet{% endif %}" data-slide-index="{{ forloop.index0 }}">
   {%- capture mobile_size -%}750x{% if collection_image.height >= 960 %}960{% else %}{{ collection_image.height }}{% endif %}{%- endcapture -%}
   {%- assign image_crop = block.settings.image_alignment | split: ' ' | last -%}
