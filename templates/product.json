@@ -108,8 +108,8 @@
         "cd6e4361-d237-45fa-9aeb-01d0e976786a"
       ],
       "settings": {
-        "image_size": "medium",
-        "stack_images": true,
+        "image_size": "large",
+        "stack_images": false,
         "show_thumbnails": true,
         "enable_image_zoom": true,
         "enable_video_looping": true
