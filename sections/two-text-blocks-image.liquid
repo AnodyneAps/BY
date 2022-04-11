@@ -5,9 +5,11 @@
 
 
 <section class="Section Section--spacingNormal" id="section-{{ section.id }}">
-    <div class="image-logo-blocks">
+  {% if section.settings.image != blank %}
+      <div class="image-logo-blocks">
         <img src="{{ section.settings.image | img_url: '1000x' }} ">
     </div>
+  {% endif %}
     <div class="two_blocks_wrapper flex_align-center align_items_start flex_row justify_content_space_even">
 
         <div class="text_box">
