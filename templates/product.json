@@ -74,6 +74,7 @@
         },
         "b5ea8457-163f-4cc0-9652-0f966b5b6b81": {
           "type": "buy_it_with",
+          "disabled": true,
           "settings": {
             "product": "handklaede-mint",
             "title": "Buy it with"
