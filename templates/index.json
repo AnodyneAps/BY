@@ -379,7 +379,7 @@
         "1632827034e58962e0-1"
       ],
       "settings": {
-        "image_size": "large",
+        "image_size": "normal",
         "spacing": "add_spacing",
         "heading_size": 26,
         "sub_heading_size": 20,
