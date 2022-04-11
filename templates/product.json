@@ -21,6 +21,12 @@
             "size_chart": "size-chart"
           }
         },
+        "b9b19a39-5a54-49f5-be6b-00ef06d6897a": {
+          "type": "quantity_selector",
+          "settings": {
+            "show_label": false
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -93,11 +99,17 @@
             "heading_size": 26,
             "heading_size_mobile": 20
           }
+        },
+        "05597cb5-7d0e-45df-b89a-84d418d27733": {
+          "type": "store_pickup",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "product_meta",
         "variant_selector",
+        "b9b19a39-5a54-49f5-be6b-00ef06d6897a",
         "buy_buttons",
         "f4cce94d-6434-4928-a9a9-d142eb3b4702",
         "description",
@@ -105,7 +117,8 @@
         "c0ab2312-1a63-481b-98d5-778ca72c7b2a",
         "17147ba3-3eb8-4b38-bf0a-81e6a99fb9a1",
         "b5ea8457-163f-4cc0-9652-0f966b5b6b81",
-        "cd6e4361-d237-45fa-9aeb-01d0e976786a"
+        "cd6e4361-d237-45fa-9aeb-01d0e976786a",
+        "05597cb5-7d0e-45df-b89a-84d418d27733"
       ],
       "settings": {
         "image_size": "large",
