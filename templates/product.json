@@ -29,6 +29,21 @@
             "show_payment_button": false
           }
         },
+        "f4cce94d-6434-4928-a9a9-d142eb3b4702": {
+          "type": "product_usp",
+          "settings": {
+            "usp_autoplay": true,
+            "usp_cycle_speed": 3,
+            "icon_selector1": "package",
+            "icon_1_heading": "Fri fragt ved køb over 399 kr.",
+            "icon_selector2": "shipping",
+            "icon_2_heading": "Gratis 30 dages retur",
+            "icon_selector3": "heart",
+            "icon_3_heading": "Professionel kundeservice",
+            "icon_selector4": "cards",
+            "icon_4_heading": "Nem og sikker betaling"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -79,34 +94,19 @@
             "heading_size": 26,
             "heading_size_mobile": 20
           }
-        },
-        "f4cce94d-6434-4928-a9a9-d142eb3b4702": {
-          "type": "product_usp",
-          "settings": {
-            "usp_autoplay": true,
-            "usp_cycle_speed": 3,
-            "icon_selector1": "package",
-            "icon_1_heading": "Fri fragt ved køb over 399 kr.",
-            "icon_selector2": "shipping",
-            "icon_2_heading": "Gratis 30 dages retur",
-            "icon_selector3": "heart",
-            "icon_3_heading": "Professionel kundeservice",
-            "icon_selector4": "cards",
-            "icon_4_heading": "Nem og sikker betaling"
-          }
         }
       },
       "block_order": [
         "product_meta",
         "variant_selector",
         "buy_buttons",
+        "f4cce94d-6434-4928-a9a9-d142eb3b4702",
         "description",
         "0ea1b043-eff1-4e99-946d-d1923fd15e88",
         "c0ab2312-1a63-481b-98d5-778ca72c7b2a",
         "17147ba3-3eb8-4b38-bf0a-81e6a99fb9a1",
         "b5ea8457-163f-4cc0-9652-0f966b5b6b81",
-        "cd6e4361-d237-45fa-9aeb-01d0e976786a",
-        "f4cce94d-6434-4928-a9a9-d142eb3b4702"
+        "cd6e4361-d237-45fa-9aeb-01d0e976786a"
       ],
       "settings": {
         "image_size": "large",
