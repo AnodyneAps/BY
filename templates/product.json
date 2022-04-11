@@ -14,7 +14,6 @@
         },
         "variant_selector": {
           "type": "variant_selector",
-          "disabled": true,
           "settings": {
             "selector_mode": "dropdown",
             "show_color_swatch": false,
