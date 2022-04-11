@@ -68,7 +68,7 @@
           "type": "content",
           "settings": {
             "title": "Pleje",
-            "content": "<p>Du bør altid vaske dit sengetøj, inden du tager det i brug første gang. Ved den første vask forstærkes syningerne i sengetøjet og holdbarheden forlænges. Derudover får du vasket evt. overskudsfarve væk, så du trygt kan sove i det. <br\/><br\/>Det er er god idé at vaske sengetøjet hver anden uge eller minimum en gang om måneden. Rent sengetøj bidrager til et godt indeklima i dit soveværelse, som er essentielt for en god nats søvn.{{ product.metafields.content.pleje.value }}<\/p>",
+            "content": "<p>{{ product.metafields.content.pleje.value }}<\/p>",
             "page": "care"
           }
         },
