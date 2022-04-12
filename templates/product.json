@@ -12,21 +12,6 @@
             "show_taxes_included": false
           }
         },
-        "98dc4e6f-08f8-4dd9-aa26-e35fab3198cc": {
-          "type": "variant_selector",
-          "settings": {
-            "selector_mode": "block",
-            "show_color_swatch": true,
-            "show_color_carousel": false,
-            "size_chart": ""
-          }
-        },
-        "b9b19a39-5a54-49f5-be6b-00ef06d6897a": {
-          "type": "quantity_selector",
-          "settings": {
-            "show_label": true
-          }
-        },
         "a8498457-f36e-4e16-a79b-90275568162f": {
           "type": "colors",
           "settings": {
@@ -51,6 +36,21 @@
             "olive_color_name": "olive color",
             "olive_clr": "#6a8057",
             "olive_link": "shopify:\/\/products\/sengesaet-olive"
+          }
+        },
+        "98dc4e6f-08f8-4dd9-aa26-e35fab3198cc": {
+          "type": "variant_selector",
+          "settings": {
+            "selector_mode": "block",
+            "show_color_swatch": true,
+            "show_color_carousel": false,
+            "size_chart": ""
+          }
+        },
+        "b9b19a39-5a54-49f5-be6b-00ef06d6897a": {
+          "type": "quantity_selector",
+          "settings": {
+            "show_label": true
           }
         },
         "37355ae7-6ac3-4895-8161-1fbea366a549": {
@@ -92,9 +92,9 @@
       },
       "block_order": [
         "product_meta",
+        "a8498457-f36e-4e16-a79b-90275568162f",
         "98dc4e6f-08f8-4dd9-aa26-e35fab3198cc",
         "b9b19a39-5a54-49f5-be6b-00ef06d6897a",
-        "a8498457-f36e-4e16-a79b-90275568162f",
         "37355ae7-6ac3-4895-8161-1fbea366a549",
         "description",
         "0ea1b043-eff1-4e99-946d-d1923fd15e88",
