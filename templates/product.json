@@ -15,7 +15,7 @@
         "98dc4e6f-08f8-4dd9-aa26-e35fab3198cc": {
           "type": "variant_selector",
           "settings": {
-            "selector_mode": "dropdown",
+            "selector_mode": "block",
             "show_color_swatch": true,
             "show_color_carousel": false,
             "size_chart": ""
