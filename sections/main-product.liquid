@@ -2,6 +2,7 @@
 {%- assign share_buttons_block = section.blocks | where: 'type', 'share_buttons' | first -%}
 {%- assign inventory_block = section.blocks | where: 'type', 'inventory' | first -%}
 {%- assign buy_buttons_block = section.blocks | where: 'type', 'buy_buttons' | first -%}
+{%- assign colors_block = section.blocks | where: 'type', 'colors' | first -%}
 
 {%- capture section_settings -%}
 {
@@ -321,7 +322,21 @@
                       {%- render 'icon' with 'cart' -%}{{ form | payment_button }}
                     {%- endif -%}
                   </div>
-
+                {%- when 'colors' -%}
+                {% if product.handle contains 'sengesaet' %}
+                      <div class="colorLinks__wrapper">
+                        <div class="ProductForm__Label">color: {{product.handle}}</div>
+                          <ul class="colorLinks__ul">
+                            <li class="colorLinks__li" ><a href="{{block.settings.gray_link}}" class="colorLink__a active" style="background-color: {{block.settings.gray_clr}};" title="{{block.settings.gray_color_name}}"></a></li>
+                            <li class="colorLinks__li" ><a href="{{block.settings.bark_link}}" class="colorLink__a" style="background-color: {{block.settings.bark_clr}};" title="{{block.settings.gray_color_name}}"></a></li>
+                            <li class="colorLinks__li" ><a href="{{block.settings.mint_link}}" class="colorLink__a" style="background-color: {{block.settings.mint_clr}};" title="{{block.settings.gray_color_name}}"></a></li>
+                            <li class="colorLinks__li" ><a href="{{block.settings.creame_link}}" class="colorLink__a" style="background-color: {{block.settings.creame_clr}};" title="{{block.settings.gray_color_name}}"></a></li>
+                            <li class="colorLinks__li" ><a href="{{block.settings.skyBlue_link}}" class="colorLink__a" style="background-color: {{block.settings.skyBlue_clr}};" title="{{block.settings.gray_color_name}}"></a></li>
+                            <li class="colorLinks__li" ><a href="{{block.settings.nude_link}}" class="colorLink__a" style="background-color: {{block.settings.nude_clr}};" title="{{block.settings.gray_color_name}}"></a></li>
+                            <li class="colorLinks__li" ><a href="{{block.settings.olive_link}}" class="colorLink__a" style="background-color: {{block.settings.olive_clr}};" title="{{block.settings.gray_color_name}}"></a></li>
+                          </ul>
+                      </div>
+                    {% endif %}
                 {%- when 'product_usp' -%}
                   {%- include 'usp-blocks' -%}
                   
@@ -853,6 +868,160 @@ This is the root container for the zoom functionality. Must not be removed, as o
           "content": "To show reviews, install [Shopify Product Reviews](https://apps.shopify.com/product-reviews). This content will show on the left part, below the product images. "
         }
       ]
+    },
+    {
+    "type": "colors",
+    "name": "Color Links",
+    "settings": [
+          {
+            "type": "header",
+            "content": "gray color"
+          },
+          {
+            "type": "text",
+            "id": "gray_color_name",
+            "label": "Add color name",
+            "default": "gray color"
+          },
+          {
+            "type": "color",
+            "id": "gray_clr",
+            "label": "gray",
+            "default": "#dddddd"
+          },
+          {
+            "type": "url",
+            "id": "gray_link",
+            "label": "Link"
+          },
+          {
+            "type": "header",
+            "content": "Bark color"
+          },
+          {
+            "type": "text",
+            "id": "bark_color_name",
+            "label": "Add color name",
+            "default": "bark color"
+          },
+          {
+            "type": "color",
+            "id": "bark_clr",
+            "label": "bark",
+            "default": "#b57c68"
+          },
+          {
+            "type": "url",
+            "id": "bark_link",
+            "label": "Link"
+          },
+          {
+            "type": "header",
+            "content": "Mint color"
+          },
+          {
+            "type": "text",
+            "id": "mint_color_name",
+            "label": "Add color name",
+            "default": "mint color"
+          },
+          {
+            "type": "color",
+            "id": "mint_clr",
+            "label": "mint",
+            "default": "#a9c5bd"
+          },
+          {
+            "type": "url",
+            "id": "mint_link",
+            "label": "Link"
+          },
+          {
+            "type": "header",
+            "content": "creame color"
+          },
+          {
+            "type": "text",
+            "id": "creame_color_name",
+            "label": "Add color name",
+            "default": "creame color"
+          },
+          {
+            "type": "color",
+            "id": "creame_clr",
+            "label": "creame",
+            "default": "#eaeeae"
+          },
+          {
+            "type": "url",
+            "id": "creame_link",
+            "label": "Link"
+          },
+          {
+            "type": "header",
+            "content": "skyBlue color"
+          },
+          {
+            "type": "text",
+            "id": "skyBlue_color_name",
+            "label": "Add color name",
+            "default": "skyBlue color"
+          },
+          {
+            "type": "color",
+            "id": "skyBlue_clr",
+            "label": "skyBlue",
+            "default": "#a9c5ad"
+          },
+          {
+            "type": "url",
+            "id": "skyBlue_link",
+            "label": "Link"
+          },
+          {
+            "type": "header",
+            "content": "nude color"
+          },
+          {
+            "type": "text",
+            "id": "nude_color_name",
+            "label": "Add color name",
+            "default": "nude color"
+          },
+          {
+            "type": "color",
+            "id": "nude_clr",
+            "label": "nude",
+            "default": "#a9c3bd"
+          },
+          {
+            "type": "url",
+            "id": "nude_link",
+            "label": "Link"
+          },
+          {
+            "type": "header",
+            "content": "olive color"
+          },
+          {
+            "type": "text",
+            "id": "olive_color_name",
+            "label": "Add color name",
+            "default": "olive color"
+          },
+          {
+            "type": "color",
+            "id": "olive_clr",
+            "label": "olive",
+            "default": "#a9c4bd"
+          },
+          {
+            "type": "url",
+            "id": "olive_link",
+            "label": "Link"
+          }
+         
+       ]
     },
     {
       "name": "Buy it with",

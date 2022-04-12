@@ -13994,3 +13994,30 @@ shopify-payment-terms {
       width: 60%;
     }
   }
+  /* product color links styles  */
+  .colorLinks__wrapper {
+    padding: 1rem 0;
+  }
+  .colorLinks__wrapper .colorLinks__ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .colorLinks__wrapper .colorLinks__ul .colorLinks__li {
+    margin: 0 2px;
+  }
+  .colorLinks__wrapper .colorLinks__ul   .colorLink__a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    transition: opacity .3s ease;
+  }
+  .colorLinks__wrapper .colorLinks__ul   .colorLink__a:hover{
+    opacity: 0.8;
+  }
+  .colorLinks__wrapper .colorLinks__ul   .colorLink__a.active{
+    border: 1px solid var(--heading-color);
+  }
