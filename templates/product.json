@@ -59,6 +59,13 @@
             "content": "<p>Med byFritz har jeg gentænkt fremstillingen af boligtekstiler ved at kombinere min kærlighed for design, kvalitet og håndværk med nøje gennemtænkte bæredygtige materialer. Fælles for alle materialerne er, at de er naturmaterialer. <\/p><p>Jeg skaber smukt økologisk sengetøj, håndklæder og viskestykker af høj kvalitet og med lang levetid. Kvaliteterne udvikles således, at produkterne kan bruges igen og igen og endda gå i arv med den rigtige pleje. <\/p>",
             "page": "baeredygtighed-info"
           }
+        },
+        "37355ae7-6ac3-4895-8161-1fbea366a549": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price_in_button": true,
+            "show_payment_button": false
+          }
         }
       },
       "block_order": [
@@ -68,7 +75,8 @@
         "description",
         "0ea1b043-eff1-4e99-946d-d1923fd15e88",
         "c0ab2312-1a63-481b-98d5-778ca72c7b2a",
-        "17147ba3-3eb8-4b38-bf0a-81e6a99fb9a1"
+        "17147ba3-3eb8-4b38-bf0a-81e6a99fb9a1",
+        "37355ae7-6ac3-4895-8161-1fbea366a549"
       ],
       "settings": {
         "image_size": "small",
