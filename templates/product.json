@@ -15,7 +15,7 @@
         "b9b19a39-5a54-49f5-be6b-00ef06d6897a": {
           "type": "quantity_selector",
           "settings": {
-            "show_label": false
+            "show_label": true
           }
         },
         "description": {
@@ -50,6 +50,15 @@
             "content": "<p>Med byFritz har jeg gentænkt fremstillingen af boligtekstiler ved at kombinere min kærlighed for design, kvalitet og håndværk med nøje gennemtænkte bæredygtige materialer. Fælles for alle materialerne er, at de er naturmaterialer. <\/p><p>Jeg skaber smukt økologisk sengetøj, håndklæder og viskestykker af høj kvalitet og med lang levetid. Kvaliteterne udvikles således, at produkterne kan bruges igen og igen og endda gå i arv med den rigtige pleje. <\/p>",
             "page": "baeredygtighed-info"
           }
+        },
+        "98dc4e6f-08f8-4dd9-aa26-e35fab3198cc": {
+          "type": "variant_selector",
+          "settings": {
+            "selector_mode": "dropdown",
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "size_chart": ""
+          }
         }
       },
       "block_order": [
@@ -58,10 +67,11 @@
         "description",
         "0ea1b043-eff1-4e99-946d-d1923fd15e88",
         "c0ab2312-1a63-481b-98d5-778ca72c7b2a",
-        "17147ba3-3eb8-4b38-bf0a-81e6a99fb9a1"
+        "17147ba3-3eb8-4b38-bf0a-81e6a99fb9a1",
+        "98dc4e6f-08f8-4dd9-aa26-e35fab3198cc"
       ],
       "settings": {
-        "image_size": "large",
+        "image_size": "small",
         "stack_images": false,
         "show_thumbnails": true,
         "enable_image_zoom": true,
