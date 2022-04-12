@@ -41,7 +41,7 @@
     "show_image_zooming": false,
     "show_element_staggering": false,
     "search_mode": "product,article,page",
-    "product_show_price_on_hover": false,
+    "product_show_price_on_hover": true,
     "product_show_secondary_image": true,
     "show_product_rating": false,
     "product_info_alignment": "right",
