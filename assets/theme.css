@@ -5674,8 +5674,8 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   box-shadow: 0 -2px 10px rgba(54, 54, 54, 0.2);
   touch-action: manipulation;
   transform: translateY(100%);
-  /* visibility: hidden; */
-  visibility: visible;
+  visibility: hidden;
+  /* visibility: visible; */
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
