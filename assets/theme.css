@@ -1836,8 +1836,8 @@ input.spr-button-primary[disabled],
 .spr-pagination-next > a:hover {
   color: var(--button-text-color-hover);
   border: 2px solid;
-  border-color: var(--button-text-color-hover);
-  background-color: var(--button-second-color-background_hover);
+  border-color: var(--b-sand-clr);
+  background-color: var(--b-sand-clr);
 }
 
 /*
