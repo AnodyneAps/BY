@@ -12,12 +12,6 @@
             "show_taxes_included": false
           }
         },
-        "b9b19a39-5a54-49f5-be6b-00ef06d6897a": {
-          "type": "quantity_selector",
-          "settings": {
-            "show_label": true
-          }
-        },
         "98dc4e6f-08f8-4dd9-aa26-e35fab3198cc": {
           "type": "variant_selector",
           "settings": {
@@ -25,6 +19,12 @@
             "show_color_swatch": false,
             "show_color_carousel": false,
             "size_chart": ""
+          }
+        },
+        "b9b19a39-5a54-49f5-be6b-00ef06d6897a": {
+          "type": "quantity_selector",
+          "settings": {
+            "show_label": true
           }
         },
         "description": {
@@ -70,8 +70,8 @@
       },
       "block_order": [
         "product_meta",
-        "b9b19a39-5a54-49f5-be6b-00ef06d6897a",
         "98dc4e6f-08f8-4dd9-aa26-e35fab3198cc",
+        "b9b19a39-5a54-49f5-be6b-00ef06d6897a",
         "description",
         "0ea1b043-eff1-4e99-946d-d1923fd15e88",
         "c0ab2312-1a63-481b-98d5-778ca72c7b2a",
