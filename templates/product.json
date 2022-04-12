@@ -12,42 +12,10 @@
             "show_taxes_included": false
           }
         },
-        "variant_selector": {
-          "type": "variant_selector",
-          "settings": {
-            "selector_mode": "dropdown",
-            "show_color_swatch": false,
-            "show_color_carousel": false,
-            "size_chart": "size-chart"
-          }
-        },
         "b9b19a39-5a54-49f5-be6b-00ef06d6897a": {
           "type": "quantity_selector",
           "settings": {
             "show_label": false
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_price_in_button": true,
-            "show_payment_button": false
-          }
-        },
-        "f4cce94d-6434-4928-a9a9-d142eb3b4702": {
-          "type": "product_usp",
-          "disabled": true,
-          "settings": {
-            "usp_autoplay": true,
-            "usp_cycle_speed": 3,
-            "icon_selector1": "package",
-            "icon_1_heading": "Fri fragt ved køb over 399 kr.",
-            "icon_selector2": "shipping",
-            "icon_2_heading": "Gratis 30 dages retur",
-            "icon_selector3": "heart",
-            "icon_3_heading": "Professionel kundeservice",
-            "icon_selector4": "cards",
-            "icon_4_heading": "Nem og sikker betaling"
           }
         },
         "description": {
@@ -58,6 +26,7 @@
         },
         "0ea1b043-eff1-4e99-946d-d1923fd15e88": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "title": "Materialer",
             "content": "<p>{{ product.metafields.content.materialer.value }}<\/p>",
@@ -66,6 +35,7 @@
         },
         "c0ab2312-1a63-481b-98d5-778ca72c7b2a": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "title": "Pleje",
             "content": "<p>{{ product.metafields.content.pleje.value }}<\/p>",
@@ -74,53 +44,21 @@
         },
         "17147ba3-3eb8-4b38-bf0a-81e6a99fb9a1": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "title": "Tekstiler med omhu",
             "content": "<p>Med byFritz har jeg gentænkt fremstillingen af boligtekstiler ved at kombinere min kærlighed for design, kvalitet og håndværk med nøje gennemtænkte bæredygtige materialer. Fælles for alle materialerne er, at de er naturmaterialer. <\/p><p>Jeg skaber smukt økologisk sengetøj, håndklæder og viskestykker af høj kvalitet og med lang levetid. Kvaliteterne udvikles således, at produkterne kan bruges igen og igen og endda gå i arv med den rigtige pleje. <\/p>",
             "page": "baeredygtighed-info"
           }
-        },
-        "b5ea8457-163f-4cc0-9652-0f966b5b6b81": {
-          "type": "buy_it_with",
-          "disabled": true,
-          "settings": {
-            "product": "handklaede-mint",
-            "title": "Buy it with"
-          }
-        },
-        "cd6e4361-d237-45fa-9aeb-01d0e976786a": {
-          "type": "customers_reviews",
-          "disabled": true,
-          "settings": {
-            "background-color": "#ffffff",
-            "autoplay": true,
-            "cycle_speed": 5,
-            "draggable": true,
-            "arrows": true,
-            "reviews_title": "Hvad siger vores kunder om os",
-            "heading_size": 26,
-            "heading_size_mobile": 20
-          }
-        },
-        "05597cb5-7d0e-45df-b89a-84d418d27733": {
-          "type": "store_pickup",
-          "settings": {
-          }
         }
       },
       "block_order": [
         "product_meta",
-        "variant_selector",
         "b9b19a39-5a54-49f5-be6b-00ef06d6897a",
-        "buy_buttons",
-        "f4cce94d-6434-4928-a9a9-d142eb3b4702",
         "description",
         "0ea1b043-eff1-4e99-946d-d1923fd15e88",
         "c0ab2312-1a63-481b-98d5-778ca72c7b2a",
-        "17147ba3-3eb8-4b38-bf0a-81e6a99fb9a1",
-        "b5ea8457-163f-4cc0-9652-0f966b5b6b81",
-        "cd6e4361-d237-45fa-9aeb-01d0e976786a",
-        "05597cb5-7d0e-45df-b89a-84d418d27733"
+        "17147ba3-3eb8-4b38-bf0a-81e6a99fb9a1"
       ],
       "settings": {
         "image_size": "large",
