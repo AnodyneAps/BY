@@ -16,7 +16,7 @@
           "type": "variant_selector",
           "settings": {
             "selector_mode": "dropdown",
-            "show_color_swatch": false,
+            "show_color_swatch": true,
             "show_color_carousel": false,
             "size_chart": ""
           }
