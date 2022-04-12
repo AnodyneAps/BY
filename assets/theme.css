@@ -1372,7 +1372,7 @@ body {
 }
 
 .Text--subdued {
-  color: var(--text-color-light);
+  color: var(--heading-color);
 }
 
 .Text--alignCenter {
@@ -3419,7 +3419,7 @@ select::-ms-expand {
 
 .HorizontalList__Item {
   display: inline-block;
-  margin: 6px 8px 6px 8px;
+  margin: 2px;
 }
 
 .HorizontalList__Item > .Link {
@@ -3432,7 +3432,7 @@ select::-ms-expand {
 }
 
 .HorizontalList--spacingTight .HorizontalList__Item {
-  margin-right: 8px;
+  margin-right: 0;
   margin-left: 8px;
 }
 
@@ -4239,7 +4239,9 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   display: inline-flex;
   align-items: center;
   border: 1px solid var(--border-color);
+  border-radius: 5px;
   white-space: nowrap;
+  font-size: 0.6rem;
 }
 
 .QuantitySelector svg {
@@ -4403,11 +4405,12 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   text-align: center;
   min-width: 41px;
   padding: 6px 10px;
-  border: 1px solid var(--text-color);
+  border: 1px solid var(--b-ash-clr);
   color: var(--text-color);
   cursor: pointer;
-  border-radius: 50%;
+  border-radius: 3px;
   transition: all 0.2s ease-in-out;
+  font-size: 0.8rem;
 }
 
 .SizeSwatch__Radio {
@@ -4421,7 +4424,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 
 .SizeSwatch.is-active::after,
 .SizeSwatch__Radio:checked + .SizeSwatch {
-  border-color: var(--text-color);
+  border-color: var(--b-sand-clr);
   background-color: var(--button-background);
   color: #fff;
 }
