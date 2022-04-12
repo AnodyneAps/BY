@@ -10030,11 +10030,12 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 
  .Product_Images{
   width: 100%;
-  position: relative;
+  /* position: relative; activate it if you dont like sticky positioning */
   margin-top: 50px;
   margin: 50px 0 50px 20px;
   height: auto;
-  position: relative;
+  position: sticky;
+  top: 160px;
  }
 
  .product_images_wrapper{
@@ -13996,7 +13997,7 @@ shopify-payment-terms {
   }
   /* product color links styles  */
   .colorLinks__wrapper {
-    padding: 1rem 0;
+    padding: 0.2rem 0;
   }
   .colorLinks__wrapper .colorLinks__ul {
     list-style: none;
@@ -14019,5 +14020,5 @@ shopify-payment-terms {
     opacity: 0.8;
   }
   .colorLinks__wrapper .colorLinks__ul   .colorLink__a.active{
-    border: 1px solid var(--heading-color);
+    border: 2px solid var(--b-main-clr);
   }

@@ -3,6 +3,7 @@
 {%- assign inventory_block = section.blocks | where: 'type', 'inventory' | first -%}
 {%- assign buy_buttons_block = section.blocks | where: 'type', 'buy_buttons' | first -%}
 {%- assign colors_block = section.blocks | where: 'type', 'colors' | first -%}
+{% assign colorNames  = product.handle | split: '-' %}
 
 {%- capture section_settings -%}
 {
@@ -325,18 +326,29 @@
                 {%- when 'colors' -%}
                 {% if product.handle contains 'sengesaet' %}
                       <div class="colorLinks__wrapper">
-                        <div class="ProductForm__Label">color: {{product.handle}}</div>
+                        <div class="ProductForm__Label">color: {{ colorNames | last}}</div>
                           <ul class="colorLinks__ul">
-                            <li class="colorLinks__li" ><a href="{{block.settings.gray_link}}" class="colorLink__a active" style="background-color: {{block.settings.gray_clr}};" title="{{block.settings.gray_color_name}}"></a></li>
-                            <li class="colorLinks__li" ><a href="{{block.settings.bark_link}}" class="colorLink__a" style="background-color: {{block.settings.bark_clr}};" title="{{block.settings.gray_color_name}}"></a></li>
-                            <li class="colorLinks__li" ><a href="{{block.settings.mint_link}}" class="colorLink__a" style="background-color: {{block.settings.mint_clr}};" title="{{block.settings.gray_color_name}}"></a></li>
-                            <li class="colorLinks__li" ><a href="{{block.settings.creame_link}}" class="colorLink__a" style="background-color: {{block.settings.creame_clr}};" title="{{block.settings.gray_color_name}}"></a></li>
-                            <li class="colorLinks__li" ><a href="{{block.settings.skyBlue_link}}" class="colorLink__a" style="background-color: {{block.settings.skyBlue_clr}};" title="{{block.settings.gray_color_name}}"></a></li>
-                            <li class="colorLinks__li" ><a href="{{block.settings.nude_link}}" class="colorLink__a" style="background-color: {{block.settings.nude_clr}};" title="{{block.settings.gray_color_name}}"></a></li>
-                            <li class="colorLinks__li" ><a href="{{block.settings.olive_link}}" class="colorLink__a" style="background-color: {{block.settings.olive_clr}};" title="{{block.settings.gray_color_name}}"></a></li>
+                            <li class="colorLinks__li" ><a href="{{block.settings.gray_link}}" class="colorLink__a  {% if product.handle contains '-grey' %}active{% endif %}" style="background-color: {{block.settings.gray_clr}};" title="{{block.settings.gray_color_name}}"></a></li>
+                            <li class="colorLinks__li" ><a href="{{block.settings.bark_link}}" class="colorLink__a {% if product.handle contains '-bark' %}active{% endif %}" style="background-color: {{block.settings.bark_clr}};" title="{{block.settings.bark_color_name}}"></a></li>
+                            <li class="colorLinks__li" ><a href="{{block.settings.mint_link}}" class="colorLink__a {% if product.handle contains '-mint' %}active{% endif %} " style="background-color: {{block.settings.mint_clr}};" title="{{block.settings.mint_color_name}}"></a></li> 
+                            <li class="colorLinks__li" ><a href="{{block.settings.creame_link}}" class="colorLink__a {% if product.handle contains '-creme' %}active{% endif %}" style="background-color: {{block.settings.creame_clr}};" title="{{block.settings.creame_color_name}}"></a></li> 
+                            <li class="colorLinks__li" ><a href="{{block.settings.skyBlue_link}}" class="colorLink__a {% if product.handle contains '-sky-blue' %}active{% endif %}" style="background-color: {{block.settings.skyBlue_clr}};" title="{{block.settings.skyBlue_color_name}}"></a></li> 
+                            <li class="colorLinks__li" ><a href="{{block.settings.nude_link}}" class="colorLink__a {% if product.handle contains '-nude' %}active{% endif %}"  style="background-color: {{block.settings.nude_clr}};" title="{{block.settings.nude_color_name}}"></a></li> 
+                            <li class="colorLinks__li" ><a href="{{block.settings.olive_link}}" class="colorLink__a {% if product.handle contains '-olive' %}active{% endif %}" style="background-color: {{block.settings.olive_clr}};" title="{{block.settings.olive_color_name}}"></a></li>
                           </ul>
                       </div>
                     {% endif %}
+                    {% if product.handle contains 'handklaede' %}
+                    <div class="colorLinks__wrapper">
+                      <div class="ProductForm__Label">color: {{ colorNames | last}}</div>
+                        <ul class="colorLinks__ul">
+                          <li class="colorLinks__li" ><a href="{{block.settings.tnature_link}}" class="colorLink__a {% if product.handle contains '-nature' %}active{% endif %}" style="background-color: {{block.settings.tnature_clr}};" title="{{block.settings.tnature_color_name}}"></a></li>
+                          <li class="colorLinks__li" ><a href="{{block.settings.tgrey_link}}" class="colorLink__a  {% if product.handle contains '-grey' %}active{% endif %}" style="background-color: {{block.settings.tgrey_clr}};" title="{{block.settings.tgrey_color_name}}"></a></li>
+                          <li class="colorLinks__li" ><a href="{{block.settings.tmint_link}}" class="colorLink__a {% if product.handle contains '-mint' %}active{% endif %} " style="background-color: {{block.settings.tmint_clr}};" title="{{block.settings.tmint_color_name}}"></a></li> 
+                          <li class="colorLinks__li" ><a href="{{block.settings.tskyBlue_link}}" class="colorLink__a {% if product.handle contains '-skye-blue' %}active{% endif %}" style="background-color: {{block.settings.tskyBlue_clr}};" title="{{block.settings.tskyBlue_color_name}}"></a></li> 
+                        </ul>
+                    </div>
+                  {% endif %}
                 {%- when 'product_usp' -%}
                   {%- include 'usp-blocks' -%}
                   
@@ -1018,6 +1030,94 @@ This is the root container for the zoom functionality. Must not be removed, as o
           {
             "type": "url",
             "id": "olive_link",
+            "label": "Link"
+          },
+          {
+            "type": "header",
+            "content": "Towels colors "
+          },
+          {
+            "type": "header",
+            "content": "color Nature "
+          },
+          {
+            "type": "text",
+            "id": "tnature_color_name",
+            "label": "Add color name",
+            "default": "olive color"
+          },
+          {
+            "type": "color",
+            "id": "tnature_clr",
+            "label": "olive",
+            "default": "#a9c4bd"
+          },
+          {
+            "type": "url",
+            "id": "tnature_link",
+            "label": "Link"
+          },
+          {
+            "type": "header",
+            "content": "color Grey "
+          },
+          {
+            "type": "text",
+            "id": "tgrey_color_name",
+            "label": "Add color name",
+            "default": "grey color"
+          },
+          {
+            "type": "color",
+            "id": "tgrey_clr",
+            "label": "grey",
+            "default": "#dddddd"
+          },
+          {
+            "type": "url",
+            "id": "tgrey_link",
+            "label": "Link"
+          },
+          {
+            "type": "header",
+            "content": "color mint"
+          },
+          {
+            "type": "text",
+            "id": "tmint_color_name",
+            "label": "Add color name",
+            "default": "mint color"
+          },
+          {
+            "type": "color",
+            "id": "tmint_clr",
+            "label": "mint",
+            "default": "#a9c4bd"
+          },
+          {
+            "type": "url",
+            "id": "tmint_link",
+            "label": "Link"
+          },
+          {
+            "type": "header",
+            "content": "color sky blue "
+          },
+          {
+            "type": "text",
+            "id": "tskyBlue_color_name",
+            "label": "Add color name",
+            "default": "sky blue color"
+          },
+          {
+            "type": "color",
+            "id": "tskyBlue_clr",
+            "label": "skyBlue",
+            "default": "#a9c4bd"
+          },
+          {
+            "type": "url",
+            "id": "tskyBlue_link",
             "label": "Link"
           }
          
