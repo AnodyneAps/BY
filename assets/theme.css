@@ -10092,7 +10092,11 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
     margin: 0px 0 50px 0px;
    }
 }
-
+@media screen and (min-width:1008px){
+ .Product_Images{
+   position: sticky !important;
+ }
+}
 .PI_Slider{
   width: 100%;
   height: auto;
