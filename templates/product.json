@@ -72,6 +72,21 @@
             "show_payment_button": false
           }
         },
+        "2bc5c75c-e4ca-40f7-ba89-d340007f92cb": {
+          "type": "product_usp",
+          "settings": {
+            "usp_autoplay": true,
+            "usp_cycle_speed": 5,
+            "icon_selector1": "package",
+            "icon_1_heading": "Fri fragt ved køb over 399 kr",
+            "icon_selector2": "shipping",
+            "icon_2_heading": "30 dages returrret",
+            "icon_selector3": "heart",
+            "icon_3_heading": "Professionel kundeservice",
+            "icon_selector4": "cards",
+            "icon_4_heading": "Nem og sikker betaling"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -117,6 +132,7 @@
         "98dc4e6f-08f8-4dd9-aa26-e35fab3198cc",
         "b9b19a39-5a54-49f5-be6b-00ef06d6897a",
         "37355ae7-6ac3-4895-8161-1fbea366a549",
+        "2bc5c75c-e4ca-40f7-ba89-d340007f92cb",
         "description",
         "0ea1b043-eff1-4e99-946d-d1923fd15e88",
         "c0ab2312-1a63-481b-98d5-778ca72c7b2a",
