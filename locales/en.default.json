@@ -165,7 +165,8 @@
     },
     "product": {
       "from_price_html": "From {{min_price}}",
-      "view_product": "View product"
+      "view_product": "View product",
+      "text_fra": "Fra"
     }
   },
   "customer": {

@@ -424,8 +424,7 @@
       "empty": "",
       "empty_button": "",
       "reset": "",
-      "view_products": "",
-      "text_fra": "Fra"
+      "view_products": ""
  
     },
     "filter": {
@@ -449,7 +448,8 @@
     "product": {
       "from_price_html": "",
       "view_product": "",
-      "buy_here": "Køb her"
+      "buy_here": "Køb her",
+      "text_fra": "Fra"
     }
   },
   "store_availability": {
