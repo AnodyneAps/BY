@@ -7564,7 +7564,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 .ProductItem__LabelList {
   position: absolute;
   left: 0px;
-  bottom: 125px;
+  bottom: 150px;
   text-align: left;
 }
 
@@ -14014,8 +14014,9 @@ shopify-payment-terms {
     align-items: center;
     flex-wrap: wrap;
   }
+
   .colorLinks__wrapper .colorLinks__ul .colorLinks__li {
-    margin: 0 2px;
+    margin: 0 4px;
   }
   .colorLinks__wrapper .colorLinks__ul   .colorLink__a {
     display: inline-block;
@@ -14024,9 +14025,38 @@ shopify-payment-terms {
     border-radius: 50%;
     transition: opacity .3s ease;
   }
+
   .colorLinks__wrapper .colorLinks__ul   .colorLink__a:hover{
     opacity: 0.8;
   }
   .colorLinks__wrapper .colorLinks__ul   .colorLink__a.active{
-    border: 2px solid var(--b-main-clr);
+    width:34px;
+    height:34px;
+    outline: 1px solid var(--b-main-clr);
+    outline-offset: 4px;
+  }
+
+  .colorLinks__wrapper .colorLinks__col {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .colorLinks__wrapper .colorLinks__col .col-li {
+    margin: 0 2px;
+  }
+  .colorLinks__wrapper .col-li .colorLink__a {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    transition: opacity .3s ease;
+  }
+
+  .colorLinks__wrapper .col-li .colorLink__a.active{
+    width:13px;
+    height:13px;
+    outline: 1px solid var(--b-main-clr);
+    outline-offset: 2px;
   }

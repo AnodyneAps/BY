@@ -326,7 +326,7 @@
                 {%- when 'colors' -%}
                 {% if product.handle contains 'sengesaet' %}
                       <div class="colorLinks__wrapper">
-                        <div class="ProductForm__Label">color: {{ colorNames | last}}</div>
+                        <div class="ProductForm__Label">{{'product.form.color' | t}}: {{ colorNames | last}}</div>
                           <ul class="colorLinks__ul">
                             <li class="colorLinks__li" ><a href="{{block.settings.gray_link}}" class="colorLink__a  {% if product.handle contains '-grey' %}active{% endif %}" style="background-color: {{block.settings.gray_clr}};" title="{{block.settings.gray_color_name}}"></a></li>
                             <li class="colorLinks__li" ><a href="{{block.settings.bark_link}}" class="colorLink__a {% if product.handle contains '-bark' %}active{% endif %}" style="background-color: {{block.settings.bark_clr}};" title="{{block.settings.bark_color_name}}"></a></li>

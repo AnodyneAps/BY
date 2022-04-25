@@ -337,6 +337,7 @@
       "sku": "SKU",
       "share": "Share",
       "price": "Price",
+      "color": "Farve",
       "quantity": "Quantity",
       "from_price_html": "From {{min_price}}",
       "select_model": "Select this model",

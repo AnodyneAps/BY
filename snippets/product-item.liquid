@@ -137,6 +137,22 @@
 
      {%- endif -%}  
 
+
+        <!-- color swatches  -->
+        <div class="colorLinks__wrapper">
+            <ul class="colorLinks__col">
+              <li class="colorLinks__li col-li "><a href="/products/sengesaet-grey" class="colorLink__a  {% if product.handle contains '-grey' %}active{% endif %}" style="background-color: #929292;" title="grey color"></a></li>
+              <li class="colorLinks__li col-li"><a href="/products/sengesaet-bark" class="colorLink__a {% if product.handle contains '-bark' %}active{% endif %}" style="background-color: #957558;" title="bark color"></a></li>
+              <li class="colorLinks__li col-li"><a href="/products/sengesaet-mint" class="colorLink__a  {% if product.handle contains '-mint' %}active{% endif %}" style="background-color: #c2e1d8;" title="mint color"></a></li> 
+              <li class="colorLinks__li col-li"><a href="/products/sengesaet-creme" class="colorLink__a {% if product.handle contains '-creme' %}active{% endif %}" style="background-color: #f9fcef;" title="creame color"></a></li> 
+              <li class="colorLinks__li col-li"><a href="/products/sengesaet-sky-blue" class="colorLink__a {% if product.handle contains '-sky-blue' %}active{% endif %}" style="background-color: #d0f3ff;" title="skyBlue color"></a></li> 
+              <li class="colorLinks__li col-li"><a href="/products/sengesaet-nude" class="colorLink__a {% if product.handle contains '-nude' %}active{% endif %}" style="background-color: #e8d6bb;" title="nude color"></a></li> 
+              <li class="colorLinks__li col-li"><a href="/products/sengesaet-olive" class="colorLink__a {% if product.handle contains '-olive' %}active{% endif %}" style="background-color: #6a8057;" title="olive color"></a></li>
+            </ul>
+        </div>
+        <!-- end color swatches  -->
+
+
         {%- if show_vendor -%}
           <p class="ProductItem__Vendor Heading">{{ product.vendor }}</p>
         {%- endif -%}
@@ -163,6 +179,9 @@
       {% else %}
         {{ settings.free_price_text }} {% if product.price_varies %} - {{ product.price_max | money }}{% endif %}
         {%- endif -%}
+
+
+
 
 
         {%- if product.template_suffix != 'coming-soon' -%}

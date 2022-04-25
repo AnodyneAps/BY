@@ -250,6 +250,7 @@
     "form": {
       "choose_size": "Vælg størrelse",
       "choose_color": "Vælg farve",
+      "color": "Farve",
       "price": "Pris",
       "quantity": "Antal",
       "size_chart": "Størrelsesguide",
