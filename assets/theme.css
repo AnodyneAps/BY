@@ -7560,7 +7560,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 .ProductItem__LabelList {
   position: absolute;
   left: 0px;
-  bottom: 150px;
+  bottom: 125px;
   text-align: left;
 }
 
@@ -7576,7 +7576,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   max-width: -webkit-max-content;
   max-width: -moz-max-content;
   max-width: max-content;
-  color: #858e80 !important;
+  color: var(--b-main-clr);
 }
 
 @media screen and (max-width: 400px) {

@@ -157,6 +157,14 @@
           {%- assign show_price_on_hover = settings.product_show_price_on_hover -%}
         {%- endif -%}
 
+
+        {% if product.price_min > 0 %}
+        {{ 'collection.product.text_fra' | t }} {{ product.price_min | money_with_currency  }}
+      {% else %}
+        {{ settings.free_price_text }} {% if product.price_varies %} - {{ product.price_max | money }}{% endif %}
+        {%- endif -%}
+
+
         {%- if product.template_suffix != 'coming-soon' -%}
           <div class="ProductItem__PriceList {% if show_price_on_hover %}ProductItem__PriceList--showOnHover{% endif %} Heading">
             {%- if product.compare_at_price > product.price -%}
@@ -185,6 +193,7 @@
               {%- endif -%}
             {%- endif -%}
           </div>
+
 
           {%- if product.selected_or_first_available_variant.unit_price_measurement -%}
             <div class="ProductItem__UnitPriceMeasurement">

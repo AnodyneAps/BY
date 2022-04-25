@@ -19,6 +19,8 @@
           {%- else -%}
             <span class="ProductItem__Price Price Text--subdued">{{ 3000 | money }}</span>
           {%- endif -%}
+          <p>{%- assign price = variant.price -%}</p>
+          <p>{%- assign money_price = price | money -%}</p>
         </div>
       </div>
     {%- endif -%}
