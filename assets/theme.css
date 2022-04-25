@@ -4322,6 +4322,10 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   background: currentColor;
 }
 
+.Price__custom_bolder {
+  font-size: 1rem;
+  font-weight: 600;
+}
 /**
  * ----------------------------------------------------------------------------
  * Color swatch
