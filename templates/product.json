@@ -22,31 +22,31 @@
             "bark_clr": "#957558",
             "bark_link": "shopify:\/\/products\/sengesaet-bark",
             "mint_color_name": "mint color",
-            "mint_clr": "#d0f3f5",
+            "mint_clr": "#c2e1d8",
             "mint_link": "shopify:\/\/products\/sengesaet-mint",
             "creame_color_name": "creame color",
-            "creame_clr": "#e8d6bb",
+            "creame_clr": "#f9fcef",
             "creame_link": "shopify:\/\/products\/sengesaet-creme",
             "skyBlue_color_name": "skyBlue color",
             "skyBlue_clr": "#d0f3ff",
             "skyBlue_link": "shopify:\/\/products\/sengesaet-sky-blue",
             "nude_color_name": "nude color",
-            "nude_clr": "#f9fcef",
+            "nude_clr": "#e8d6bb",
             "nude_link": "shopify:\/\/products\/sengesaet-nude",
             "olive_color_name": "olive color",
             "olive_clr": "#6a8057",
             "olive_link": "shopify:\/\/products\/sengesaet-olive",
-            "tnature_color_name": "olive color",
-            "tnature_clr": "#d7b581",
+            "tnature_color_name": "nature color",
+            "tnature_clr": "#d9bd92",
             "tnature_link": "shopify:\/\/products\/handklaede-nature",
             "tgrey_color_name": "grey color",
-            "tgrey_clr": "#bcbcbc",
+            "tgrey_clr": "#8e8e8e",
             "tgrey_link": "shopify:\/\/products\/handklaede-grey",
             "tmint_color_name": "mint color",
-            "tmint_clr": "#b7d4cc",
+            "tmint_clr": "#b4eadb",
             "tmint_link": "shopify:\/\/products\/handklaede-mint",
             "tskyBlue_color_name": "sky blue color",
-            "tskyBlue_clr": "#a3e4ed",
+            "tskyBlue_clr": "#c2d9f4",
             "tskyBlue_link": "shopify:\/\/products\/handklaede-sky-blue"
           }
         },
@@ -70,6 +70,21 @@
           "settings": {
             "show_price_in_button": true,
             "show_payment_button": false
+          }
+        },
+        "2bc5c75c-e4ca-40f7-ba89-d340007f92cb": {
+          "type": "product_usp",
+          "settings": {
+            "usp_autoplay": true,
+            "usp_cycle_speed": 5,
+            "icon_selector1": "package",
+            "icon_1_heading": "Fri fragt ved køb over 399 kr",
+            "icon_selector2": "shipping",
+            "icon_2_heading": "30 dages returrret",
+            "icon_selector3": "heart",
+            "icon_3_heading": "Professionel kundeservice",
+            "icon_selector4": "cards",
+            "icon_4_heading": "Nem og sikker betaling"
           }
         },
         "description": {
@@ -100,6 +115,15 @@
             "content": "<p>Med byFritz har jeg gentænkt fremstillingen af boligtekstiler ved at kombinere min kærlighed for design, kvalitet og håndværk med nøje gennemtænkte bæredygtige materialer. Fælles for alle materialerne er, at de er naturmaterialer. <\/p><p>Jeg skaber smukt økologisk sengetøj, håndklæder og viskestykker af høj kvalitet og med lang levetid. Kvaliteterne udvikles således, at produkterne kan bruges igen og igen og endda gå i arv med den rigtige pleje. <\/p>",
             "page": "baeredygtighed-info"
           }
+        },
+        "8b63c5cf-5bdc-4ac1-9cb3-c64d58e76ca5": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_font": "linotype_didot_n4",
+            "heading_size": 26,
+            "feed_width": 100,
+            "html_area": ""
+          }
         }
       },
       "block_order": [
@@ -108,10 +132,12 @@
         "98dc4e6f-08f8-4dd9-aa26-e35fab3198cc",
         "b9b19a39-5a54-49f5-be6b-00ef06d6897a",
         "37355ae7-6ac3-4895-8161-1fbea366a549",
+        "2bc5c75c-e4ca-40f7-ba89-d340007f92cb",
         "description",
         "0ea1b043-eff1-4e99-946d-d1923fd15e88",
         "c0ab2312-1a63-481b-98d5-778ca72c7b2a",
-        "17147ba3-3eb8-4b38-bf0a-81e6a99fb9a1"
+        "17147ba3-3eb8-4b38-bf0a-81e6a99fb9a1",
+        "8b63c5cf-5bdc-4ac1-9cb3-c64d58e76ca5"
       ],
       "settings": {
         "image_size": "small",
@@ -120,9 +146,20 @@
         "enable_image_zoom": true,
         "enable_video_looping": true
       }
+    },
+    "165036380056cc44a8": {
+      "type": "instafeed",
+      "disabled": true,
+      "settings": {
+        "heading_font": "helvetica_n4",
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "165036380056cc44a8"
   ]
 }
