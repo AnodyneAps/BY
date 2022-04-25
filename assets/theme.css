@@ -4323,7 +4323,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 }
 
 .Price__custom_bolder {
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 600;
 }
 /**
