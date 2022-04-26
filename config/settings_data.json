@@ -44,7 +44,7 @@
     "product_show_price_on_hover": true,
     "product_show_secondary_image": true,
     "show_product_rating": false,
-    "product_info_alignment": "right",
+    "product_info_alignment": "center",
     "product_image_size": "natural",
     "product_list_horizontal_spacing": "medium",
     "product_list_vertical_spacing": "small",
