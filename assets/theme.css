@@ -14020,8 +14020,8 @@ shopify-payment-terms {
   }
   .colorLinks__wrapper .colorLinks__ul   .colorLink__a {
     display: inline-block;
-    width: 45px;
-    height: 45px;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
     transition: opacity .3s ease;
     border: 1px solid var(--b-ash-clr);
@@ -14031,8 +14031,8 @@ shopify-payment-terms {
     opacity: 0.8;
   }
   .colorLinks__wrapper .colorLinks__ul   .colorLink__a.active{
-    width:34px;
-    height:34px;
+    width:28px;
+    height:28px;
     outline: 1px solid var(--b-main-clr);
     outline-offset: 4px;
   }
@@ -14053,7 +14053,7 @@ shopify-payment-terms {
     height: 13px;
     border-radius: 50%;
     border: 1px solid var(--b-ash-clr);
-    transition: opacity .3s ease;
+    transition: all 200ms ease;
   }
 
   .colorLinks__wrapper .col-li .colorLink__a.active{
