@@ -34,6 +34,10 @@
   "arrowShape": {"x0": 20, "x1": 60, "y1": 40, "x2": 60, "y2": 35, "x3": 25}
 }
 {%- endcapture -%}
+<!-- colors swatches -->
+
+
+
 
 
 
@@ -214,8 +218,7 @@
     PRODUCT INFORMATION WRAPPER
     --------------------------------------------------------------------------------------------------------------------
     {%- endcomment -%}
-
-
+ 
 
 
     <div class="Product__InfoWrapper">
@@ -329,30 +332,126 @@
                     {%- endif -%}
                   </div>
                 {%- when 'colors' -%}
-                   {% if product.handle contains 'sengesaet' %}
-                   <div class="colorLinks__wrapper">
+
+                {% assign greyhref = block.settings.gray_link %}
+                {% assign greytitle = block.settings.gray_color_name %}
+                {% assign greyColor = block.settings.gray_clr %}
+                {% if product.handle contains '-grey' %}
+                {% assign greyactive = 'active' %}
+                {% endif %}
+                
+                {% assign barkhref = block.settings.bark_link %}
+                {% assign barktitle = block.settings.bark_color_name %}
+                {% assign barkColor = block.settings.bark_clr %}
+                {% if product.handle contains '-bark' %}
+                {% assign barkactive = 'active' %}
+                {% endif %}
+                
+                
+                {% assign minthref = block.settings.mint_link %}
+                {% assign title = block.settings.mint_color_name %}
+                {% assign mintColor = block.settings.mint_clr %}
+                {% if product.handle contains '-mint' %}
+                {% assign mintactive = 'active' %}
+                {% endif %}
+                
+                
+                {% assign creamehref = block.settings.creame_link %}
+                {% assign title = block.settings.creame_color_name %}
+                {% assign creameColor = block.settings.creame_clr %}
+                {% if product.handle contains '-creme' %}
+                {% assign creameactive = 'active' %}
+                {% endif %}
+                
+                {% assign skyBluehref = block.settings.skyBlue_link %}
+                {% assign title = block.settings.skyBlue_color_name %}
+                {% assign skyBlueColor = block.settings.skyBlue_clr %}
+                {% if product.handle contains '-sky-blue' %}
+                {% assign skyBlueactive = 'active' %}
+                {% endif %}
+                
+                {% assign nudehref = block.settings.nude_link %}
+                {% assign title = block.settings.nude_color_name %}
+                {% assign nudeColor = block.settings.nude_clr %}
+                {% if product.handle contains '-nude' %}
+                {% assign nudeactive = 'active' %}
+                {% endif %}
+                
+                {% assign olivehref = block.settings.olive_link %}
+                {% assign title = block.settings.olive_color_name %}
+                {% assign oliveColor = block.settings.olive_clr %}
+                {% if product.handle contains '-olive' %}
+                {% assign oliveactive = 'active' %}
+                {% endif %}
+                
+                
+                {% capture sengesaetColorAssets %}
+                <div class="colorLinks__wrapper">
+                  <div class="ProductForm__Label">{{'product.form.color' | t}}: {{ colorNames | last}}</div>
+                    <ul class="colorLinks__ul">
+                        <li class="colorLinks__li" ><a href="{{greyhref}}" class="colorLink__a  {{greyactive}}" style="background-color: {{greyColor}};" title="{{greytitle}}"></a></li>
+                        <li class="colorLinks__li" ><a href="{{barkhref}}" class="colorLink__a  {{barkactive}}" style="background-color: {{barkColor}};" title="{{barktitle}}"></a></li>
+                        <li class="colorLinks__li" ><a href="{{minthref}}" class="colorLink__a  {{mintactive}}" style="background-color: {{mintColor}};" title="{{minttitle}}"></a></li>
+                        <li class="colorLinks__li" ><a href="{{creamehref}}" class="colorLink__a  {{creameactive}}" style="background-color: {{creameColor}};" title="{{creametitle}}"></a></li>
+                        <li class="colorLinks__li" ><a href="{{skyBluehref}}" class="colorLink__a  {{skyBlueactive}}" style="background-color: {{skyBlueColor}};" title="{{skyBluetitle}}"></a></li>
+                        <li class="colorLinks__li" ><a href="{{nudehref}}" class="colorLink__a  {{nudeactive}}" style="background-color: {{nudeColor}};" title="{{nudetitle}}"></a></li>
+                        <li class="colorLinks__li" ><a href="{{olivehref}}" class="colorLink__a  {{oliveactive}}" style="background-color: {{oliveColor}};" title="{{olivetitle}}"></a></li>
+                      </ul>
+                    </div>
+                {% endcapture %}
+            
+                {% assign tnaturehref = block.settings.tnature_link %}
+                {% assign tnaturetitle = block.settings.tnature_color_name %}
+                {% assign tnaturecolor = block.settings.tnature_clr %}
+                {% if product.handle contains '-nature' %}
+                {% assign tnatureactive = 'active' %}
+                {% endif %}
+
+                            
+                {% assign tgreyhref = block.settings.tgrey_link %}
+                {% assign tgreytitle = block.settings.tgrey_color_name %}
+                {% assign tgreycolor = block.settings.tgrey_clr %}
+                {% if product.handle contains '-grey' %}
+                {% assign tgreyactive = 'active' %}
+                {% endif %}
+
+                            
+                {% assign tminthref = block.settings.tmint_link %}
+                {% assign tminttitle = block.settings.tmint_color_name %}
+                {% assign tmintcolor = block.settings.tmint_clr %}
+                {% if product.handle contains '-mint' %}
+                {% assign tmintactive = 'active' %}
+                {% endif %}
+
+                            
+                {% assign tskyBluehref = block.settings.tskyBlue_link %}
+                {% assign tskyBluetitle = block.settings.tskyBlue_color_name %}
+                {% assign tskyBluecolor = block.settings.tskyBlue_clr %}
+                {% if product.handle contains '-sky-blue' %}
+                {% assign tskyBlueactive = 'active' %}
+                {% endif %}
+
+       
+                  {% capture towelsColorAssets %}
+                  
+                  <div class="colorLinks__wrapper">
                     <div class="ProductForm__Label">{{'product.form.color' | t}}: {{ colorNames | last}}</div>
                       <ul class="colorLinks__ul">
-                        <li class="colorLinks__li" ><a href="{{block.settings.gray_link}}" class="colorLink__a  {% if product.handle contains '-grey' %}active{% endif %}" style="background-color: {{block.settings.gray_clr}};" title="{{block.settings.gray_color_name}}"></a></li>
-                        <li class="colorLinks__li" ><a href="{{block.settings.bark_link}}" class="colorLink__a {% if product.handle contains '-bark' %}active{% endif %}" style="background-color: {{block.settings.bark_clr}};" title="{{block.settings.bark_color_name}}"></a></li>
-                        <li class="colorLinks__li" ><a href="{{block.settings.mint_link}}" class="colorLink__a {% if product.handle contains '-mint' %}active{% endif %} " style="background-color: {{block.settings.mint_clr}};" title="{{block.settings.mint_color_name}}"></a></li> 
-                        <li class="colorLinks__li" ><a href="{{block.settings.creame_link}}" class="colorLink__a {% if product.handle contains '-creme' %}active{% endif %}" style="background-color: {{block.settings.creame_clr}};" title="{{block.settings.creame_color_name}}"></a></li> 
-                        <li class="colorLinks__li" ><a href="{{block.settings.skyBlue_link}}" class="colorLink__a {% if product.handle contains '-sky-blue' %}active{% endif %}" style="background-color: {{block.settings.skyBlue_clr}};" title="{{block.settings.skyBlue_color_name}}"></a></li> 
-                        <li class="colorLinks__li" ><a href="{{block.settings.nude_link}}" class="colorLink__a {% if product.handle contains '-nude' %}active{% endif %}"  style="background-color: {{block.settings.nude_clr}};" title="{{block.settings.nude_color_name}}"></a></li> 
-                        <li class="colorLinks__li" ><a href="{{block.settings.olive_link}}" class="colorLink__a {% if product.handle contains '-olive' %}active{% endif %}" style="background-color: {{block.settings.olive_clr}};" title="{{block.settings.olive_color_name}}"></a></li>
+                        <li class="colorLinks__li" ><a href="{{tnaturehref}}" class="colorLink__a  {{tnatureactive}}" style="background-color: {{tnaturecolor}};" title="{{tnaturetitle}}"></a></li>
+                        <li class="colorLinks__li" ><a href="{{tgreyhref}}" class="colorLink__a  {{tgreyactive}}" style="background-color: {{tgreycolor}};" title="{{tgreytitle}}"></a></li>
+                        <li class="colorLinks__li" ><a href="{{tminthref}}" class="colorLink__a  {{tmintactive}}" style="background-color: {{tmintcolor}};" title="{{tminttitle}}"></a></li>
+                        <li class="colorLinks__li" ><a href="{{tskyBluehref}}" class="colorLink__a  {{tskyBlueactive}}" style="background-color: {{tskyBluecolor}};" title="{{tskyBluetitle}}"></a></li>
                       </ul>
                   </div>
+                  
+                  {% endcapture %}
+
+
+                   {% if product.handle contains 'sengesaet' %}
+                        {{sengesaetColorAssets}}
                     {% endif %}
                     {% if product.handle contains 'handklaede' %}
-                    <div class="colorLinks__wrapper">
-                      <div class="ProductForm__Label">{{'product.form.color' | t}}: {{ colorNames | last}}</div>
-                        <ul class="colorLinks__ul">
-                          <li class="colorLinks__li" ><a href="{{block.settings.tnature_link}}" class="colorLink__a {% if product.handle contains '-nature' %}active{% endif %}" style="background-color: {{block.settings.tnature_clr}};" title="{{block.settings.tnature_color_name}}"></a></li>
-                          <li class="colorLinks__li" ><a href="{{block.settings.tgrey_link}}" class="colorLink__a  {% if product.handle contains '-grey' %}active{% endif %}" style="background-color: {{block.settings.tgrey_clr}};" title="{{block.settings.tgrey_color_name}}"></a></li>
-                          <li class="colorLinks__li" ><a href="{{block.settings.tmint_link}}" class="colorLink__a {% if product.handle contains '-mint' %}active{% endif %} " style="background-color: {{block.settings.tmint_clr}};" title="{{block.settings.tmint_color_name}}"></a></li> 
-                          <li class="colorLinks__li" ><a href="{{block.settings.tskyBlue_link}}" class="colorLink__a {% if product.handle contains '-sky-blue' %}active{% endif %}" style="background-color: {{block.settings.tskyBlue_clr}};" title="{{block.settings.tskyBlue_color_name}}"></a></li> 
-                        </ul>
-                    </div>
+                        {{towelsColorAssets}}
                   {% endif %}
                 {%- when 'product_usp' -%}
                   {%- include 'usp-blocks' -%}
