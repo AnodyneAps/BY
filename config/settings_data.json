@@ -69,7 +69,8 @@
         "settings": {
           "primary_menu": "main-menu",
           "secondary_menu": "",
-          "show_social_media": true
+          "show_social_media": true,
+          "menu_image": "shopify:\/\/shop_images\/Billede1.jpg"
         }
       },
       "announcement": {
