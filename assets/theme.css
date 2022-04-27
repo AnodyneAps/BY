@@ -7379,7 +7379,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   }
 
   .CollectionItem__Wrapper {
-    height: 320px;
+    height: 420px;
   }
 
   .CollectionItem__Wrapper--small {
@@ -10038,12 +10038,11 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 
  .Product_Images{
   width: 100%;
-  /* position: relative; activate it if you dont like sticky positioning */
+  position: relative; 
   margin-top: 50px;
   margin: 50px 0 50px 20px;
   height: auto;
-  position: sticky;
-  top: 160px;
+  top: 10px;
  }
 
  .product_images_wrapper{
