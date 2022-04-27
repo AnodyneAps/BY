@@ -193,7 +193,7 @@
           "settings": {
             "collection": "handklaeder",
             "title": "Håndklæder",
-            "text_box": "<p>If none is set, collection title is used.If none is set, collection title is used.<\/p>",
+            "text_box": "",
             "grid_items_count": 8,
             "button_text": "View all products"
           }
@@ -402,7 +402,7 @@
           "type": "collection",
           "settings": {
             "collection": "handklaeder",
-            "title": "Håndklæder",
+            "title": "Håndklæder i 100% økologisk bomuld",
             "text_box": "",
             "grid_items_count": 4,
             "button_text": "Se udvalg"
