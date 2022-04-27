@@ -173,7 +173,6 @@
             {% if product.handle contains 'handklaede' %}
               {{handklaedeCollectionSwatches}}
             {% endif %}
-
         <!-- end color swatches  -->
 
 
@@ -193,9 +192,7 @@
           {%- endunless -%}
         {%- endif -%}
 
-        {%- if show_price_on_hover == nil -%}
-          {%- assign show_price_on_hover = settings.product_show_price_on_hover -%}
-        {%- endif -%}
+   
 
 
         {% if product.price_min > 0 %}
@@ -206,34 +203,36 @@
 
 
         {%- if product.template_suffix != 'coming-soon' -%}
-          <div class="ProductItem__PriceList {% if show_price_on_hover %}ProductItem__PriceList--showOnHover{% endif %} Heading">
-            {%- if product.compare_at_price > product.price -%}
-              {%- if settings.currency_code_enabled -%}
-                <span class="ProductItem__Price Price Price--highlight Text--subdued">{{ product.price | money_with_currency }}</span>
-                <span class="ProductItem__Price Price Price--compareAt Text--subdued">{{ product.compare_at_price | money_with_currency }}</span>
-              {%- else -%}
-                <span class="ProductItem__Price Price Price--highlight Text--subdued">{{ product.price | money }}</span>
-                <span class="ProductItem__Price Price Price--compareAt Text--subdued">{{ product.compare_at_price | money }}</span>
-              {%- endif -%}
-            {%- elsif product.price_varies -%}
-              {%- if settings.currency_code_enabled -%}
-                {%- capture formatted_min_price -%}{{ product.price_min | money_with_currency }}{%- endcapture -%}
-                {%- capture formatted_max_price -%}{{ product.price_max | money_with_currency }}{%- endcapture -%}
-              {%- else -%}
-                {%- capture formatted_min_price -%}{{ product.price_min | money }}{%- endcapture -%}
-                {%- capture formatted_max_price -%}{{ product.price_max | money }}{%- endcapture -%}
-              {%- endif -%}
 
-              <span class="ProductItem__Price Price Text--subdued">{{ 'collection.product.from_price_html' | t: min_price: formatted_min_price, max_price: formatted_max_price }}</span>
-            {%- else -%}
-              {%- if settings.currency_code_enabled -%}
-                <span class="ProductItem__Price Price Text--subdued">{{ product.price | money_with_currency }}</span>
-              {%- else -%}
-                <span class="ProductItem__Price Price Text--subdued">{{ product.price | money }}</span>
-              {%- endif -%}
-            {%- endif -%}
-          </div>
+                  {%- comment -%}
+                    <div class="ProductItem__PriceList {% if show_price_on_hover %}ProductItem__PriceList--showOnHover{% endif %} Heading">
+                      {%- if product.compare_at_price > product.price -%}
+                        {%- if settings.currency_code_enabled -%}
+                          <span class="ProductItem__Price Price Price--highlight Text--subdued">{{ product.price | money_with_currency }}</span>
+                          <span class="ProductItem__Price Price Price--compareAt Text--subdued">{{ product.compare_at_price | money_with_currency }}</span>
+                        {%- else -%}
+                          <span class="ProductItem__Price Price Price--highlight Text--subdued">{{ product.price | money }}</span>
+                          <span class="ProductItem__Price Price Price--compareAt Text--subdued">{{ product.compare_at_price | money }}</span>
+                        {%- endif -%}
+                      {%- elsif product.price_varies -%}
+                        {%- if settings.currency_code_enabled -%}
+                          {%- capture formatted_min_price -%}{{ product.price_min | money_with_currency }}{%- endcapture -%}
+                          {%- capture formatted_max_price -%}{{ product.price_max | money_with_currency }}{%- endcapture -%}
+                        {%- else -%}
+                          {%- capture formatted_min_price -%}{{ product.price_min | money }}{%- endcapture -%}
+                          {%- capture formatted_max_price -%}{{ product.price_max | money }}{%- endcapture -%}
+                        {%- endif -%}
 
+                        <span class="ProductItem__Price Price Text--subdued">{{ 'collection.product.from_price_html' | t: min_price: formatted_min_price, max_price: formatted_max_price }}</span>
+                      {%- else -%}
+                        {%- if settings.currency_code_enabled -%}
+                          <span class="ProductItem__Price Price Text--subdued">{{ product.price | money_with_currency }}</span>
+                        {%- else -%}
+                          <span class="ProductItem__Price Price Text--subdued">{{ product.price | money }}</span>
+                        {%- endif -%}
+                      {%- endif -%}
+                    </div>
+          {%- endcomment -%}
 
           {%- if product.selected_or_first_available_variant.unit_price_measurement -%}
             <div class="ProductItem__UnitPriceMeasurement">
