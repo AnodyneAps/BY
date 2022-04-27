@@ -4908,6 +4908,9 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
     padding-left: 25px;
     padding-right: 25px;
   }
+  .Newsletter .Form__Submit {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 641px) {
@@ -7224,11 +7227,12 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 
 .CollectionItem__Wrapper {
   position: relative;
-  height: 500px;
+  height: 320px;
   background-size: cover;
   background-position: center;
   overflow: hidden;
 }
+
 
 .CollectionItem__Wrapper--small {
   height: 450px;
@@ -7375,7 +7379,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   }
 
   .CollectionItem__Wrapper {
-    height: 400px;
+    height: 320px;
   }
 
   .CollectionItem__Wrapper--small {
@@ -7590,7 +7594,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   }
 
   .ProductItem__LabelList {
-    bottom: 180px;
+    bottom: 140px;
   }
   
 }
@@ -13982,8 +13986,8 @@ shopify-payment-terms {
   font-family: var(--heading-font-family);
   font-weight: 900;
   color: var(--b-white-clr);
-  font-size: 3.6rem;
-  line-height: 3.6rem;
+  font-size: clamp(1.8rem, 4.5vw, 3.6rem);
+  line-height: clamp(2rem, 4.5vw, 3.8rem);
 }
 .videoBackground .videoBoxInfoDescription, .videoBackground .imageBoxInfoDescription {
   max-width: 90%;
@@ -14001,6 +14005,11 @@ shopify-payment-terms {
   @media screen and (min-width: 767px) {
     .videoBackground .videoBoxInfo, .videoBackground .imageBoxInfo {
       width: 60%;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .videoBackground .imageBoxInfoDescription {
+      display: none;
     }
   }
   /* product color links styles  */
