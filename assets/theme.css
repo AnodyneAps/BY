@@ -10762,6 +10762,14 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 .ProductMeta__Subtitle {
   font-style: italic;
 }
+.ProductMeta__Subtitle-link{
+  color: var(--button-background);
+  text-decoration: underline;
+  transition: 250ms ease-in opacity;
+}
+.ProductMeta__Subtitle-link:hover{
+  opacity: 0.8;
+}
 
 .ProductMeta__PriceList {
   margin-top: 15px;
