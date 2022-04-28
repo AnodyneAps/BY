@@ -10764,11 +10764,10 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 }
 .ProductMeta__Subtitle-link{
   color: var(--button-background);
-  text-decoration: underline;
-  transition: 250ms ease-in opacity;
+  transition: 250ms ease-in color;
 }
 .ProductMeta__Subtitle-link:hover{
-  opacity: 0.8;
+  color: var(--b-main-clr);
 }
 
 .ProductMeta__PriceList {
