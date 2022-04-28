@@ -34,13 +34,6 @@
   "arrowShape": {"x0": 20, "x1": 60, "y1": 40, "x2": 60, "y2": 35, "x3": 25}
 }
 {%- endcapture -%}
-<!-- colors swatches -->
-
-
-
-
-
-
 <script>
   // To power the recently viewed products section, we save the ID of the product inside the local storage
   (() => {
@@ -591,6 +584,12 @@ This is the root container for the zoom functionality. Must not be removed, as o
           "id": "show_vendor",
           "label": "Show vendor",
           "default": true
+        },
+        {
+          "type": "text",
+          "id": "show_subtitle",
+          "label": "Add subtitle",
+          "default": "100% cotton cushins and linens"
         },
         {
           "type": "checkbox",

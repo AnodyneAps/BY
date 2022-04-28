@@ -10759,6 +10759,9 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 .ProductMeta__Title {
   margin-bottom: 0;
 }
+.ProductMeta__Subtitle {
+  font-style: italic;
+}
 
 .ProductMeta__PriceList {
   margin-top: 15px;

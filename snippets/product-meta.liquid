@@ -20,6 +20,9 @@
     {%- endif -%}
   </h1>
 
+  {% if block.settings.show_subtitle != blank %}
+    <h3 class="ProductMeta__Subtitle">{{block.settings.show_subtitle}}</h3>
+  {% endif %}
   {%- if block.settings.show_product_rating -%}
     <div class="ProductMeta__Rating Heading u-h7">
       {%- render 'product-rating', product: product -%}
