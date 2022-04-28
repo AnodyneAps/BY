@@ -82,31 +82,31 @@
     </a>
 
     {%- if show_labels -%}
-      {%- capture product_labels -%}
-        {%- for tag in product.tags -%}
-          {%- if tag contains '__label' -%}
-            <span class="ProductItem__Label Heading Text--subdued">{{ tag | split: '__label:' | last }}</span>
-            {%- break -%}
-          {%- endif -%}
-        {%- endfor -%}
-
-        {%- comment -%}
-        {%- if product.available -%}
-          {%- if product.compare_at_price > product.price -%}
-            <span class="ProductItem__Label ProductItem__Label--onSale Heading Text--subdued">{{ 'product.labels.on_sale' | t }}</span>
-          {%- endif -%}
-        {%- else -%}
-          <span class="ProductItem__Label ProductItem__Label--soldOut Heading Text--subdued">{{ 'product.labels.sold_out' | t }}</span>
-        {%- endif -%}
-        {%- endcomment -%}
-
-      {%- endcapture -%}
-
+              {%- comment -%}
+                  {%- capture product_labels -%}
+                  {%- for tag in product.tags -%}
+                    {%- if tag contains '__label' -%}
+                      <span class="ProductItem__Label Heading Text--subdued">{{ tag | split: '__label:' | last }}</span>
+                      {%- break -%}
+                    {%- endif -%}
+                  {%- endfor -%}
+                  {%- if product.available -%}
+                    {%- if product.compare_at_price > product.price -%}
+                      <span class="ProductItem__Label ProductItem__Label--onSale Heading Text--subdued">{{ 'product.labels.on_sale' | t }}</span>
+                    {%- endif -%}
+                  {%- else -%}
+                    <span class="ProductItem__Label ProductItem__Label--soldOut Heading Text--subdued">{{ 'product.labels.sold_out' | t }}</span>
+                  {%- endif -%}
+                {%- endcapture -%}
+              {%- endcomment -%}
         <div class="ProductItem__LabelList">
           <span class="ProductItem__Label Heading Text--subdued">{{ product.metafields.my_fields.product_label }}</span>
         </div>
-
-
+          {% if product.metafields.my_fields.product_label_two != blank %}
+              <div class="ProductItem__LabelList-two">
+                <span class="ProductItem__Label-two Heading Text--subdued">{{ product.metafields.my_fields.product_label_two }}</span>
+              </div>
+          {% endif %}
     {%- endif -%}
 
     {%- if show_product_info -%}
