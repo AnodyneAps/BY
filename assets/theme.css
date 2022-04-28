@@ -7568,13 +7568,13 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 .ProductItem__LabelList {
   position: absolute;
   left: 0px;
-  bottom: 150px;
+  bottom: 170px;
   text-align: left;
 }
 .ProductItem__LabelList-two {
   position: absolute;
   left: 0px;
-  bottom: 120px;
+  bottom: 145px;
   text-align: left;
 }
 .ProductItem__Label {
@@ -7600,6 +7600,9 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   color: var(--b-main-clr);
   background-color: var(--b-sand-clr);
 }
+.ProductItem__Size-label p{
+  font-size: 0.788rem;
+}
 @media screen and (max-width: 400px) {
   .ProductItem__Label-two,
   .ProductItem__Label {
@@ -7608,7 +7611,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   }
 
   .ProductItem__LabelList {
-    bottom: 140px;
+    bottom: 130px;
   }
   .ProductItem__LabelList-two{
     bottom: 110px;

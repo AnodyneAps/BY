@@ -196,7 +196,13 @@
           {%- endunless -%}
         {%- endif -%}
 
-   
+        {% assign productSizeLabel = product.metafields.collectionmeta.product_size_label %}
+        {% if productSizeLabel %}
+        <div class="ProductItem__Size-label">
+            <p>{{productSizeLabel}}</p>
+        </div>
+          
+        {% endif %}
 
 
         {% if product.price_min > 0 %}
