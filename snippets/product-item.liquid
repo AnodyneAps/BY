@@ -99,12 +99,16 @@
                   {%- endif -%}
                 {%- endcapture -%}
               {%- endcomment -%}
-        <div class="ProductItem__LabelList">
-          <span class="ProductItem__Label Heading Text--subdued">{{ product.metafields.my_fields.product_label }}</span>
-        </div>
-          {% if product.metafields.my_fields.product_label_two != blank %}
+          {% assign productLabelOne = product.metafields.my_fields.product_label %}
+          {% if productLabelOne %}
+          <div class="ProductItem__LabelList">
+            <span class="ProductItem__Label Heading Text--subdued">{{ productLabelOne }}</span>
+          </div>
+          {% endif %}
+        {% assign productLabelTwo = product.metafields.my_fields.product_label_two %}
+          {% if productLabelTwo %}
               <div class="ProductItem__LabelList-two">
-                <span class="ProductItem__Label-two Heading Text--subdued">{{ product.metafields.my_fields.product_label_two }}</span>
+                <span class="ProductItem__Label-two Heading Text--subdued">{{ productLabelTwo }}</span>
               </div>
           {% endif %}
     {%- endif -%}
