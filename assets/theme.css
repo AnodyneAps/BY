@@ -13078,6 +13078,7 @@ shopify-payment-terms {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  width: max-content;
 }
 
 @media screen and (max-width: 980px){ 

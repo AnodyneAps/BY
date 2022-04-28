@@ -107,20 +107,20 @@
 
     {% case settings.product_list_horizontal_spacing %}
       {%- when 'extra_small' -%}
+        --horizontal-spacing-four-products-per-row: 10px;
+        --horizontal-spacing-two-products-per-row : 10px;
+      {%- when 'small' -%}
         --horizontal-spacing-four-products-per-row: 20px;
         --horizontal-spacing-two-products-per-row : 20px;
-      {%- when 'small' -%}
+      {%- when 'medium' -%}
+        --horizontal-spacing-four-products-per-row: 30px;
+        --horizontal-spacing-two-products-per-row : 30px;
+      {%- when 'large' -%}
         --horizontal-spacing-four-products-per-row: 40px;
         --horizontal-spacing-two-products-per-row : 40px;
-      {%- when 'medium' -%}
+      {%- when 'extra_large' -%}
         --horizontal-spacing-four-products-per-row: 60px;
         --horizontal-spacing-two-products-per-row : 60px;
-      {%- when 'large' -%}
-        --horizontal-spacing-four-products-per-row: 80px;
-        --horizontal-spacing-two-products-per-row : 80px;
-      {%- when 'extra_large' -%}
-        --horizontal-spacing-four-products-per-row: 100px;
-        --horizontal-spacing-two-products-per-row : 100px;
     {% endcase %}
 
     {% case settings.product_list_vertical_spacing %}
