@@ -14040,8 +14040,9 @@ shopify-payment-terms {
     }
   }
   @media screen and (max-width: 400px) {
-    .videoBackground .imageBoxInfoDescription {
-      display: none;
+    .videoBackground .imageBoxInfoDescription p {
+      font-size: 0.9rem;
+      line-height: 18px;
     }
   }
   /* product color links styles  */
