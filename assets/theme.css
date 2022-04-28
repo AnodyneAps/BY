@@ -14037,9 +14037,10 @@ shopify-payment-terms {
     margin: 0 4px;
   }
   .colorLinks__wrapper .colorLinks__ul   .colorLink__a {
+    position: relative;
     display: inline-block;
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
     border-radius: 50%;
     transition: opacity .3s ease;
     border: 1px solid var(--b-ash-clr);
@@ -14048,11 +14049,16 @@ shopify-payment-terms {
   .colorLinks__wrapper .colorLinks__ul   .colorLink__a:hover{
     opacity: 0.8;
   }
-  .colorLinks__wrapper .colorLinks__ul   .colorLink__a.active{
-    width:28px;
-    height:28px;
-    outline: 1px solid var(--b-main-clr);
-    outline-offset: 4px;
+  .colorLinks__wrapper .colorLinks__ul   .colorLink__a.active::before{
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:38px;
+    height:38px;
+    border: 1px solid var(--b-main-clr);
+    border-radius: 50%;
   }
 
   .colorLinks__wrapper .colorLinks__col {
@@ -14066,21 +14072,25 @@ shopify-payment-terms {
     margin: 0 4px;
   }
   .colorLinks__wrapper .col-li .colorLink__a {
+    position: relative;
     display: inline-block;
-    width: 13px;
-    height: 13px;
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
     border: 1px solid var(--b-ash-clr);
     transition: all 200ms ease;
   }
 
-  .colorLinks__wrapper .col-li .colorLink__a.active{
-    width:13px;
-    height:13px;
-    outline: 1px solid var(--b-main-clr);
-    outline-offset: 2px;
-  }
-  .colorLinks__wrapper .col-li .colorLink__a:hover{
-    outline: 1px solid var(--b-main-clr);
-    outline-offset: 2px;
+  .colorLinks__wrapper .col-li .colorLink__a.active::before,
+  .colorLinks__wrapper .col-li .colorLink__a:hover::before
+  {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:16px;
+    height:16px;
+    border: 1px solid var(--b-main-clr);
+    border-radius: 50%;
   }
