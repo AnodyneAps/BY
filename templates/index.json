@@ -25,44 +25,6 @@
       "settings": {
       }
     },
-    "slideshow": {
-      "type": "slideshow",
-      "disabled": true,
-      "blocks": {
-        "slide-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/byfritz_frontpage.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/byfritz_frontpage_mobile.jpg",
-            "image_position": "center center",
-            "apply_overlay": true,
-            "content_position": "bottomCenter",
-            "subheading": "",
-            "title": "Økologisk sengetøj og boligtekstiler",
-            "button_1_text": "SHOP",
-            "button_1_link": "shopify:\/\/collections\/all",
-            "button_2_text": "",
-            "button_2_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide-0"
-      ],
-      "settings": {
-        "show_fullscreen": false,
-        "show_arrow": false,
-        "autoplay": true,
-        "cycle_speed": 5,
-        "heading_size": 62,
-        "sub_heading_size": 30,
-        "text_color": "#ffffff",
-        "button_color": "#ffffff",
-        "button_background": "#c5a88d",
-        "button_color_hover": "#595959",
-        "button_background_hover": "#f6f6f6"
-      }
-    },
     "163276763442e7599e": {
       "type": "text-area",
       "settings": {
@@ -174,61 +136,6 @@
         "button_fill_hoover": "#ffffff"
       }
     },
-    "featured-collections": {
-      "type": "featured-collections",
-      "disabled": true,
-      "blocks": {
-        "00b8dc28-7728-42ad-862e-b27e6304968d": {
-          "type": "collection",
-          "settings": {
-            "collection": "sengetoj",
-            "title": "Sengetøj",
-            "text_box": "",
-            "grid_items_count": 4,
-            "button_text": "SE UDVALG"
-          }
-        },
-        "ff54230b-c44b-40be-8bc6-2ace6c3792d8": {
-          "type": "collection",
-          "settings": {
-            "collection": "handklaeder",
-            "title": "Håndklæder",
-            "text_box": "",
-            "grid_items_count": 8,
-            "button_text": "View all products"
-          }
-        },
-        "2bdc9a02-fe08-4dcb-9db6-b42de1bcd92f": {
-          "type": "collection",
-          "settings": {
-            "collection": "viskestykker",
-            "title": "Viskestykker",
-            "text_box": "<p>If none is set, collection title is used.If none is set, collection title is used.If none is set, collection title is used.If none is set, collection title is used.<\/p>",
-            "grid_items_count": 8,
-            "button_text": "View all products"
-          }
-        }
-      },
-      "block_order": [
-        "00b8dc28-7728-42ad-862e-b27e6304968d",
-        "ff54230b-c44b-40be-8bc6-2ace6c3792d8",
-        "2bdc9a02-fe08-4dcb-9db6-b42de1bcd92f"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": 35,
-        "margin_heading": false,
-        "heading_size_mobile": 22,
-        "background-color": "#fafafa",
-        "background_img": "none",
-        "layout_mode": "grid",
-        "show_product_info": true,
-        "show_vendor": false,
-        "show_color_swatch": true,
-        "grid_mobile_items_per_row": "2",
-        "grid_desktop_items_per_row": 4
-      }
-    },
     "16493357443a88c7d8": {
       "type": "featured-collections",
       "blocks": {
@@ -241,21 +148,10 @@
             "grid_items_count": 4,
             "button_text": "SE UDVALG"
           }
-        },
-        "94f0d3ef-dcb4-45c7-a032-0c9ed56b09f1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "text_box": "",
-            "grid_items_count": 8,
-            "button_text": "View all products"
-          }
         }
       },
       "block_order": [
-        "1649335743e3b02a44-0",
-        "94f0d3ef-dcb4-45c7-a032-0c9ed56b09f1"
+        "1649335743e3b02a44-0"
       ],
       "settings": {
         "title": "",
@@ -270,60 +166,6 @@
         "show_color_swatch": false,
         "grid_mobile_items_per_row": "2",
         "grid_desktop_items_per_row": 4
-      }
-    },
-    "16328296399e7c669c": {
-      "type": "customer-testimonials",
-      "disabled": true,
-      "blocks": {
-        "c49bb351-a46d-4c17-8654-d9b8d003f729": {
-          "type": "review",
-          "settings": {
-            "review_heading": "Helt vild med jeres sengetøj!",
-            "review_richtext": "<p>Jeg er helt vild med jeres sengetøj! Modtog det i går til min fødselsdag og sov i næsten 10 timer uden at vågne overhovedet.<\/p>",
-            "review_name": "Pernille Krause"
-          }
-        },
-        "fae94813-7994-4ed2-986d-e51788072dee": {
-          "type": "review",
-          "settings": {
-            "review_heading": "Helt vild med jeres sengetøj!",
-            "review_richtext": "<p>Jeg er helt vild med jeres sengetøj! Modtog det i går til min fødselsdag og sov i næsten 10 timer uden at vågne overhovedet.<\/p>",
-            "review_name": "Pernille Krause"
-          }
-        },
-        "c36a7bbd-4eba-4564-a5fa-ed42620432e9": {
-          "type": "review",
-          "settings": {
-            "review_heading": "Helt vild med jeres sengetøj",
-            "review_richtext": "<p>Jeg er helt vild med jeres sengetøj! Modtog det i går til min fødselsdag og sov i næsten 10 timer uden at vågne overhovedet.<\/p>",
-            "review_name": "Pernille Krause"
-          }
-        },
-        "ed508a72-fcc7-4944-ac4b-fcd366457689": {
-          "type": "review",
-          "settings": {
-            "review_heading": "Helt vild med jeres sengetøj",
-            "review_richtext": "<p>Jeg er helt vild med jeres sengetøj! Modtog det i går til min fødselsdag og sov i næsten 10 timer uden at vågne overhovedet.<\/p>",
-            "review_name": "Pernille Krause"
-          }
-        }
-      },
-      "block_order": [
-        "c49bb351-a46d-4c17-8654-d9b8d003f729",
-        "fae94813-7994-4ed2-986d-e51788072dee",
-        "c36a7bbd-4eba-4564-a5fa-ed42620432e9",
-        "ed508a72-fcc7-4944-ac4b-fcd366457689"
-      ],
-      "settings": {
-        "background-color": "#eee9e4",
-        "autoplay": true,
-        "cycle_speed": 3.5,
-        "draggable": true,
-        "arrows": true,
-        "title": "Hvad siger vores kunder",
-        "heading_size": 30,
-        "heading_size_mobile": 20
       }
     },
     "1632827034e58962e0": {
@@ -350,33 +192,10 @@
             "logo_color": "#ffffff",
             "logo_size": 150
           }
-        },
-        "1632827034e58962e0-1": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "hide_mobile": false,
-            "hide_link": false,
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/Skaermbillede_2022-03-05_kl._17.18.57.png",
-            "image_alignment": "center center",
-            "content_position": "bottomCenter",
-            "subheading": "",
-            "title": "Bæredygtighed og økologi i fokus",
-            "richtext": "",
-            "button_text": "læs mere",
-            "button_link": "shopify:\/\/pages\/alt-om-shapewear",
-            "apply_overlay": true,
-            "apply_overlay_extra": false,
-            "add_logo": false,
-            "logo_color": "#ffffff",
-            "logo_size": 150
-          }
         }
       },
       "block_order": [
-        "1632827034e58962e0-0",
-        "1632827034e58962e0-1"
+        "1632827034e58962e0-0"
       ],
       "settings": {
         "image_size": "normal",
@@ -449,39 +268,6 @@
         "button_link": ""
       }
     },
-    "16465097626c2f1f44": {
-      "type": "featured-collections",
-      "disabled": true,
-      "blocks": {
-        "16465097623b2991d2-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "viskestykker",
-            "title": "Viskestykker",
-            "text_box": "",
-            "grid_items_count": 2,
-            "button_text": "Se udvalg"
-          }
-        }
-      },
-      "block_order": [
-        "16465097623b2991d2-0"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": 26,
-        "margin_heading": false,
-        "heading_size_mobile": 15,
-        "background-color": "#fafafa",
-        "background_img": "none",
-        "layout_mode": "grid",
-        "show_product_info": true,
-        "show_vendor": false,
-        "show_color_swatch": false,
-        "grid_mobile_items_per_row": "2",
-        "grid_desktop_items_per_row": 4
-      }
-    },
     "1633001842c9af7c59": {
       "type": "apps",
       "settings": {
@@ -491,16 +277,12 @@
   },
   "order": [
     "16493219980674aef0",
-    "slideshow",
     "163276763442e7599e",
     "1649338946aef6d2c0",
-    "featured-collections",
     "16493357443a88c7d8",
-    "16328296399e7c669c",
     "1632827034e58962e0",
     "1646509594f49b0adf",
     "1632770742cb2c7b8c",
-    "16465097626c2f1f44",
     "1633001842c9af7c59"
   ]
 }
