@@ -14118,3 +14118,61 @@ shopify-payment-terms {
     border: 1px solid var(--b-main-clr);
     border-radius: 50%;
   }
+
+  /* profile styles  */
+
+  .profile__wrapper{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+  .profile__wrapper .profile {
+    flex: 1 1 0px;
+  }
+  .profile__wrapper .profile__image {
+    position: relative;
+    order: 2;
+    align-self: flex-end;
+    margin-left: 1rem;
+    z-index: 2;
+  }
+  .profile__wrapper .profile__image img{
+    width: 300px;
+    height: 300px;
+  }
+  .profile__wrapper .profile__image::after{
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    background-color: var(--button-background);
+    top: 12px;
+    left: 12px;
+    z-index: -1;
+  }
+  .profile__wrapper .profile__content {
+    flex-grow: 2;
+  }
+  @media screen and (max-width: 999px) {
+    .profile__wrapper{
+      flex-direction: column;
+      justify-content: center;
+    }
+    .profile__wrapper .profile__image {
+      order: initial;
+      margin-bottom: 2rem;
+      width: 100%;
+      text-align: center;
+    }
+    .profile__wrapper .profile__content {
+      text-align: center !important;
+      flex-grow: unset;
+    }
+    .profile__wrapper .profile__image::after{
+      top: 50%;
+      left: 50%;
+      transform: translate(-48%, -48%);
+    }
+  }
