@@ -25,6 +25,28 @@
       "settings": {
       }
     },
+    "1651223091b5c81da9": {
+      "type": "profile-text",
+      "settings": {
+        "padding_small": false,
+        "hide_desktop": false,
+        "background_img": "none",
+        "background": "#ffffff",
+        "text_color": "#342e29",
+        "text__align": "left",
+        "title": "Your story",
+        "h1": false,
+        "heading_size": 26,
+        "margin_heading": false,
+        "heading_size_mobile": 15,
+        "content": "<p><em>\"Jeg har med vonFritz en drøm og et ønske om at bidrage til en grønnere verden. En verden hvor vi kommer væk fra køb-og-smid-væk kulturen og i stedet fokuserer på kvalitet og det gode håndværk. Jeg tror på at æstetik og etik kan forenes således at det smukke økologiske sengetøj, håndklæder og viskestykker vi fremstiller, ikke gør skade på vores klode eller på os.\" <br\/><br\/><\/em><strong>Tina Andersen<br\/>CEO & Founder<\/strong><\/p>",
+        "max_content": false,
+        "max_content_size": 50,
+        "max_box_size": 50,
+        "button_label": "",
+        "button_link": ""
+      }
+    },
     "163276763442e7599e": {
       "type": "text-area",
       "settings": {
@@ -277,6 +299,7 @@
   },
   "order": [
     "16493219980674aef0",
+    "1651223091b5c81da9",
     "163276763442e7599e",
     "1649338946aef6d2c0",
     "16493357443a88c7d8",
