@@ -34,7 +34,7 @@
         "background": "#ede9e4",
         "text_color": "#342e29",
         "text__align": "right",
-        "title": "Your story",
+        "title": "vonFritz® økologisk sengetøj, håndklæder og viskestykker",
         "h1": false,
         "heading_size": 26,
         "margin_heading": false,
@@ -50,6 +50,7 @@
     },
     "163276763442e7599e": {
       "type": "text-area",
+      "disabled": true,
       "settings": {
         "padding_small": false,
         "hide_desktop": false,
