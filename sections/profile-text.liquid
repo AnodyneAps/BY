@@ -105,7 +105,7 @@ hidden-lap-and-up
 		#section-{{ section.id }} .profile__content {
 			text-align: {{ section.settings.text__align}};
 		}
-    {%- if section.settings.background_img == 'icons-cream.svg' or 'icons-green.svg' -%}
+    {%- if section.settings.background_img == 'icons-cream.svg' or 'icons-green.svg' or 'wave.svg' -%}
     #section-{{ section.id }}:before{
       content: ' ';
       display: block;
@@ -153,6 +153,10 @@ hidden-lap-and-up
             {
               "value": "icons-cream.svg",
               "label": "Cream"
+            },
+						{
+              "value": "wave.svg",
+              "label": "wave"
             },
             {
               "value": "icons-green.svg",
