@@ -124,7 +124,7 @@
             "collection": "viskestykker",
             "image": "shopify:\/\/shop_images\/by_Fritz_image.jpg",
             "image_alignment": "center center",
-            "content_position": "bottomLeft",
+            "content_position": "bottomCenter",
             "subheading": "",
             "title": "{{ block.settings.collection.title }}",
             "richtext": "",
