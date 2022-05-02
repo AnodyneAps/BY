@@ -103,7 +103,7 @@
             "collection": "handklaeder",
             "image": "shopify:\/\/shop_images\/IMG_2904.jpg",
             "image_alignment": "center center",
-            "content_position": "bottomLeft",
+            "content_position": "bottomCenter",
             "subheading": "",
             "title": "{{ block.settings.collection.title }}",
             "richtext": "",
