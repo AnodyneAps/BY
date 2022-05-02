@@ -3496,7 +3496,7 @@ select::-ms-expand {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7));
+  background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.4));
 }
 
 .Image--contrast > * {
@@ -14163,4 +14163,13 @@ shopify-payment-terms {
       flex-grow: unset;
     }
 
+  }
+
+  .vonfritz__link{
+    position: relative;
+    cursor: pointer !important;
+    display: block;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
   }

@@ -258,7 +258,7 @@
                   {%- render 'product-form', block: block, product: product -%}
 
                 {%- when 'quantity_selector' -%}
-                  <div class="ProductForm__QuantitySelector" {{ block.shopify_attributes }}>
+                  <div id="Product__Quantity_Id" class="ProductForm__QuantitySelector" {{ block.shopify_attributes }}>
                     {%- if block.settings.show_label -%}
                       <span class="ProductForm__Label">{{ 'product.form.quantity' | t }}:</span>
                     {%- endif -%}
