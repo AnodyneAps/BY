@@ -1,0 +1,36 @@
+<div id="Product__Quantity_Id">
+	<div class="radio__container">
+				<div class="radio__inner">
+					<input class="radio__input" type="radio" name="quantity" value="1"{% if option.selected_value == value %} checked="checked"{% endif %} >
+					<label for="quantity">
+						<span>Køb 1 stk.:</span>
+						<span class="original__price-first">125,00 kr</span>
+					</label>
+				</div>
+				<div class="radio__inner">
+					<input class="radio__input" type="radio" name="quantity" value="2">
+					<label for="quantity">
+						<span>Køb 2 stk.:</span>
+						<!-- <span class="original__price">250,00kr</span> -->
+						<span class="quantity__save">Spar 50,00 kr</span>
+						<span class="stk__price"><span class="stk__text">Stykpris</span>100,00 kr</span>
+					</label>
+				</div>
+				<div class="radio__inner">
+					<input class="radio__input" type="radio" name="quantity" value="3">
+					<label for="quantity">
+						<span>Køb 3 stk.:</span>
+						<span class="quantity__save">Spar 112,00 kr</span>
+						<span class="stk__price"><span class="stk__text">Stykpris</span>87,50 kr</span>
+					</label>
+				</div>
+				<div class="radio__inner">
+					<input class="radio__input" type="radio" name="quantity" value="4">
+					<label for="quantity">
+						<span>Køb 4 stk.:</span>
+						<span class="quantity__save">Spar 200,00 kr</span>
+						<span class="stk__price"><span class="stk__text">Stykpris</span>75,00 kr</span>
+					</label>
+				</div>
+	</div>
+</div>

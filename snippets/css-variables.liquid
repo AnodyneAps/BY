@@ -11,15 +11,17 @@
   {{ text_font_italic | font_face: font_display: 'fallback' }}
   {{ text_font_bold_italic | font_face: font_display: 'fallback' }}
   */
+  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200&display=swap');
 
   :root {
-    --heading-font-family : AvertaRegular;
+    --heading-font-family : 'Source Sans Pro', sans-serif;
 
-    --text-font-family : AvertaRegular;
-    --text-font-weight : 400;
+    --text-font-family : 'Source Sans Pro', sans-serif;
+    --text-font-weight : 300;
+    --heading-font-weight:400;
     --text-font-style  : normal;
 
-    --header-heading-font-family: AvertaRegular;
+    --header-heading-font-family: 'Source Sans Pro', sans-serif;
 
     --base-text-font-size   : {{settings.base_text_font_size}}px;
     --default-text-font-size: 14px;
@@ -101,7 +103,7 @@
       --b-beige-clr:#e2ddd5;
       --b-oposite-clr:#0692cd;
       --b-white-clr:#ffffff;
- 
+      --b-darkgray-clr:#454545;
 
     /* Products */
 

@@ -258,6 +258,9 @@
                   {%- render 'product-form', block: block, product: product -%}
 
                 {%- when 'quantity_selector' -%}
+                  {% if product.handle contains "handklaede-" %}
+                  {%- render 'handklaede-radio' -%}
+                  {% else %}
                   <div id="Product__Quantity_Id" class="ProductForm__QuantitySelector" {{ block.shopify_attributes }}>
                     {%- if block.settings.show_label -%}
                       <span class="ProductForm__Label">{{ 'product.form.quantity' | t }}:</span>
@@ -271,7 +274,7 @@
                       <button type="button" class="QuantitySelector__Button Link Link--secondary" data-action="increase-quantity">{% render 'icon' with 'plus' %}</button>
                     </div>
                   </div>
-
+                  {% endif %}
                 {%- when 'inventory' -%}
                   {%- assign hide_inventory_quantity_by_default = false -%}
 
