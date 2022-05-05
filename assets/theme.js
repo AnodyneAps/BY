@@ -7068,7 +7068,7 @@ function variantChangeRadios(option){
             <label for="quantity-2">
               <span>Køb 2 stk.:</span>
               <!-- <span class="original__price">250,00kr</span> -->
-              <span class="quantity__save">Spar 25,00 kr</span>
+              <span class="quantity__save">Spar 25,00 kr pr. stk.</span>
               <span class="stk__price"><span class="stk__text">Stykpris</span>100,00 kr</span>
             </label>
           </div>
@@ -7076,7 +7076,7 @@ function variantChangeRadios(option){
             <input class="radio__input" type="radio" name="quantity" id="quantity-3" value="3">
             <label for="quantity-3">
               <span>Køb 3 stk.:</span>
-              <span class="quantity__save">Spar 37,50 kr</span>
+              <span class="quantity__save">Spar 37,50 kr pr. stk.</span>
               <span class="stk__price"><span class="stk__text">Stykpris</span>87,50 kr</span>
             </label>
           </div>
@@ -7084,7 +7084,7 @@ function variantChangeRadios(option){
             <input class="radio__input" type="radio" name="quantity" id="quantity-4" value="4">
             <label for="quantity-4">
               <span>Køb 4 stk.:</span>
-              <span class="quantity__save">Spar 50,00 kr</span>
+              <span class="quantity__save">Spar 50,00 kr pr. stk.</span>
               <span class="stk__price"><span class="stk__text">Stykpris</span>75,00 kr</span>
             </label>
           </div>
@@ -7099,7 +7099,7 @@ function variantChangeRadios(option){
                 <input class="radio__input" type="radio" name="quantity" id="quantity-1" value="1"{% if option.selected_value == value %} checked="checked"{% endif %} >
                 <label for="quantity-1">
                   <span>Køb 1 stk.:</span>
-                  <span class="original__price-first">125,00 kr</span>
+                  <span class="original__price-first">250,00 kr</span>
                 </label>
               </div>
               <div class="radio__inner">
@@ -7107,7 +7107,7 @@ function variantChangeRadios(option){
                 <label for="quantity-2">
                   <span>Køb 2 stk.:</span>
                   <!-- <span class="original__price">250,00kr</span> -->
-                  <span class="quantity__save">Spar 25,00 kr</span>
+                  <span class="quantity__save">Spar 25,00 kr pr. stk.</span>
                   <span class="stk__price"><span class="stk__text">Stykpris</span>225,00 kr</span>
                 </label>
               </div>
@@ -7115,7 +7115,7 @@ function variantChangeRadios(option){
                 <input class="radio__input" type="radio" name="quantity" id="quantity-3" value="3">
                 <label for="quantity-3">
                   <span>Køb 3 stk.:</span>
-                  <span class="quantity__save">Spar 37,50 kr</span>
+                  <span class="quantity__save">Spar 37,50 kr pr. stk.</span>
                   <span class="stk__price"><span class="stk__text">Stykpris</span>212,50 kr</span>
                 </label>
               </div>
@@ -7123,7 +7123,7 @@ function variantChangeRadios(option){
                 <input class="radio__input" type="radio" name="quantity" id="quantity-4" value="4">
                 <label for="quantity-4">
                   <span>Køb 4 stk.:</span>
-                  <span class="quantity__save">Spar 50,00 kr</span>
+                  <span class="quantity__save">Spar 50,00 kr pr. stk.</span>
                   <span class="stk__price"><span class="stk__text">Stykpris</span>200,00 kr</span>
                 </label>
               </div>
@@ -7139,7 +7139,7 @@ function variantChangeRadios(option){
           <input class="radio__input" type="radio" name="quantity" id="quantity-1" value="1"{% if option.selected_value == value %} checked="checked"{% endif %} >
           <label for="quantity-1">
             <span>Køb 1 stk.:</span>
-            <span class="original__price-first">699,00 kr</span>
+            <span class="original__price-first">749,00 kr</span>
           </label>
         </div>
         <div class="radio__inner">
@@ -7147,7 +7147,7 @@ function variantChangeRadios(option){
           <label for="quantity-2">
             <span>Køb 2 stk.:</span>
             <!-- <span class="original__price">250,00kr</span> -->
-            <span class="quantity__save">Spar 140,00 kr</span>
+            <span class="quantity__save">Spar 140,00 kr pr. stk.</span>
             <span class="stk__price"><span class="stk__text">Stykpris</span>559,00 kr</span>
           </label>
         </div>
@@ -7155,7 +7155,7 @@ function variantChangeRadios(option){
           <input class="radio__input" type="radio" name="quantity" id="quantity-3" value="3">
           <label for="quantity-3">
             <span>Køb 3 stk.:</span>
-            <span class="quantity__save">Spar 209,00 kr</span>
+            <span class="quantity__save">Spar 209,00 kr pr. stk.</span>
             <span class="stk__price"><span class="stk__text">Stykpris</span>490,00 kr</span>
           </label>
         </div>
@@ -7163,7 +7163,7 @@ function variantChangeRadios(option){
           <input class="radio__input" type="radio" name="quantity" id="quantity-4" value="4">
           <label for="quantity-4">
             <span>Køb 4 stk.:</span>
-            <span class="quantity__save">Spar 279,00 kr</span>
+            <span class="quantity__save">Spar 279,00 kr pr. stk.</span>
             <span class="stk__price"><span class="stk__text">Stykpris</span>420,00 kr</span>
           </label>
         </div>
@@ -7179,7 +7179,7 @@ function variantChangeRadios(option){
           <input class="radio__input" type="radio" name="quantity" id="quantity-1" value="1"{% if option.selected_value == value %} checked="checked"{% endif %} >
           <label for="quantity-1">
             <span>Køb 1 stk.:</span>
-            <span class="original__price-first">699,00 kr</span>
+            <span class="original__price-first">749,00 kr</span>
           </label>
         </div>
         <div class="radio__inner">
@@ -7187,7 +7187,7 @@ function variantChangeRadios(option){
           <label for="quantity-2">
             <span>Køb 2 stk.:</span>
             <!-- <span class="original__price">250,00kr</span> -->
-            <span class="quantity__save">Spar 140,00 kr</span>
+            <span class="quantity__save">Spar 140,00 kr pr. stk.</span>
             <span class="stk__price"><span class="stk__text">Stykpris</span>609,00 kr</span>
           </label>
         </div>
@@ -7195,7 +7195,7 @@ function variantChangeRadios(option){
           <input class="radio__input" type="radio" name="quantity" id="quantity-3" value="3">
           <label for="quantity-3">
             <span>Køb 3 stk.:</span>
-            <span class="quantity__save">Spar 209,00 kr</span>
+            <span class="quantity__save">Spar 209,00 kr pr. stk.</span>
             <span class="stk__price"><span class="stk__text">Stykpris</span>540,00 kr</span>
           </label>
         </div>
@@ -7203,7 +7203,7 @@ function variantChangeRadios(option){
           <input class="radio__input" type="radio" name="quantity" id="quantity-4" value="4">
           <label for="quantity-4">
             <span>Køb 4 stk.:</span>
-            <span class="quantity__save">Spar 279,00 kr</span>
+            <span class="quantity__save">Spar 279,00 kr pr. stk.</span>
             <span class="stk__price"><span class="stk__text">Stykpris</span>470,00 kr</span>
           </label>
         </div>

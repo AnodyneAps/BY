@@ -7567,6 +7567,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   -o-object-position: center;
      object-position: center;
 }
+
 .ProductItem__LabelList {
   position: absolute;
   left: 0px;
