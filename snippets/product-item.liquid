@@ -1,3 +1,6 @@
+{% assign productLabelOne = product.metafields.my_fields.product_label %}
+{% assign productLabelTwo = product.metafields.my_fields.product_label_two %}
+{% assign productBadgeLabel = product.metafields.my_fields.product_badge_label %}
 
 {% capture sengTojCollectionSwatches %}
         <!-- color swatches  -->
@@ -82,8 +85,9 @@
     </a>
 
     {%- if show_labels -%}
-              {%- comment -%}
-                  {%- capture product_labels -%}
+             
+          {%- comment -%}
+               {%- capture product_labels -%}
                   {%- for tag in product.tags -%}
                     {%- if tag contains '__label' -%}
                       <span class="ProductItem__Label Heading Text--subdued">{{ tag | split: '__label:' | last }}</span>
@@ -98,19 +102,23 @@
                     <span class="ProductItem__Label ProductItem__Label--soldOut Heading Text--subdued">{{ 'product.labels.sold_out' | t }}</span>
                   {%- endif -%}
                 {%- endcapture -%}
-              {%- endcomment -%}
-          {% assign productLabelOne = product.metafields.my_fields.product_label %}
+          {%- endcomment -%}
+  
           {% if productLabelOne %}
           <div class="ProductItem__LabelList">
             <span class="ProductItem__Label Heading Text--subdued">{{ productLabelOne }}</span>
           </div>
           {% endif %}
-        {% assign productLabelTwo = product.metafields.my_fields.product_label_two %}
           {% if productLabelTwo %}
               <div class="ProductItem__LabelList-two">
                 <span class="ProductItem__Label-two Heading Text--subdued">{{ productLabelTwo }}</span>
               </div>
           {% endif %}
+          {% if productBadgeLabel%}
+          <div class="ProductItem__LabelList-badge">
+            <span class="ProductItem__Label-badge Heading Text--subdued">{{ productBadgeLabel}}</span>
+          </div>
+      {% endif %}
     {%- endif -%}
 
     {%- if show_product_info -%}

@@ -258,8 +258,15 @@
                   {%- render 'product-form', block: block, product: product -%}
 
                 {%- when 'quantity_selector' -%}
-                  {% if product.handle contains "handklaede-" %}
-                  {%- render 'handklaede-radio' -%}
+                  {% if product.handle contains "handklaede-"%}
+                  <div class="afterChangeVariantOptionOne ">
+                    {%- render 'handklaede-radio' -%}
+                  </div>
+                  {% elsif product.handle contains "sengesaet-" %}
+                  <div class="afterChangeVariantOptionOne ">
+                    {%- render 'sengesaet-radio' -%}
+                  </div>
+          
                   {% else %}
                   <div id="Product__Quantity_Id" class="ProductForm__QuantitySelector" {{ block.shopify_attributes }}>
                     {%- if block.settings.show_label -%}
@@ -274,7 +281,8 @@
                       <button type="button" class="QuantitySelector__Button Link Link--secondary" data-action="increase-quantity">{% render 'icon' with 'plus' %}</button>
                     </div>
                   </div>
-                  {% endif %}
+        
+                {% endif %}
                 {%- when 'inventory' -%}
                   {%- assign hide_inventory_quantity_by_default = false -%}
 

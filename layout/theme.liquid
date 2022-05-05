@@ -123,7 +123,7 @@
     {%- endif -%}
 
     <script src="{{ 'libs.min.js' | asset_url }}" defer></script>
-    <script src="{{ 'theme.min.js' | asset_url }}" defer></script>
+    <script src="{{ 'theme.js' | asset_url }}" defer></script>
     <script src="{{ 'custom.js' | asset_url }}" defer></script>
     <script src="{{ 'flickity.js' | asset_url }}" ></script>
     <script src="{{ 'full-page.js' | asset_url }}"></script>
@@ -152,7 +152,6 @@
 
     {% render 'microdata-schema' %}
   	{% render 'vitals-loader' %}
-
 </head>
 
   {%- capture classes -%}features--heading-{{ settings.heading_size }}{%- endcapture -%}

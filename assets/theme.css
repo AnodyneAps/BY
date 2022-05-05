@@ -1689,7 +1689,7 @@ input.spr-button-primary,
   text-align: center;
   letter-spacing: .05em;
   font-family: var(--text-font-family);
-  font-weight: 300;
+  font-weight: 400;
   font-style: var(--heading-font-style);
   background-color: transparent;
   transition: all .2s ease-in-out;
@@ -4417,10 +4417,11 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   border-radius: 3px;
   transition: all 0.2s ease-in-out;
   font-size: 0.8rem;
+  font-weight: 400;
 }
 
 .SizeSwatch__Radio {
-  display: none;
+  display: none
 }
 
 .SizeSwatch:hover {
@@ -7566,7 +7567,6 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   -o-object-position: center;
      object-position: center;
 }
-
 .ProductItem__LabelList {
   position: absolute;
   left: 0px;
@@ -7578,6 +7578,20 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   left: 0px;
   bottom: 145px;
   text-align: left;
+}
+.ProductItem__LabelList-badge{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 70px;
+  height: 70px;
+  background-color: var(--b-cream-clr);
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+}
+.ProductItem__LabelList-badge span{
+  color: var(--b-main-clr);
 }
 .ProductItem__Label {
   display: block;
@@ -9969,7 +9983,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   display: block;
   position: fixed;
   bottom: 20px;
-  width: 30%;
+  width: 20%;
   right: 20px;
   border-radius: 5px;
   background: #fff;
@@ -9987,7 +10001,11 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   transform: translateY(0);
   box-shadow: 0 -1.2rem 2.4rem -1rem rgb(0 0 0 / 16%);
 }
-
+@media screen and (min-width: 1007px){
+  .product-page__sticky-cart {
+    display: none;
+  }
+}
 @media screen and (max-width: 1008px) {
   .sticky-cart-desktop{
     display: none;
@@ -10768,7 +10786,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
  */
 .ProductMeta {
   text-align: left;
-  margin-bottom: 24px;
+  margin-bottom: 12px;
 }
 
 .ProductMeta__ImageWrapper {
@@ -10914,8 +10932,8 @@ shopify-payment-terms {
  */
 
 .ProductForm__Variants {
-  margin-top: 24px;
-  margin-bottom: 24px;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 .ProductForm__Option {
@@ -14155,10 +14173,12 @@ shopify-payment-terms {
     .profile__wrapper{
       flex-direction: column;
       justify-content: center;
+      align-items: center;
     }
     .profile__wrapper .profile__image {
       order: initial;
       margin-bottom: 2rem;
+      margin-left: -1rem;
       width: 100%;
       text-align: center;
     }
@@ -14187,7 +14207,7 @@ shopify-payment-terms {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  color: var(--text-color);
+  color: var(--b-darkgray-clr);
   font-size: 0.878rem;
 }  
 .radio__container .radio__inner .original__price-first,
@@ -14208,27 +14228,40 @@ shopify-payment-terms {
   display: inline-block;
   padding: 0 5px;
 }
+.radio__container .radio__inner label {
+  display: block;
+  cursor: pointer;
+  padding: 2px 5px;
+  border-radius: 2px;
+  transition: 300ms ease-in color;
+}
+.radio__container .radio__inner label:hover {
+  color:#000;
+}
 .radio__container input[type="radio"] {
-    appearance: none;
-    margin: 5px 10px 5px 4px;
-    width: 15px;
-    height: 15px;
-    --border-size:1px;
-    background: var(--b-ash-clr);
-    box-shadow: inset 0 0 0 10px white, 0 0 0 var(--border-size);
-    border-radius: 50%;
-    transition: .2s;
-    cursor: pointer;
-    color:var(--b-ash-clr);
-  }
-  .radio__container input[type="radio"]:hover, input[type="radio"]:checked {
-    background: var(--b-ash-clr);
-    box-shadow: inset 0 0 0 1px white, 0 0 0 var(--border-size);
-  }
-  .radio__container input[type="radio"]:checked {
-    background: var(--button-background);
-    box-shadow: inset 0 0 0 3px white, 0 0 0 var(--border-size) var(--button-background);
-  }
-  .radio__container input[type="radio"]:focus {
-    outline: 0;
-  }
+  appearance: none;
+  margin: 5px 10px 5px 4px;
+  width: 15px;
+  height: 15px;
+  --border-size:1px;
+  background: var(--b-ash-clr);
+  box-shadow: inset 0 0 0 10px white, 0 0 0 var(--border-size);
+  border-radius: 50%;
+  transition: .2s;
+  cursor: pointer;
+  color:var(--b-ash-clr);
+}
+.radio__container input[type="radio"]:hover, input[type="radio"]:checked {
+  background: var(--b-ash-clr);
+  box-shadow: inset 0 0 0 2px white, 0 0 0 var(--border-size);
+}
+.radio__container input[type="radio"]:checked + label {
+  background-color: rgba(222,222,222,0.2);
+}
+.radio__container input[type="radio"]:checked {
+  background: var(--button-background);
+  box-shadow: inset 0 0 0 3px white, 0 0 0 var(--border-size) var(--button-background);
+}
+.radio__container input[type="radio"]:focus {
+  outline: 0;
+}
