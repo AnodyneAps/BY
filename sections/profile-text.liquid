@@ -43,7 +43,16 @@ hidden-lap-and-up
             {% endif %} 
 
           {% else %}
-            <a class="vonfritz__link" href="/pages/om-vonfritz">{{ section.settings.content }}</a>
+            <a class="vonfritz__link" href="/pages/om-vonfritz">{{ section.settings.content }}
+                <div class="vonfritz_titles">
+                  {% if section.settings.profile_name != blank%}
+                  <p class="profile__name">{{section.settings.profile_name}}</p>
+              {% endif %}
+              {% if section.settings.profile_title !=blank %}
+              <span class="profile__title">{{section.settings.profile_title}}</span>
+              {% endif %}
+                </div>
+            </a>
           {% endif %}
         {%- endif -%}
 			</div>
@@ -240,6 +249,18 @@ hidden-lap-and-up
         "id": "content",
         "label": "Text",
         "default": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+      },
+      {
+        "type": "text",
+        "id": "profile_name",
+        "label": "Name",
+        "default": "John Lian"
+      },
+      {
+        "type": "text",
+        "id": "profile_title",
+        "label": "Title",
+        "default": "CEO"
       },
 			{
 				"type": "image_picker",

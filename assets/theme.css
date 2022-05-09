@@ -14164,16 +14164,31 @@ shopify-payment-terms {
     align-self: flex-end;
     margin-left: 1rem;
     z-index: 2;
+    overflow: hidden;
   }
   .profile__wrapper .profile__image img{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
   }
   
   .profile__wrapper .profile__content {
     flex-grow: 2;
     font-weight: 600;
     color:var(--b-darkgray-clr);
+  }
+  .vonfritz_titles{
+    margin-top:-2rem;
+  }
+  .vonfritz_titles .profile__name{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 0;
+  }
+  .vonfritz_titles .profile__title{
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: var(--button-background);
   }
   @media screen and (max-width: 999px) {
     .profile__wrapper{
