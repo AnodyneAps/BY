@@ -1410,7 +1410,12 @@ body {
   background: none;
   pointer-events: none;
 }
-
+.pg4{
+  fill:var(--button-background);
+}
+.pg3{
+  fill: transparent;
+}
 .u-visually-hidden {
   position: absolute !important;
   overflow: hidden;
