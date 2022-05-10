@@ -85,11 +85,11 @@
           "content": "Fri fragt ved køb fra 399 kr",
           "link": "shopify:\/\/collections\/all",
           "fadein_one": "Fri fragt ved køb over 399 kr",
-          "icon_selector1": "package",
+          "icon_selector1": "truck",
           "fadein_two": "30 dages returrret",
           "icon_selector2": "shipping",
           "fadein_three": "Professionel kundeservice",
-          "icon_selector3": "heart",
+          "icon_selector3": "headphones",
           "fadein_four": "Nem og sikker betaling",
           "icon_selector4": "cards"
         }
