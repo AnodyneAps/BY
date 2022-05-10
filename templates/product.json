@@ -79,11 +79,11 @@
           "settings": {
             "usp_autoplay": true,
             "usp_cycle_speed": 5,
-            "icon_selector1": "package",
+            "icon_selector1": "truck",
             "icon_1_heading": "Fri fragt ved køb over 399 kr",
             "icon_selector2": "shipping",
             "icon_2_heading": "30 dages returrret",
-            "icon_selector3": "heart",
+            "icon_selector3": "headphones",
             "icon_3_heading": "Professionel kundeservice",
             "icon_selector4": "cards",
             "icon_4_heading": "Nem og sikker betaling"
