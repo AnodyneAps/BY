@@ -14178,7 +14178,7 @@ shopify-payment-terms {
     color:var(--b-darkgray-clr);
   }
   .vonfritz_titles{
-    margin-top:-2.6rem;
+    margin-top:-1rem;
   }
   .vonfritz_titles .profile__name{
     font-size: 1.2rem;
@@ -14211,9 +14211,6 @@ shopify-payment-terms {
     .profile__wrapper .profile__content {
       text-align: center !important;
       flex-grow: unset;
-    }
-    .vonfritz_titles{
-      margin-top: -3.6rem;
     }
   }
 
