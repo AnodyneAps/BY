@@ -14178,7 +14178,7 @@ shopify-payment-terms {
     color:var(--b-darkgray-clr);
   }
   .vonfritz_titles{
-    margin-top:-2rem;
+    margin-top:-2.6rem;
   }
   .vonfritz_titles .profile__name{
     font-size: 1.2rem;
@@ -14186,7 +14186,7 @@ shopify-payment-terms {
     margin: 0;
   }
   .vonfritz_titles .profile__title{
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 300;
     color: var(--button-background);
   }
@@ -14196,6 +14196,11 @@ shopify-payment-terms {
       justify-content: center;
       align-items: center;
     }
+    /* 
+    on mobile the hieght is 0px and therefore not showing.
+    .profile__wrapper .profile {
+      flex: 1 1 250px;
+    } */
     .profile__wrapper .profile__image {
       order: initial;
       margin-bottom: 2rem;
@@ -14207,7 +14212,9 @@ shopify-payment-terms {
       text-align: center !important;
       flex-grow: unset;
     }
-
+    .vonfritz_titles{
+      margin-top: -3.6rem;
+    }
   }
 
   .vonfritz__link{
