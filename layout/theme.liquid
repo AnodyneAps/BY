@@ -152,6 +152,21 @@
 
     {% render 'microdata-schema' %}
   	{% render 'vitals-loader' %}
+    <!-- Start - Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-89H0HVDW64"></script>
+   <script>
+   window.dataLayer = window.dataLayer || [];
+   function gtag(){dataLayer.push(arguments);}
+   gtag('js', new Date());
+
+   gtag('config', 'G-89H0HVDW64');
+   </script>
+      <!-- End -  Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- Facebook domain verification>-->
+   <meta name="facebook-domain-verification" content="b4j5iuhanb1wbsf4v3hm7jyqc1ke2d" />
+	<!-- End -  facebook domain verification -->
+
 </head>
 
   {%- capture classes -%}features--heading-{{ settings.heading_size }}{%- endcapture -%}
@@ -223,5 +238,6 @@
     </div>
     
     {% include 'customers-service-chat' %}
-  </body>
+  {% render 'quantity-breaks-now', customer: customer, template: template, product: product, cart: cart %}
+        </body>
 </html>
