@@ -11,17 +11,17 @@
   {{ text_font_italic | font_face: font_display: 'fallback' }}
   {{ text_font_bold_italic | font_face: font_display: 'fallback' }}
   */
-  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200&display=swap');
+ 
 
   :root {
-    --heading-font-family : 'Source Sans Pro', sans-serif;
+    --heading-font-family : MarkBook;
 
-    --text-font-family : 'Source Sans Pro', sans-serif;
+    --text-font-family : MarkExtraLight;
     --text-font-weight : 300;
     --heading-font-weight:400;
     --text-font-style  : normal;
 
-    --header-heading-font-family: 'Source Sans Pro', sans-serif;
+    --header-heading-font-family: MarkBold;
 
     --base-text-font-size   : {{settings.base_text_font_size}}px;
     --default-text-font-size: 14px;
@@ -93,7 +93,7 @@
     /* Shopify related variables */
     --payment-terms-background-color: {{settings.background}};
       /* Byfritz custom theme colors */
-      --b-main-clr: #1f120d;
+      --b-main-clr: #2a4347;
       --b-secondary-clr:#672f1b;
       --b-accent-clr:#f26623;
       --b-sand-clr:#dcd5c9;

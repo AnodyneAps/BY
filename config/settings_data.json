@@ -54,6 +54,7 @@
     "cart_free_shipping_threshold": "399",
     "social_facebook": "https:\/\/www.facebook.com\/ByFritzDenmark",
     "social_instagram": "https:\/\/www.instagram.com\/vonfritzdesign",
+    "favicon": "shopify:\/\/shop_images\/SHABES_ICON_BEIGE.png",
     "checkout_logo_image": "shopify:\/\/shop_images\/byfritz_logo.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "medium",
@@ -128,7 +129,7 @@
           "contact_box_phone": "Tlf:",
           "contact_box_number": "+45 22 62 89 90",
           "contact_box_mail": "E-mail:",
-          "contact_box_mail_text": "info@vonfritz.com",
+          "contact_box_mail_text": "info@vonfritz.dk",
           "contact_box_day_week": "Man-fre:",
           "contact_box_day_week_time": "09.00-16.00",
           "contact_box_day_weekend": "Vi bestræber os på at svare indenfor max 24 timer.",
@@ -140,12 +141,12 @@
       "popup": {
         "type": "popup",
         "settings": {
-          "show_popup": false,
+          "show_popup": true,
           "show_only_on_index": false,
           "show_only_for_visitors": true,
           "show_only_once": true,
-          "title": "Få 10% på din første ordre",
-          "content": "<p>Tilmeld dig til vores nyhedsbrev, modtag din<strong> 10% rabatkode<\/strong> og hold dig opdateret om alt det nye der sker.<\/p>",
+          "title": "Gå ikke glip af noget",
+          "content": "<p>Tilmeld dig til vores nyhedsbrev og hold dig opdateret om alt det nye der sker.<\/p>",
           "show_newsletter": true,
           "apparition_delay": 3
         }

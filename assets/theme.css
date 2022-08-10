@@ -9,68 +9,57 @@
  * Base
  */
 
- /* @font-face {
-  font-family: "DinNext";
-  src: url("../assets/DinNext.woff2") format("woff2"),
-       url("../assets/DinNext.woff") format("woff");
+ @font-face {
+  font-family: "MarkBlackItalic";
+  src: url("../assets/Mark-Black-Italic.woff2") format("woff2"),
+       url("../assets/Mark-Black-Italic.woff") format("woff");
+      
 }
 
 @font-face {
-  font-family: "AvertaRegular";
-  src: url("../assets/Averta-Regular.woff2") format("woff2"),
-       url("../assets/Averta-Regular.woff") format("woff");
+  font-family: "MarkBlak";
+  src: url("../assets/Mark-Black.woff2") format("woff2"),
+       url("../assets/Mark-Black.woff") format("woff");
 }  
 
 @font-face {
-  font-family: "AvertaBold";
-  src: url("../assets/Averta-Semibold.woff") format("woff2"),
-       url("../assets/Averta-Semibold.woff2") format("woff");
+  font-family: "MarkBoldItalic";
+  src: url("../assets/Mark-Bold-Italic.woff2") format("woff2"),
+       url("../assets/Mark-Bold-Italic.woff") format("woff");
 }
 
 @font-face {
-  font-family: "AvertaItalic";
-  src: url("../assets/Averta-RegularItalic.woff2") format("woff2"),
-       url("../assets/Averta-RegularItalic.woff") format("woff");
+  font-family: "MarkBold";
+  src: url("../assets/Mark-Bold.woff2") format("woff2"),
+       url("../assets/Mark-Bold.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Neuzeit";
-  src: url("../assets/Neuzeit.woff2") format("woff2"),
-       url("../assets/Neuzeit.woff") format("woff");
-} */
+  font-family: "MarkBookItalic";
+  src: url("../assets/Mark-Book-Italic.woff2") format("woff2"),
+       url("../assets/Mark-Book-Italic.woff") format("woff");
+}
+
+
 
  @font-face {
-  font-family: "DidotBold";
-  src: url("../assets/Didot-HTF-B16-Bold.ttf") format("ttf");
+  font-family: "MarkBook";
+  src: url("../assets/Mark-Book.woff2") format("woff2"),
+       url("../assets/Mark-Book.woff") format("woff");
 }
 
 @font-face {
-  font-family: "DidotBoldItalic";
-  src: url("../assets/Didot-HTF-B24-Bold-Ital.ttf") format("ttf");
-}  
-
-@font-face {
-  font-family: "DidotMedium";
-  src: url("../assets/Didot-HTF-M16-Medium.ttf") format("ttf");
-}
-@font-face {
-  font-family: "DidotMediumItalic";
-  src: url("../assets/Didot-HTF-M24-Medium-Ital.ttf") format("ttf");
-}
-@font-face {
-  font-family: "DidotLight";
-  src: url("../assets/Didot-HTF-L16-Light.ttf") format("ttf");
-}
-
-@font-face {
-  font-family: "DidotLightItalic";
-  src: url("../assets/Didot-HTF-L16-Light-Ital.ttf") format("ttf");
-}
-@font-face {
-  font-family: "AvertaRegular";
-  src: url("../assets/Averta-Regular.woff2") format("woff2"),
-       url("../assets/Averta-Regular.woff") format("woff");
+  font-family: "MarkExtraLightItalic";
+  src: url("../assets/Mark-Extralight-Italic.woff2") format("woff2"),
+       url("../assets/Mark-Extralight-Italic.woff") format("woff");
 } 
+
+@font-face {
+  font-family: "MarkExtraLight";
+  src: url("../assets/Mark-Extralight.woff2") format("woff2"),
+       url("../assets/Mark-Extralight.woff") format("woff");
+}
+
 
 *,
 *:before,
@@ -8903,10 +8892,13 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   position: relative;
   margin-bottom: 0;
 }
-.waiting-toScroll .Header__Logo svg .st0 {
+.waiting-toScroll .Header__Logo .Header__LogoLink .Icon--logo .logotext {
   fill: var(--b-white-clr);
 }
-.scroll-header .Header__Logo svg .st0 {
+.waiting-toScroll .Header__Logo .Header__LogoLink .Icon--logo .logolines{
+  stroke: var(--b-main-clr);
+}
+.scroll-header .Header__Logo .Header__LogoLink .Icon--logo .logotext{
   fill: var(--b-main-clr) !important;
 }
 .Header__Logo .Icon{
@@ -14178,7 +14170,7 @@ shopify-payment-terms {
     color:var(--b-darkgray-clr);
   }
   .vonfritz_titles{
-    margin-top:-2rem;
+    margin-top:-1rem;
   }
   .vonfritz_titles .profile__name{
     font-size: 1.2rem;
@@ -14186,7 +14178,7 @@ shopify-payment-terms {
     margin: 0;
   }
   .vonfritz_titles .profile__title{
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 300;
     color: var(--button-background);
   }
@@ -14196,6 +14188,11 @@ shopify-payment-terms {
       justify-content: center;
       align-items: center;
     }
+    /* 
+    on mobile the hieght is 0px and therefore not showing.
+    .profile__wrapper .profile {
+      flex: 1 1 250px;
+    } */
     .profile__wrapper .profile__image {
       order: initial;
       margin-bottom: 2rem;
@@ -14207,7 +14204,6 @@ shopify-payment-terms {
       text-align: center !important;
       flex-grow: unset;
     }
-
   }
 
   .vonfritz__link{

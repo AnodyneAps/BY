@@ -6,7 +6,7 @@
         "16493219983c170ed0-0": {
           "type": "video",
           "settings": {
-            "video_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0554\/6072\/4814\/files\/vonfritz.mp4?v=1653994633",
+            "video_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0554\/6072\/4814\/files\/byfritz-hero-video.mp4?v=1649321974",
             "video_image": "shopify:\/\/shop_images\/video-bg.png",
             "overlay_opacity": 56,
             "title": "Økologisk sengetøj og boligtekstiler",
@@ -23,6 +23,54 @@
         "16493219983c170ed0-0"
       ],
       "settings": {
+      }
+    },
+    "1651223091b5c81da9": {
+      "type": "profile-text",
+      "settings": {
+        "padding_small": false,
+        "hide_desktop": false,
+        "background_img": "none",
+        "background": "#ede9e4",
+        "text_color": "#342e29",
+        "text__align": "right",
+        "title": "vonFritz® økologisk sengetøj, håndklæder og viskestykker",
+        "h1": false,
+        "heading_size": 26,
+        "margin_heading": true,
+        "heading_size_mobile": 15,
+        "content": "<p><em>\"Jeg har med vonFritz en drøm og et ønske om at bidrage til en grønnere verden. En verden hvor vi kommer væk fra køb-og-smid-væk kulturen og i stedet fokuserer på kvalitet og det gode håndværk. Jeg tror på at æstetik og etik kan forenes således at det smukke økologiske sengetøj, håndklæder og viskestykker vi fremstiller, ikke gør skade på vores klode eller på os.\" <\/em><\/p>",
+        "profile_name": "Tina Andersen",
+        "profile_title": "CEO & Founder",
+        "profile_image": "shopify:\/\/shop_images\/byfritz_frontpage_mobile.jpg",
+        "max_content": false,
+        "max_content_size": 50,
+        "max_box_size": 50,
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "163276763442e7599e": {
+      "type": "text-area",
+      "disabled": true,
+      "settings": {
+        "padding_small": false,
+        "hide_desktop": false,
+        "float_left": false,
+        "background_img": "none",
+        "background": "#ede9e4",
+        "text_color": "#1c1b1b",
+        "title": "vonFritz® økologisk sengetøj, håndklæder og viskestykker",
+        "h1": true,
+        "heading_size": 25,
+        "margin_heading": false,
+        "heading_size_mobile": 22,
+        "content": "<p><em>\"Jeg har med vonFritz en drøm og et ønske om at bidrage til en grønnere verden. En verden hvor vi kommer væk fra køb-og-smid-væk kulturen og i stedet fokuserer på kvalitet og det gode håndværk. Jeg tror på at æstetik og etik kan forenes således at det smukke økologiske sengetøj, håndklæder og viskestykker vi fremstiller, ikke gør skade på vores klode eller på os.\" <br\/><br\/><\/em><strong>Tina Andersen<br\/>CEO & Founder<\/strong><\/p>",
+        "max_content": false,
+        "max_content_size": 100,
+        "max_box_size": 120,
+        "button_label": "",
+        "button_link": ""
       }
     },
     "1649338946aef6d2c0": {
@@ -146,86 +194,6 @@
         "grid_desktop_items_per_row": 4
       }
     },
-    "1651223091b5c81da9": {
-      "type": "profile-text",
-      "settings": {
-        "padding_small": false,
-        "hide_desktop": false,
-        "background_img": "none",
-        "background": "#ede9e4",
-        "text_color": "#342e29",
-        "text__align": "right",
-        "title": "vonFritz® økologisk sengetøj, håndklæder og viskestykker",
-        "h1": false,
-        "heading_size": 26,
-        "margin_heading": false,
-        "heading_size_mobile": 15,
-        "content": "<p><em>\"Jeg har med vonFritz en drøm og et ønske om at bidrage til en grønnere verden. En verden hvor vi kommer væk fra køb-og-smid-væk kulturen og i stedet fokuserer på kvalitet og det gode håndværk. Jeg tror på at æstetik og etik kan forenes således at det smukke økologiske sengetøj, håndklæder og viskestykker vi fremstiller, ikke gør skade på vores klode eller på os.\" <br\/><br\/><\/em><strong><br\/><\/strong><\/p>",
-        "profile_name": "Tina Andersen",
-        "profile_title": "CEO & Founder",
-        "profile_image": "shopify:\/\/shop_images\/byfritz_frontpage_mobile.jpg",
-        "max_content": false,
-        "max_content_size": 50,
-        "max_box_size": 50,
-        "button_label": "",
-        "button_link": ""
-      }
-    },
-    "163276763442e7599e": {
-      "type": "text-area",
-      "disabled": true,
-      "settings": {
-        "padding_small": false,
-        "hide_desktop": false,
-        "float_left": false,
-        "background_img": "none",
-        "background": "#ede9e4",
-        "text_color": "#1c1b1b",
-        "title": "vonFritz® økologisk sengetøj, håndklæder og viskestykker",
-        "h1": true,
-        "heading_size": 25,
-        "margin_heading": false,
-        "heading_size_mobile": 22,
-        "content": "<p><em>\"Jeg har med vonFritz en drøm og et ønske om at bidrage til en grønnere verden. En verden hvor vi kommer væk fra køb-og-smid-væk kulturen og i stedet fokuserer på kvalitet og det gode håndværk. Jeg tror på at æstetik og etik kan forenes således at det smukke økologiske sengetøj, håndklæder og viskestykker vi fremstiller, ikke gør skade på vores klode eller på os.\" <br\/><br\/><\/em><strong>Tina Andersen<br\/>CEO & Founder<\/strong><\/p>",
-        "max_content": false,
-        "max_content_size": 100,
-        "max_box_size": 120,
-        "button_label": "",
-        "button_link": ""
-      }
-    },
-    "1646509594f49b0adf": {
-      "type": "featured-collections",
-      "blocks": {
-        "164650959376907057-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "handklaeder",
-            "title": "Håndklæder i 100% økologisk bomuld",
-            "text_box": "",
-            "grid_items_count": 4,
-            "button_text": "Se udvalg"
-          }
-        }
-      },
-      "block_order": [
-        "164650959376907057-0"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": 26,
-        "margin_heading": false,
-        "heading_size_mobile": 15,
-        "background-color": "#fafafa",
-        "background_img": "none",
-        "layout_mode": "grid",
-        "show_product_info": true,
-        "show_vendor": false,
-        "show_color_swatch": false,
-        "grid_mobile_items_per_row": "2",
-        "grid_desktop_items_per_row": 4
-      }
-    },
     "1632827034e58962e0": {
       "type": "collection-list",
       "blocks": {
@@ -272,14 +240,14 @@
         "button_fill_hoover": "#dcc7b3"
       }
     },
-    "16565911500e9926c7": {
+    "1646509594f49b0adf": {
       "type": "featured-collections",
       "blocks": {
-        "1656591150b8112278-0": {
+        "164650959376907057-0": {
           "type": "collection",
           "settings": {
-            "collection": "viskestykker",
-            "title": "Viskestykker i 100% bomuld",
+            "collection": "handklaeder",
+            "title": "Håndklæder i 100% økologisk bomuld",
             "text_box": "",
             "grid_items_count": 4,
             "button_text": "Se udvalg"
@@ -287,7 +255,7 @@
         }
       },
       "block_order": [
-        "1656591150b8112278-0"
+        "164650959376907057-0"
       ],
       "settings": {
         "title": "",
@@ -335,13 +303,12 @@
   },
   "order": [
     "16493219980674aef0",
-    "1649338946aef6d2c0",
-    "16493357443a88c7d8",
     "1651223091b5c81da9",
     "163276763442e7599e",
-    "1646509594f49b0adf",
+    "1649338946aef6d2c0",
+    "16493357443a88c7d8",
     "1632827034e58962e0",
-    "16565911500e9926c7",
+    "1646509594f49b0adf",
     "1632770742cb2c7b8c",
     "1633001842c9af7c59"
   ]
