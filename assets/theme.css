@@ -4875,7 +4875,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
  */
  .Footer__Newsletter-home {
    padding: 5rem 0;
-   background-color: #ede9e4;
+   background-color: #fff;
  }
  .Footer__Newsletter-home .Heading{
   text-align: center;
