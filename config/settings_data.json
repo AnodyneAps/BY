@@ -1,13 +1,13 @@
 {
   "current": {
-    "heading_color": "#1f120d",
+    "heading_color": "#252525",
     "text_color": "#454545",
     "text_light_color": "#868686",
-    "link_color": "#c5a88d",
+    "link_color": "#bb6125",
     "background": "#ffffff",
     "light_background": "#ffffff",
-    "product_on_sale_color": "#f26623",
-    "button_background": "#c5a88d",
+    "product_on_sale_color": "#bb6125",
+    "button_background": "#a79f88",
     "button_text_color": "#ffffff",
     "button_text_color_hover": "#ffffff",
     "button_background_hover": "#dcc7b3",
