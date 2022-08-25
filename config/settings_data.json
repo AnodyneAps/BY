@@ -28,6 +28,7 @@
     "newsletter_popup_text_color": "#252525",
     "secondary_elements_background": "#a79f88",
     "secondary_elements_text_color": "#ffffff",
+    "product_rating_color": "#edc253",
     "heading_font": "poppins_n4",
     "heading_size": "large",
     "uppercase_heading": false,
