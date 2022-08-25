@@ -8892,14 +8892,17 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   position: relative;
   margin-bottom: 0;
 }
-.waiting-toScroll .Header__Logo .Header__LogoLink .Icon--logo .logotext {
-  fill: var(--b-white-clr);
+.waiting-toScroll .Header__Logo .Header__LogoLink .Icon--logo .logoMain {
+  fill: var(--whiteclr);
 }
-.waiting-toScroll .Header__Logo .Header__LogoLink .Icon--logo .logolines{
-  stroke: var(--b-main-clr);
+.waiting-toScroll .Header__Logo .Header__LogoLink .Icon--logo .logoAccent{
+  stroke: var(--whiteclr);
 }
-.scroll-header .Header__Logo .Header__LogoLink .Icon--logo .logotext{
-  fill: var(--b-main-clr) !important;
+.scroll-header .Header__Logo .Header__LogoLink .Icon--logo .logoMain{
+  fill: var(--logoclr) !important;
+}
+.scroll-header .Header__Logo .Header__LogoLink .Icon--logo .logoAccent{
+  stroke: var(--logoclr) !important;
 }
 .Header__Logo .Icon{
   height: unset;
@@ -14000,7 +14003,7 @@ shopify-payment-terms {
   right: 0;
   bottom: 0;
   left: 0;
-  background: var(--b-main-clr);
+  background: var(--blackclr);
   z-index: 1;
 }
 .videoBackground .videoBoxInfoBtn, .videoBackground .imageBoxInfoBtn {
@@ -14039,6 +14042,9 @@ shopify-payment-terms {
   color: var(--b-white-clr);
   font-size: clamp(1.8rem, 4.5vw, 3.6rem);
   line-height: clamp(2rem, 4.5vw, 3.8rem);
+}
+.videoBackground .videoBoxInfoTitle{
+  margin-bottom: 15px;
 }
 .videoBackground .videoBoxInfoDescription, .videoBackground .imageBoxInfoDescription {
   max-width: 90%;
