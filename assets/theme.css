@@ -1755,7 +1755,7 @@ input.spr-button-primary[disabled],
 .spr-button-primary:not(input) {
   color: var(--button-text-color);
   border-color: var(--button-background);
-  background-color: var(--button-background);
+  background-color: var(--mainclr);
   border-radius: 5px ;
 
 }
@@ -4319,8 +4319,8 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 }
 
 .Price__custom_bolder {
-  font-size: 0.8rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-family: var(--header-heading-font-family);
 }
 /**
  * ----------------------------------------------------------------------------
@@ -7810,7 +7810,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   }
 
   .ProductList--grid > .Grid__Cell {
-    padding-left: 24px;
+    padding:0 4px;
     margin-bottom: 50px;
   }
 }
@@ -7871,8 +7871,9 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   }
 
   .ProductList--grid[data-desktop-count="2"] > .Grid__Cell {
-    padding-left: var(--horizontal-spacing-two-products-per-row);
+    /* padding-left: var(--horizontal-spacing-two-products-per-row); */
     margin-bottom: var(--vertical-spacing-two-products-per-row);
+    padding:0 4px;
   }
 
   .ProductList--removeMargin[data-desktop-count="2"] {
@@ -7886,8 +7887,9 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 
   .ProductList--grid[data-desktop-count="4"] > .Grid__Cell,
   .ProductList--grid[data-desktop-count="3"] > .Grid__Cell {
-    padding-left: var(--horizontal-spacing-four-products-per-row);
+    /* padding-left: var(--horizontal-spacing-four-products-per-row); */
     margin-bottom: var(--vertical-spacing-four-products-per-row);
+    padding: 0 4px;
   }
 
   .ProductList--removeMargin[data-desktop-count="4"],
@@ -14118,13 +14120,13 @@ shopify-payment-terms {
     flex-wrap: wrap;
   }
   .colorLinks__wrapper .colorLinks__col .col-li {
-    margin: 0 4px;
+    margin: 0 2px;
   }
   .colorLinks__wrapper .col-li .colorLink__a {
     position: relative;
     display: inline-block;
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
     border: 1px solid var(--b-ash-clr);
     transition: all 200ms ease;
@@ -14138,12 +14140,24 @@ shopify-payment-terms {
     top: 50%;
     left:50%;
     transform: translate(-50%, -50%);
-    width:16px;
-    height:16px;
+    width:14px;
+    height:14px;
     border: 1px solid var(--b-main-clr);
     border-radius: 50%;
   }
+  .colorLinks__wrapper .more-swatches{
+    margin-left:10px;
+  }
+  .colorLinks__wrapper .more-swatches .Icon--plus{
+    width: 10px;
+    margin-top: -4px;
+  }
+  .colorLinks__wrapper .more-swatches .more-swatches-digit{
+    font-family: var(--header-heading-font-family);
+    font-size: 1rem;
+    padding-left: 2px;
 
+  }
   /* profile styles  */
 
   .profile__wrapper{

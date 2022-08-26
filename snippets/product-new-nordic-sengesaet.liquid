@@ -1,0 +1,21 @@
+      <!-- color swatches  -->
+			{% assign colorNames  = product.title | split: '-'  %}
+			<div class="colorLinks__wrapper">
+				<div class="ProductForm__Label">{{'product.form.color' | t}}: {{ colorNames | last }}</div>
+					<ul class="colorLinks__ul">
+					<li class="colorLinks__li  nnwalnut"><a href="/products/new-nordic-sengesaet-walnut" class="colorLink__a  {% if product.handle contains 'new-nordic-sengesaet-walnut' %}active{% endif %}" style="background-color: var(--nnwalnutclr);" title="walnut color"></a></li>
+
+					<li class="colorLinks__li  nnmidnight"><a href="/products/new-nordic-sengesaet-midnight" class="colorLink__a  {% if product.handle contains 'new-nordic-sengesaet-midnight' %}active{% endif %}" style="background-color: var(--nnmidnightclr);" title="midnight color"></a></li>
+
+					<li class="colorLinks__li  nnrosesmoke"><a href="/products/new-nordic-sengesaet-rose" class="colorLink__a  {% if product.handle contains 'new-nordic-sengesaet-rose' %}active{% endif %}" style="background-color: var(--nnrosesmokeclr);" title="rose smoke color"></a></li>
+
+					<li class="colorLinks__li  nnmoonstone"><a href="/products/new-nordic-sengesaet-moonstone" class="colorLink__a  {% if product.handle contains 'new-nordic-sengesaet-moonstone' %}active{% endif %}" style="background-color: var(--nnmoonstoneclr);" title="moon stone color"></a></li>
+
+					<li class="colorLinks__li  nnstonestripe"><a href="/products/new-nordic-sengesaet-stone-stripe" class="colorLink__a  {% if product.handle contains 'new-nordic-sengesaet-stone-stripe' %}active{% endif %}" style="background-color: var(--nnstonestripeclr);" title="stone stripe color"></a></li>
+
+
+					<li class="colorLinks__li  nnfernstripe"><a href="/products/new-nordic-sengesaet-fern-stripe" class="colorLink__a  {% if product.handle contains 'new-nordic-sengesaet-fern-stripe' %}active{% endif %}" style="background-color: var(--nnfernstripeclr);" title="fern stripe color"></a></li>
+	
+				</ul>
+		</div>
+		<!-- end color swatches  -->

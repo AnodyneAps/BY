@@ -1,0 +1,10 @@
+
+{% assign colorNames  = product.title | split: '-'  %}
+<div class="colorLinks__wrapper">
+	<div class="ProductForm__Label">{{'product.form.color' | t}}: {{ colorNames | last }}</div>
+		<ul class="colorLinks__ul">
+				<li class="colorLinks__li ash"><a href="/products/signature-lagen-ash" class="colorLink__a  {% if product.handle contains 'signature-lagen-ash' %}active{% endif %}" style="background-color: var(--ashclr);" title="ash color"></a></li>
+				<li class="colorLinks__li  olive"><a href="/products/signature-lagen-olive" class="colorLink__a  {% if product.handle contains 'signature-lagen-olive' %}active{% endif %}" style="background-color: var(--oliveclr);" title="olive color"></a></li>
+		</ul>
+
+</div>
