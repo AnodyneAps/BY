@@ -7548,7 +7548,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 
 .ProductItem__ImageWrapper {
   display: block;
-  background-color: var(--b-cream-clr);
+  background-color: var(--mainclr20);
 }
 
 .ProductItem__Image--alternate {
@@ -7580,7 +7580,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   right: 20px;
   width: 70px;
   height: 70px;
-  background-color: var(--b-cream-clr);
+  background-color: var(--mainclr40);
   display: grid;
   place-content: center;
   border-radius: 50%;
@@ -7609,13 +7609,13 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   max-width: -moz-max-content;
   max-width: max-content;
   color: var(--logoclr80);
-  background-color: var(--b-sand-clr);
+  background-color: var(--mainclr40);
 }
 .AspectRatio .collection__name-badge{
   position: absolute;
   bottom:0;
   right:0;
-  background: var(--b-sand-clr);
+  background: var(--mainclr40);
   font-family: var(--heading-font-family);
   font-size:calc(var(--base-text-font-size) - (var(--default-text-font-size) - 7px));
   padding:2px 6px;
@@ -8905,20 +8905,17 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 
 .Header__Logo {
   position: relative;
+  margin-top: -5px;
   margin-bottom: 0;
 }
-.waiting-toScroll .Header__Logo .Header__LogoLink .Icon--logo .logoMain {
+.waiting-toScroll .Header__Logo .Header__LogoLink .Icon--logo .logocolor {
   fill: var(--whiteclr);
 }
-.waiting-toScroll .Header__Logo .Header__LogoLink .Icon--logo .logoAccent{
-  stroke: var(--whiteclr);
-}
-.scroll-header .Header__Logo .Header__LogoLink .Icon--logo .logoMain{
+
+.scroll-header .Header__Logo .Header__LogoLink .Icon--logo .logocolor{
   fill: var(--logoclr) !important;
 }
-.scroll-header .Header__Logo .Header__LogoLink .Icon--logo .logoAccent{
-  stroke: var(--logoclr) !important;
-}
+
 .Header__Logo .Icon{
   height: unset;
 }
@@ -9221,7 +9218,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   opacity: 0;
   transform: scale(0, 1);
   transform-origin: left center;
-  border-bottom: 2px solid var(--heading-color);
+  border-bottom: 2px solid var(--accentclr);
   transition: transform 0.3s, opacity 0.3s;
 }
 
