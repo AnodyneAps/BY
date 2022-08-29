@@ -7632,10 +7632,10 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   }
 
   .ProductItem__LabelList {
-    bottom: 160px;
+    bottom: 32px;
   }
   .ProductItem__LabelList-two{
-    bottom: 138px;
+    bottom: 8px;
   }
   
 }
@@ -12910,7 +12910,7 @@ shopify-payment-terms {
 
  .usp_block svg{
    height: 30px;
-   fill: #d8beac;
+   fill: var(--mainclr);
    width: auto;
  }
 
@@ -13020,7 +13020,7 @@ shopify-payment-terms {
 
  .Product__Info .usp_block svg{
   height: 35px;
-  fill: #d8beac;
+  fill: var(--mainclr);
   width: auto;
 }
 
@@ -14107,9 +14107,9 @@ shopify-payment-terms {
     top: 50%;
     left:50%;
     transform: translate(-50%, -50%);
-    width:38px;
-    height:38px;
-    border: 1px solid var(--b-main-clr);
+    width:36px;
+    height:36px;
+    border: 2px solid var(--mainclr);
     border-radius: 50%;
   }
 
