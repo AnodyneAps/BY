@@ -131,8 +131,8 @@
         "richtext_size": 14,
         "button_size": 15,
         "button_color": "#ffffff",
-        "button_border_color": "#dcc7b3",
-        "button_fill": "#c5a88d",
+        "button_border_color": "#dad8ce",
+        "button_fill": "#a79f88",
         "button_color_hoover": "#342e29",
         "button_fill_hoover": "#ffffff"
       }
