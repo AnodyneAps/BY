@@ -99,12 +99,6 @@ hidden-lap-and-up
       }
     {% endif %}
 
-    @media screen and (max-width: 640px) {
-
-        #section-{{ section.id }} .profile__content .Heading{
-            font-size: {{ section.settings.heading_size_mobile }}px;
-        }
-    }
 
     #section-{{ section.id }} .profile__content .text_unfold{
       height: {{ section.settings.max_box_size }}px;
@@ -113,6 +107,7 @@ hidden-lap-and-up
 
 		#section-{{ section.id }} .profile__content {
 			text-align: {{ section.settings.text__align}};
+      width: 80%;
 		}
     {%- if section.settings.background_img == 'icons-cream.svg' or 'icons-green.svg' or 'wave.svg' -%}
     #section-{{ section.id }}:before{
@@ -128,13 +123,21 @@ hidden-lap-and-up
         background-size: cover;
         opacity: 0.5;
     }
-
     #section-{{ section.id }} {
       position: relative;
       overflow: hidden;
     }
   {%- endif -%}
+  @media screen and (max-width: 640px) {
 
+    #section-{{ section.id }} .profile__content .Heading{
+        font-size: {{ section.settings.heading_size_mobile }}px;
+    }
+
+		#section-{{ section.id }} .profile__content {
+      width: 94%;
+		}
+}
 
   </style>
   

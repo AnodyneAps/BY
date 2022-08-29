@@ -14163,25 +14163,23 @@ shopify-payment-terms {
 
   .profile__wrapper{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-
+    flex-direction: column;
   }
   .profile__wrapper .profile {
     flex: 1 1 0px;
   }
   .profile__wrapper .profile__image {
     position: relative;
-    order: 2;
-    align-self: flex-end;
+    align-self: center;
     margin-left: 1rem;
     z-index: 2;
-    overflow: hidden;
   }
   .profile__wrapper .profile__image img{
-    width: 250px;
-    height: 250px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
   }
   
@@ -14203,17 +14201,7 @@ shopify-payment-terms {
     font-weight: 300;
     color: var(--button-background);
   }
-  @media screen and (max-width: 999px) {
-    .profile__wrapper{
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    /* 
-    on mobile the hieght is 0px and therefore not showing.
-    .profile__wrapper .profile {
-      flex: 1 1 250px;
-    } */
+  @media screen and (max-width: 999px) {s
     .profile__wrapper .profile__image {
       order: initial;
       margin-bottom: 2rem;

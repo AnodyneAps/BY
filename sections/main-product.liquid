@@ -4,6 +4,7 @@
   assign inventory_block = section.blocks | where: 'type', 'inventory' | first
   assign buy_buttons_block = section.blocks | where: 'type', 'buy_buttons' | first
   assign colors_block = section.blocks | where: 'type', 'colors' | first
+  assign available_product = product.selected_or_first_available_variant.available
   capture signatureSengeSaetColorAssets
   render 'product-signature-sengesaet' with product:product
   endcapture
@@ -73,12 +74,12 @@
 </script>
 
 <div id="js-product-page__sticky-cart" class="product-page__sticky-cart sticky-cart-desktop">
-    <a href="#product_form_{{ product.id }}" class="ProductForm__AddToCart Button Button--primary button-full-width">                      {%- if product.selected_or_first_available_variant.available -%}
+    <a href="#product_form_{{ product.id }}" class="ProductForm__AddToCart Button {% if available_product %}Button--primary{% else %} Button--secondary {% endif %} button-full-width"> {%- if available_product  -%}
       <span>{% if product.template_suffix == 'pre-order' %}{%- render 'icon' with 'cart' -%}{{ 'product.form.pre_order' | t }}{% else %}{%- render 'icon' with 'cart' -%}{{ 'product.form.add_to_cart' | t }}{% endif %}</span>
 
       {%- if block.settings.show_price_in_button -%}
         <span class="Button__SeparatorDot"></span>
-        <span>{{ product.selected_or_first_available_variant.price | money }}</span>
+        <span>{{ available_product  | money }}</span>
       {%- endif -%}
     {%- else -%}
       {{- 'product.form.sold_out' | t -}}
