@@ -1,6 +1,7 @@
 {% assign productLabelOne = product.metafields.my_fields.product_label %}
 {% assign productLabelTwo = product.metafields.my_fields.product_label_two %}
 {% assign productBadgeLabel = product.metafields.my_fields.product_badge_label %}
+{% assign productSeriesLabel = product.metafields.product.collection_series_name %}
 
 {% capture signatureSengetojSwatches %}
 {%- render 'signature' with product: product -%}
@@ -89,8 +90,9 @@
             <span class="ProductItem__Label-badge Heading Text--subdued">{{ productBadgeLabel}}</span>
           </div>
       {% endif %}
-
-        <div class="collection__name-badge">Signature</div>
+          {% if productSeriesLabel != blank %}
+          <div class="collection__name-badge">{{productSeriesLabel}}</div>
+          {% endif %}
       </div>
     </a>
 
