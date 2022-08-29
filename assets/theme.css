@@ -7565,13 +7565,13 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 .ProductItem__LabelList {
   position: absolute;
   left: 0px;
-  bottom: 170px;
+  bottom: 50px;
   text-align: left;
 }
 .ProductItem__LabelList-two {
   position: absolute;
   left: 0px;
-  bottom: 145px;
+  bottom: 26px;
   text-align: left;
 }
 .ProductItem__LabelList-badge{
@@ -7597,7 +7597,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   max-width: -webkit-max-content;
   max-width: -moz-max-content;
   max-width: max-content;
-  color: var(--b-main-clr);
+  color: var(--logoclr80);
 }
 .ProductItem__Label-two{
   display: block;
@@ -7608,8 +7608,18 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   max-width: -webkit-max-content;
   max-width: -moz-max-content;
   max-width: max-content;
-  color: var(--b-main-clr);
+  color: var(--logoclr80);
   background-color: var(--b-sand-clr);
+}
+.AspectRatio .collection__name-badge{
+  position: absolute;
+  bottom:0;
+  right:0;
+  background: var(--b-sand-clr);
+  font-family: var(--heading-font-family);
+  font-size:calc(var(--base-text-font-size) - (var(--default-text-font-size) - 7px));
+  padding:2px 6px;
+  color: var(--logoclr80);
 }
 .ProductItem__Size-label p{
   font-size: 0.888rem;
@@ -7733,6 +7743,9 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   }
   .ProductItem__Info {
     font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 13px));
+  }
+  .AspectRatio .collection__name-badge{
+    font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 9px));
   }
 
   .features--heading-uppercase .ProductItem__Info {
@@ -9569,11 +9582,13 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 }
 
 .ImageHero__ContentOverlay {
-  position: relative;
-  flex-basis: 425px;
+  position: absolute;
+  flex-basis: 100%;
   flex-grow: 0;
   padding: 0 15px;
   text-shadow: 0 1px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  bottom: 15px;
 }
 
 .ImageHero__TextContent {
@@ -13074,25 +13089,13 @@ shopify-payment-terms {
 }
 
 
-.ImageHero-collection .ImageHero__ContentOverlay {
-  padding: 20px 15px;
-
-}
-
-/* @media screen and (min-width: 810px){
-  .ImageHero-collection .ImageHero__ContentOverlay{
-  position: absolute;
-    left: 0;
-  }
-
-} */
-
 .ImageHero-collection .SectionHeader__Description {
   margin-top: 0;
   margin-left: 0;
   margin-right: 0;
   font-size: 20px;
-  max-width: 800px;
+  max-width: 1000px;
+  font-family: var(--heading-font-family);
 }
 
 
@@ -13101,6 +13104,7 @@ shopify-payment-terms {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0;
   text-align: center;
   width: max-content;
 }
@@ -13128,7 +13132,7 @@ shopify-payment-terms {
   text-align: center;
   color: var(--heading-color);
   text-align: center;
-  margin-top: 0;
+  margin-top: 20px;
   margin-bottom: 0;
   height: auto;
   max-width: 400px;
