@@ -6,13 +6,13 @@
         "16493219983c170ed0-0": {
           "type": "video",
           "settings": {
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/1d940b1ba538444fa013a5a79569c46e.mp4",
-            "video_image": "shopify:\/\/shop_images\/video-bg.png",
+            "video_link": "",
+            "video_image": "shopify:\/\/shop_images\/198A7518.jpg",
             "overlay_opacity": 56,
             "title": "Økologisk sengetøj og boligtekstiler",
             "text": "<p>vonFritz® er et nordisk univers af boligtekstiler. Skabt med tanke på bæredygtighed og slowfashion. Udtrykket er rent og enkelt.<\/p>",
             "color_text": "#ffffff",
-            "button_label": "se udvalg",
+            "button_label": "Opdag universet",
             "button_link": "shopify:\/\/collections\/alle-produkter",
             "color_btn_bg": "#a79f88",
             "color_btn_text": "#ffffff"
@@ -57,13 +57,13 @@
             "hide_mobile": false,
             "hide_link": false,
             "collection": "sengetoj",
-            "image": "shopify:\/\/shop_images\/IMG_8798.jpg",
+            "image": "shopify:\/\/shop_images\/Signature_-_Eiucalyptus.jpg",
             "image_alignment": "center center",
             "content_position": "bottomCenter",
             "subheading": "",
             "title": "{{ block.settings.collection.title }}",
             "richtext": "",
-            "button_text": "Shop nu",
+            "button_text": "Explore",
             "button_link": "shopify:\/\/collections\/sengetoj",
             "apply_overlay": true,
             "apply_overlay_extra": false,
@@ -78,13 +78,13 @@
             "hide_mobile": false,
             "hide_link": false,
             "collection": "handklaeder",
-            "image": "shopify:\/\/shop_images\/IMG_2904.jpg",
+            "image": "shopify:\/\/shop_images\/Handklaeder.jpg",
             "image_alignment": "center center",
             "content_position": "bottomCenter",
             "subheading": "",
             "title": "{{ block.settings.collection.title }}",
             "richtext": "",
-            "button_text": "Shop nu",
+            "button_text": "Explore",
             "button_link": "shopify:\/\/collections\/handklaeder",
             "apply_overlay": true,
             "apply_overlay_extra": false,
@@ -99,13 +99,13 @@
             "hide_mobile": false,
             "hide_link": false,
             "collection": "viskestykker",
-            "image": "shopify:\/\/shop_images\/by_Fritz_image.jpg",
+            "image": "shopify:\/\/shop_images\/102BDB3B-B371-4521-A609-972BB9A60C01_2.jpg",
             "image_alignment": "center center",
             "content_position": "bottomCenter",
             "subheading": "",
             "title": "{{ block.settings.collection.title }}",
             "richtext": "",
-            "button_text": "Shop nu",
+            "button_text": "Explore",
             "button_link": "shopify:\/\/collections\/viskestykker",
             "apply_overlay": true,
             "apply_overlay_extra": false,
@@ -147,7 +147,7 @@
             "title": "Sengetøj i 100% økologisk bomuld",
             "text_box": "",
             "grid_items_count": 4,
-            "button_text": "SE UDVALG"
+            "button_text": "Explore"
           }
         }
       },
@@ -235,7 +235,7 @@
         "button_size": 16,
         "button_color": "#f6f6f6",
         "button_border_color": "rgba(0,0,0,0)",
-        "button_fill": "#c5a88d",
+        "button_fill": "#a79f88",
         "button_color_hoover": "#595959",
         "button_fill_hoover": "#dcc7b3"
       }
@@ -250,7 +250,7 @@
             "title": "Håndklæder i 100% økologisk bomuld",
             "text_box": "",
             "grid_items_count": 4,
-            "button_text": "Se udvalg"
+            "button_text": "Explore"
           }
         }
       },
