@@ -26,6 +26,16 @@ hidden-lap-and-up
             {% if section.settings.content.size > section.settings.max_content_size %}
                 <div class="text_unfold">
                     {{ section.settings.content }}
+                    <div class="vonfritz__link" >
+                      <div class="vonfritz_titles">
+                        {% if section.settings.profile_name != blank%}
+                        <p class="profile__name">{{section.settings.profile_name}}</p>
+                    {% endif %}
+                    {% if section.settings.profile_title !=blank %}
+                    <a href="/pages/om-vonfritz" class="profile__title">{{section.settings.profile_title}}</a>
+                    {% endif %}
+                      </div>
+                  </div>
                 </div>
 
                 <div class="unfold_description_color">
@@ -129,9 +139,10 @@ hidden-lap-and-up
     }
   {%- endif -%}
   @media screen and (max-width: 640px) {
-
     #section-{{ section.id }} .profile__content .Heading{
         font-size: {{ section.settings.heading_size_mobile }}px;
+        line-height: 22px;
+        margin-bottom: 12px;
     }
 
 		#section-{{ section.id }} .profile__content {
