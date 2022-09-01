@@ -7548,7 +7548,8 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 
 .ProductItem__ImageWrapper {
   display: block;
-  background-color: var(--mainclr20);
+  background: var(--mainclr20);
+  background: linear-gradient(180deg, var(--mainclr40) 35%, var(--mainclr20) 100%);
 }
 
 .ProductItem__Image--alternate {
