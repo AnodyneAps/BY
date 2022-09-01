@@ -36,7 +36,7 @@
     "base_text_font_size": 16,
     "country_selector": false,
     "currency_code_enabled": true,
-    "color_swatch_config": "Beige: #ffffff;\nSort: #000;",
+    "color_swatch_config": "Bark: #7C573D;\nCacao Grid: #333333;",
     "show_page_transition": false,
     "show_button_transition": true,
     "show_image_zooming": false,

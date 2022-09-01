@@ -17,39 +17,7 @@
         "a8498457-f36e-4e16-a79b-90275568162f": {
           "type": "colors",
           "settings": {
-            "gray_color_name": "grey color",
-            "gray_clr": "#929292",
-            "gray_link": "shopify:\/\/products\/signature-sengesaet-grey",
-            "bark_color_name": "bark color",
-            "bark_clr": "#957558",
-            "bark_link": "shopify:\/\/products\/signature-sengesaet-bark",
-            "mint_color_name": "mint color",
-            "mint_clr": "#c2e1d8",
-            "mint_link": "shopify:\/\/products\/signature-sengesaet-mint",
-            "creame_color_name": "creame color",
-            "creame_clr": "#f9fcef",
-            "creame_link": "shopify:\/\/products\/signature-sengesaet-creme",
-            "skyBlue_color_name": "skyBlue color",
-            "skyBlue_clr": "#d0f3ff",
-            "skyBlue_link": "shopify:\/\/products\/signature-sengesaet-sky-blue",
-            "nude_color_name": "nude color",
-            "nude_clr": "#e8d6bb",
-            "nude_link": "shopify:\/\/products\/signature-sengesaet-nude",
-            "olive_color_name": "olive color",
-            "olive_clr": "#6a8057",
-            "olive_link": "shopify:\/\/products\/signature-sengesaet-olive",
-            "tnature_color_name": "nature color",
-            "tnature_clr": "#d9bd92",
-            "tnature_link": "shopify:\/\/products\/signature-handklaede-nature",
-            "tgrey_color_name": "grey color",
-            "tgrey_clr": "#8e8e8e",
-            "tgrey_link": "shopify:\/\/products\/signature-handklaede-grey",
-            "tmint_color_name": "mint color",
-            "tmint_clr": "#b4eadb",
-            "tmint_link": "shopify:\/\/products\/signature-handklaede-mint",
-            "tskyBlue_color_name": "sky blue color",
-            "tskyBlue_clr": "#c2d9f4",
-            "tskyBlue_link": "shopify:\/\/products\/signature-handklaede-sky-blue"
+            "show_colors": true
           }
         },
         "98dc4e6f-08f8-4dd9-aa26-e35fab3198cc": {
@@ -70,7 +38,7 @@
         "37355ae7-6ac3-4895-8161-1fbea366a549": {
           "type": "buy_buttons",
           "settings": {
-            "show_price_in_button": true,
+            "show_price_in_button": false,
             "show_payment_button": false
           }
         },

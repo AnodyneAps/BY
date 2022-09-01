@@ -2,7 +2,6 @@
 Those are the option names for which we automatically detect swatch. For the color, we use them to display a swatch, while
 for size, we use it to display a size chart (if applicable)
 {%- endcomment -%}
-
 {%- assign color_label = 'color,colour,couleur,colore,farbe,색,色,färg,farve' | split: ',' -%}
 {%- assign size_label = 'size,taille,größe,tamanho,tamaño,koko,サイズ' | split: ',' -%}
 
@@ -26,7 +25,7 @@ for size, we use it to display a size chart (if applicable)
       {%- assign downcase_option = option.name | downcase -%}
       {%- capture popover_id -%}popover-{{ product.id }}-{{ section.id }}-{{ option.name | handle }}{%- endcapture -%}
 
-      <div class="ProductForm__Option {% if show_option_label %}ProductForm__Option--labelled{% endif %}">
+      <div class="ProductForm__Option {% if show_option_label %}ProductForm__Option--labelled optionName__{{option.name}}{% endif %}">
         {%- if show_option_label -%}
 
           <span class="ProductForm__Label">

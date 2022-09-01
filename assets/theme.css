@@ -10959,6 +10959,9 @@ shopify-payment-terms {
 .ProductForm__Option--labelled {
   margin-bottom: 20px;
 }
+.ProductForm__Option--labelled.optionName__Farve {
+  display: none;
+}
 
 .no-js .ProductForm__Option:not(.no-js) {
   display: none;
@@ -10988,7 +10991,6 @@ shopify-payment-terms {
 .ProductForm__Label {
   display: block;
   margin-bottom: 8px;
-  font-weight: 900;
 }
 
 .ProductForm__LabelLink {
@@ -11033,11 +11035,37 @@ shopify-payment-terms {
   margin-top: 10px;
   text-align: center;
 }
-
+.ProductForm__BuyButtons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+      gap: 5px;
+}
 .ProductForm__AddToCart {
   display: flex;
+  flex: 1;
   align-items: center;
   justify-content: center;
+}
+.ProductForm__BuyButtons .pill{
+  width:100%;
+  font-size: 12px !important;
+   text-align: center !important;
+  letter-spacing: -.05em;
+  font-family: var(--text-font-family)!important;
+  padding: 13px 12px 9px 33px !important;
+  background-position: 80px center !important;
+}
+@media screen and (min-width: 1007px){
+  .ProductForm__BuyButtons{
+  flex-direction: row;
+  }
+  .ProductForm__BuyButtons .pill{
+  flex: 2;
+  padding: 13px 19px 9px 53px !important;
+  background-position: 12px center !important;
+}
 }
 
 /**

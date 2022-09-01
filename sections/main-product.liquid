@@ -329,7 +329,7 @@
 
                     <button type="submit" data-use-primary-button="{% if use_primary_button %}true{% else %}false{% endif %}" class="ProductForm__AddToCart Button {% if product.selected_or_first_available_variant.available and use_primary_button %}Button--primary{% else %}Button--secondary{% endif %} Button--full" {% if product.selected_or_first_available_variant.available %}data-action="add-to-cart"{% else %}disabled="disabled"{% endif %}>
                       {%- if product.selected_or_first_available_variant.available -%}
-                        <span>{% if product.template_suffix == 'pre-order' %}{%- render 'icon' with 'cart' -%}{{ 'product.form.pre_order' | t }}{% else %}{%- render 'icon' with 'cart' -%}{{ 'product.form.add_to_cart' | t }}{% endif %}</span>
+                        <span >{% if product.template_suffix == 'pre-order' %}<span style="display:none">{%- render 'icon' with 'cart' -%}</span>{{ 'product.form.pre_order' | t }}{% else %}<span style="display:none">{%- render 'icon' with 'cart' -%}</span>{{ 'product.form.add_to_cart' | t }}{% endif %}</span>
 
                         {%- if block.settings.show_price_in_button -%}
                           <span class="Button__SeparatorDot"></span>

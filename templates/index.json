@@ -48,31 +48,6 @@
         "button_link": ""
       }
     },
-    "1651223091b5c81da9": {
-      "type": "profile-text",
-      "settings": {
-        "padding_small": false,
-        "hide_desktop": false,
-        "background_img": "none",
-        "background": "#ffffff",
-        "text_color": "#342e29",
-        "text__align": "center",
-        "title": "vonFritz® økologisk sengetøj, håndklæder og viskestykker",
-        "h1": false,
-        "heading_size": 28,
-        "margin_heading": true,
-        "heading_size_mobile": 24,
-        "content": "<p>\"Jeg har med vonFritz en drøm og et ønske om at bidrage til en grønnere verden. En verden hvor vi kommer væk fra køb-og-smid-væk kulturen og i stedet fokuserer på kvalitet og det gode håndværk. Jeg tror på at æstetik og etik kan forenes således at det smukke økologiske sengetøj, håndklæder og viskestykker vi fremstiller, ikke gør skade på vores klode eller på os.\" <\/p>",
-        "profile_name": "Tina Andersen",
-        "profile_title": "CEO & Founder",
-        "profile_image": "shopify:\/\/shop_images\/VonFritz_bomaerke_blaagroen_Final_Pantone.png",
-        "max_content": true,
-        "max_content_size": 120,
-        "max_box_size": 50,
-        "button_label": "",
-        "button_link": ""
-      }
-    },
     "1649338946aef6d2c0": {
       "type": "collection-list",
       "blocks": {
@@ -160,6 +135,31 @@
         "button_fill": "#a79f88",
         "button_color_hoover": "#342e29",
         "button_fill_hoover": "#ffffff"
+      }
+    },
+    "1651223091b5c81da9": {
+      "type": "profile-text",
+      "settings": {
+        "padding_small": false,
+        "hide_desktop": false,
+        "background_img": "none",
+        "background": "#ffffff",
+        "text_color": "#342e29",
+        "text__align": "center",
+        "title": "vonFritz® økologisk sengetøj, håndklæder og viskestykker",
+        "h1": false,
+        "heading_size": 28,
+        "margin_heading": true,
+        "heading_size_mobile": 24,
+        "content": "<p>\"Jeg har med vonFritz en drøm og et ønske om at bidrage til en grønnere verden. En verden hvor vi kommer væk fra køb-og-smid-væk kulturen og i stedet fokuserer på kvalitet og det gode håndværk. Jeg tror på at æstetik og etik kan forenes således at det smukke økologiske sengetøj, håndklæder og viskestykker vi fremstiller, ikke gør skade på vores klode eller på os.\" <\/p>",
+        "profile_name": "Tina Andersen",
+        "profile_title": "CEO & Founder",
+        "profile_image": "shopify:\/\/shop_images\/VonFritz_bomaerke_blaagroen_Final_Pantone.png",
+        "max_content": true,
+        "max_content_size": 120,
+        "max_box_size": 50,
+        "button_label": "",
+        "button_link": ""
       }
     },
     "16493357443a88c7d8": {
@@ -304,8 +304,8 @@
   "order": [
     "16493219980674aef0",
     "163276763442e7599e",
-    "1651223091b5c81da9",
     "1649338946aef6d2c0",
+    "1651223091b5c81da9",
     "16493357443a88c7d8",
     "1632827034e58962e0",
     "1632770742cb2c7b8c",

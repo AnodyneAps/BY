@@ -12,14 +12,16 @@
         "show_sort_by": false,
         "show_layout_switch": false,
         "toolbar_position": "top",
-        "show_filters": false,
-        "show_filter_color_swatch": false,
-        "expand_filters": false,
-        "filter_position": "drawer",
+        "show_filters": true,
+        "show_filter_color_swatch": true,
+        "expand_filters": true,
+        "filter_position": "sidebar",
         "filter_menu": "",
         "grid_items_per_page": 16,
         "grid_mobile_items_per_row": "2",
-        "grid_desktop_items_per_row": 3
+        "grid_desktop_items_per_row": 3,
+        "section_size": "preserveRatio",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
       }
     },
     "recently-viewed-products": {
