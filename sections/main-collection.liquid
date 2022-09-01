@@ -330,9 +330,11 @@
             {% assign collection_sort_by = collection.sort_by | default: collection.default_sort_by %}
 
             {%- for option in collection.sort_options -%}
+            {% unless option.value contains 'best-selling' or option.value contains 'created-ascending' or option.value contains 'created-descending' %}
               <button class="Popover__Value {% if option.value == collection_sort_by %}is-selected{% endif %} Heading Link Link--primary u-h6" data-value="{{ option.value }}" data-action="select-value">
                 {{ option.name }}
               </button>
+              {% endunless %}
             {%- endfor -%}
           </div>
         </div>

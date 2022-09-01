@@ -422,23 +422,23 @@
     "general": {
       "all_products": "",
       "no_products": "",
-      "empty": "",
+      "empty": "Nothing found",
       "empty_button": "",
-      "reset": "",
+      "reset": "Nothing found ",
       "view_products": ""
     },
     "filter": {
-      "title": "",
+      "title": "Filtrer",
       "show_filter": "",
       "all": "",
-      "reset": "",
+      "reset": "Nulstil",
       "apply": "",
       "price_filter_from": "",
       "price_filter_to": ""
     },
     "sorting": {
-      "title": "",
-      "show_sort": ""
+      "title": "Sorter",
+      "show_sort": "Sorter efter"
     },
     "layout": {
       "show_one_per_row": "",
@@ -491,6 +491,11 @@
       "order_summary": {
         "taxes_label": "Moms",
         "vat_label_html": "Inklusiv moms"
+      }
+    },
+    "filters": {
+      "product_type": {
+        "label": "Produkttype"
       }
     }
   }
