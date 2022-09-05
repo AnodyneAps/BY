@@ -71,7 +71,7 @@
           "primary_menu": "main-menu",
           "secondary_menu": "",
           "show_social_media": true,
-          "menu_image": "shopify:\/\/shop_images\/Billede1.jpg"
+          "menu_image": "shopify:\/\/shop_images\/Signature_-_Eiucalyptus.jpg"
         }
       },
       "announcement": {
@@ -103,7 +103,7 @@
           "mobile_logo_max_width": 90,
           "show_currency_selector": false,
           "show_locale_selector": false,
-          "navigation_menu": "main-menu",
+          "navigation_menu": "main-desktop-menu",
           "navigation_style": "logoLeft",
           "show_icons": true,
           "enable_transparent_header": true,

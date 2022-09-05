@@ -1832,8 +1832,8 @@ input.spr-button-primary[disabled],
 .spr-pagination-next > a:hover {
   color: var(--button-text-color-hover);
   border: 2px solid;
-  border-color: var(--b-sand-clr);
-  background-color: var(--b-sand-clr);
+  border-color: var(--grayclr);
+  background-color: var(--grayclr);
 }
 
 /*
@@ -4405,7 +4405,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   text-align: center;
   min-width: 41px;
   padding: 6px 10px;
-  border: 1px solid var(--b-ash-clr);
+  border: 1px solid var(--ashclr);
   color: var(--text-color);
   cursor: pointer;
   border-radius: 3px;
@@ -4425,7 +4425,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 
 .SizeSwatch.is-active::after,
 .SizeSwatch__Radio:checked + .SizeSwatch {
-  border-color: var(--b-sand-clr);
+  border-color: var(--grayclr);
   background-color: var(--button-background);
   color: #fff;
 }
@@ -4679,7 +4679,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   padding-top: 0px;
   align-items: center;
   font-size: 0.9rem;
-  color: var(--b-main-clr);
+  color: var(--mainclr);
   text-transform: initial;
 }
 
@@ -7587,7 +7587,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   border-radius: 50%;
 }
 .ProductItem__LabelList-badge span{
-  color: var(--b-main-clr);
+  color: var(--mainclr);
 }
 .ProductItem__Label {
   display: block;
@@ -8859,7 +8859,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 .waiting-toScroll  .Heading,
 .waiting-toScroll .Link--secondary,
 .waiting-toScroll .Link--primary:hover {
-  color: var(--b-white-clr) !important;
+  color: var(--whiteclr) !important;
 }
 
 .Header .Text--subdued,
@@ -8883,7 +8883,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 .scroll-header  .Heading,
 .scroll-header .Link--secondary,
 .scroll-header .Link--primary:hover {
-  color: var(--b-main-clr) !important;
+  color: var(--mainclr) !important;
 }
 .Header__Wrapper {
   display: flex;
@@ -8981,11 +8981,11 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 }
 .waiting-toScroll .Header__Icon .a,
 .waiting-toScroll .Header__Icon .b {
-  stroke: var(--b-white-clr);
+  stroke: var(--whiteclr);
 }
 .scroll-header .Header__Icon .a,
 .scroll-header .Header__Icon .b {
-  stroke: var(--b-main-clr) !important;
+  stroke: var(--mainclr) !important;
 }
 .Header__Icon .Icon--nav {
   height: 15px;
@@ -10826,7 +10826,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   transition: 250ms ease-in color;
 }
 .ProductMeta__Subtitle-link:hover{
-  color: var(--b-main-clr);
+  color: var(--mainclr);
 }
 
 .ProductMeta__PriceList {
@@ -14072,7 +14072,7 @@ shopify-payment-terms {
 .videoBackground .videoBoxInfoTitle, .videoBackground .imageBoxInfoTitle {
   font-family: var(--heading-font-family);
   font-weight: 600;
-  color: var(--b-white-clr);
+  color: var(--whiteclr);
   font-size: clamp(1.8rem, 4.5vw, 3.6rem);
   line-height: clamp(2rem, 4.5vw, 3.8rem);
 }
@@ -14125,7 +14125,7 @@ shopify-payment-terms {
     height: 28px;
     border-radius: 50%;
     transition: opacity .3s ease;
-    border: 1px solid var(--b-ash-clr);
+    border: 1px solid var(--ashclr);
   }
 
   .colorLinks__wrapper .colorLinks__ul   .colorLink__a:hover{
@@ -14156,10 +14156,10 @@ shopify-payment-terms {
   .colorLinks__wrapper .col-li .colorLink__a {
     position: relative;
     display: inline-block;
-    width: 10px;
-    height: 10px;
+    width: 14px;
+    height: 14px;
     border-radius: 50%;
-    border: 1px solid var(--b-ash-clr);
+    border: 1px solid var(--ashclr);
     transition: all 200ms ease;
   }
 
@@ -14171,9 +14171,9 @@ shopify-payment-terms {
     top: 50%;
     left:50%;
     transform: translate(-50%, -50%);
-    width:14px;
-    height:14px;
-    border: 1px solid var(--b-main-clr);
+    width:20px;
+    height:20px;
+    border: 1px solid var(--accentclr);
     border-radius: 50%;
   }
   .colorLinks__wrapper .more-swatches{
@@ -14216,7 +14216,7 @@ shopify-payment-terms {
   
   .profile__wrapper .profile__content {
     flex-grow: 2;
-    color:var(--b-darkgray-clr);
+    color:var(--darkgrayclr);
   }
   .vonfritz_titles{
     margin-top:-1rem;
@@ -14267,7 +14267,7 @@ shopify-payment-terms {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  color: var(--b-darkgray-clr);
+  color: var(--darkgrayclr);
   font-size: 0.878rem;
 }  
 .radio__container .radio__inner .original__price-first,
@@ -14277,12 +14277,12 @@ shopify-payment-terms {
   padding: 0 5px;
 }
 .radio__container .radio__inner .original__price{
-  text-decoration: 2px var(--b-accent-clr) line-through;
+  text-decoration: 2px var(--accentclr) line-through;
 }
 .radio__container .radio__inner .quantity__save{
   display: inline-block;
   padding: 0 5px;
-  color: var(--b-accent-clr);
+  color: var(--accentclr);
 }
 .radio__container .radio__inner .stk__text{
   display: inline-block;
@@ -14304,15 +14304,15 @@ shopify-payment-terms {
   width: 15px;
   height: 15px;
   --border-size:1px;
-  background: var(--b-ash-clr);
+  background: var(--ashclr);
   box-shadow: inset 0 0 0 10px white, 0 0 0 var(--border-size);
   border-radius: 50%;
   transition: .2s;
   cursor: pointer;
-  color:var(--b-ash-clr);
+  color:var(--ashclr);
 }
 .radio__container input[type="radio"]:hover, input[type="radio"]:checked {
-  background: var(--b-ash-clr);
+  background: var(--ashclr);
   box-shadow: inset 0 0 0 2px white, 0 0 0 var(--border-size);
 }
 .radio__container input[type="radio"]:checked + label {
