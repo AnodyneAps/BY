@@ -7566,7 +7566,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 .ProductItem__LabelList {
   position: absolute;
   left: 0px;
-  bottom: 50px;
+  bottom: 55px;
   text-align: left;
 }
 .ProductItem__LabelList-two {
@@ -14012,6 +14012,13 @@ shopify-payment-terms {
   position: relative;
 }
 .videoBackground .imageBox {
+  position: relative;
+  height: auto;
+  z-index: 0;
+}
+@media screen and (min-width: 768px) {
+.videoBackground .videoBox .videoBgImage__desktop
+{
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -14020,10 +14027,46 @@ shopify-payment-terms {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  position: relative;
   min-height: calc(100vh - 180px);
-  height: auto;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
 }
+.videoBackground .videoBox .videoBgImage__mobile{
+  display: none;
+}
+}
+@media screen and (max-width: 767px) {
+.videoBackground .videoBox .videoBgImage__mobile
+{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding: 300px 20px 80px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: calc(100vh - 180px);
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+  z-index: -1;
+}
+  .videoBackground .videoBox .videoBgImage__desktop{
+    display: none;
+  }
+  .videoBackground .videoBox .videoBgImage__mobile{
+    display: block;
+  }
+  .videoBackground .videoBox .videoBgImage__mobile .overlay {
+    z-index: -1 !important;
+  }
+ }
 .videoBackground .videoBoxInfo, .videoBackground .imageBoxInfo {
   z-index: 2;
   text-align: center;
