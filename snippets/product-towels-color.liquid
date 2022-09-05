@@ -3,9 +3,14 @@
 <div class="colorLinks__wrapper">
 	<div class="ProductForm__Label">{{'product.form.color' | t}}: {{ colorNames | last }}</div>
 		<ul class="colorLinks__ul">
-<li class="colorLinks__li "><a href="/products/handklaede-nature" class="colorLink__a {% if product.handle contains '-nature' %}active{% endif %}" style="background-color: #d9bd92;" title="nature color"></a></li>
-<li class="colorLinks__li "><a href="/products/handklaede-grey" class="colorLink__a  {% if product.handle contains '-grey' %}active{% endif %}" style="background-color: #8e8e8e;" title="grey color"></a></li>
-<li class="colorLinks__li "><a href="/products/handklaede-mint" class="colorLink__a  {% if product.handle contains '-mint' %}active{% endif %}" style="background-color: #b4eadb;" title="mint color"></a></li> 
-<li class="colorLinks__li "><a href="/products/handklaede-sky-blue" class="colorLink__a {% if product.handle contains '-sky-blue' %}active{% endif %}" style="background-color: #c2d9f4;" title="sky blue color"></a></li> 
+		<li class="colorLinks__li "><a href="/products/signature-handklaede-nature" class="colorLink__a {% if product.handle contains '-nature' %}active{% endif %}" style="background-color: var(--natureclr);" title="nature color"></a></li>
+		<li class="colorLinks__li "><a href="/products/handklaede-grey" class="colorLink__a  {% if product.handle contains '-grey' %}active{% endif %}" style="background-color:var(--grayclr);" title="grey color"></a></li>
+		<li class="colorLinks__li "><a href="/products/signature-handklaede-mint" class="colorLink__a  {% if product.handle contains '-mint' %}active{% endif %}" style="background-color:var(--mintclr)" title="mint color"></a></li> 
+		<li class="colorLinks__li "><a href="/products/signature-handklaede-sky-blue" class="colorLink__a {% if product.handle contains '-sky-blue' %}active{% endif %}" style="background-color:var(--skyblueclr)" title="sky blue color"></a></li> 
+		<li class="colorLinks__li "><a href="/products/signature-handklaede-olive" class="colorLink__a {% if product.handle contains 'olive' %}active{% endif %}" style="background-color: var(--oliveclr);" title="olive color"></a></li> 
+		<li class="colorLinks__li "><a href="/products/signature-handklaede-midnight" class="colorLink__a {% if product.handle contains 'midnight' %}active{% endif %}" style="background-color: var(--midnightclr);" title="midnight color"></a></li> 
+		<li class="colorLinks__li "><a href="/products/signature-handklaede-eucalyptus-grid" class="colorLink__a {% if product.handle contains 'eucalyptus-grid' %}active{% endif %}" style="background: var(--eucalyptusgrid);" title="eucalyptus grid color"></a></li> 
+		<li class="colorLinks__li "><a href="/products/signature-handklaede-blue-grid" class="colorLink__a {% if product.handle contains 'blue-grid' %}active{% endif %}" style="background: var(--bluegrid);" title="blue grid color"></a></li> 
+		<li class="colorLinks__li "><a href="/products/signature-handklaede-cacao-grid" class="colorLink__a {% if product.handle contains 'cacao-grid' %}active{% endif %}" style="background: var(--cacaogrid);" title="cacao grid color"></a></li> 
 </ul>
 </div>
