@@ -4923,7 +4923,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   }
 
   .Newsletter .Form__Submit {
-    margin: 0 0 0 20px;
+    margin: 10px 0 0 20px;
   }
 }
 
@@ -7562,18 +7562,19 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   -o-object-position: center;
      object-position: center;
 }
-
-.ProductItem__LabelList {
-  position: absolute;
-  left: 0px;
-  bottom: 55px;
-  text-align: left;
-}
+.ProductItem__LabelList,
 .ProductItem__LabelList-two {
   position: absolute;
   left: 0px;
-  bottom: 26px;
+  width:100%;
   text-align: left;
+}
+
+.ProductItem__LabelList {
+  bottom: 55px;
+}
+.ProductItem__LabelList-two {
+  bottom: 26px;
 }
 .ProductItem__LabelList-badge{
   position: absolute;
@@ -14025,7 +14026,7 @@ shopify-payment-terms {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: calc(100vh - 180px);
+  /* min-height: calc(100vh - 180px); */
   position: absolute;
   top:0;
   left:0;
@@ -14036,6 +14037,7 @@ shopify-payment-terms {
   display: none;
 }
 }
+
 @media screen and (max-width: 767px) {
 .videoBackground .videoBox .videoBgImage__mobile
 {
@@ -14047,7 +14049,7 @@ shopify-payment-terms {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: calc(100vh - 180px);
+  /* min-height: calc(100vh - 180px); */
   position: absolute;
   top:0;
   left:0;

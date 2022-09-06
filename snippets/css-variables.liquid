@@ -107,7 +107,7 @@
       --blackclr:#000000;
       --natureclr:#d9bd92;
       --midnightclr:#414448;
-      --blueclr:#0077b6;
+      --blueclr:#2C3196;
       /* signature colors  */
       --barkclr:#7C573D;
       --oliveclr:#60614C;
@@ -120,6 +120,7 @@
       --eucalyptusclr:#CECEAD; 
       --cloudlessblueclr:#283072;
       --coffeemilkclr:#CBAB8E;
+      --choclateclr:#494136;
       --moonstonegridclr:#D4A463;
       --cacaogridclr:#E8D8C1;
       --skybluegridclr:#C6CCC4;
@@ -132,14 +133,18 @@
       --nnfernstripeclr:#497C4C;
 
       --cacaogrid:repeating-linear-gradient( transparent, #000 1px, transparent 1px, var(--cacaogridclr) 6px), repeating-linear-gradient(90deg, transparent, #000 1px,  1px, var(--cacaogridclr) 6px);
+      --cacaogridreverse:repeating-linear-gradient( transparent, var(--mainclr40) 1px, transparent 1px, var(--choclateclr) 6px), repeating-linear-gradient(90deg, transparent, var(--mainclr40) 1px,  1px, var(--choclateclr) 6px);
       --moonstonegrid:repeating-linear-gradient( transparent, #000 1px, transparent 1px, var(--moonstonegridclr) 6px), repeating-linear-gradient(90deg, transparent, #000 1px, var(--moonstonegridclr) 1px, var(--moonstonegridclr) 6px);
       --skybluegrid:repeating-linear-gradient( transparent, #000 1px, transparent 1px, var(--skybluegridclr) 6px), repeating-linear-gradient(90deg, transparent, #000 1px, var(--skybluegridclr) 1px, var(--skybluegridclr) 6px);
       --eucalyptusgrid:repeating-linear-gradient( transparent, #000 1px, transparent 1px, var(--eucalyptusclr) 6px), repeating-linear-gradient(90deg, transparent, #000 1px, var(--eucalyptusclr) 1px, var(--eucalyptusclr) 6px);
-      --bluegrid:repeating-linear-gradient( transparent, #fff 1px, transparent 1px, var(--blueclr) 6px), repeating-linear-gradient(90deg, transparent, #fff 1px, var(--blueclr) 1px, var(--blueclr) 6px);
+      --bluegrid:repeating-linear-gradient( transparent, var(--blueclr) 1px, transparent 1px, #fff 6px), repeating-linear-gradient(90deg, transparent, var(--blueclr) 1px, transparent 1px, #fff 6px);
       --stonestripe:repeating-linear-gradient(90deg, transparent, #444 1px, var(--mainclr20) 1px, var(--mainclr20) 6px);
       --fernstripe:repeating-linear-gradient(90deg, transparent, #888 1px, var(--oliveclr) 1px, var(--oliveclr) 6px);
       --striber:repeating-linear-gradient(90deg, transparent, #444 1px, var(--mainclr20) 3px, var(--mainclr20) 6px);
-      --ternet:repeating-linear-gradient( transparent, #444 4px, transparent 0px, var(--mainclr20) 8px), repeating-linear-gradient(90deg, transparent, #444 4px,  0px, var(--mainclr20) 8px);
+      --ternet:repeating-linear-gradient(0deg, transparent, rgba(136,136,136,0.6) 3px, transparent 3px, rgba(209,208,209,0.1) 6px), repeating-linear-gradient(90deg, transparent, #888 1px, var(--mainclr20) 3px,rgba(209,208,209,0.1) 6px);
+      --olivebrush:repeating-linear-gradient(-85deg, transparent, rgba(11,111,111,0.4) 1px, var(--oliveclr) 1px, var(--oliveclr) 5px);
+      --cacaobrush:repeating-linear-gradient(-85deg, transparent, rgba(73,65,54,1) 1px, var(--cacaogridclr) 1px, var(--cacaogridclr) 5px);
+      --bluebrush:repeating-linear-gradient(-85deg, transparent, rgba(255,255,255,0.4) 1px, var(--blueclr) 1px, var(--blueclr)  5px);
     /* Products */
 
     {% case settings.product_list_horizontal_spacing %}

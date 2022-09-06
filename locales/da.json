@@ -422,9 +422,9 @@
     "general": {
       "all_products": "",
       "no_products": "",
-      "empty": "Nothing found",
+      "empty": "Intet resultat",
       "empty_button": "",
-      "reset": "Nothing found ",
+      "reset": "Intet resultat",
       "view_products": ""
     },
     "filter": {
