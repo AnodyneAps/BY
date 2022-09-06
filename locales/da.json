@@ -429,10 +429,10 @@
     },
     "filter": {
       "title": "Filtrer",
-      "show_filter": "",
+      "show_filter": "ddddd",
       "all": "",
       "reset": "Nulstil",
-      "apply": "",
+      "apply": "Se Resultater",
       "price_filter_from": "",
       "price_filter_to": ""
     },
