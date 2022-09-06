@@ -4679,7 +4679,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   padding-top: 0px;
   align-items: center;
   font-size: 0.9rem;
-  color: var(--mainclr);
+  color: var(--heading-color);
   text-transform: initial;
 }
 
@@ -8883,7 +8883,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 .scroll-header  .Heading,
 .scroll-header .Link--secondary,
 .scroll-header .Link--primary:hover {
-  color: var(--mainclr) !important;
+  color: var(--heading-color) !important;
 }
 .Header__Wrapper {
   display: flex;
@@ -9121,11 +9121,9 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
   }
-
   .Header__FlexItem--logo{
     margin-left: 0px;
   }
-
   .Header:not(.Header--sidebar) .Header__Wrapper {
     padding: 26px 50px;
   }

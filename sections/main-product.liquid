@@ -20,6 +20,9 @@
   capture towelsColorAssets
   render 'product-towels-color' with product:product 
   endcapture 
+  capture signatureViskestykker
+  render 'product-viskestykker' with product:product 
+  endcapture 
   -%}
 
 
@@ -364,6 +367,9 @@
                       {% endif %}
                       {% if product.handle contains 'signature-lagen' %}
                         {{signatureLagnerColorAssets}}
+                      {% endif %}
+                      {% if product.handle contains 'signature-viskestykke' %}
+                      {{signatureViskestykker}}
                       {% endif %}
                   {% endif %}
  
