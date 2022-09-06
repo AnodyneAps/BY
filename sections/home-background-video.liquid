@@ -3,7 +3,8 @@
 		{%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
 
 		{% if block.type == 'video' %}
-			<div class="videoBox aos-init" style="{%- if block.settings.video_link == blank -%}background-image: url('{{ block.settings.video_image  | img_url: 'master' }}');{%- endif -%}" data-aos="overflow__animation">
+			<div class="videoBox aos-init" data-aos="overflow__animation">
+			<div class="videoBgImage__desktop" style="{%- if block.settings.video_link == blank -%}background-image: url('{{ block.settings.video_image  | img_url: 'master' }}');{%- endif -%}">
 
 				{%- if block.settings.video_link != blank -%}
 					<div class="fullscreen-video-wrap">
@@ -40,6 +41,48 @@
 						</a>
 					{% endif %}
 				</div>
+				</div>
+
+				<div class="videoBgImage__mobile" style="{%- if block.settings.video_link == blank -%}background-image: url('{{ block.settings.video_image_mobile  | img_url: 'master' }}');{%- endif -%}">
+	
+					{%- if block.settings.video_link != blank -%}
+						<div class="fullscreen-video-wrap">
+							<video class="video-js" loop autoplay preload="none" muted playsinline
+							poster="https:{{ block.settings.video_image | img_url: 'master' }}">
+								<source src="{{ block.settings.video_link }}" type="video/mp4">
+							</video>
+						</div>
+					{% endif %}
+	
+					<div class="overlay" style="opacity: 0.{{ block.settings.overlay_opacity }}"></div>
+					<div class="videoBoxInfo">
+						{% if block.settings.title != blank %}
+							<h2 class="videoBoxInfoTitle" style="color: {{ block.settings.color_text }}">
+								{{ block.settings.title | escape }}
+							</h2>
+						{% endif %}
+	
+						{%- style -%}
+							.videoBackground .imageBoxInfoDescription p {
+								color: {{ block.settings.color_text }}!important;
+							}
+						{%- endstyle -%}
+	
+						{% if block.settings.text != blank %}
+							<div class="imageBoxInfoDescription" id="{{ block.id }}" style="color: {{ block.settings.color_text }}">
+								{{ block.settings.text }}
+							</div>
+						{% endif %}
+	
+						{% if block.settings.button_link != blank and block.settings.button_label != blank %}
+							<a href="{{ block.settings.button_link }}" class="videoBoxInfoBtn" style="color: {{ block.settings.color_btn_text }}; background: {{ block.settings.color_btn_bg }}">
+								{{ block.settings.button_label | escape }}
+							</a>
+						{% endif %}
+					</div>
+					</div>
+					
+
 			</div>
 			{% else %}
 				<div class="imageBox" style="background-color: {{ block.settings.color_bg }}; {%- if block.settings.image_bg != blank -%}background-image: url('{{ block.settings.image_bg | img_url: 'master' }}');{%- endif -%}">
@@ -103,9 +146,12 @@
 			{
 				"type": "image_picker",
 				"id": "video_image",
-				"label": {
-				"en": "Cover image"
-				}
+				"label": "Cover image size:1920X1080px"
+			},
+			{
+				"type": "image_picker",
+				"id": "video_image_mobile",
+				"label": "Cover image mobile size:500x800px"
 			},
 			{
 				"type": "range",

@@ -18,6 +18,9 @@
 {% capture handklaedeCollectionSwatches %}
 {%- render 'handklaede-colors' with product:product -%}
 {% endcapture %}
+{% capture signatureViskestykkerSwatches %}
+{%- render 'viskestykker-colors' with product:product -%}
+{% endcapture %}
 
 
 <div class="ProductItem {% if use_horizontal %}ProductItem--horizontal{% endif %}">
@@ -190,6 +193,9 @@
             {% endif %}
             {% if product.handle contains 'handklaede' %}
               {{handklaedeCollectionSwatches}}
+            {% endif %}
+            {% if product.handle contains 'signature-viskestykke' %}
+              {{signatureViskestykkerSwatches}}
             {% endif %}
         <!-- end color swatches  -->
 
