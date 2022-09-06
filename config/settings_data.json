@@ -36,7 +36,7 @@
     "base_text_font_size": 16,
     "country_selector": false,
     "currency_code_enabled": true,
-    "color_swatch_config": "Bark: #7C573D;\nCacao Grid: var(--cacaogrid);\nCloudless Blue: #283072;\nEucalyptus: #CECEAD;\nFern Stripe:var(--fernstripe) ;\nMidnight:#414448;\nAsh:#C8B9AA;\nMoonstone:#C0A477;\nMoonstone Grid: var(--moonstonegrid);\nCoffee Milk: #CBAB8E;\nRose Smoke:#E4C3B8;\nSky Blue Grid: var(--skybluegrid);\nStone Stripe: var(--stonestripe);\nWalnut: #987D5F;\nBlue Grid: var(--bluegrid);\nEucalyptus Grid:var(--eucalyptusgrid);\nMint:var(--mintclr);\nNature:var(--natureclr);\nOlive:var(--oliveclr);\nSky Blue:var(--skyblueclr);\nStriber:var(--striber);\nBlue Brush:var(--bluebrush);\nCacao Brush:var(--cacaobrush);\nCacao Grid Reverse:var(--cacaogridreverse);\nOlive Brush:var(--olivebrush);\nTernet:var(--ternet);",
+    "color_swatch_config": "Bark: #7C573D;\nCacao Grid: var(--cacaogrid);\nCloudless Blue: #283072;\nEucalyptus: #CECEAD;\nFern Stripe:var(--fernstripe) ;\nMidnight:#414448;\nAsh:#C8B9AA;\nMoonstone:#C0A477;\nMoonstone Grid: var(--moonstonegrid);\nCoffee Milk: #CBAB8E;\nRose Smoke:#E4C3B8;\nSky Blue Grid: var(--skybluegrid);\nStone Stripe: var(--stonestripe);\nWalnut: #987D5F;\nBlue Grid: var(--bluegrid);\nEucalyptus Grid:var(--eucalyptusgrid);\nMint:var(--mintclr);\nNature:var(--natureclr);\nOlive:var(--oliveclr);\nSky Blue:var(--skyblueclr);\nStriber:var(--striber);",
     "show_page_transition": false,
     "show_button_transition": true,
     "show_image_zooming": false,
