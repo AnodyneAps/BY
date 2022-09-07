@@ -14220,7 +14220,7 @@ shopify-payment-terms {
     border-radius: 50%;
   }
   .colorLinks__wrapper .more-swatches{
-    margin-left:10px;
+    margin:-6px 0 0 10px;
   }
   .colorLinks__wrapper .more-swatches .Icon--plus{
     width: 10px;
