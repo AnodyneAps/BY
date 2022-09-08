@@ -6087,7 +6087,9 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   .Section--spacingLarge {
     margin: 120px 0;
   }
-
+  .Section--spacingLargeCustom {
+    padding: 120px 0;
+  }
   .Section--spacingExtraLarge {
     margin: 145px 0;
   }
@@ -6118,6 +6120,12 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 
   .SectionFooter {
     margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 641px) {
+  .Section--spacingLargeCustom {
+    padding: 100px 0;
   }
 }
 .TableWrapper {
