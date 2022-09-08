@@ -1,6 +1,6 @@
 {% assign max_size = section.settings.max_content_size %}  
 
-<section class="Section Section--spacingNormal {% if section.settings.hide_desktop %}
+<section class="Section Section--spacingLargeCustom {% if section.settings.hide_desktop %}
 hidden-lap-and-up
 {% endif %}" id="section-{{ section.id }}">
     <div class="Text_Wrapper">
@@ -78,14 +78,21 @@ hidden-lap-and-up
         padding: 40px 0 20px 0 !important;
       }
     {% endif %}
-
+    {% if section.settings.padding_large %}
+      .Section--spacingLargeCustom #section-{{ section.id }} {
+        padding: 60px 0 40px 0 !important;
+      }
+    {% endif %}
     {% if section.settings.float_left %}
       #section-{{ section.id }} .text_unfold {
         text-align: left;
         height: 50px;
       }
     {% endif %}
-
+    .Text_Wrapper p{
+      font-size:22px;
+      line-height: 1.2;
+    }
     @media screen and (max-width: 640px) {
 
         #section-{{ section.id }} .Heading{
@@ -107,15 +114,17 @@ hidden-lap-and-up
       top: 0;
       width: 100%;
       height: 1100px; 
-        background-image: url('{{ section.settings.background_img| asset_url }}');
-        background-posistion: top;
-        background-size: cover;
-        opacity: 0.5;
+      background-image: url('{{ section.settings.background_img| asset_url }}');
+      background-posistion: top;
+      background-size: cover;
+      opacity: 0.5;
+      z-index: -1;
     }
 
     #section-{{ section.id }} {
       position: relative;
       overflow: hidden;
+      z-index:0;
     }
 
     .Text_Wrapper{
@@ -143,6 +152,12 @@ hidden-lap-and-up
         },
         {
           "type": "checkbox",
+          "id": "padding_large",
+          "label": "Padding Large",
+          "default": false
+        },
+        {
+          "type": "checkbox",
           "id": "hide_desktop",
           "label": "Hide on desktop",
           "default": false
@@ -159,12 +174,12 @@ hidden-lap-and-up
           "label": "Use icons background - choose color",
           "options": [
             {
-              "value": "icons-cream.svg",
-              "label": "Cream"
+              "value": "vonpanton-main.svg",
+              "label": "Main Pantone"
             },
             {
-              "value": "icons-green.svg",
-              "label": "Green"
+              "value": "vonpanton-cream.svg",
+              "label": "Cream Pantone"
             },
             {
               "value": "none",

@@ -7,9 +7,9 @@
           "type": "video",
           "settings": {
             "video_link": "",
-            "video_image": "shopify:\/\/shop_images\/198A7518.jpg",
-            "video_image_mobile": "shopify:\/\/shop_images\/heromobile_76f66c4f-1b31-4555-a277-5fd376d102a1.png",
-            "overlay_opacity": 56,
+            "video_image": "shopify:\/\/shop_images\/vonfritz_forside2_6c787223-7d64-4883-9d8c-10a555105196.jpg",
+            "video_image_mobile": "shopify:\/\/shop_images\/vonfritz_forside2_6c787223-7d64-4883-9d8c-10a555105196.jpg",
+            "overlay_opacity": 28,
             "title": "Økologisk sengetøj og boligtekstiler",
             "text": "<p>vonFritz® er et nordisk univers af boligtekstiler. Skabt med tanke på bæredygtighed og slowfashion. Udtrykket er rent og enkelt.<\/p>",
             "color_text": "#ffffff",
@@ -138,31 +138,6 @@
         "button_fill_hoover": "#ffffff"
       }
     },
-    "1651223091b5c81da9": {
-      "type": "profile-text",
-      "settings": {
-        "padding_small": false,
-        "hide_desktop": false,
-        "background_img": "none",
-        "background": "#ffffff",
-        "text_color": "#342e29",
-        "text__align": "center",
-        "title": "vonFritz® økologisk sengetøj, håndklæder og viskestykker",
-        "h1": false,
-        "heading_size": 28,
-        "margin_heading": true,
-        "heading_size_mobile": 24,
-        "content": "<p>\"Jeg har med vonFritz en drøm og et ønske om at bidrage til en grønnere verden. En verden hvor vi kommer væk fra køb-og-smid-væk kulturen og i stedet fokuserer på kvalitet og det gode håndværk. Jeg tror på at æstetik og etik kan forenes således at det smukke økologiske sengetøj, håndklæder og viskestykker vi fremstiller, ikke gør skade på vores klode eller på os.\" <\/p>",
-        "profile_name": "Tina Andersen",
-        "profile_title": "CEO & Founder",
-        "profile_image": "shopify:\/\/shop_images\/VonFritz_bomaerke_blaagroen_Final_Pantone.png",
-        "max_content": true,
-        "max_content_size": 120,
-        "max_box_size": 50,
-        "button_label": "",
-        "button_link": ""
-      }
-    },
     "16493357443a88c7d8": {
       "type": "featured-collections",
       "blocks": {
@@ -204,9 +179,9 @@
             "hide_mobile": false,
             "hide_link": false,
             "collection": "",
-            "image": "shopify:\/\/shop_images\/Billede1.jpg",
+            "image": "shopify:\/\/shop_images\/vf-1280x480.jpg",
             "image_alignment": "top center",
-            "image_mobile": "shopify:\/\/shop_images\/Billede1.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/vf500x750.jpg",
             "content_position": "bottomCenter",
             "subheading": "",
             "title": "Hvorfor vælge vonFritz®?",
@@ -300,17 +275,42 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "1651223091b5c81da9": {
+      "type": "profile-text",
+      "settings": {
+        "padding_small": false,
+        "hide_desktop": false,
+        "background_img": "none",
+        "background": "#ffffff",
+        "text_color": "#342e29",
+        "text__align": "center",
+        "title": "vonFritz® økologisk sengetøj, håndklæder og viskestykker",
+        "h1": false,
+        "heading_size": 28,
+        "margin_heading": true,
+        "heading_size_mobile": 24,
+        "content": "<p>\"Jeg har med vonFritz en drøm og et ønske om at bidrage til en grønnere verden. En verden hvor vi kommer væk fra køb-og-smid-væk kulturen og i stedet fokuserer på kvalitet og det gode håndværk. Jeg tror på at æstetik og etik kan forenes således at det smukke økologiske sengetøj, håndklæder og viskestykker vi fremstiller, ikke gør skade på vores klode eller på os.\" <\/p>",
+        "profile_name": "Tina Andersen",
+        "profile_title": "CEO & Founder",
+        "profile_image": "shopify:\/\/shop_images\/VonFritz_bomaerke_blaagroen_Final_Pantone.png",
+        "max_content": true,
+        "max_content_size": 120,
+        "max_box_size": 50,
+        "button_label": "",
+        "button_link": ""
+      }
     }
   },
   "order": [
     "16493219980674aef0",
     "163276763442e7599e",
     "1649338946aef6d2c0",
-    "1651223091b5c81da9",
     "16493357443a88c7d8",
     "1632827034e58962e0",
     "1632770742cb2c7b8c",
     "1646509594f49b0adf",
-    "1633001842c9af7c59"
+    "1633001842c9af7c59",
+    "1651223091b5c81da9"
   ]
 }
