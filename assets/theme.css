@@ -6105,7 +6105,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   }
 
   .SectionHeader:not(:only-child) {
-    margin-bottom: 70px;
+    margin-bottom: 30px;
   }
 
   .SectionHeader__Description {
@@ -7224,7 +7224,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 
 .CollectionItem__Wrapper {
   position: relative;
-  height: 320px;
+  height: 480px;
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -7232,11 +7232,11 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 
 
 .CollectionItem__Wrapper--small {
-  height: 450px;
+  height: 540px;
 }
 
 .CollectionItem__Wrapper--large {
-  height: 550px;
+  height: 650px;
 }
 
 .CollectionItem__ImageWrapper {
@@ -7595,7 +7595,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 7px));
   margin: 4px 0;
   padding: 3px 6px 2px 10px;
-  background: var(--background);
+  background: var(--mainclr40);
   max-width: -webkit-max-content;
   max-width: -moz-max-content;
   max-width: max-content;
@@ -7611,7 +7611,6 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   max-width: -moz-max-content;
   max-width: max-content;
   color: var(--logoclr80);
-  background-color: var(--mainclr40);
 }
 .AspectRatio .collection__name-badge{
   position: absolute;
@@ -8848,8 +8847,9 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 
 .Header .Heading,
 .Header .Link--secondary{
-  font-family: var(--text-font-family);
+  font-family: var(--heading-font-family);
   font-size: 16px;
+
 }
 
 .Header .Heading,
