@@ -90,13 +90,17 @@ hidden-lap-and-up
       }
     {% endif %}
     .Text_Wrapper p{
-      font-size:22px;
+      font-size:1.3rem;
       line-height: 1.2;
     }
     @media screen and (max-width: 640px) {
 
         #section-{{ section.id }} .Heading{
             font-size: {{ section.settings.heading_size_mobile }}px;
+        }
+        .Text_Wrapper p{
+      font-size:1.1rem;
+      line-height: 1.4;
         }
     }
 
@@ -115,9 +119,9 @@ hidden-lap-and-up
       width: 100%;
       height: 1100px; 
       background-image: url('{{ section.settings.background_img| asset_url }}');
-      background-posistion: top;
+      background-position:center bottom;
       background-size: cover;
-      opacity: 0.5;
+      opacity: 0.3;
       z-index: -1;
     }
 

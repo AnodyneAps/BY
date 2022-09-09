@@ -3470,8 +3470,8 @@ select::-ms-expand {
   }
 
   .HorizontalList--spacingExtraLoose .HorizontalList__Item {
-    margin-right: 21px;
-    margin-left: 21px;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 }
 /**
