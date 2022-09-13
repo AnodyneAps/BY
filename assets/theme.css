@@ -7590,13 +7590,15 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   right: 20px;
   width: 70px;
   height: 70px;
-  background-color: var(--mainclr40);
+  background-color: var(--mainclr20);
   display: grid;
   place-content: center;
   border-radius: 50%;
 }
 .ProductItem__LabelList-badge span{
-  color: var(--mainclr);
+  color: var(--logoclr);
+  font-size:0.8rem;
+  line-height:1;
 }
 .ProductItem__Label {
   display: block;
