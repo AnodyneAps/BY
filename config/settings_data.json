@@ -56,14 +56,14 @@
     "social_facebook": "https:\/\/www.facebook.com\/ByFritzDenmark",
     "social_instagram": "https:\/\/www.instagram.com\/vonfritzdesign",
     "favicon": "shopify:\/\/shop_images\/favicon-96x96.png",
-    "checkout_logo_image": "shopify:\/\/shop_images\/byfritz_logo.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/vonfritz_logo_r.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "medium",
     "checkout_body_background_color": "#ffffff",
     "checkout_input_background_color_mode": "white",
     "checkout_sidebar_background_color": "#ffffff",
-    "checkout_accent_color": "#342e29",
-    "checkout_button_color": "#342e29",
+    "checkout_accent_color": "#276059",
+    "checkout_button_color": "#a79f88",
     "sections": {
       "sidebar-menu": {
         "type": "sidebar-menu",
