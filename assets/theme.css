@@ -7338,11 +7338,11 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   }
 
   .CollectionList--spaced:nth-child(even) {
-    margin: 10px 20px 20px 20px;
+    margin: 10px 10px 5px 10px;
   }
 
   .CollectionList--spaced:nth-child(odd) {
-    margin: 20px 20px 10px 20px;
+    margin: 10px 10px 5px 10px;
   }
 
   .CollectionList--spaced .CollectionItem {
@@ -7372,11 +7372,11 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 
 @media screen and (min-width: 1140px) {
   .CollectionList--spaced:nth-child(even) {
-    margin: 20px 20px 20px 10px;
+    margin: 10px 0 0 0;
   }
 
   .CollectionList--spaced:nth-child(odd) {
-    margin: 20px 10px 20px 20px;
+    margin: 10px 10px 10px 10px;
   }
 
   .CollectionItem {
