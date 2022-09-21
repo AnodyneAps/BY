@@ -5,6 +5,9 @@
   assign buy_buttons_block = section.blocks | where: 'type', 'buy_buttons' | first
   assign colors_block = section.blocks | where: 'type', 'colors' | first
   assign available_product = product.selected_or_first_available_variant.available
+  assign productLabel = product.metafields.my_fields.product_label  
+  assign productCustomType = product.type 
+  assign productTitle = product.title 
   capture signatureSengeSaetColorAssets
   render 'product-signature-sengesaet' with product:product
   endcapture
@@ -136,7 +139,7 @@
                   <div class="AspectRatio AspectRatio--withFallback" style="padding-bottom: {{ 100.0 | divided_by: media.aspect_ratio }}%; --aspect-ratio: {{ media.aspect_ratio }};">
                     {% assign image_url = media | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
     
-                    <img class="Image--lazyLoad Image--fadeIn" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto" data-expand="-100" alt="{{ media.alt | escape }}" data-max-width="{{ media.width }}" data-max-height="{{ media.height }}" data-original-src="{{ media | img_url: 'master' }}">
+                    <img class="Image--lazyLoad Image--fadeIn" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto" data-expand="-100" alt="{%- if productCustomType != blank or productTitle != blank or productLabel != blank -%}{{productCustomType}} - {{productTitle}} - {{productLabel}}{%-endif -%}-vonFritz" data-max-width="{{ media.width }}" data-max-height="{{ media.height }}" data-original-src="{{ media | img_url: 'master' }}">
                     <span class="Image__Loader"></span>
     
                     <noscript>
