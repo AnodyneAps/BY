@@ -22,11 +22,13 @@
     capture handklaedeCollectionSwatches 
     render 'handklaede-colors' with product:product
     endcapture 
+    capture handklaedeCollectionSwatches4pak 
+    render 'handklaede-color-4pak' with product:product
+    endcapture 
     capture signatureViskestykkerSwatches 
     render 'viskestykker-colors' with product:product 
     endcapture 
 -%}
-
 
 <div class="ProductItem {% if use_horizontal %}ProductItem--horizontal{% endif %}">
   <div class="ProductItem__Wrapper">
@@ -198,6 +200,10 @@
             {% endif %}
             {% if product.handle contains 'handklaede' %}
               {{handklaedeCollectionSwatches}}
+            {% endif %}
+            {% comment %} work in it manday  {% endcomment %}
+              {% if product.handle == 'handklaeder-4-' %}
+              {{handklaedeCollectionSwatches4pak}}
             {% endif %}
             {% if product.handle contains 'signature-viskestykke' %}
               {{signatureViskestykkerSwatches}}
