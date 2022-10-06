@@ -52,9 +52,10 @@
         {%- if block.settings.subheading != blank -%}
           <h3 class="SectionHeader__SubHeading Heading u-h6">{{ block.settings.subheading }}</h3>
         {%- endif -%}
-        <h3 class="SectionHeader__Heading SectionHeader__Heading--emphasize Heading u-h1">{{ block.settings.title | default: collection.title | escape }}</h3>
-
+        <h3 class="SectionHeader__Heading SectionHeader__Heading--emphasize custom__heading Heading u-h1">{{ block.settings.title | default: collection.title | escape }}</h3>
+         <div class="custom__text">
         {{ block.settings.richtext }}
+        </div>
         {%- if block.settings.button_link -%}
         <div class="SectionHeader__ButtonWrapper">
           {%- if block.settings.button_text != blank -%}

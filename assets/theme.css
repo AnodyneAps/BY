@@ -5281,7 +5281,15 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 .PageHeader .SectionHeader__Description {
   margin-top: 0 !important;
 }
-
+@media screen and (max-width: 420px){
+  .custom__heading {
+    line-height: 1 !important;
+    margin-bottom: 1rem;
+  }
+  .custom__text p{
+    line-height: 1.3;
+  }
+}
 .PageHeader .Alert {
   margin-top: 22px;
 }
