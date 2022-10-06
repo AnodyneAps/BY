@@ -87,7 +87,7 @@
           "link": "shopify:\/\/collections\/all",
           "fadein_one": "Fri fragt ved køb over 399 kr",
           "icon_selector1": "truck",
-          "fadein_two": "30 dages returrret",
+          "fadein_two": "30 dages returret",
           "icon_selector2": "shipping",
           "fadein_three": "Professionel kundeservice",
           "icon_selector3": "headphones",
@@ -110,7 +110,7 @@
           "enable_transparent_header_collection": false,
           "show_transparent_header_border": false,
           "transparent_text_color": "#ffffff",
-          "transparent_logo": "shopify:\/\/shop_images\/byfritz_logo.png"
+          "transparent_logo": "shopify:\/\/shop_images\/vonfritz_logo_r.png"
         }
       },
       "footer": {
