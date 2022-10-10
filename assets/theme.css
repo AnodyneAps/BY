@@ -2158,6 +2158,34 @@ input.spr-button-primary[disabled],
     transform: translateX(0%);
   }
 }
+/* progress bar animation stripe  */
+@-webkit-keyframes progress-bar-stripes {
+  0% {
+    background-position: 0 0; }
+
+  100% {
+    background-position: 1rem 0; } }
+
+@-moz-keyframes progress-bar-stripes {
+  0% {
+    background-position: 0 0; }
+
+  100% {
+    background-position: 1rem 0; } }
+
+@-ms-keyframes progress-bar-stripes {
+  0% {
+    background-position: 0 0; }
+
+  100% {
+    background-position: 1rem 0; } }
+
+@keyframes progress-bar-stripes {
+  0% {
+    background-position: 0 0; }
+
+  100% {
+    background-position: 1rem 0; } }
 
 @-webkit-keyframes buttonFromRightToLeft {
   0% {
@@ -14387,4 +14415,16 @@ shopify-payment-terms {
 }
 .radio__container input[type="radio"]:focus {
   outline: 0;
+}
+.sc-shipping-container{
+  border-radius: 3px;
+}
+.sc-shipping-container .sc-shipping-bar {
+  background-image: linear-gradient(45deg,rgba(255,255,255,.4) 25%, transparent 0,transparent 50%,rgba(255,255,255,.4) 0,rgba(255,255,255,.4) 75%,transparent 0,transparent);
+  background-size: 1rem 1rem;
+  animation: progress-bar-stripes 1s linear infinite;
+}
+.sc-shipping-container .sc-shipping-text{
+  font-weight: 600;
+  padding:0 8px !important;
 }
