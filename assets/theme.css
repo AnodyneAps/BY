@@ -6997,19 +6997,17 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
  * Bottom
  * ----------------------------------------------------------------------------
  */
-
 .Cart .Drawer__Footer,
 .Cart__OffscreenNoteContainer {
   padding: 14px 24px 24px 24px;
 }
-
 .Cart__Checkout {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  padding:14px 7px;
   margin-top: 18px;
 }
-
 .Cart__OffscreenNoteContainer {
   position: absolute;
   width: 100%;
@@ -11076,16 +11074,20 @@ shopify-payment-terms {
   background-position: 80px center !important;
 }
 @media screen and (min-width: 1007px){
-  .ProductForm__BuyButtons{
-  flex-direction: row;
+    .ProductForm__BuyButtons{
+    flex-direction: row;
+    }
+    .ProductForm__BuyButtons .pill{
+    flex: 2;
+    padding: 13px 19px 9px 53px !important;
+    background-position: 12px center !important;
   }
+}
+@media screen and (max-width:400px){
   .ProductForm__BuyButtons .pill{
-  flex: 2;
-  padding: 13px 19px 9px 53px !important;
-  background-position: 12px center !important;
+    background-position: 20px center !important;
+  }
 }
-}
-
 /**
  * ----------------------------------------------------------------------------
  * Featured image
