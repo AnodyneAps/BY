@@ -198,11 +198,10 @@
             {% if product.handle contains 'signature-lagen' %}
             {{signatureLagenSwatches}}
             {% endif %}
-            {% if product.handle contains 'handklaede' %}
+            {% if product.handle contains 'signature-handklaede' %}
               {{handklaedeCollectionSwatches}}
             {% endif %}
-            {% comment %} work in it manday  {% endcomment %}
-              {% if product.handle == 'handklaeder-4-' %}
+            {% if product.handle contains 'signature-pakkehandklaeder' %}
               {{handklaedeCollectionSwatches4pak}}
             {% endif %}
             {% if product.handle contains 'signature-viskestykke' %}

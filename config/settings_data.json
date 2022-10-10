@@ -142,20 +142,29 @@
       "popup": {
         "type": "popup",
         "settings": {
-          "show_popup": true,
+          "show_popup": false,
           "show_only_on_index": false,
-          "show_only_for_visitors": true,
-          "show_only_once": true,
+          "show_only_for_visitors": false,
+          "show_only_once": false,
           "title": "Gå ikke glip af noget",
           "content": "<p>Tilmeld dig til vores nyhedsbrev og hold dig opdateret om alt det nye der sker.<\/p>",
-          "show_newsletter": true,
+          "show_newsletter": false,
           "apparition_delay": 3
         }
       }
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "zxLfR1mW0ulNAOzRDD": {
+        "type": "shopify:\/\/apps\/drip-email-marketing\/blocks\/drip_shopify_snippet\/0c4de56d-b2fa-4621-acea-6293bc16aba8",
+        "disabled": false,
+        "settings": {
+          "account_param": "5618606"
+        }
+      }
+    }
   },
   "presets": {
     "Allure": {
