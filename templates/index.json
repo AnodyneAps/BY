@@ -313,7 +313,7 @@
             "collection": "viskestykker",
             "title": "Viskestykker i 100% bomuld",
             "text_box": "",
-            "grid_items_count": 4,
+            "grid_items_count": 2,
             "button_text": "Explore"
           }
         }
@@ -333,7 +333,7 @@
         "show_vendor": false,
         "show_color_swatch": false,
         "grid_mobile_items_per_row": "2",
-        "grid_desktop_items_per_row": 4
+        "grid_desktop_items_per_row": 2
       }
     }
   },

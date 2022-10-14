@@ -57,6 +57,7 @@
     },
     "1633105453d9ab1568": {
       "type": "customer-testimonials",
+      "disabled": true,
       "blocks": {
         "1633105453d9ab1568-0": {
           "type": "review",
