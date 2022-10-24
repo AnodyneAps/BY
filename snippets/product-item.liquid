@@ -99,7 +99,12 @@
           <div class="ProductItem__LabelList-badge">
             <span class="ProductItem__Label-badge Heading Text--subdued">{{ productBadgeLabel}}</span>
           </div>
-      {% endif %}
+          {% endif %}
+           {% if section.settings.show_blackdays_badge == true %}
+            <div class="ProductItem__Blackdays-badge">
+            <span class="Blackdays-badge Heading Text--subdued">{% if section.settings.blackdays_badge_text != black %}{{section.settings.blackdays_badge_text}}{% endif %}</span>
+          </div>
+          {% endif %}
           {% if productSeriesLabel != blank %}
           <div class="collection__name-badge">{{productSeriesLabel}}</div>
           {% endif %}

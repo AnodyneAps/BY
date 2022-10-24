@@ -59,9 +59,9 @@
         {%- if block.settings.button_link -%}
         <div class="SectionHeader__ButtonWrapper">
           {%- if block.settings.button_text != blank -%}
-            <span href="{{ block.settings.button_link }}" class="CollectionItem__Link Button">{{ block.settings.button_text | escape }}</span>
+            <span href="{{ block.settings.button_link }}" class="Button Button--primary">{{ block.settings.button_text | escape }}</span>
           {%- else -%}
-            <span href="{{ block.settings.button_link }}" class="CollectionItem__Link Button">{{ 'collection.general.view_products' | t }}</span>
+            <span href="{{ block.settings.button_link }}" class="Button Button--primary">{{ 'collection.general.view_products' | t }}</span>
           {%- endif -%}
         </div>
         {%- endif -%}
