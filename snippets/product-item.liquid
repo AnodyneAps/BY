@@ -101,13 +101,14 @@
           </div>
           {% endif %}
            {% if section.settings.show_blackdays_badge == true %}
-            <div class="ProductItem__Blackdays-badge">
-            <span class="Blackdays-badge Heading Text--subdued">{% if section.settings.blackdays_badge_text != black %}{{section.settings.blackdays_badge_text}}{% endif %}</span>
-          </div>
+              <div class="ProductItem__Blackdays-badge">
+              <span class="Blackdays-badge Heading Text--subdued">{% if section.settings.blackdays_badge_text != black %}{{section.settings.blackdays_badge_text}}{% endif %}</span>
+            </div>
           {% endif %}
           {% if productSeriesLabel != blank %}
           <div class="collection__name-badge">{{productSeriesLabel}}</div>
           {% endif %}
+      
       </div>
     </a>
 

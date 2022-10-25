@@ -10667,7 +10667,18 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   max-width: 400px;
   margin: 0 auto;
 }
-
+.Product__Info .return__date{
+  margin-top: 30px;
+  background-color: var(--mainclr10);
+  padding: 15px 10px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: var(--heading-font-family);
+  border-radius: 5px;
+}
+.Product__Info .return__date strong{
+  color: var(--accentclr);
+}
 .Product__Info--noGallery {
   padding-top: 24px;
 }
@@ -10864,10 +10875,28 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
  * ----------------------------------------------------------------------------
  */
 .ProductMeta {
-  text-align: left;
+  position: relative;
   margin-bottom: 12px;
 }
+.ProductMeta .underTitle__blackdays-badge{
+  position: absolute;
+  right: 20px;
+  top: 90px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  background: linear-gradient(180deg, var(--blackclr) 10%, var(--logoclr) 80%);
+  color: white;
+  display: grid;
+  place-items: center;
+  font-family: var(--heading-font-family);
+  font-weight: 600;
+  font-size: .9rem;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1;
 
+}
 .ProductMeta__ImageWrapper {
   display: block;
   margin-bottom: 32px;
