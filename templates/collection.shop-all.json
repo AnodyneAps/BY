@@ -20,6 +20,8 @@
         "apply_overlay": true,
         "show_color_swatch": false,
         "show_vendor": false,
+        "show_blackdays_badge": true,
+        "blackdays_badge_text": "25%",
         "collection_image_size": "small",
         "show_sort_by": true,
         "show_layout_switch": false,

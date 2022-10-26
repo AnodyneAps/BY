@@ -7627,7 +7627,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   background: linear-gradient(180deg, var(--blackclr) 0%, var(--logoclr) 50%);
   display: grid;
   place-items: center;
-
+  z-index: 2;
 }
 .ProductItem__Blackdays-badge .Blackdays-badge{
   color:white;
@@ -10671,10 +10671,16 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   margin-top: 30px;
   background-color: var(--mainclr10);
   padding: 15px 10px;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 600;
   font-family: var(--heading-font-family);
   border-radius: 5px;
+  text-align: center;
+}
+@media screen and (min-width: 641px){
+  .Product__Info .return__date{
+    font-size: 16px;
+  }
 }
 .Product__Info .return__date strong{
   color: var(--accentclr);

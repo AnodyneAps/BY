@@ -11,7 +11,8 @@
             "subtitle_link": "{{ product.metafields.product.subtitleExternalLink.value }}",
             "show_sku": false,
             "show_product_rating": false,
-            "show_taxes_included": false
+            "show_taxes_included": false,
+            "product__blackdays-title-badge": "SPAR 25%"
           }
         },
         "a8498457-f36e-4e16-a79b-90275568162f": {
@@ -39,7 +40,8 @@
           "type": "buy_buttons",
           "settings": {
             "show_price_in_button": false,
-            "show_payment_button": false
+            "show_payment_button": false,
+            "product__returndate-text": "<p>Vi forlænger returretten frem til <strong>d. 20. jan. 2023<\/strong><\/p>"
           }
         },
         "2bc5c75c-e4ca-40f7-ba89-d340007f92cb": {

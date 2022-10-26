@@ -6,9 +6,8 @@
         "16493219983c170ed0-0": {
           "type": "video",
           "settings": {
-            "video_link": "",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6761438e5164496db767562d084356b8.mp4",
             "video_image": "shopify:\/\/shop_images\/Desk.jpg",
-            "video_image_mobile": "shopify:\/\/shop_images\/Mobile.jpg",
             "overlay_opacity": 13,
             "title": "vonFritz® økologisk sengetøj og boligtekstiler",
             "text": "",
@@ -136,7 +135,9 @@
         "button_border_color": "#dad8ce",
         "button_fill": "#a79f88",
         "button_color_hoover": "#342e29",
-        "button_fill_hoover": "#ffffff"
+        "button_fill_hoover": "#ffffff",
+        "show_blackdays_badge": false,
+        "blackdays_badge_text": ""
       }
     },
     "16493357443a88c7d8": {
@@ -168,7 +169,9 @@
         "show_vendor": false,
         "show_color_swatch": false,
         "grid_mobile_items_per_row": "2",
-        "grid_desktop_items_per_row": 4
+        "grid_desktop_items_per_row": 4,
+        "show_blackdays_badge": true,
+        "blackdays_badge_text": "25%"
       }
     },
     "1632770742cb2c7b8c": {
@@ -223,7 +226,9 @@
         "show_vendor": false,
         "show_color_swatch": false,
         "grid_mobile_items_per_row": "2",
-        "grid_desktop_items_per_row": 4
+        "grid_desktop_items_per_row": 4,
+        "show_blackdays_badge": false,
+        "blackdays_badge_text": ""
       }
     },
     "1632827034e58962e0": {
@@ -269,7 +274,9 @@
         "button_border_color": "rgba(0,0,0,0)",
         "button_fill": "#a79f88",
         "button_color_hoover": "#595959",
-        "button_fill_hoover": "#dad8ce"
+        "button_fill_hoover": "#dad8ce",
+        "show_blackdays_badge": false,
+        "blackdays_badge_text": ""
       }
     },
     "1633001842c9af7c59": {
@@ -333,7 +340,9 @@
         "show_vendor": false,
         "show_color_swatch": false,
         "grid_mobile_items_per_row": "2",
-        "grid_desktop_items_per_row": 2
+        "grid_desktop_items_per_row": 2,
+        "show_blackdays_badge": true,
+        "blackdays_badge_text": "25%"
       }
     }
   },
