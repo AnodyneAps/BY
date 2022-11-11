@@ -6,13 +6,13 @@
         "16493219983c170ed0-0": {
           "type": "video",
           "settings": {
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6761438e5164496db767562d084356b8.mp4",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/49605f2caf294093b0382407a8b6b7ba.mp4",
             "video_image": "shopify:\/\/shop_images\/Desk.jpg",
             "overlay_opacity": 13,
             "title": "vonFritz® økologisk sengetøj og boligtekstiler",
             "text": "",
             "color_text": "#ffffff",
-            "button_label": "Opdag universet",
+            "button_label": "Spar 25% på alt",
             "button_link": "shopify:\/\/collections\/alle-produkter",
             "color_btn_bg": "#a79f88",
             "color_btn_text": "#ffffff"
@@ -64,7 +64,7 @@
             "subheading": "",
             "title": "{{ block.settings.collection.title }}",
             "richtext": "",
-            "button_text": "Explore",
+            "button_text": "Spar 25%",
             "button_link": "shopify:\/\/collections\/sengetoj",
             "apply_overlay": true,
             "apply_overlay_extra": false,
@@ -85,7 +85,7 @@
             "subheading": "",
             "title": "{{ block.settings.collection.title }}",
             "richtext": "",
-            "button_text": "Explore",
+            "button_text": "Spar 25%",
             "button_link": "shopify:\/\/collections\/handklaeder",
             "apply_overlay": true,
             "apply_overlay_extra": false,
@@ -106,7 +106,7 @@
             "subheading": "",
             "title": "{{ block.settings.collection.title }}",
             "richtext": "",
-            "button_text": "Explore",
+            "button_text": "Spar 25%",
             "button_link": "shopify:\/\/collections\/viskestykker",
             "apply_overlay": true,
             "apply_overlay_extra": false,
@@ -150,7 +150,7 @@
             "title": "Sengetøj i 100% økologisk bomuld",
             "text_box": "",
             "grid_items_count": 4,
-            "button_text": "Explore"
+            "button_text": "Spar 25%"
           }
         }
       },
@@ -189,7 +189,7 @@
         "heading_size": 36,
         "margin_heading": false,
         "heading_size_mobile": 24,
-        "content": "<p>Med vonFritz har jeg gentænkt fremstillingen af boligtekstiler ved at kombinere min kærlighed for design, kvalitet og håndværk med nøje gennemtænkte bæredygtige materialer. Fælles for alle materialerne er at de er naturmaterialer. <\/p><p>Jeg skaber smukt økologisk sengetøj, håndklæder og viskestykker af høj kvalitet og med lang levetid. Kvaliteterne udvikles således at produkterne kan bruges igen og igen og endda gå i arv med den rigtige pleje. <\/p>",
+        "content": "<p>Med vonFritz har jeg gentænkt fremstillingen af boligtekstiler ved at kombinere min kærlighed for design, kvalitet og håndværk med nøje gennemtænkte bæredygtige materialer. Fælles for alle materialerne er, at de er naturmaterialer. <\/p><p>Jeg skaber smukt økologisk sengetøj, håndklæder og viskestykker af høj kvalitet og med lang levetid. Kvaliteterne udvikles således, at produkterne kan bruges igen og igen og endda gå i arv med den rigtige pleje. <\/p>",
         "max_content": false,
         "max_content_size": 50,
         "max_box_size": 50,
@@ -207,7 +207,7 @@
             "title": "Håndklæder i 100% økologisk bomuld",
             "text_box": "",
             "grid_items_count": 4,
-            "button_text": "Explore"
+            "button_text": "Spar 25%"
           }
         }
       },
@@ -227,8 +227,8 @@
         "show_color_swatch": false,
         "grid_mobile_items_per_row": "2",
         "grid_desktop_items_per_row": 4,
-        "show_blackdays_badge": false,
-        "blackdays_badge_text": ""
+        "show_blackdays_badge": true,
+        "blackdays_badge_text": "25%"
       }
     },
     "1632827034e58962e0": {
@@ -321,7 +321,7 @@
             "title": "Viskestykker i 100% bomuld",
             "text_box": "",
             "grid_items_count": 2,
-            "button_text": "Explore"
+            "button_text": "Spar 25%"
           }
         }
       },

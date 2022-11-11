@@ -54,7 +54,7 @@
     "cart_show_free_shipping_threshold": false,
     "cart_free_shipping_threshold": "399",
     "social_facebook": "https:\/\/www.facebook.com\/ByFritzDenmark",
-    "social_instagram": "https:\/\/www.instagram.com\/vonfritzdesign",
+    "social_instagram": "https:\/\/www.instagram.com\/vonfritz_com",
     "favicon": "shopify:\/\/shop_images\/android-chrome-192x192.png",
     "checkout_logo_image": "shopify:\/\/shop_images\/vonfritz_logo_r.png",
     "checkout_logo_position": "left",
@@ -85,14 +85,14 @@
           "enable_bar_one": false,
           "content": "Fri fragt ved køb fra 399 kr",
           "link": "shopify:\/\/collections\/all",
-          "fadein_one": "Fri fragt ved køb over 399 kr",
-          "icon_selector1": "truck",
-          "fadein_two": "30 dages returret",
-          "icon_selector2": "shipping",
-          "fadein_three": "Professionel kundeservice",
-          "icon_selector3": "headphones",
-          "fadein_four": "Nem og sikker betaling",
-          "icon_selector4": "cards"
+          "fadein_one": "Black Days - spar 25% på alt",
+          "icon_selector1": "material",
+          "fadein_two": "Black Days - det bliver ikke billigere",
+          "icon_selector2": "material",
+          "fadein_three": "Fri fragt ved køb fra 399 kr",
+          "icon_selector3": "material",
+          "fadein_four": "Forlænget returret til d. 24. jan. 2023",
+          "icon_selector4": "material"
         }
       },
       "header": {
@@ -116,7 +116,7 @@
       "footer": {
         "type": "footer",
         "settings": {
-          "show_payment_methods": true,
+          "show_payment_methods": false,
           "show_language_selector": false,
           "language_selector_header": "Language selector header",
           "newsletter_header": "Skriv dig op til vores nyhedsbrev og hold dig opdateret om nye produkter og tilbud.",
