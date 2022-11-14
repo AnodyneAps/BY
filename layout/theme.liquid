@@ -237,7 +237,7 @@
     {%- endif -%}
 
     {% section 'popup' %}
-    {% include 'shipping-modal' %}
+    {%- comment -%} {% include 'shipping-modal' %} {%- endcomment -%}
     {% section 'sidebar-menu' %}
 
     {%- if template != 'cart' -%}

@@ -12,7 +12,7 @@
         <button class="NewsletterPopup__Close" data-action="close-popup" aria-label="{{ 'general.popup.close' | t }}">{% render 'icon' with 'close' %}</button>
 
         {%- if section.settings.title != blank -%}
-          <h2 class="NewsletterPopup__Heading Heading u-h2">{{ section.settings.title | escape }}</h2>
+          <div class="NewsletterPopup__Heading Heading u-h2 h2-div">{{ section.settings.title | escape }}</div>
         {%- endif -%}
 
         {%- if section.settings.content != blank -%}
