@@ -4712,7 +4712,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   padding-top: 0px;
   align-items: center;
   font-size: 0.9rem;
-  color: var(--heading-color);
+  font-weight: 900;
   text-transform: initial;
 }
 

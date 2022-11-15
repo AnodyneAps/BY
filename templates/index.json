@@ -12,7 +12,11 @@
             "title": "vonFritz® økologisk sengetøj og boligtekstiler",
             "text": "",
             "color_text": "#ffffff",
+<<<<<<< HEAD
             "button_label": "Spar 25% på alt",
+=======
+            "button_label": "Opdag universet",
+>>>>>>> refs/remotes/origin/main
             "button_link": "shopify:\/\/collections\/all",
             "color_btn_bg": "#a79f88",
             "color_btn_text": "#ffffff"
