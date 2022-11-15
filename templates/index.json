@@ -15,7 +15,10 @@
             "button_label": "Spar 25% på alt",
             "button_link": "shopify:\/\/collections\/all",
             "color_btn_bg": "#a79f88",
-            "color_btn_text": "#ffffff"
+            "color_btn_text": "#ffffff",
+            "counter_text": "Black Days slutter om:",
+            "date__selector": "2022-11-27T23:59:59",
+            "show_counter": true
           }
         }
       },
