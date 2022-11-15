@@ -302,6 +302,12 @@
     },
     "buy_it_with": {
       "title": ""
+    },
+    "counter": {
+      "days": "Dage",
+      "hours": "Timer",
+      "minutes": "Minutter",
+      "seconds": "Sekunder"
     }
   },
   "blog": {
