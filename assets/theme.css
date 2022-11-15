@@ -14760,6 +14760,7 @@ shopify-payment-terms {
   display: none;
   background-color: transparent;
   top: 8px;
+  right: -35px;
 }
 @media screen and (min-width: 469px) {
   .flip-container.show-flip.fixed-bottom .close__btn, .flip-container.show-flip.product-bottom .close__btn {
