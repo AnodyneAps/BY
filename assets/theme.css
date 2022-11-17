@@ -14813,3 +14813,21 @@ shopify-payment-terms {
     transform: rotateX(0deg);
  }
 }
+
+/*------------ Drawer totals ------- */
+.Drawer__totals .Drawer__subtotal,
+.Drawer__totals .Drawer__savings{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Drawer__totals strong,
+.Drawer__totals .Drawer__subtotal .text__price,
+.Drawer__totals .Drawer__savings .text__price{
+  font-family: var(--heading-font-family);
+  font-weight: 900;
+}
+.Drawer__totals .Drawer__savings strong,
+.Drawer__totals .Drawer__savings .saving{
+  color: var(--accentclr);
+}
