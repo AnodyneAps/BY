@@ -14529,7 +14529,7 @@ shopify-payment-terms {
   font-weight: 900;
   line-height: 1;
   height: 100px;
-  z-index: 9999;
+  z-index: 12;
   border-radius: 10px;
   padding-top: 12px;
 }
