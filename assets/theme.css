@@ -14738,7 +14738,7 @@ shopify-payment-terms {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  z-index: 999;
+  z-index:2;
 }
 @media screen and (min-width: 969px) {
   .flip-container.show-flip.fixed-bottom, .flip-container.show-flip.product-bottom {
