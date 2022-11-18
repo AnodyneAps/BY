@@ -10888,7 +10888,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 .ProductMeta .underTitle__blackdays-badge{
   position: absolute;
   right: 20px;
-  top: 90px;
+  top: 50px;
   width: 70px;
   height: 70px;
   border-radius: 50px;
