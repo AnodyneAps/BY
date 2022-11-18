@@ -7627,7 +7627,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   background: linear-gradient(180deg, var(--blackclr) 0%, var(--logoclr) 50%);
   display: grid;
   place-items: center;
-  z-index: 2;
+  z-index: 1;
 }
 .ProductItem__Blackdays-badge .Blackdays-badge{
   color:white;
@@ -14815,6 +14815,10 @@ shopify-payment-terms {
 }
 
 /*------------ Drawer totals ------- */
+.Drawer__totals{
+  margin-top: -14px;
+  border-bottom: 1px solid rgba(122,122,122,0.3);
+}
 .Drawer__totals .Drawer__subtotal,
 .Drawer__totals .Drawer__savings{
   display: flex;
@@ -14825,9 +14829,10 @@ shopify-payment-terms {
 .Drawer__totals .Drawer__subtotal .text__price,
 .Drawer__totals .Drawer__savings .text__price{
   font-family: var(--heading-font-family);
+  font-size: 0.8rem;
   font-weight: 900;
+  line-height: 1.2;
 }
-.Drawer__totals .Drawer__savings strong,
-.Drawer__totals .Drawer__savings .saving{
+.Drawer__totals .Drawer__savings{
   color: var(--accentclr);
 }

@@ -33,7 +33,7 @@
       {%- if settings.cart_show_free_shipping_threshold -%}
         {%- assign threshold_in_cents = settings.cart_free_shipping_threshold | times: 100 -%}
 
-        <div class="Cart__ShippingNotice Text--subdued">
+        {%- comment -%} <div class="Cart__ShippingNotice Text--subdued">
           <div class="Drawer__Container">
             {%- if cart.total_price >= threshold_in_cents -%}
               <p>{{- 'cart.general.free_shipping' | t -}}</p>
@@ -42,7 +42,7 @@
               <p>{{- 'cart.general.free_shipping_remaining_html' | t: remaining_amount: remaining_amount -}}</p>
             {%- endif -%}
           </div>
-        </div>
+        </div> {%- endcomment -%}
       {%- endif -%}
 
       {%- if cart.item_count == 0 -%}
@@ -58,16 +58,15 @@
       {%- endif -%}
 
     </div>
-    {% if cart.item_count > 0 %}
-      <div class="Drawer__Footer" data-drawer-animated-bottom>
-        <div class="Drawer__totals">
-          <div class="Drawer__subtotal"><strong>Subtotal</strong><span class="text__price sub">{{ cart.total_price | money }}</span></div>
-          <div class="Drawer__savings"><strong>Samlet besparelse</strong><span class="text__price saving">- {{ total_saving | money }}</span></div>
-        </div>
-      </div>
-    {% endif %}
+
     {%- unless cart.item_count == 0 -%}
       <div class="Drawer__Footer" data-drawer-animated-bottom>
+        {% if cart.item_count > 0 %}
+            <div class="Drawer__totals">
+              <div class="Drawer__subtotal"><strong>{{ 'cart.general.subtotal' | t }}</strong><span class="text__price sub">{{ cart.total_price | money }}</span></div>
+              <div class="Drawer__savings"><strong>{{ 'cart.general.samletbesparelse' | t }}</strong><span class="text__price saving">- {{ total_saving | money }}</span></div>
+            </div>
+        {% endif %}
         {%- capture shipping_and_taxes_notice -%}{{ 'cart.general.shipping_and_taxes_notice' | t }}{%- endcapture -%}
         {%- if settings.cart_enable_notes or shipping_and_taxes_notice != blank -%}
           {%- if settings.cart_enable_notes -%}

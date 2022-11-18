@@ -213,6 +213,8 @@
     "general": {
       "title": "Kurv",
       "empty": "Din kurv er tom",
+      "subtotal": "Subtotal",
+      "samletbesparelse": "Samlet besparelse",
       "checkout": "Gå til kassen",
       "shipping_and_taxes_notice": "Fri levering og ombytning",
       "discount": "Rabat",
