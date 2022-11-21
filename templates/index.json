@@ -347,6 +347,25 @@
         "show_blackdays_badge": true,
         "blackdays_badge_text": "25%"
       }
+    },
+    "1669031576d724798f": {
+      "type": "apps",
+      "blocks": {
+        "532e6b8e-cc10-447e-8b29-0d7be0f98244": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "532e6b8e-cc10-447e-8b29-0d7be0f98244"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -359,6 +378,7 @@
     "1632827034e58962e0",
     "1633001842c9af7c59",
     "1651223091b5c81da9",
-    "1662709777d19ca543"
+    "1662709777d19ca543",
+    "1669031576d724798f"
   ]
 }
