@@ -3776,7 +3776,20 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   text-align: left;
   transition: all 0.2s ease-in-out;
 }
-
+.Linklist__Item.svg__holder{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  line-height: 1.2 !important;
+  margin-bottom: 5px !important;
+}
+.Linklist__Item.svg__holder .Linklist__link:hover{
+  opacity: 0.8;
+}
+.Linklist__Item.svg__holder .Linklist__link .Icon {
+font-size: 1.4rem;
+margin-right: 10px;
+}
 .Linklist__Item:last-child {
   margin-bottom: 0 !important;
 }

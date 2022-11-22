@@ -65,6 +65,24 @@
               <li class="Linklist__Item"><b>{{ section.settings.contact_box_mail }}</b> {{ section.settings.contact_box_mail_text }}</li>
               <li class="Linklist__Item"><b>{{ section.settings.contact_box_day_week }}</b> {{ section.settings.contact_box_day_week_time }}</li>
               <li class="Linklist__Item"><b>{{ section.settings.contact_box_day_weekend }}</b> {{ section.settings.contact_box_day_weekend_time }}</li>
+                {% if section.settings.show_social_links == true %}
+                           {%- if section.settings.facebook__link != blank -%}<li class="Linklist__Item svg__holder"><a class="Linklist__link face" target="_blank" href="{{section.settings.facebook__link}}">   {%- render 'icon' with {{section.settings.icon_facebook_selector}} -%} {%- if section.settings.facebook__text != blank -%}
+                                <span class="face-text">{{ section.settings.facebook__text }}</span>
+                                {%- endif -%}</a></li>
+                          {%- endif -%}
+                              {%- if section.settings.instagram__link != blank -%}<li class="Linklist__Item svg__holder"><a class="Linklist__link insta" target="_blank"  href="{{section.settings.instagram__link}}">   {%- render 'icon' with {{section.settings.icon_instagram_selector}} -%} {%- if section.settings.instagram__text != blank -%}
+                                <span class="insta-text">{{ section.settings.instagram__text }}</span>
+                                {%- endif -%}</a></li>
+                          {%- endif -%}
+                        {%- if section.settings.youtube__link != blank -%}<li class="Linklist__Item svg__holder"><a class="Linklist__link you" target="_blank"  href="{{section.settings.youtube__link}}">   {%- render 'icon' with {{section.settings.icon_youtube_selector}} -%} {%- if section.settings.youtube__text != blank -%}
+                                <span class="you-text">{{ section.settings.youtube__text }}</span>
+                                {%- endif -%}</a></li>
+                          {%- endif -%}
+                          {%- if section.settings.linkedin__link != blank -%}<li class="Linklist__Item svg__holder"><a class="Linklist__link link" target="_blank" href="{{section.settings.linkedin__link}}">   {%- render 'icon' with {{section.settings.icon_linkedin_selector}} -%} {%- if section.settings.linkedin__text != blank -%}
+                                <span class="link-text">{{ section.settings.linkedin__text }}</span>
+                                {%- endif -%}</a></li>
+                          {%- endif -%}
+                {% endif %}
               {% if settings.country_selector %}
                 <br>
                 <li class="Linklist__Item"><b>Select country: </b><span class="footer_country_desktop">{% include 'shipping-to' %}</span></li> 
@@ -305,6 +323,169 @@
         "id": "contact_box_day_weekend_time",
         "label": "Contact box weekend time",
         "default": "09.00-17.30"
+      },
+      {
+        "type": "header",
+        "content": "Show social Icons"
+      },
+       {
+        "type": "checkbox",
+        "id": "show_social_links",
+        "label": "Show social links",
+        "default": true
+      },
+     {
+      "type": "select",
+      "id": "icon_facebook_selector",
+      "label": "Select icon",
+      "options": [
+       {
+          "value": "none",
+           "label": "Empty"
+        },
+        {
+          "value": "facebook",
+          "label": "Facebook"
+        },
+        {
+          "value": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "value": "youtube",
+          "label": "Youtube"
+        },
+        {
+          "value": "linkedin",
+          "label": "Linkedin"
+        }
+       ],
+       "default": "none"
+      },
+     {
+        "type": "text",
+        "id": "facebook__link",
+        "label": "facebook link"
+      },
+      {
+        "type": "text",
+        "id": "facebook__text",
+        "label": "Add facebook text"
+      },
+     {
+      "type": "select",
+      "id": "icon_instagram_selector",
+      "label": "Select icon",
+      "options": [
+       {
+          "value": "none",
+           "label": "Empty"
+        },
+        {
+          "value": "facebook",
+          "label": "Facebook"
+        },
+        {
+          "value": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "value": "youtube",
+          "label": "Youtube"
+        },
+        {
+          "value": "linkedin",
+          "label": "Linkedin"
+        }
+       ],
+       "default": "none"
+      },
+      {
+        "type": "text",
+        "id": "instagram__link",
+        "label": "Instagram link"
+    
+      },
+      {
+        "type": "text",
+        "id": "instagram__text",
+        "label": "Add instagram text"
+      },
+           {
+      "type": "select",
+      "id": "icon_youtube_selector",
+      "label": "Select icon",
+      "options": [
+       {
+          "value": "none",
+           "label": "Empty"
+        },
+        {
+          "value": "facebook",
+          "label": "Facebook"
+        },
+        {
+          "value": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "value": "youtube",
+          "label": "Youtube"
+        },
+        {
+          "value": "linkedin",
+          "label": "Linkedin"
+        }
+       ],
+       "default": "none"
+      },
+     {
+        "type": "text",
+        "id": "youtube__link",
+        "label": "Youtube link"
+      },
+      {
+        "type": "text",
+        "id": "youtube__text",
+        "label": "Add youtube text"
+      },
+      {
+      "type": "select",
+      "id": "icon_linkedin_selector",
+      "label": "Select icon",
+      "options": [
+       {
+          "value": "none",
+           "label": "Empty"
+        },
+        {
+          "value": "facebook",
+          "label": "Facebook"
+        },
+        {
+          "value": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "value": "youtube",
+          "label": "Youtube"
+        },
+        {
+          "value": "linkedin",
+          "label": "Linkedin"
+        }
+       ],
+       "default": "none"
+      },
+      {
+        "type": "text",
+        "id": "linkedin__link",
+        "label": "Linkedin link"
+      },
+      {
+        "type": "text",
+        "id": "linkedin__text",
+        "label": "Add linkedin text"
       },
       {
         "type": "header",
