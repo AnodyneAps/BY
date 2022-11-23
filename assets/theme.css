@@ -3787,7 +3787,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   opacity: 0.8;
 }
 .Linklist__Item.svg__holder .Linklist__link .Icon {
-font-size: 1.4rem;
+font-size: 1.2rem;
 margin-right: 10px;
 }
 .Linklist__Item:last-child {
@@ -5932,7 +5932,7 @@ margin-right: 10px;
   margin: 0 auto;
 }
 .Rte a:not(.Button) {
-  color: var(--link-color);
+  color: var(--darkgrayclr);
   text-decoration: underline;
   -webkit-text-decoration-color: rgba(var(--link-color-rgb), 0.6);
           text-decoration-color: rgba(var(--link-color-rgb), 0.6);
