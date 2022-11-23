@@ -33,8 +33,8 @@
 <div class="ProductItem {% if use_horizontal %}ProductItem--horizontal{% endif %}">
   <div class="ProductItem__Wrapper">
     {%- comment -%}
-    We are using LazySizes to efficiently choose the most appropriate image in the set. However, because internally LazySizes uses srcset, we need to make
-    sure that the image sizes we offer is not larger than the max size uploaded by the merchants.
+      We are using LazySizes to efficiently choose the most appropriate image in the set. However, because internally LazySizes uses srcset, we need to make
+      sure that the image sizes we offer is not larger than the max size uploaded by the merchants.
     {%- endcomment -%}
 
     {%- if settings.product_image_size == 'natural' or use_horizontal -%}
@@ -60,19 +60,21 @@
 
       <div class="AspectRatio AspectRatio--{% if use_natural_size %}withFallback{% else %}{{ settings.product_image_size }}{% endif %}" style="max-width: {{ max_width }}px; {% if use_natural_size %}padding-bottom: {{ 100.0 | divided_by: media_aspect_ratio }}%;{% endif %} --aspect-ratio: {{ media_aspect_ratio }}">
         {%- comment -%}
-        IMPLEMENTATION NOTE: The alternate image (not visible by default) should be the first in the DOM, as the spinner (Image__Loader element) is
-        displayed based on the immediately previously shown image.
+          IMPLEMENTATION NOTE: The alternate image (not visible by default) should be the first in the DOM, as the spinner (Image__Loader element) is
+          displayed based on the immediately previously shown image.
         {%- endcomment -%}
 
         {%- if has_alternate_image -%}
-          {%- capture supported_sizes -%}{%- render 'image-size', sizes: '200,300,400,600,800,900,1000,1200', image: product.media[1] -%}{%- endcapture -%}
+          {%- capture supported_sizes -%}
+            {%- render 'image-size', sizes: '200,300,400,600,800,900,1000,1200', image: product.media[1] -%}{%- endcapture -%}
 
           {%- assign image_url = product.media[1] | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
 
           <img class="ProductItem__Image ProductItem__Image--alternate Image--lazyLoad Image--fadeIn" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto" alt="{% if productCustomType != blank or productTitle != blank or productLabel != blank %}{{productCustomType}} - {{productTitle}} - {{productLabel}}{% endif %} - vonFritz" data-media-id="{{ product.media[1].id }}">
         {%- endif -%}
 
-        {%- capture supported_sizes -%}{%- render 'image-size', sizes: '200,400,600,700,800,900,1000,1200', image: product.featured_media -%}{%- endcapture -%}
+        {%- capture supported_sizes -%}
+          {%- render 'image-size', sizes: '200,400,600,700,800,900,1000,1200', image: product.featured_media -%}{%- endcapture -%}
         {%- assign image_url = product.featured_media | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
 
         <img class="ProductItem__Image Image--lazyLoad Image--fadeIn" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto" alt="{% if productCustomType != blank or productTitle != blank or productLabel != blank %}{{productCustomType}} - {{productTitle}} - {{productLabel}}{% endif %} - vonFritz" data-media-id="{{ product.featured_media.id }}">
@@ -84,135 +86,143 @@
         </noscript>
 
 
-  
-          {% if productLabelOne %}
+
+        {% if productLabelOne %}
           <div class="ProductItem__LabelList">
             <span class="ProductItem__Label Heading Text--subdued">{{ productLabelOne }}</span>
           </div>
-          {% endif %}
-          {% if productLabelTwo %}
-              <div class="ProductItem__LabelList-two">
-                <span class="ProductItem__Label-two Heading Text--subdued">{{ productLabelTwo }}</span>
-              </div>
-          {% endif %}
-          {% if productBadgeLabel %}
+        {% endif %}
+        {% if productLabelTwo %}
+          <div class="ProductItem__LabelList-two">
+            <span class="ProductItem__Label-two Heading Text--subdued">{{ productLabelTwo }}</span>
+          </div>
+        {% endif %}
+        {% if productBadgeLabel %}
           <div class="ProductItem__LabelList-badge">
             <span class="ProductItem__Label-badge Heading Text--subdued">{{ productBadgeLabel}}</span>
           </div>
-          {% endif %}
-           {% if section.settings.show_blackdays_badge == true %}
-              <div class="ProductItem__Blackdays-badge">
-              <span class="Blackdays-badge Heading Text--subdued">{% if section.settings.blackdays_badge_text != black %}{{section.settings.blackdays_badge_text}}{% endif %}</span>
+        {% endif %}
+        {% if section.settings.show_blackdays_badge == true %}
+          {% unless product.handle contains 'gavekort' %}
+            <div class="ProductItem__Blackdays-badge">
+              <span class="Blackdays-badge Heading Text--subdued">
+                {% if section.settings.blackdays_badge_text != black %}
+                  {{section.settings.blackdays_badge_text}}{% endif %}
+              </span>
             </div>
-          {% endif %}
-          {% if productSeriesLabel != blank %}
+          {% endunless %}
+        {% endif %}
+        {% if productSeriesLabel != blank %}
           <div class="collection__name-badge">{{productSeriesLabel}}</div>
-          {% endif %}
-      
+        {% endif %}
+
       </div>
     </a>
 
     {%- if show_labels -%}
-             
-          {%- comment -%}
-               {%- capture product_labels -%}
-                  {%- for tag in product.tags -%}
-                    {%- if tag contains '__label' -%}
-                      <span class="ProductItem__Label Heading Text--subdued">{{ tag | split: '__label:' | last }}</span>
-                      {%- break -%}
-                    {%- endif -%}
-                  {%- endfor -%}
-                  {%- if product.available -%}
-                    {%- if product.compare_at_price > product.price -%}
-                      <span class="ProductItem__Label ProductItem__Label--onSale Heading Text--subdued">{{ 'product.labels.on_sale' | t }}</span>
-                    {%- endif -%}
-                  {%- else -%}
-                    <span class="ProductItem__Label ProductItem__Label--soldOut Heading Text--subdued">{{ 'product.labels.sold_out' | t }}</span>
-                  {%- endif -%}
-                {%- endcapture -%}
-          {%- endcomment -%}
+
+      {%- comment -%}
+        {%- capture product_labels -%}
+        {%- for tag in product.tags -%}
+        {%- if tag contains '__label' -%}
+        <span class="ProductItem__Label Heading Text--subdued">{{ tag | split: '__label:' | last }}</span>
+        {%- break -%}
+        {%- endif -%}
+        {%- endfor -%}
+        {%- if product.available -%}
+        {%- if product.compare_at_price > product.price -%}
+        <span class="ProductItem__Label ProductItem__Label--onSale Heading Text--subdued">{{ 'product.labels.on_sale' | t }}</span>
+        {%- endif -%}
+        {%- else -%}
+        <span class="ProductItem__Label ProductItem__Label--soldOut Heading Text--subdued">{{ 'product.labels.sold_out' | t }}</span>
+        {%- endif -%}
+        {%- endcapture -%}
+      {%- endcomment -%}
 
     {%- endif -%}
 
     {%- if show_product_info -%}
       <div class="ProductItem__Info {% unless use_horizontal %}ProductItem__Info--{{ settings.product_info_alignment }}{% endunless %}">
-        
+
         {%- if show_color_swatch -%}
-        {%- assign color_swatch_list = '' -%}
+          {%- assign color_swatch_list = '' -%}
 
-        {%- capture color_swatch -%}
-          {%- assign color_label = 'color,colour,couleur,colore,farbe,색,色,färg,farve' | split: ',' -%}
-          {%- assign color_swatch_config = settings.color_swatch_config | newline_to_br | split: '<br />' -%}
-          {%- capture color_name -%}{{ section.id }}-{{ product.id }}{%- endcapture -%}
+          {%- capture color_swatch -%}
+            {%- assign color_label = 'color,colour,couleur,colore,farbe,색,色,färg,farve' | split: ',' -%}
+            {%- assign color_swatch_config = settings.color_swatch_config | newline_to_br | split: '<br />' -%}
+            {%- capture color_name -%}
+              {{ section.id }}-{{ product.id }}{%- endcapture -%}
 
-          {%- for option in product.options_with_values -%}
-            {%- assign downcased_option = option.name | downcase -%}
+            {%- for option in product.options_with_values -%}
+              {%- assign downcased_option = option.name | downcase -%}
 
-            {%- if color_label contains downcased_option -%}
-              {%- assign variant_option = 'option' | append: forloop.index -%}
+              {%- if color_label contains downcased_option -%}
+                {%- assign variant_option = 'option' | append: forloop.index -%}
 
-              {%- for value in option.values -%}
-                {%- assign downcased_value = value | downcase -%}
-                {%- capture color_id -%}{{ section.id }}-{{ product.id }}-{{ forloop.index }}{%- endcapture -%}
+                {%- for value in option.values -%}
+                  {%- assign downcased_value = value | downcase -%}
+                  {%- capture color_id -%}
+                    {{ section.id }}-{{ product.id }}-{{ forloop.index }}{%- endcapture -%}
 
-                {%- for variant in product.variants -%}
-                  {%- if variant[variant_option] == value -%}
-                    {%- assign variant_for_value = variant -%}
-                    {%- break -%}
-                  {%- endif -%}
+                  {%- for variant in product.variants -%}
+                    {%- if variant[variant_option] == value -%}
+                      {%- assign variant_for_value = variant -%}
+                      {%- break -%}
+                    {%- endif -%}
+                  {%- endfor -%}
+
+                  <div class="ProductItem__ColorSwatchItem">
+                    {%- if variant_for_value.image -%}
+                      {%- capture supported_sizes -%}
+                        {%- render 'image-size', sizes: '200,400,600,700,800,900,1000,1200', image: variant_for_value.image -%}{%- endcapture -%}
+                      {%- assign variant_image_url = variant_for_value.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                    {%- endif -%}
+
+                    <input class="ColorSwatch__Radio" type="radio" name="{{ color_name }}" id="{{ color_id }}" value="{{ value | escape }}" {% if option.selected_value == value %}checked="checked"{% endif %} data-variant-url="{{ variant_for_value.url }}{% if variant_for_value.image %}#Image{{ variant_for_value.image.id }}{% endif %}" {% if variant_for_value.image %}data-image-id="{{ variant_for_value.image.id }}" data-image-url="{{ variant_image_url }}" data-image-widths="[{{ supported_sizes }}]" data-image-aspect-ratio="{{ variant_for_value.image.aspect_ratio }}"{% endif %} aria-hidden="true">
+                    <label class="ColorSwatch ColorSwatch--small {% if downcased_value == 'white' %}ColorSwatch--white{% endif %}" for="{{ color_id }}" style="{% render 'color-swatch-style', color_swatch_config: color_swatch_config, value: value %}" title="{{ value | escape }}" data-tooltip="{{ value | escape }}"></label>
+                  </div>
                 {%- endfor -%}
-
-                <div class="ProductItem__ColorSwatchItem">
-                  {%- if variant_for_value.image -%}
-                    {%- capture supported_sizes -%}{%- render 'image-size', sizes: '200,400,600,700,800,900,1000,1200', image: variant_for_value.image -%}{%- endcapture -%}
-                    {%- assign variant_image_url = variant_for_value.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-                  {%- endif -%}
-
-                  <input class="ColorSwatch__Radio" type="radio" name="{{ color_name }}" id="{{ color_id }}" value="{{ value | escape }}" {% if option.selected_value == value %}checked="checked"{% endif %} data-variant-url="{{ variant_for_value.url }}{% if variant_for_value.image %}#Image{{ variant_for_value.image.id }}{% endif %}" {% if variant_for_value.image %}data-image-id="{{ variant_for_value.image.id }}" data-image-url="{{ variant_image_url }}" data-image-widths="[{{ supported_sizes }}]" data-image-aspect-ratio="{{ variant_for_value.image.aspect_ratio }}"{% endif %} aria-hidden="true">
-                  <label class="ColorSwatch ColorSwatch--small {% if downcased_value == 'white' %}ColorSwatch--white{% endif %}" for="{{ color_id }}" style="{% render 'color-swatch-style', color_swatch_config: color_swatch_config, value: value %}" title="{{ value | escape }}" data-tooltip="{{ value | escape }}"></label>
-                </div>
-              {%- endfor -%}
-            {%- endif -%}
-          {%- endfor -%}
-        {%- endcapture -%}
-
-        {%- if color_swatch != blank -%}
-          {%- capture color_swatch_list -%}
-            <div class="ProductItem__ColorSwatchList">
-              {{- color_swatch -}}
-            </div>
+              {%- endif -%}
+            {%- endfor -%}
           {%- endcapture -%}
-        {%- endif -%}
-      {%- endif -%}
-        
-      {%- if section.settings.show_color_swatch -%}
-        {{- color_swatch_list -}}
 
-     {%- endif -%}  
+          {%- if color_swatch != blank -%}
+            {%- capture color_swatch_list -%}
+              <div class="ProductItem__ColorSwatchList">
+                {{- color_swatch -}}
+              </div>
+            {%- endcapture -%}
+          {%- endif -%}
+        {%- endif -%}
+
+        {%- if section.settings.show_color_swatch -%}
+          {{- color_swatch_list -}}
+
+        {%- endif -%}
 
 
         <!-- color swatches  -->
-            {% if product.handle contains 'signature-sengesaet' %}
-            {{signatureSengetojSwatches}}
-            {% endif %}
-            {% if product.handle contains 'new-nordic-sengesaet' %}
-            {{newNordicSengetojSwatches}}
-            {% endif %}
-            {% if product.handle contains 'mini-sengesaet' %}
-            {{miniSengetojSwatches}}
-            {% endif %}
-            {% if product.handle contains 'signature-lagen' %}
-            {{signatureLagenSwatches}}
-            {% endif %}
-            {% if product.handle contains 'signature-handklaede' %}
-              {{handklaedeCollectionSwatches}}
-            {% endif %}
-            {% if product.handle contains 'signature-pakkehandklaeder' %}
-              {{handklaedeCollectionSwatches4pak}}
-            {% endif %}
-            {% if product.handle contains 'signature-viskestykke' %}
-              {{signatureViskestykkerSwatches}}
-            {% endif %}
+        {% if product.handle contains 'signature-sengesaet' %}
+          {{signatureSengetojSwatches}}
+        {% endif %}
+        {% if product.handle contains 'new-nordic-sengesaet' %}
+          {{newNordicSengetojSwatches}}
+        {% endif %}
+        {% if product.handle contains 'mini-sengesaet' %}
+          {{miniSengetojSwatches}}
+        {% endif %}
+        {% if product.handle contains 'signature-lagen' %}
+          {{signatureLagenSwatches}}
+        {% endif %}
+        {% if product.handle contains 'signature-handklaede' %}
+          {{handklaedeCollectionSwatches}}
+        {% endif %}
+        {% if product.handle contains 'signature-pakkehandklaeder' %}
+          {{handklaedeCollectionSwatches4pak}}
+        {% endif %}
+        {% if product.handle contains 'signature-viskestykke' %}
+          {{signatureViskestykkerSwatches}}
+        {% endif %}
         <!-- end color swatches  -->
 
 
@@ -234,57 +244,61 @@
 
         {% assign productSizeLabel = product.metafields.collectionmeta.product_size_label %}
         {% if productSizeLabel %}
-        <div class="ProductItem__Size-label">
+          <div class="ProductItem__Size-label">
             <p>{{productSizeLabel}}</p>
-        </div>
-          
+          </div>
+
         {% endif %}
 
 
         {% if product.price_min > 0 %}
-       <span class="ProductItem__Price Price__custom_bolder" > {{ 'collection.product.text_fra' | t }} {{ product.price_min | money_with_currency  }}</span>
-      {% else %}
-        {{ settings.free_price_text }} {% if product.price_varies %} - {{ product.price_max | money }}{% endif %}
+          <span class="ProductItem__Price Price__custom_bolder">
+            {{ 'collection.product.text_fra' | t }} {{ product.price_min | money_with_currency  }}</span>
+        {% else %}
+          {{ settings.free_price_text }}
+          {% if product.price_varies %}
+            - {{ product.price_max | money }}{% endif %}
         {%- endif -%}
 
 
         {%- if product.template_suffix != 'coming-soon' -%}
 
-                  {%- comment -%}
-                    <div class="ProductItem__PriceList {% if show_price_on_hover %}ProductItem__PriceList--showOnHover{% endif %} Heading">
-                      {%- if product.compare_at_price > product.price -%}
-                        {%- if settings.currency_code_enabled -%}
-                          <span class="ProductItem__Price Price Price--highlight Text--subdued">{{ product.price | money_with_currency }}</span>
-                          <span class="ProductItem__Price Price Price--compareAt Text--subdued">{{ product.compare_at_price | money_with_currency }}</span>
-                        {%- else -%}
-                          <span class="ProductItem__Price Price Price--highlight Text--subdued">{{ product.price | money }}</span>
-                          <span class="ProductItem__Price Price Price--compareAt Text--subdued">{{ product.compare_at_price | money }}</span>
-                        {%- endif -%}
-                      {%- elsif product.price_varies -%}
-                        {%- if settings.currency_code_enabled -%}
-                          {%- capture formatted_min_price -%}{{ product.price_min | money_with_currency }}{%- endcapture -%}
-                          {%- capture formatted_max_price -%}{{ product.price_max | money_with_currency }}{%- endcapture -%}
-                        {%- else -%}
-                          {%- capture formatted_min_price -%}{{ product.price_min | money }}{%- endcapture -%}
-                          {%- capture formatted_max_price -%}{{ product.price_max | money }}{%- endcapture -%}
-                        {%- endif -%}
+          {%- comment -%}
+            <div class="ProductItem__PriceList {% if show_price_on_hover %}ProductItem__PriceList--showOnHover{% endif %} Heading">
+            {%- if product.compare_at_price > product.price -%}
+            {%- if settings.currency_code_enabled -%}
+            <span class="ProductItem__Price Price Price--highlight Text--subdued">{{ product.price | money_with_currency }}</span>
+            <span class="ProductItem__Price Price Price--compareAt Text--subdued">{{ product.compare_at_price | money_with_currency }}</span>
+            {%- else -%}
+            <span class="ProductItem__Price Price Price--highlight Text--subdued">{{ product.price | money }}</span>
+            <span class="ProductItem__Price Price Price--compareAt Text--subdued">{{ product.compare_at_price | money }}</span>
+            {%- endif -%}
+            {%- elsif product.price_varies -%}
+            {%- if settings.currency_code_enabled -%}
+            {%- capture formatted_min_price -%}{{ product.price_min | money_with_currency }}{%- endcapture -%}
+            {%- capture formatted_max_price -%}{{ product.price_max | money_with_currency }}{%- endcapture -%}
+            {%- else -%}
+            {%- capture formatted_min_price -%}{{ product.price_min | money }}{%- endcapture -%}
+            {%- capture formatted_max_price -%}{{ product.price_max | money }}{%- endcapture -%}
+            {%- endif -%}
 
-                        <span class="ProductItem__Price Price Text--subdued">{{ 'collection.product.from_price_html' | t: min_price: formatted_min_price, max_price: formatted_max_price }}</span>
-                      {%- else -%}
-                        {%- if settings.currency_code_enabled -%}
-                          <span class="ProductItem__Price Price Text--subdued">{{ product.price | money_with_currency }}</span>
-                        {%- else -%}
-                          <span class="ProductItem__Price Price Text--subdued">{{ product.price | money }}</span>
-                        {%- endif -%}
-                      {%- endif -%}
-                    </div>
+            <span class="ProductItem__Price Price Text--subdued">{{ 'collection.product.from_price_html' | t: min_price: formatted_min_price, max_price: formatted_max_price }}</span>
+            {%- else -%}
+            {%- if settings.currency_code_enabled -%}
+            <span class="ProductItem__Price Price Text--subdued">{{ product.price | money_with_currency }}</span>
+            {%- else -%}
+            <span class="ProductItem__Price Price Text--subdued">{{ product.price | money }}</span>
+            {%- endif -%}
+            {%- endif -%}
+            </div>
           {%- endcomment -%}
 
           {%- if product.selected_or_first_available_variant.unit_price_measurement -%}
             <div class="ProductItem__UnitPriceMeasurement">
               <div class="UnitPriceMeasurement Heading Text--subdued">
                 <span class="UnitPriceMeasurement__Price">{{ product.selected_or_first_available_variant.unit_price | money }}</span>
-                <span class="UnitPriceMeasurement__Separator">/ </span>
+                <span class="UnitPriceMeasurement__Separator">/
+                </span>
 
                 <span class="UnitPriceMeasurement__ReferenceValue" {%- if product.selected_or_first_available_variant.unit_price_measurement.reference_value == 1 -%}style="display: none"{% endif %}>
                   {{- product.selected_or_first_available_variant.unit_price_measurement.reference_value -}}
