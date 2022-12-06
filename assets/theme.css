@@ -6274,7 +6274,7 @@ margin-right: 10px;
 .TabList__Item {
   position: relative;
 }
-.TabList__Item::after {
+/* .TabList__Item::after {
   position: relative;
   display: block;
   content: "";
@@ -6284,7 +6284,7 @@ margin-right: 10px;
   width: 0;
   background: var(--heading-color);
   transition: width 0.25s ease-in-out;
-}
+} */
 
 .TabList__Item + .TabList__Item {
   margin-left: 28px;
