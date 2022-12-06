@@ -9,15 +9,15 @@
             "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/49605f2caf294093b0382407a8b6b7ba.mp4",
             "video_image": "shopify:\/\/shop_images\/vonfritz-video-bg_49b4973b-4843-4507-bf0e-a2c952fd6e03.jpg",
             "overlay_opacity": 13,
+            "svg__title": "none",
             "title": "vonFritz® økologisk sengetøj og boligtekstiler",
-            "text": "<p><strong>Spar 25% på ALT - det bliver ikke billigere!<\/strong><\/p><p><\/p>",
+            "text": "<p><\/p><p><\/p>",
             "color_text": "#ffffff",
-            "button_label": "Spar 25% nu",
+            "button_label": "Shop nu",
             "button_link": "shopify:\/\/collections\/all",
             "color_btn_bg": "#a79f88",
             "color_btn_text": "#ffffff",
-            "counter_text": "Black Days slutter om:",
-            "date__selector": "2022-11-27T23:59:59",
+            "counter_text": "Vi pakker din ordre om:",
             "show_counter": true
           }
         }
@@ -26,30 +26,6 @@
         "16493219983c170ed0-0"
       ],
       "settings": {
-      }
-    },
-    "163276763442e7599e": {
-      "type": "text-area",
-      "disabled": true,
-      "settings": {
-        "padding_small": false,
-        "padding_large": false,
-        "hide_desktop": false,
-        "float_left": false,
-        "background_img": "none",
-        "background": "#ede9e4",
-        "text_color": "#1c1b1b",
-        "title": "vonFritz® økologisk sengetøj, håndklæder og viskestykker",
-        "h1": true,
-        "heading_size": 25,
-        "margin_heading": false,
-        "heading_size_mobile": 22,
-        "content": "<p><em>\"Jeg har med vonFritz en drøm og et ønske om at bidrage til en grønnere verden. En verden hvor vi kommer væk fra køb-og-smid-væk kulturen og i stedet fokuserer på kvalitet og det gode håndværk. Jeg tror på at æstetik og etik kan forenes således at det smukke økologiske sengetøj, håndklæder og viskestykker vi fremstiller, ikke gør skade på vores klode eller på os.\" <br\/><br\/><\/em><strong>Tina Andersen<br\/>CEO & Founder<\/strong><\/p>",
-        "max_content": false,
-        "max_content_size": 100,
-        "max_box_size": 120,
-        "button_label": "",
-        "button_link": ""
       }
     },
     "1649338946aef6d2c0": {
@@ -67,7 +43,7 @@
             "subheading": "",
             "title": "{{ block.settings.collection.title }}",
             "richtext": "",
-            "button_text": "Spar 25%",
+            "button_text": "Shop nu",
             "button_link": "shopify:\/\/collections\/sengetoj",
             "apply_overlay": true,
             "apply_overlay_extra": false,
@@ -88,7 +64,7 @@
             "subheading": "",
             "title": "{{ block.settings.collection.title }}",
             "richtext": "",
-            "button_text": "Spar 25%",
+            "button_text": "Shop nu",
             "button_link": "shopify:\/\/collections\/handklaeder",
             "apply_overlay": true,
             "apply_overlay_extra": false,
@@ -109,7 +85,7 @@
             "subheading": "",
             "title": "{{ block.settings.collection.title }}",
             "richtext": "",
-            "button_text": "Spar 25%",
+            "button_text": "Shop nu",
             "button_link": "shopify:\/\/collections\/viskestykker",
             "apply_overlay": true,
             "apply_overlay_extra": false,
@@ -139,8 +115,8 @@
         "button_fill": "#a79f88",
         "button_color_hoover": "#342e29",
         "button_fill_hoover": "#ffffff",
-        "show_blackdays_badge": true,
-        "blackdays_badge_text": "25%"
+        "show_blackdays_badge": false,
+        "blackdays_badge_text": ""
       }
     },
     "16493357443a88c7d8": {
@@ -153,7 +129,7 @@
             "title": "Sengetøj i 100% økologisk bomuld",
             "text_box": "",
             "grid_items_count": 4,
-            "button_text": "Spar 25%"
+            "button_text": "Shop nu"
           }
         }
       },
@@ -173,8 +149,27 @@
         "show_color_swatch": false,
         "grid_mobile_items_per_row": "2",
         "grid_desktop_items_per_row": 4,
-        "show_blackdays_badge": true,
-        "blackdays_badge_text": "25%"
+        "show_blackdays_badge": false,
+        "blackdays_badge_text": ""
+      }
+    },
+    "1669031576d724798f": {
+      "type": "apps",
+      "blocks": {
+        "532e6b8e-cc10-447e-8b29-0d7be0f98244": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "532e6b8e-cc10-447e-8b29-0d7be0f98244"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "1632770742cb2c7b8c": {
@@ -210,12 +205,23 @@
             "title": "Håndklæder i 100% økologisk bomuld",
             "text_box": "",
             "grid_items_count": 4,
-            "button_text": "Spar 25%"
+            "button_text": "Shop nu"
+          }
+        },
+        "c3ab9535-1752-4a6c-b362-9944ac68bc0d": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "text_box": "",
+            "grid_items_count": 8,
+            "button_text": "View all products"
           }
         }
       },
       "block_order": [
-        "164650959376907057-0"
+        "164650959376907057-0",
+        "c3ab9535-1752-4a6c-b362-9944ac68bc0d"
       ],
       "settings": {
         "title": "",
@@ -230,8 +236,8 @@
         "show_color_swatch": false,
         "grid_mobile_items_per_row": "2",
         "grid_desktop_items_per_row": 4,
-        "show_blackdays_badge": true,
-        "blackdays_badge_text": "25%"
+        "show_blackdays_badge": false,
+        "blackdays_badge_text": ""
       }
     },
     "1632827034e58962e0": {
@@ -324,7 +330,7 @@
             "title": "Viskestykker i 100% bomuld",
             "text_box": "",
             "grid_items_count": 2,
-            "button_text": "Spar 25%"
+            "button_text": "Shop nu"
           }
         }
       },
@@ -344,41 +350,45 @@
         "show_color_swatch": false,
         "grid_mobile_items_per_row": "2",
         "grid_desktop_items_per_row": 2,
-        "show_blackdays_badge": true,
+        "show_blackdays_badge": false,
         "blackdays_badge_text": "25%"
       }
     },
-    "1669031576d724798f": {
-      "type": "apps",
-      "blocks": {
-        "532e6b8e-cc10-447e-8b29-0d7be0f98244": {
-          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
-          "settings": {
-            "heading_size": 20,
-            "feed_width": 100,
-            "html_area": ""
-          }
-        }
-      },
-      "block_order": [
-        "532e6b8e-cc10-447e-8b29-0d7be0f98244"
-      ],
+    "163276763442e7599e": {
+      "type": "text-area",
       "settings": {
-        "include_margins": true
+        "padding_small": false,
+        "padding_large": false,
+        "hide_desktop": false,
+        "float_left": false,
+        "background_img": "none",
+        "background": "#ecece8",
+        "text_color": "#1c1b1b",
+        "title": "vonFritz® økologisk sengetøj, håndklæder og viskestykker",
+        "h1": true,
+        "heading_size": 26,
+        "margin_heading": false,
+        "heading_size_mobile": 22,
+        "content": "<p><em>\"Jeg har med vonFritz en drøm og et ønske om at bidrage til en grønnere verden. En verden hvor vi kommer væk fra køb-og-smid-væk kulturen og i stedet fokuserer på kvalitet og det gode håndværk. Jeg tror på, at æstetik og etik kan forenes således, at det smukke økologiske sengetøj, håndklæder og viskestykker vi fremstiller, ikke gør skade på vores klode eller på os.\" <\/em><\/p><p><em><br\/><\/em><em><strong>Tina Andersen<br\/>CEO & Founder<\/strong><\/em><\/p>",
+        "max_content": false,
+        "max_content_size": 100,
+        "max_box_size": 100,
+        "button_label": "",
+        "button_link": ""
       }
     }
   },
   "order": [
     "16493219980674aef0",
-    "163276763442e7599e",
     "1649338946aef6d2c0",
     "16493357443a88c7d8",
+    "1669031576d724798f",
     "1632770742cb2c7b8c",
     "1646509594f49b0adf",
     "1632827034e58962e0",
     "1633001842c9af7c59",
     "1651223091b5c81da9",
     "1662709777d19ca543",
-    "1669031576d724798f"
+    "163276763442e7599e"
   ]
 }

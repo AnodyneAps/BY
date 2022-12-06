@@ -1685,13 +1685,13 @@ input.spr-button-primary,
   font-weight: 600;
   font-style: var(--heading-font-style);
   background-color: transparent;
-  background: linear-gradient(180deg, var(--blackclr) 0%, var(--logoclr) 90%);
+  background-color: var(--button-background);
   transition: all .2s ease-in-out;
   z-index: 1;
   -webkit-tap-highlight-color: initial;
 }
 .Button:hover{
-  background: linear-gradient(90deg, var(--blackclr) 0%, var(--logoclr) 60%);
+  opacity: 0.8;
 }
 .ButtonTextLarge{
   font-size: 1rem;
@@ -7637,7 +7637,7 @@ margin-right: 10px;
   width: 50px;
   height: 50px;
   border-radius: 50px;
-  background: linear-gradient(180deg, var(--blackclr) 0%, var(--logoclr) 50%);
+  background: linear-gradient(180deg, #20574f 0%, #2b9790 50%);
   display: grid;
   place-items: center;
   z-index: 1;
@@ -10905,7 +10905,7 @@ margin-right: 10px;
   width: 70px;
   height: 70px;
   border-radius: 50px;
-  background: linear-gradient(180deg, var(--blackclr) 10%, var(--logoclr) 80%);
+  background: linear-gradient(180deg, #20574f 0%, #2b9790 50%);
   color: white;
   display: grid;
   place-items: center;
@@ -14187,6 +14187,7 @@ shopify-payment-terms {
   text-align: center;
   width: 100%;
 }
+.videoBackground .blackdays__container .Icon.Icon--cyberdays,
 .videoBackground .blackdays__container .Icon.Icon--blackdays{
   width:100% !important;
   height:100% !important;
@@ -14530,7 +14531,7 @@ shopify-payment-terms {
   -ms-flex-align: center;
   align-items: center;
   width: 94%;
-  background: linear-gradient(180deg, var(--blackclr) 0%, var(--logoclr) 90%);
+  background-color: var(--button-background);
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -14743,7 +14744,7 @@ shopify-payment-terms {
   bottom: 0;
   width: 100%;
   border-radius: 0;
-  background: linear-gradient(180deg, var(--blackclr) 0%, var(--logoclr) 90%);
+  background-color: var(--button-background);
   height: 80px;
   font-size: 14px;
   line-height: 0.6;
@@ -14843,7 +14844,8 @@ shopify-payment-terms {
 .Drawer__totals .Drawer__subtotal .text__price,
 .Drawer__totals .Drawer__savings .text__price{
   font-family: var(--heading-font-family);
-  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
   font-weight: 900;
   line-height: 1.2;
 }

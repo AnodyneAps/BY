@@ -1,11 +1,10 @@
 {%- capture section_settings -%}
-{
+  {
   "type": {{ settings.cart_type | json }},
   "itemCount": {{ cart.item_count }},
   "drawer": true,
-  "hasShippingEstimator": false
-}
-{%- endcapture -%}
+    "hasShippingEstimator": false
+  }{%- endcapture -%}
 
 {%- liquid 
   assign total_saving = 0
@@ -21,11 +20,11 @@
 
 <div id="sidebar-cart" class="Drawer Drawer--fromRight" aria-hidden="true" data-section-id="cart" data-section-type="cart" data-section-settings='{{ section_settings }}'>
   <div class="Drawer__Header Drawer__Header--bordered Drawer__Container">
-      <span class="Drawer__Title Heading u-h4">{{ 'cart.general.title' | t }}</span>
+    <span class="Drawer__Title Heading u-h4">{{ 'cart.general.title' | t }}</span>
 
-      <button class="Drawer__Close Icon-Wrapper--clickable" data-action="close-drawer" data-drawer-id="sidebar-cart" aria-label="{{ 'header.navigation.close_cart' | t }}">
-        {%- render 'icon' with 'close' -%}
-      </button>
+    <button class="Drawer__Close Icon-Wrapper--clickable" data-action="close-drawer" data-drawer-id="sidebar-cart" aria-label="{{ 'header.navigation.close_cart' | t }}">
+      {%- render 'icon' with 'close' -%}
+    </button>
   </div>
 
   <form class="Cart Drawer__Content" action="{{ routes.cart_url }}" method="POST" novalidate>
@@ -33,16 +32,18 @@
       {%- if settings.cart_show_free_shipping_threshold -%}
         {%- assign threshold_in_cents = settings.cart_free_shipping_threshold | times: 100 -%}
 
-        {%- comment -%} <div class="Cart__ShippingNotice Text--subdued">
+        {%- comment -%}
+          <div class="Cart__ShippingNotice Text--subdued">
           <div class="Drawer__Container">
-            {%- if cart.total_price >= threshold_in_cents -%}
-              <p>{{- 'cart.general.free_shipping' | t -}}</p>
-            {%- else -%}
-              {%- capture remaining_amount -%}<span>{{ cart.total_price | minus: threshold_in_cents | abs | money }}</span>{%- endcapture -%}
-              <p>{{- 'cart.general.free_shipping_remaining_html' | t: remaining_amount: remaining_amount -}}</p>
-            {%- endif -%}
+          {%- if cart.total_price >= threshold_in_cents -%}
+          <p>{{- 'cart.general.free_shipping' | t -}}</p>
+          {%- else -%}
+          {%- capture remaining_amount -%}<span>{{ cart.total_price | minus: threshold_in_cents | abs | money }}</span>{%- endcapture -%}
+          <p>{{- 'cart.general.free_shipping_remaining_html' | t: remaining_amount: remaining_amount -}}</p>
+          {%- endif -%}
           </div>
-        </div> {%- endcomment -%}
+          </div>
+        {%- endcomment -%}
       {%- endif -%}
 
       {%- if cart.item_count == 0 -%}
@@ -53,7 +54,7 @@
           <input type="hidden" name="attributes[collection_desktop_items_per_row]" value="">
 
           {% render 'cart-items' %}
-      
+
         </div>
       {%- endif -%}
 
@@ -62,12 +63,23 @@
     {%- unless cart.item_count == 0 -%}
       <div class="Drawer__Footer" data-drawer-animated-bottom>
         {% if cart.item_count > 0 %}
-            <div class="Drawer__totals">
-              <div class="Drawer__subtotal"><strong>{{ 'cart.general.subtotal' | t }}</strong><span class="text__price sub">{{ cart.total_price | money }}</span></div>
-              <div class="Drawer__savings"><strong>{{ 'cart.general.samletbesparelse' | t }}</strong><span class="text__price saving">- {{ total_saving | money }}</span></div>
+          <div class="Drawer__totals">
+            <div class="Drawer__subtotal">
+              <strong>{{ 'cart.general.subtotal' | t }}</strong>
+              <span class="text__price sub">{{ cart.total_price | money }}</span>
             </div>
+            {% if total_saving > 0 %}
+              <div class="Drawer__savings">
+                <strong>
+              {{ 'cart.general.samletbesparelse' | t }}
+                </strong>
+                <span class="text__price saving">- {{ total_saving | money }}</span>
+              </div>
+            {% endif %}
+          </div>
         {% endif %}
-        {%- capture shipping_and_taxes_notice -%}{{ 'cart.general.shipping_and_taxes_notice' | t }}{%- endcapture -%}
+        {%- capture shipping_and_taxes_notice -%}
+          {{ 'cart.general.shipping_and_taxes_notice' | t }}{%- endcapture -%}
         {%- if settings.cart_enable_notes or shipping_and_taxes_notice != blank -%}
           {%- if settings.cart_enable_notes -%}
             {%- if cart.note == blank -%}
@@ -83,7 +95,8 @@
 
           {%- if cart.cart_level_discount_applications != blank -%}
             {%- for discount_application in cart.cart_level_discount_applications -%}
-              <p class="Cart__Discount">{%- render 'icon' with 'sale' -%} {{ 'cart.general.discount' | t }} ({{ discount_application.title }}): -<span>{{ discount_application.total_allocated_amount | money }}</span></p>
+              <p class="Cart__Discount">{%- render 'icon' with 'sale' -%} {{ 'cart.general.discount' | t }} ({{ discount_application.title }}): -<span>{{ discount_application.total_allocated_amount | money }}</span>
+              </p>
             {%- endfor -%}
           {%- endif -%}
         {%- endif -%}
@@ -93,9 +106,11 @@
           <span class="Button__SeparatorDot"></span>
           <span>{{ cart.total_price | money_with_currency }}</span>
         </button>
-        {%- comment -%} <button class="Cart__Checkout Button Button--secondary Button--full" data-action="close-drawer" data-drawer-id="sidebar-cart" aria-label="{{ 'header.navigation.close_cart' | t }}">
+        {%- comment -%}
+          <button class="Cart__Checkout Button Button--secondary Button--full" data-action="close-drawer" data-drawer-id="sidebar-cart" aria-label="{{ 'header.navigation.close_cart' | t }}">
           {{- 'cart.general.shop_more' | t -}}
-        </button> {%- endcomment -%}
+          </button>
+        {%- endcomment -%}
 
         {%- if settings.cart_enable_notes -%}
           <div class="Cart__OffscreenNoteContainer" aria-hidden="true">
@@ -112,7 +127,7 @@
             <button type="button" class="Button Button--primary Button--full" data-action="toggle-cart-note">{{ 'cart.general.save_note' | t }}</button>
           </div>
         {%- endif -%}
-  
+
       </div>
     {%- endunless -%}
   </form>

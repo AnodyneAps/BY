@@ -15,9 +15,21 @@
 
           <div class="overlay" style="opacity: 0.{{ block.settings.overlay_opacity }}"></div>
           <div class="videoBoxInfo">
-            <div class="blackdays__container">
-              {%- render 'icon' with 'blackdays' -%}
-            </div>
+            {%- if block.settings.svg__title == 'cyberdays' -%}
+              <div class="blackdays__container">
+                {% render 'icon' with 'cyberdays' %}
+              </div>
+            {%- elsif block.settings.svg__title == 'blackdays' -%}
+              <div class="blackdays__container">
+                {% render 'icon' with 'blackdays' %}
+              </div>
+            {%- elsif block.settings.svg__title == 'blackfriday' -%}
+              <div class="blackdays__container">
+                {% render 'icon' with 'blackfriday' %}
+              </div>
+            {%- else -%}
+              <div class="blackdays__container"></div>
+            {%- endif -%}
             {% if block.settings.title != blank %}
               <h2 class="videoBoxInfoTitle" style="color: {{ block.settings.color_text }}">
                 {{ block.settings.title | escape }}
@@ -91,6 +103,26 @@
             "default": 0
           },
           {
+            "type": "select",
+            "id": "svg__title",
+            "label": "Select title ex. Black Days or Cyber Days",
+            "options": [
+              {
+                "value": "none",
+                "label": "None"
+              }, {
+                "value": "blackdays",
+                "label": "Black Days"
+              }, {
+                "value": "blackfriday",
+                "label": "Black Friday"
+              }, {
+                "value": "cyberdays",
+                "label": "Cyber Days"
+              }
+            ],
+            "default": "none"
+          }, {
             "type": "header",
             "content": {
               "en": "Text"
@@ -152,26 +184,6 @@
             "id": "counter_text",
             "label": "Add counter text",
             "default": "We send your order in"
-          }, {
-            "type": "select",
-            "id": "date__selector",
-            "label": "Add date YYYY-MM-DD HH-MM-SS",
-            "default": "none",
-            "options": [
-              {
-                "label": "Black Days End",
-                "value": "2022-11-27T23:59:59"
-              }, {
-                "label": "Black Friday Night",
-                "value": "2022-11-25 23:59:59"
-              }, {
-                "label": "Cyber Days End",
-                "value": "2022-11-30T23:59:59"
-              }, {
-                "label": "none",
-                "value": "none"
-              }
-            ]
           }, {
             "type": "checkbox",
             "id": "show_counter",
