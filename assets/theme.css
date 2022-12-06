@@ -6266,9 +6266,10 @@ margin-right: 10px;
   }
 }
 .TabList {
-  white-space: nowrap;
+  /* white-space: nowrap;
   overflow: auto;
-  -webkit-overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch; */
+  line-height: 1.4;
 }
 
 .TabList__Item {
@@ -14852,3 +14853,4 @@ shopify-payment-terms {
 .Drawer__totals .Drawer__savings{
   color: var(--accentclr);
 }
+.make-white{color:#ffffff !important}

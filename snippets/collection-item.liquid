@@ -50,14 +50,14 @@
     </div>
 
     <div class="CollectionItem__Content CollectionItem__Content--{{ block.settings.content_position | default: 'bottomLeft' }}">
-      <header class="SectionHeader">
+      <header class="SectionHeader make-white">
         {%- if block.settings.add_logo -%}
           {% render 'icon' with 'full-logo' %}
         {%- endif -%}
         {%- if block.settings.subheading != blank -%}
           <h3 class="SectionHeader__SubHeading Heading u-h6">{{ block.settings.subheading }}</h3>
         {%- endif -%}
-        <h3 class="SectionHeader__Heading SectionHeader__Heading--emphasize custom__heading Heading u-h1">{{ block.settings.title | default: collection.title | escape }}</h3>
+        <h3 class="SectionHeader__Heading SectionHeader__Heading--emphasize custom__heading Heading u-h1 make-white">{{ block.settings.title | default: collection.title | escape }}</h3>
         <div class="custom__text">
           {{ block.settings.richtext }}
         </div>
