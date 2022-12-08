@@ -10683,7 +10683,7 @@ margin-right: 10px;
   margin: 0 auto;
 }
 .Product__Info .return__date{
-  margin-top: 30px;
+  margin-top: 15px;
   background-color: var(--mainclr10);
   padding: 15px 10px;
   font-size: 12px;
@@ -14828,7 +14828,34 @@ shopify-payment-terms {
     transform: rotateX(0deg);
  }
 }
-
+/*--------product counter -----*/
+.product-counter-container{
+  border-radius: 5px;
+  background-color: var(--mainclr10);
+  border: 1px solid #f9f9f9;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom:15px;
+  gap:10px;
+}
+.product-counter-container p {
+  padding-top:13px;
+  font-weight: 600;
+  font-family: var(--heading-font-family);
+}
+.product-counter-container .inner{
+  color: var(--accentclr);
+  font-weight: bold;
+}
+.product-counter-container #product__counter{
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 600;
+  font-family: var(--heading-font-family);
+}
 /*------------ Drawer totals ------- */
 .Drawer__totals{
   margin-top: -10px;

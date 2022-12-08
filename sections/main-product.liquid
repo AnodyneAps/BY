@@ -36,7 +36,7 @@
 {%- capture section_settings -%}
   {
   "enableHistoryState": true,
-                                          "templateSuffix": {{ product.template_suffix | json }},
+                                                  "templateSuffix": {{ product.template_suffix | json }},
   "showInventoryQuantity":
   {% if inventory_block != blank %}true{% else %}false{% endif %},
   "showSku": {{ meta_block.settings.show_sku | json }},
@@ -55,14 +55,14 @@
 {%- capture flickity_options -%}
   {
   "prevNextButtons": true,
-                                          "pageDots": false,
-                                          "draggable": true,
-                                          "contain": true,
-                                          "adaptiveHeight": true,
-                                          "pauseAutoPlayOnHove": false,
-                                          "cellAlign": "left",
-                                          "arrowShape": {"x0": 20, "x1": 60, "y1": 40, "x2": 60, "y2": 35, "x3": 25}
-                                        }{%- endcapture -%}
+                                                  "pageDots": false,
+                                                  "draggable": true,
+                                                  "contain": true,
+                                                  "adaptiveHeight": true,
+                                                  "pauseAutoPlayOnHove": false,
+                                                  "cellAlign": "left",
+                                                  "arrowShape": {"x0": 20, "x1": 60, "y1": 40, "x2": 60, "y2": 35, "x3": 25}
+                                                }{%- endcapture -%}
 <script>
   // To power the recently viewed products section, we save the ID of the product inside the local storage
   (() => {
@@ -365,6 +365,19 @@
                       {%- render 'icon' with 'cart' -%}{{ form | payment_button }}
                     {%- endif -%}
                   </div>
+
+                  {%- comment -%}
+                    Product counter run
+                  {%- endcomment -%}
+                  {% if block.settings.show_product_counter %}
+                    <div class="product-counter-container">
+                      {%- if block.settings.product_counter_text != blank -%}
+                        {{ block.settings.product_counter_text }}
+                      {%- endif -%}
+                      <div id="product__counter"></div>
+                    </div>
+                  {% endif %}
+
                   {%- if block.settings.product__returndate-text != blank -%}
                     <div class="return__date">
                       {{ block.settings.product__returndate-text }}
@@ -826,12 +839,28 @@
             "id": "show_price_in_button",
             "label": "Show price in add to cart button",
             "default": false
-          }, {
+          },
+          {
             "type": "checkbox",
             "id": "show_payment_button",
             "label": "Show dynamic checkout button",
             "info": "Each customer will see their preferred payment method from those available on your store, such as PayPal or Apple Pay. [Learn more](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
             "default": true
+          },
+          {
+            "type": "header",
+            "content": "Product Counter"
+          },
+          {
+            "type": "richtext",
+            "id": "product_counter_text",
+            "label": "Add product counter text",
+            "default": "<p>Vi pakker din ordre om:</p>"
+          }, {
+            "type": "checkbox",
+            "id": "show_product_counter",
+            "label": "show product counter",
+            "default": false
           }, {
             "type": "richtext",
             "id": "product__returndate-text",
