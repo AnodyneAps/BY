@@ -41,7 +41,9 @@
           "settings": {
             "show_price_in_button": false,
             "show_payment_button": false,
-            "product__returndate-text": "<p>Du kan roligt købe julegaver - returretten er forlænget frem til<strong> d. 24. januar 2023<\/strong><\/p>"
+            "product_counter_text": "<p>Vi pakker din ordre om:<\/p>",
+            "show_product_counter": true,
+            "product__returndate-text": "<p><strong>Husk: Vi har altid 30 dages FULD returret<\/strong><\/p>"
           }
         },
         "2bc5c75c-e4ca-40f7-ba89-d340007f92cb": {
@@ -52,7 +54,7 @@
             "icon_selector1": "truck",
             "icon_1_heading": "Gratis levering til pakkeshop",
             "icon_selector2": "shipping",
-            "icon_2_heading": "30 dages returrret",
+            "icon_2_heading": "30 dages returret",
             "icon_selector3": "headphones",
             "icon_3_heading": "Professionel kundeservice",
             "icon_selector4": "cards",
@@ -84,7 +86,7 @@
           "type": "content",
           "settings": {
             "title": "Tekstiler med omhu",
-            "content": "<p>Med byFritz har jeg gentænkt fremstillingen af boligtekstiler ved at kombinere min kærlighed for design, kvalitet og håndværk med nøje gennemtænkte bæredygtige materialer. Fælles for alle materialerne er, at de er naturmaterialer. <\/p><p>Jeg skaber smukt økologisk sengetøj, håndklæder og viskestykker af høj kvalitet og med lang levetid. Kvaliteterne udvikles således, at produkterne kan bruges igen og igen og endda gå i arv med den rigtige pleje. <\/p>",
+            "content": "<p>Med vonFritz har jeg gentænkt fremstillingen af boligtekstiler ved at kombinere min kærlighed for design, kvalitet og håndværk med nøje gennemtænkte bæredygtige materialer. Fælles for alle materialerne er, at de er naturmaterialer. <\/p><p>Jeg skaber smukt økologisk sengetøj, håndklæder og viskestykker af høj kvalitet og med lang levetid. Kvaliteterne udvikles således, at produkterne kan bruges igen og igen og endda gå i arv med den rigtige pleje. <\/p>",
             "page": "baeredygtighed-info"
           }
         }

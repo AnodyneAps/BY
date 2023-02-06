@@ -14517,7 +14517,7 @@ shopify-payment-terms {
 }
 .flip-container.show-flip {
   position: absolute;
-  bottom: 0;
+  bottom: 25px;
   left: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -14881,3 +14881,9 @@ shopify-payment-terms {
   color: var(--accentclr);
 }
 .make-white{color:#ffffff !important}
+.trustpilot-widget{
+border-radius: 5px;
+padding:10px 0;
+background-color: var(--mainclr10);
+border: 1px solid #f9f9f9;
+}
