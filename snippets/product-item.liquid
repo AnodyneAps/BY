@@ -1,6 +1,7 @@
 {%-liquid 
     assign productLabelOne = product.metafields.my_fields.product_label_two 
     assign productLabelTwo = product.metafields.my_fields.product_label 
+    assign showProductBadgeLabel = section.settings.show_discount_badge
     assign productBadgeLabel = product.metafields.my_fields.product_badge_label 
     assign productSeriesLabel = product.metafields.product.collection_series_name 
     assign productLabel = product.metafields.my_fields.product_label  
@@ -99,12 +100,14 @@
             <span class="ProductItem__Label-two Heading Text--subdued">{{ productLabelTwo }}</span>
           </div>
         {% endif %}
-        {% if productBadgeLabel %}
-          <div class="ProductItem__LabelList-badge">
-            {%- assign discount_price = compare_at_price | minus: price | times: 100 | divided_by: compare_at_price -%}
-            <span class="ProductItem__Label-badge Heading Text--subdued">{{ productBadgeLabel}}<br>  {{discount_price}}%</span>
-          </div>
-        {% endif %}
+          {%- assign discount_price = compare_at_price | minus: price | times: 100 | divided_by: compare_at_price -%}
+            {%- if discount_price > 0 -%}
+            {% if showProductBadgeLabel %}
+              <div class="ProductItem__LabelList-badge">
+                <span class="ProductItem__Label-badge Heading Text--subdued">{{ productBadgeLabel}}<br>  {{discount_price}}%</span>  
+              </div>
+            {% endif %}
+         {%- endif -%}      
         {% if section.settings.show_blackdays_badge == true %}
           {% unless product.handle contains 'gavekort' %}
             <div class="ProductItem__Blackdays-badge">

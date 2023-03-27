@@ -43,7 +43,8 @@
             "show_payment_button": false,
             "product_counter_text": "<p>Vi pakker din ordre om:<\/p>",
             "show_product_counter": true,
-            "product__returndate-text": "<p><strong>Husk: Vi har altid 30 dages FULD returret<\/strong><\/p>"
+            "product__returndate-text": "<p><strong>Husk: Vi har altid 30 dages FULD returret<\/strong><\/p>",
+            "show_product_trustpilot_widget": true
           }
         },
         "2bc5c75c-e4ca-40f7-ba89-d340007f92cb": {

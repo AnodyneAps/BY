@@ -7,11 +7,11 @@
           "type": "video",
           "settings": {
             "video_link": "",
-            "video_image": "shopify:\/\/shop_images\/von-hero-orig.jpg",
+            "video_image": "shopify:\/\/shop_images\/von-hero-light.jpg",
             "overlay_opacity": 15,
             "svg__title": "none",
             "title": "vonFritz® økologisk sengetøj og boligtekstiler",
-            "text": "<p><strong>Lige nu kan du spare op til<\/strong><span style=\"text-decoration:underline\"><strong> -30%<\/strong><\/span><strong> i vores store vinterudsalg<\/strong><\/p><p><\/p>",
+            "text": "<p><strong>Boligtekstiler skabt af kærlighed til design, funktionalitet, kvalitet og håndværk.<br\/><\/strong><\/p><p><\/p>",
             "color_text": "#ffffff",
             "button_label": "Shop nu",
             "button_link": "shopify:\/\/collections\/all",

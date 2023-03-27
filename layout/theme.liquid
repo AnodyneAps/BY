@@ -43,9 +43,7 @@
 
     <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}">
 
-    {% include 'tag-manager' with "tag_manger_id" %}
-
-    {% assign tag_manger = tag_manger_id %}
+    {% assign tag_manager = "57SC6V7" %}
 
     <!-- Google Tag Manager -->
     <script>
@@ -60,7 +58,7 @@
         j.async = true;
         j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
         f.parentNode.insertBefore(j, f);
-      })(window, document, 'script', 'dataLayer', 'GTM- {{tag_manger}}');
+      })(window, document, 'script', 'dataLayer', 'GTM-{{tag_manager}}');
     </script>
     <!-- End Google Tag Manager -->
 
@@ -193,6 +191,10 @@
     </script>
     <!-- End of Sleeknote signup and lead generation tool - www.sleeknote.com -->
 
+<!-- Start cookieyes banner -->
+    <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/a523828c42fecbfd37c05d68/script.js"></script>
+    <!-- End cookieyes banner --> 
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-89H0HVDW64"></script>
     <script>
@@ -239,7 +241,12 @@
   {%- endif -%}
 
   <body class="prestige--v4 {{ classes }} {% if template.directory %}template-{{ template.directory | handle }}{% endif %} template-{{ template.name | handle }}">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-{{ tag_manager }}"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
+    
     {%- comment -%}Common SVG definitions that we are re-using in several places{%- endcomment -%}
     <svg class="u-visually-hidden">
       <linearGradient id="rating-star-gradient-half">
