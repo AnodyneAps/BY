@@ -79,11 +79,11 @@
         "settings": {
           "enable_bar": true,
           "home_page_only": false,
-          "posistion_fixed": true,
+          "posistion_fixed": false,
           "background": "#252525",
           "text_color": "#ffffff",
           "enable_bar_one": false,
-          "content": "",
+          "content": "<!-- TrustBox widget - Micro Star --> <div class=\"trustpilot-widget\" data-locale=\"da-DK\" data-template-id=\"5419b732fbfb950b10de65e5\" data-businessunit-id=\"638c76f6510ed557bbfa6ada\" data-style-height=\"24px\" data-style-width=\"100%\" data-theme=\"light\">   <a href=\"https:\/\/dk.trustpilot.com\/review\/vonfritz.com\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a> <\/div> <!-- End TrustBox widget -->",
           "link": "shopify:\/\/collections\/all",
           "fadein_one": "Gratis 1-2 dages levering",
           "icon_selector1": "package",
@@ -97,8 +97,25 @@
       },
       "header": {
         "type": "header",
+        "blocks": {
+          "9282d9f0-b93b-480c-a3a7-9e21b223bf5c": {
+            "type": "mega_menu",
+            "settings": {
+              "navigation_mega_menu": "",
+              "push_1_heading": "Example heading",
+              "push_1_subheading": "Example sub-heading",
+              "push_1_url": "",
+              "push_2_heading": "Example heading",
+              "push_2_subheading": "Example sub-heading",
+              "push_2_url": ""
+            }
+          }
+        },
+        "block_order": [
+          "9282d9f0-b93b-480c-a3a7-9e21b223bf5c"
+        ],
         "settings": {
-          "use_sticky_header": true,
+          "use_sticky_header": false,
           "logo_max_width": 90,
           "mobile_logo_max_width": 90,
           "show_currency_selector": false,

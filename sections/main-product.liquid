@@ -36,7 +36,7 @@
 {%- capture section_settings -%}
   {
   "enableHistoryState": true,
-                                                    "templateSuffix": {{ product.template_suffix | json }},
+                                                        "templateSuffix": {{ product.template_suffix | json }},
   "showInventoryQuantity":
   {% if inventory_block != blank %}true{% else %}false{% endif %},
   "showSku": {{ meta_block.settings.show_sku | json }},
@@ -55,14 +55,14 @@
 {%- capture flickity_options -%}
   {
   "prevNextButtons": true,
-                                                    "pageDots": false,
-                                                    "draggable": true,
-                                                    "contain": true,
-                                                    "adaptiveHeight": true,
-                                                    "pauseAutoPlayOnHove": false,
-                                                    "cellAlign": "left",
-                                                    "arrowShape": {"x0": 20, "x1": 60, "y1": 40, "x2": 60, "y2": 35, "x3": 25}
-                                                  }{%- endcapture -%}
+                                                        "pageDots": false,
+                                                        "draggable": true,
+                                                        "contain": true,
+                                                        "adaptiveHeight": true,
+                                                        "pauseAutoPlayOnHove": false,
+                                                        "cellAlign": "left",
+                                                        "arrowShape": {"x0": 20, "x1": 60, "y1": 40, "x2": 60, "y2": 35, "x3": 25}
+                                                      }{%- endcapture -%}
 <script>
   // To power the recently viewed products section, we save the ID of the product inside the local storage
   (() => {
@@ -519,17 +519,15 @@
                 Product Trustpilot widget
                 {%- endcomment -%}
                 {% if block.settings.show_product_trustpilot_widget %}
-                  <!-- TrustBox widget - Micro Review Count -->
+                  <!-- TrustBox widget - Micro Star -->
                   <div
                     class="trustpilot-widget"
                     data-locale="da-DK"
-                    data-template-id="5419b6a8b0d04a076446a9ad"
+                    data-template-id="5419b732fbfb950b10de65e5"
                     data-businessunit-id="638c76f6510ed557bbfa6ada"
                     data-style-height="24px"
                     data-style-width="100%"
-                    data-theme="light"
-                    data-min-review-count="10"
-                    data-style-alignment="center">
+                    data-theme="light">
                     <a
                       href="https://dk.trustpilot.com/review/vonfritz.com"
                       target="_blank"
@@ -664,7 +662,8 @@ PHOTO SWIPE
 This is the root container for the zoom functionality. Must not be removed, as order element is important.
 --------------------------------------------------------------------------------------------------------------------
 {%- endcomment -%}{%- if section.settings.enable_image_zoom -%}
-  <div class="pswp"
+  <div
+    class="pswp"
     tabindex="-1"
     role="dialog"
     aria-hidden="true">

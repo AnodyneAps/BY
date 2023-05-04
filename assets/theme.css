@@ -10683,7 +10683,7 @@ margin-right: 10px;
   margin: 0 auto;
 }
 .Product__Info .return__date{
-  margin-top: 15px;
+  margin-top: 10px;
   background-color: var(--mainclr10);
   padding: 15px 10px;
   font-size: 12px;
@@ -11163,6 +11163,7 @@ shopify-payment-terms {
   justify-content: center;
 }
 .ProductForm__BuyButtons .pill{
+  display: none !important;
   width:100%;
   font-size: 12px !important;
    text-align: center !important;
@@ -14836,8 +14837,8 @@ shopify-payment-terms {
   display:flex;
   justify-content: center;
   align-items: center;
-  margin-top: 15px;
-  margin-bottom:15px;
+  margin-top: 10px;
+  margin-bottom:10px;
   gap:10px;
 }
 .product-counter-container p {
