@@ -500,11 +500,6 @@
         "taxes_label": "Moms",
         "vat_label_html": "Inklusiv moms"
       }
-    },
-    "filters": {
-      "product_type": {
-        "label": "Produkttype"
-      }
     }
   }
 }
