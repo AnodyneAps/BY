@@ -41,6 +41,7 @@
     },
     "53885859-50d3-4704-ba9a-e65d236f4e66": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "",
@@ -68,7 +69,6 @@
     },
     "1633105453d9ab1568": {
       "type": "customer-testimonials",
-      "disabled": true,
       "blocks": {
         "1633105453d9ab1568-0": {
           "type": "review",
@@ -109,6 +109,7 @@
         "1633105453d9ab1568-2",
         "05608790-23bf-4641-9e99-59c505dc8e3c"
       ],
+      "disabled": true,
       "settings": {
         "background-color": "#fafafa",
         "autoplay": true,
@@ -122,7 +123,6 @@
     },
     "1633105440fb57a17a": {
       "type": "five-reasons",
-      "disabled": true,
       "blocks": {
         "1633105440fb57a17a-0": {
           "type": "icon",
@@ -160,6 +160,7 @@
         "1633105440fb57a17a-1",
         "1633105440fb57a17a-2"
       ],
+      "disabled": true,
       "settings": {
         "background-color": "#ffffff",
         "max_content": false,
