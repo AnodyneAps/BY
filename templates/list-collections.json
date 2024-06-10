@@ -14,6 +14,7 @@
     },
     "4fdbc431-5e07-49d4-a8ea-c271e10dc273": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "",

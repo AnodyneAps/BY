@@ -187,13 +187,6 @@
 
     ],
     "blocks": {
-      "zxLfR1mW0ulNAOzRDD": {
-        "type": "shopify:\/\/apps\/drip-email-marketing\/blocks\/drip_shopify_snippet\/0c4de56d-b2fa-4621-acea-6293bc16aba8",
-        "disabled": false,
-        "settings": {
-          "account_param": "5618606"
-        }
-      },
       "34740088327560990": {
         "type": "shopify:\/\/apps\/dcart\/blocks\/app-embed\/731e2611-8bdf-4514-b5e4-f64f1cae3fb7",
         "disabled": false,

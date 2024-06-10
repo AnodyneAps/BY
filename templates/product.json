@@ -44,7 +44,7 @@
             "product_counter_text": "<p>Vi pakker din ordre om:<\/p>",
             "show_product_counter": true,
             "product__returndate-text": "<p><strong>Husk: Vi har altid 30 dages FULD returret<\/strong><\/p>",
-            "show_product_trustpilot_widget": true
+            "show_product_trustpilot_widget": false
           }
         },
         "2bc5c75c-e4ca-40f7-ba89-d340007f92cb": {
@@ -114,6 +114,7 @@
     },
     "901e59ba-afc5-46f1-84c9-048b722fb827": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "",
@@ -124,10 +125,11 @@
       "type": "apps",
       "blocks": {
         "61e27c18-7be8-4631-b0ab-f0e8258d9ed2": {
-          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "heading_size": 20,
-            "feed_width": 100,
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
             "html_area": ""
           }
         }
