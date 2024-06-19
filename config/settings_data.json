@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "heading_color": "#252525",
@@ -138,7 +147,7 @@
           "language_selector_header": "",
           "newsletter_header": "Skriv dig op til vores nyhedsbrev og hold dig opdateret om nye produkter og tilbud.",
           "text_box_header": "Om vonFritz®",
-          "text_box_text": "<p>vonFritz følger de førende økologiske bæredygtige standarder, og vores produkter er allergivenlige og indeholder ingen skadelige kemikalier og stoffer. Så du kan trygt bruge vores tekstiler tæt på huden hver dag.<\/p><p>Lad dig inspirere i mit univers af smukt økologisk sengetøj, håndklæder og viskestykker 💞<\/p>",
+          "text_box_text": "<p>vonFritz er 100% oeko tex certified og indeholder ingen skadelige kemikalier og stoffer. Så du kan trygt bruge vores tekstiler tæt på huden hver dag.<\/p><p>Lad dig inspirere i mit univers af smukt økologisk sengetøj, håndklæder og viskestykker 💞<\/p>",
           "linkbox_1_header": "Information",
           "linkbox_1_menu": "information",
           "linkbox_2_header": "Kundeservice",
