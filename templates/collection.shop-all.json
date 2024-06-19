@@ -1,17 +1,14 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
-    "1633281870251e33c5": {
-      "type": "collection-header",
-      "settings": {
-        "imageDesktop": "shopify:\/\/shop_images\/byfritz_mission_image.jpg",
-        "image-alignment": "center center",
-        "imageMobile": "shopify:\/\/shop_images\/IMG_6171.jpg",
-        "image-alignment-mobile": "center center",
-        "image-fixed": true,
-        "color-overlay": true,
-        "text_color": "#ffffff"
-      }
-    },
     "main": {
       "type": "main-collection",
       "settings": {
@@ -203,7 +200,6 @@
     }
   },
   "order": [
-    "1633281870251e33c5",
     "main",
     "53885859-50d3-4704-ba9a-e65d236f4e66",
     "16334226477fd6df41",
