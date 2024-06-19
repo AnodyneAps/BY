@@ -1,5 +1,30 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
+    "slideshow_AjgLXN": {
+      "type": "slideshow",
+      "settings": {
+        "show_fullscreen": false,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "heading_size": 26,
+        "sub_heading_size": 20,
+        "text_color": "#ffffff",
+        "button_color": "#363636",
+        "button_background": "#ffffff",
+        "button_color_hover": "#363636",
+        "button_background_hover": "#ffffff"
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -8,6 +33,7 @@
     }
   },
   "order": [
+    "slideshow_AjgLXN",
     "main"
   ]
 }
