@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "16493219980674aef0": {
@@ -259,9 +268,8 @@
             "hide_mobile": false,
             "hide_link": false,
             "collection": "",
-            "image": "shopify:\/\/shop_images\/vf-1280x480-2.jpg",
+            "image": "shopify:\/\/shop_images\/wave.svg",
             "image_alignment": "center bottom",
-            "image_mobile": "shopify:\/\/shop_images\/vf500x750-2.jpg",
             "content_position": "bottomCenter",
             "subheading": "",
             "title": "Hvorfor vælge vonFritz®?",
