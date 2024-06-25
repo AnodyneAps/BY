@@ -86,8 +86,8 @@
       "announcement": {
         "type": "announcement",
         "settings": {
-          "enable_bar": true,
-          "home_page_only": false,
+          "enable_bar": false,
+          "home_page_only": true,
           "posistion_fixed": false,
           "background": "#252525",
           "text_color": "#ffffff",
@@ -95,9 +95,9 @@
           "content": "<!-- TrustBox widget - Micro Star --> <div class=\"trustpilot-widget\" data-locale=\"da-DK\" data-template-id=\"5419b732fbfb950b10de65e5\" data-businessunit-id=\"638c76f6510ed557bbfa6ada\" data-style-height=\"24px\" data-style-width=\"100%\" data-theme=\"light\">   <a href=\"https:\/\/dk.trustpilot.com\/review\/vonfritz.com\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a> <\/div> <!-- End TrustBox widget -->",
           "link": "shopify:\/\/collections\/all",
           "fadein_one": "",
-          "icon_selector1": "package",
+          "icon_selector1": "star",
           "fadein_two": "Gratis fragt ved køb over 399,-",
-          "icon_selector2": "cards",
+          "icon_selector2": "package",
           "fadein_three": "30 dages returret",
           "icon_selector3": "heart",
           "fadein_four": "",
