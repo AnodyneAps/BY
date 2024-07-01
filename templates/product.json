@@ -56,7 +56,7 @@
           "settings": {
             "show_price_in_button": false,
             "show_payment_button": false,
-            "product_counter_text": "<p>Udsolgt<\/p>",
+            "product_counter_text": "",
             "show_product_counter": true,
             "product__returndate-text": "<p><strong>Husk: Vi har altid 30 dages FULD returret<\/strong><\/p>",
             "show_product_trustpilot_widget": false
