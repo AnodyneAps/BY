@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -36,12 +45,18 @@
             "show_label": true
           }
         },
+        "inventory_gJdjUj": {
+          "type": "inventory",
+          "settings": {
+            "inventory_quantity_threshold": 0
+          }
+        },
         "37355ae7-6ac3-4895-8161-1fbea366a549": {
           "type": "buy_buttons",
           "settings": {
             "show_price_in_button": false,
             "show_payment_button": false,
-            "product_counter_text": "<p>Vi pakker din ordre om:<\/p>",
+            "product_counter_text": "<p>Udsolgt<\/p>",
             "show_product_counter": true,
             "product__returndate-text": "<p><strong>Husk: Vi har altid 30 dages FULD returret<\/strong><\/p>",
             "show_product_trustpilot_widget": false
@@ -97,6 +112,7 @@
         "a8498457-f36e-4e16-a79b-90275568162f",
         "98dc4e6f-08f8-4dd9-aa26-e35fab3198cc",
         "b9b19a39-5a54-49f5-be6b-00ef06d6897a",
+        "inventory_gJdjUj",
         "37355ae7-6ac3-4895-8161-1fbea366a549",
         "2bc5c75c-e4ca-40f7-ba89-d340007f92cb",
         "description",
