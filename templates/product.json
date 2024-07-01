@@ -39,16 +39,16 @@
             "size_chart": ""
           }
         },
-        "b9b19a39-5a54-49f5-be6b-00ef06d6897a": {
-          "type": "quantity_selector",
-          "settings": {
-            "show_label": true
-          }
-        },
         "inventory_gJdjUj": {
           "type": "inventory",
           "settings": {
             "inventory_quantity_threshold": 0
+          }
+        },
+        "b9b19a39-5a54-49f5-be6b-00ef06d6897a": {
+          "type": "quantity_selector",
+          "settings": {
+            "show_label": true
           }
         },
         "37355ae7-6ac3-4895-8161-1fbea366a549": {
@@ -111,8 +111,8 @@
         "product_meta",
         "a8498457-f36e-4e16-a79b-90275568162f",
         "98dc4e6f-08f8-4dd9-aa26-e35fab3198cc",
-        "b9b19a39-5a54-49f5-be6b-00ef06d6897a",
         "inventory_gJdjUj",
+        "b9b19a39-5a54-49f5-be6b-00ef06d6897a",
         "37355ae7-6ac3-4895-8161-1fbea366a549",
         "2bc5c75c-e4ca-40f7-ba89-d340007f92cb",
         "description",
