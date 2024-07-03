@@ -51,15 +51,21 @@
             "show_label": true
           }
         },
-        "buy_buttons_gWYWtV": {
+        "buy_buttons_DJnMaB": {
           "type": "buy_buttons",
           "settings": {
             "show_price_in_button": false,
-            "show_payment_button": false,
-            "product_counter_text": "<p>Vi pakker din ordre om:<\/p>",
+            "show_payment_button": true,
+            "product_counter_text": "<p>Vi pakker din ordre om:{{ product.title }}<\/p>",
             "show_product_counter": false,
             "product__returndate-text": "",
             "show_product_trustpilot_widget": false
+          }
+        },
+        "text_cQQNgM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Udsolgt<\/p><p><\/p>"
           }
         },
         "2bc5c75c-e4ca-40f7-ba89-d340007f92cb": {
@@ -113,7 +119,8 @@
         "98dc4e6f-08f8-4dd9-aa26-e35fab3198cc",
         "inventory_gJdjUj",
         "b9b19a39-5a54-49f5-be6b-00ef06d6897a",
-        "buy_buttons_gWYWtV",
+        "buy_buttons_DJnMaB",
+        "text_cQQNgM",
         "2bc5c75c-e4ca-40f7-ba89-d340007f92cb",
         "description",
         "0ea1b043-eff1-4e99-946d-d1923fd15e88",
