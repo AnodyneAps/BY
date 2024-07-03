@@ -51,14 +51,14 @@
             "show_label": true
           }
         },
-        "37355ae7-6ac3-4895-8161-1fbea366a549": {
+        "buy_buttons_BVdxcc": {
           "type": "buy_buttons",
           "settings": {
             "show_price_in_button": false,
             "show_payment_button": false,
-            "product_counter_text": "<p>Udsolgt<\/p>",
-            "show_product_counter": true,
-            "product__returndate-text": "<p><strong>Husk: Vi har altid 30 dages FULD returret<\/strong><\/p>",
+            "product_counter_text": "<p>UDSOLGT<\/p>",
+            "show_product_counter": false,
+            "product__returndate-text": "",
             "show_product_trustpilot_widget": false
           }
         },
@@ -113,7 +113,7 @@
         "98dc4e6f-08f8-4dd9-aa26-e35fab3198cc",
         "inventory_gJdjUj",
         "b9b19a39-5a54-49f5-be6b-00ef06d6897a",
-        "37355ae7-6ac3-4895-8161-1fbea366a549",
+        "buy_buttons_BVdxcc",
         "2bc5c75c-e4ca-40f7-ba89-d340007f92cb",
         "description",
         "0ea1b043-eff1-4e99-946d-d1923fd15e88",
