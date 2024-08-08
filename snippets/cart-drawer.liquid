@@ -6,23 +6,33 @@
     "hasShippingEstimator": false
   }{%- endcapture -%}
 
-{%- liquid 
+{%- liquid
   assign total_saving = 0
-  for item in cart.items 
-    if item.variant.compare_at_price > item.variant.price 
+  for item in cart.items
+    if item.variant.compare_at_price > item.variant.price
       assign saving = item.variant.compare_at_price | minus: item.variant.price | times: item.quantity
       assign total_saving = saving | plus: total_saving
     endif
-  endfor 
-  -%}
+  endfor
+-%}
 
-
-
-<div id="sidebar-cart" class="Drawer Drawer--fromRight" aria-hidden="true" data-section-id="cart" data-section-type="cart" data-section-settings='{{ section_settings }}'>
+<div
+  id="sidebar-cart"
+  class="Drawer Drawer--fromRight"
+  aria-hidden="true"
+  data-section-id="cart"
+  data-section-type="cart"
+  data-section-settings="{{ section_settings }}"
+>
   <div class="Drawer__Header Drawer__Header--bordered Drawer__Container">
     <span class="Drawer__Title Heading u-h4">{{ 'cart.general.title' | t }}</span>
 
-    <button class="Drawer__Close Icon-Wrapper--clickable" data-action="close-drawer" data-drawer-id="sidebar-cart" aria-label="{{ 'header.navigation.close_cart' | t }}">
+    <button
+      class="Drawer__Close Icon-Wrapper--clickable"
+      data-action="close-drawer"
+      data-drawer-id="sidebar-cart"
+      aria-label="{{ 'header.navigation.close_cart' | t }}"
+    >
       {%- render 'icon' with 'close' -%}
     </button>
   </div>
@@ -54,10 +64,8 @@
           <input type="hidden" name="attributes[collection_desktop_items_per_row]" value="">
 
           {% render 'cart-items' %}
-
         </div>
       {%- endif -%}
-
     </div>
 
     {%- unless cart.item_count == 0 -%}
@@ -71,7 +79,7 @@
             {% if total_saving > 0 %}
               <div class="Drawer__savings">
                 <strong>
-              {{ 'cart.general.samletbesparelse' | t }}
+                  {{ 'cart.general.samletbesparelse' | t }}
                 </strong>
                 <span class="text__price saving">- {{ total_saving | money }}</span>
               </div>
@@ -83,9 +91,13 @@
         {%- if settings.cart_enable_notes or shipping_and_taxes_notice != blank -%}
           {%- if settings.cart_enable_notes -%}
             {%- if cart.note == blank -%}
-              <button type="button" class="Cart__NoteButton" data-action="toggle-cart-note">{{ 'cart.general.add_note' | t }}</button>
+              <button type="button" class="Cart__NoteButton" data-action="toggle-cart-note">
+                {{ 'cart.general.add_note' | t }}
+              </button>
             {%- else -%}
-              <button type="button" class="Cart__NoteButton" data-action="toggle-cart-note">{{ 'cart.general.edit_note' | t }}</button>
+              <button type="button" class="Cart__NoteButton" data-action="toggle-cart-note">
+                {{ 'cart.general.edit_note' | t }}
+              </button>
             {%- endif -%}
           {%- endif -%}
 
@@ -95,12 +107,19 @@
 
           {%- if cart.cart_level_discount_applications != blank -%}
             {%- for discount_application in cart.cart_level_discount_applications -%}
-              <p class="Cart__Discount">{%- render 'icon' with 'sale' -%} {{ 'cart.general.discount' | t }} ({{ discount_application.title }}): -<span>{{ discount_application.total_allocated_amount | money }}</span>
+              <p class="Cart__Discount">
+                {%- render 'icon' with 'sale' -%}
+                {{ 'cart.general.discount' | t }} ({{ discount_application.title }}): -<span>
+                  {{- discount_application.total_allocated_amount | money -}}
+                </span>
               </p>
             {%- endfor -%}
           {%- endif -%}
         {%- endif -%}
-
+        <div class="agree-to-terms" style="text-align:right;">
+          <input type="checkbox" id="agree" name="agree">
+          <label for="agree">I agree to the <a href="/pages/terms" target="_blank">Terms and Conditions</a></label>
+        </div>
         <button type="submit" name="checkout" class="Cart__Checkout Button Button--primary Button--full">
           <span>{{- 'cart.general.checkout' | t -}}</span>
           <span class="Button__SeparatorDot"></span>
@@ -121,13 +140,21 @@
             {%- endif -%}
 
             <div class="Form__Item">
-              <textarea class="Cart__Note Form__Textarea" name="note" id="cart-note" rows="3" placeholder="{{ 'cart.general.note_placeholder' | t }}" data-scrollable>{{ cart.note }}</textarea>
+              <textarea
+                class="Cart__Note Form__Textarea"
+                name="note"
+                id="cart-note"
+                rows="3"
+                placeholder="{{ 'cart.general.note_placeholder' | t }}"
+                data-scrollable
+              >{{ cart.note }}</textarea>
             </div>
 
-            <button type="button" class="Button Button--primary Button--full" data-action="toggle-cart-note">{{ 'cart.general.save_note' | t }}</button>
+            <button type="button" class="Button Button--primary Button--full" data-action="toggle-cart-note">
+              {{ 'cart.general.save_note' | t }}
+            </button>
           </div>
         {%- endif -%}
-
       </div>
     {%- endunless -%}
   </form>
