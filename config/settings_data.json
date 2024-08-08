@@ -217,6 +217,12 @@
       },
       "16735461377607925125": {
         "type": "shopify:\/\/apps\/rt-terms-and-conditions-box\/blocks\/app-embed\/17661ca5-aeea-41b9-8091-d8f7233e8b22",
+        "disabled": true,
+        "settings": {
+        }
+      },
+      "5061257265103808445": {
+        "type": "shopify:\/\/apps\/r-terms-conditions\/blocks\/embed-block\/471882a9-9b1b-4918-8943-6c66b60c94ea",
         "disabled": false,
         "settings": {
         }
