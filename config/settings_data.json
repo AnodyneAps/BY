@@ -221,9 +221,15 @@
         "settings": {
         }
       },
+      "534977871531306417": {
+        "type": "shopify:\/\/apps\/tnc-terms-checkbox\/blocks\/app-embed\/2b45c8fb-5ee2-4392-8a72-b663da1d38ad",
+        "disabled": false,
+        "settings": {
+        }
+      },
       "5061257265103808445": {
         "type": "shopify:\/\/apps\/r-terms-conditions\/blocks\/embed-block\/471882a9-9b1b-4918-8943-6c66b60c94ea",
-        "disabled": false,
+        "disabled": true,
         "settings": {
         }
       }
