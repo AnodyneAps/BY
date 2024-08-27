@@ -151,6 +151,14 @@
         "html": ""
       }
     },
+    "custom_html_qfCfbC": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": ""
+      }
+    },
     "custom_html_TYbtJn": {
       "type": "custom-html",
       "settings": {
@@ -226,6 +234,7 @@
     "main",
     "custom_html_LpnckH",
     "custom_html_TgjKCd",
+    "custom_html_qfCfbC",
     "custom_html_TYbtJn",
     "custom_html_chtXqb",
     "custom_html_kaBBdk",
