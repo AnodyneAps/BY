@@ -62,12 +62,6 @@
             "show_product_trustpilot_widget": false
           }
         },
-        "text_cQQNgM": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Udsolgt<\/p><p><\/p>"
-          }
-        },
         "2bc5c75c-e4ca-40f7-ba89-d340007f92cb": {
           "type": "product_usp",
           "settings": {
@@ -120,7 +114,6 @@
         "inventory_gJdjUj",
         "b9b19a39-5a54-49f5-be6b-00ef06d6897a",
         "buy_buttons_DJnMaB",
-        "text_cQQNgM",
         "2bc5c75c-e4ca-40f7-ba89-d340007f92cb",
         "description",
         "0ea1b043-eff1-4e99-946d-d1923fd15e88",
