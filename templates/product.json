@@ -167,6 +167,14 @@
         "html": ""
       }
     },
+    "custom_html_Vpffig": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": ""
+      }
+    },
     "custom_html_MTgVBf": {
       "type": "custom-html",
       "settings": {
@@ -212,6 +220,7 @@
     "custom_html_TgjKCd",
     "custom_html_chtXqb",
     "custom_html_kaBBdk",
+    "custom_html_Vpffig",
     "custom_html_MTgVBf",
     "901e59ba-afc5-46f1-84c9-048b722fb827",
     "16690313470e8c81fb"
