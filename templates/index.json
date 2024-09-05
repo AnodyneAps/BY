@@ -192,51 +192,6 @@
         "include_margins": true
       }
     },
-    "1646509594f49b0adf": {
-      "type": "featured-collections",
-      "blocks": {
-        "164650959376907057-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "handklaeder",
-            "title": "Håndklæder i 100% bomuld",
-            "text_box": "",
-            "grid_items_count": 4,
-            "button_text": "Shop nu"
-          }
-        },
-        "c3ab9535-1752-4a6c-b362-9944ac68bc0d": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "text_box": "",
-            "grid_items_count": 8,
-            "button_text": "View all products"
-          }
-        }
-      },
-      "block_order": [
-        "164650959376907057-0",
-        "c3ab9535-1752-4a6c-b362-9944ac68bc0d"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": 24,
-        "margin_heading": true,
-        "heading_size_mobile": 24,
-        "background-color": "#fafafa",
-        "background_img": "none",
-        "layout_mode": "grid",
-        "show_product_info": true,
-        "show_vendor": false,
-        "show_color_swatch": false,
-        "grid_mobile_items_per_row": "2",
-        "grid_desktop_items_per_row": 4,
-        "show_blackdays_badge": false,
-        "blackdays_badge_text": ""
-      }
-    },
     "1632827034e58962e0": {
       "type": "collection-list",
       "settings": {
@@ -350,7 +305,6 @@
     "998501e2-b1e0-42e0-abf9-aa7ce5cd0b27",
     "16493357443a88c7d8",
     "1669031576d724798f",
-    "1646509594f49b0adf",
     "1632827034e58962e0",
     "1633001842c9af7c59",
     "1651223091b5c81da9",
