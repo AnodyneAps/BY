@@ -100,11 +100,6 @@
             "content": "<p>{{ product.metafields.content.pleje.value }}<\/p>",
             "page": "care"
           }
-        },
-        "description_VfntXy": {
-          "type": "description",
-          "settings": {
-          }
         }
       },
       "block_order": [
@@ -117,11 +112,10 @@
         "2bc5c75c-e4ca-40f7-ba89-d340007f92cb",
         "0ea1b043-eff1-4e99-946d-d1923fd15e88",
         "17147ba3-3eb8-4b38-bf0a-81e6a99fb9a1",
-        "c0ab2312-1a63-481b-98d5-778ca72c7b2a",
-        "description_VfntXy"
+        "c0ab2312-1a63-481b-98d5-778ca72c7b2a"
       ],
       "settings": {
-        "image_size": "small",
+        "image_size": "medium",
         "stack_images": false,
         "show_thumbnails": true,
         "enable_image_zoom": true,
