@@ -77,11 +77,6 @@
             "icon_4_heading": "Nem og sikker betaling"
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "0ea1b043-eff1-4e99-946d-d1923fd15e88": {
           "type": "content",
           "settings": {
@@ -90,20 +85,20 @@
             "page": ""
           }
         },
-        "c0ab2312-1a63-481b-98d5-778ca72c7b2a": {
-          "type": "content",
-          "settings": {
-            "title": "Pleje",
-            "content": "<p>{{ product.metafields.content.pleje.value }}<\/p>",
-            "page": "care"
-          }
-        },
         "17147ba3-3eb8-4b38-bf0a-81e6a99fb9a1": {
           "type": "content",
           "settings": {
             "title": "Tekstiler med omhu",
             "content": "<p>Med vonFritz har jeg gentænkt fremstillingen af boligtekstiler ved at kombinere min kærlighed for design, kvalitet og håndværk med nøje gennemtænkte bæredygtige materialer. Fælles for alle materialerne er, at de er naturmaterialer. <\/p><p>Jeg skaber smukt økologisk sengetøj, håndklæder og viskestykker af høj kvalitet og med lang levetid. Kvaliteterne udvikles således, at produkterne kan bruges igen og igen og endda gå i arv med den rigtige pleje. <\/p>",
             "page": "baeredygtighed-info"
+          }
+        },
+        "c0ab2312-1a63-481b-98d5-778ca72c7b2a": {
+          "type": "content",
+          "settings": {
+            "title": "Pleje",
+            "content": "<p>{{ product.metafields.content.pleje.value }}<\/p>",
+            "page": "care"
           }
         }
       },
@@ -115,10 +110,9 @@
         "b9b19a39-5a54-49f5-be6b-00ef06d6897a",
         "buy_buttons_DJnMaB",
         "2bc5c75c-e4ca-40f7-ba89-d340007f92cb",
-        "description",
         "0ea1b043-eff1-4e99-946d-d1923fd15e88",
-        "c0ab2312-1a63-481b-98d5-778ca72c7b2a",
-        "17147ba3-3eb8-4b38-bf0a-81e6a99fb9a1"
+        "17147ba3-3eb8-4b38-bf0a-81e6a99fb9a1",
+        "c0ab2312-1a63-481b-98d5-778ca72c7b2a"
       ],
       "settings": {
         "image_size": "small",
@@ -128,63 +122,52 @@
         "enable_video_looping": true
       }
     },
-    "custom_html_LpnckH": {
-      "type": "custom-html",
+    "17266591295ace3fc1": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_Lw4LkP": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "background_color": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_Lw4LkP"
+      ],
       "settings": {
-        "subheading": "",
+        "include_margins": true
+      }
+    },
+    "profile_text_yqDd7c": {
+      "type": "profile-text",
+      "settings": {
+        "padding_small": false,
+        "hide_desktop": false,
+        "background_img": "none",
+        "background": "#ffffff",
+        "text_color": "#342e29",
+        "text__align": "left",
         "title": "",
-        "html": ""
+        "h1": false,
+        "heading_size": 26,
+        "margin_heading": false,
+        "heading_size_mobile": 15,
+        "content": "<p>Mini er vores ypperste kvalitet skabt til dine børn. Hvis du ønsker, at dine børn drømmer trygt i sunde materialer og smukke designs, så er Mini det rigtige valg. Fås både som baby sengetøj og junior sengetøj.Mini er blødt og luftigt sengetøj i 100% bomuld. Kvaliteten er percale, hvilket betyder et fint og tæt vævet stof, der er karakteriseret ved en mat overflade og en sprød følelse mod huden. Percale er let, åndbart og giver dit barn den lækreste følelse mod huden.Kvaliteten er slidstærk og holdbar, så dette smukke tidsløse sengesæt kan gå i arv til de næste børn i rækken. Sengesættet er stenvasket, hvilket giver en ekstra følelse af blødhed. Dynebetrækket lukkes med en skjult lynlås. Kuvertlukning på pudebetrækket.<\/p><p><strong>Mål: <\/strong>Fås i str. 70X100 cm (babydyne) og 100x140 cm (juniordyne). Pudebetrækket måler 40x45 cm.<\/p><p><strong>Materiale: <\/strong>100% bomuld.<\/p><p><strong>Farve:<\/strong> <em>Bark<\/em> er en smuk dyb brun nuance, der passer til alt.<\/p>",
+        "profile_name": "",
+        "profile_title": "",
+        "max_content": false,
+        "max_content_size": 50,
+        "max_box_size": 50,
+        "button_label": "",
+        "button_link": ""
       }
     },
     "custom_html_TgjKCd": {
-      "type": "custom-html",
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "html": ""
-      }
-    },
-    "custom_html_qfCfbC": {
-      "type": "custom-html",
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "html": ""
-      }
-    },
-    "custom_html_TYbtJn": {
-      "type": "custom-html",
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "html": ""
-      }
-    },
-    "custom_html_chtXqb": {
-      "type": "custom-html",
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "html": ""
-      }
-    },
-    "custom_html_kaBBdk": {
-      "type": "custom-html",
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "html": ""
-      }
-    },
-    "custom_html_Vpffig": {
-      "type": "custom-html",
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "html": ""
-      }
-    },
-    "custom_html_MTgVBf": {
       "type": "custom-html",
       "settings": {
         "subheading": "",
@@ -225,14 +208,9 @@
   },
   "order": [
     "main",
-    "custom_html_LpnckH",
+    "17266591295ace3fc1",
+    "profile_text_yqDd7c",
     "custom_html_TgjKCd",
-    "custom_html_qfCfbC",
-    "custom_html_TYbtJn",
-    "custom_html_chtXqb",
-    "custom_html_kaBBdk",
-    "custom_html_Vpffig",
-    "custom_html_MTgVBf",
     "901e59ba-afc5-46f1-84c9-048b722fb827",
     "16690313470e8c81fb"
   ]
