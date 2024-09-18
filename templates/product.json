@@ -100,6 +100,11 @@
             "content": "<p>{{ product.metafields.content.pleje.value }}<\/p>",
             "page": "care"
           }
+        },
+        "description_VfntXy": {
+          "type": "description",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -112,7 +117,8 @@
         "2bc5c75c-e4ca-40f7-ba89-d340007f92cb",
         "0ea1b043-eff1-4e99-946d-d1923fd15e88",
         "17147ba3-3eb8-4b38-bf0a-81e6a99fb9a1",
-        "c0ab2312-1a63-481b-98d5-778ca72c7b2a"
+        "c0ab2312-1a63-481b-98d5-778ca72c7b2a",
+        "description_VfntXy"
       ],
       "settings": {
         "image_size": "small",
@@ -141,38 +147,6 @@
       ],
       "settings": {
         "include_margins": true
-      }
-    },
-    "profile_text_yqDd7c": {
-      "type": "profile-text",
-      "settings": {
-        "padding_small": false,
-        "hide_desktop": false,
-        "background_img": "none",
-        "background": "#ffffff",
-        "text_color": "#342e29",
-        "text__align": "left",
-        "title": "",
-        "h1": false,
-        "heading_size": 26,
-        "margin_heading": false,
-        "heading_size_mobile": 15,
-        "content": "<p>Mini er vores ypperste kvalitet skabt til dine børn. Hvis du ønsker, at dine børn drømmer trygt i sunde materialer og smukke designs, så er Mini det rigtige valg. Fås både som baby sengetøj og junior sengetøj.Mini er blødt og luftigt sengetøj i 100% bomuld. Kvaliteten er percale, hvilket betyder et fint og tæt vævet stof, der er karakteriseret ved en mat overflade og en sprød følelse mod huden. Percale er let, åndbart og giver dit barn den lækreste følelse mod huden.Kvaliteten er slidstærk og holdbar, så dette smukke tidsløse sengesæt kan gå i arv til de næste børn i rækken. Sengesættet er stenvasket, hvilket giver en ekstra følelse af blødhed. Dynebetrækket lukkes med en skjult lynlås. Kuvertlukning på pudebetrækket.<\/p><p><strong>Mål: <\/strong>Fås i str. 70X100 cm (babydyne) og 100x140 cm (juniordyne). Pudebetrækket måler 40x45 cm.<\/p><p><strong>Materiale: <\/strong>100% bomuld.<\/p><p><strong>Farve:<\/strong> <em>Bark<\/em> er en smuk dyb brun nuance, der passer til alt.<\/p>",
-        "profile_name": "",
-        "profile_title": "",
-        "max_content": false,
-        "max_content_size": 50,
-        "max_box_size": 50,
-        "button_label": "",
-        "button_link": ""
-      }
-    },
-    "custom_html_TgjKCd": {
-      "type": "custom-html",
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "html": ""
       }
     },
     "901e59ba-afc5-46f1-84c9-048b722fb827": {
@@ -209,8 +183,6 @@
   "order": [
     "main",
     "17266591295ace3fc1",
-    "profile_text_yqDd7c",
-    "custom_html_TgjKCd",
     "901e59ba-afc5-46f1-84c9-048b722fb827",
     "16690313470e8c81fb"
   ]
