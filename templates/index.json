@@ -16,14 +16,14 @@
           "type": "video",
           "settings": {
             "video_link": "",
-            "video_image": "shopify:\/\/shop_images\/von-hero-light.jpg",
+            "video_image": "shopify://shop_images/von-hero-light.jpg",
             "overlay_opacity": 25,
             "svg__title": "none",
             "title": "vonFritz® sengetøj og boligtekstiler",
-            "text": "<p><strong>Boligtekstiler skabt af kærlighed til design, funktionalitet, kvalitet og håndværk.<br\/><\/strong><\/p><p><\/p>",
+            "text": "<p><strong>Boligtekstiler skabt af kærlighed til design, funktionalitet, kvalitet og håndværk.<br/></strong></p><p></p>",
             "color_text": "#ffffff",
             "button_label": "Shop nu",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "color_btn_bg": "#a79f88",
             "color_btn_text": "#ffffff",
             "counter_text": "Vi pakker din ordre om:",
@@ -46,14 +46,14 @@
             "hide_mobile": false,
             "hide_link": false,
             "collection": "sengetoj",
-            "image": "shopify:\/\/shop_images\/Signature_-_Eiucalyptus.jpg",
+            "image": "shopify://shop_images/Signature_-_Eiucalyptus.jpg",
             "image_alignment": "center center",
             "content_position": "bottomCenter",
             "subheading": "",
             "title": "{{ block.settings.collection.title }}",
             "richtext": "",
             "button_text": "Shop nu",
-            "button_link": "shopify:\/\/collections\/sengetoj",
+            "button_link": "shopify://collections/sengetoj",
             "apply_overlay": true,
             "apply_overlay_extra": false,
             "add_logo": false,
@@ -67,35 +67,14 @@
             "hide_mobile": false,
             "hide_link": false,
             "collection": "handklaeder",
-            "image": "shopify:\/\/shop_images\/Handklaeder.jpg",
+            "image": "shopify://shop_images/Handklaeder.jpg",
             "image_alignment": "center center",
             "content_position": "bottomCenter",
             "subheading": "",
             "title": "{{ block.settings.collection.title }}",
             "richtext": "",
             "button_text": "Shop nu",
-            "button_link": "shopify:\/\/collections\/handklaeder",
-            "apply_overlay": true,
-            "apply_overlay_extra": false,
-            "add_logo": false,
-            "logo_color": "#ffffff",
-            "logo_size": 150
-          }
-        },
-        "1649338945ace414df-2": {
-          "type": "collection",
-          "settings": {
-            "hide_mobile": false,
-            "hide_link": false,
-            "collection": "viskestykker",
-            "image": "shopify:\/\/shop_images\/102BDB3B-B371-4521-A609-972BB9A60C01_2.jpg",
-            "image_alignment": "center center",
-            "content_position": "bottomCenter",
-            "subheading": "",
-            "title": "{{ block.settings.collection.title }}",
-            "richtext": "",
-            "button_text": "Shop nu",
-            "button_link": "shopify:\/\/collections\/viskestykker",
+            "button_link": "shopify://collections/handklaeder",
             "apply_overlay": true,
             "apply_overlay_extra": false,
             "add_logo": false,
@@ -106,8 +85,7 @@
       },
       "block_order": [
         "1649338945ace414df-0",
-        "1649338945ace414df-1",
-        "1649338945ace414df-2"
+        "1649338945ace414df-1"
       ],
       "settings": {
         "image_size": "normal",
@@ -134,7 +112,7 @@
       "settings": {
         "subheading": "",
         "title": "",
-        "liquid": "<!-- TrustBox widget - Slider -->\n<div class=\"trustpilot-widget\" data-locale=\"da-DK\" data-template-id=\"54ad5defc6454f065c28af8b\" data-businessunit-id=\"638c76f6510ed557bbfa6ada\" data-style-height=\"240px\" data-style-width=\"100%\" data-theme=\"light\" data-stars=\"5\" data-review-languages=\"da\">\n  <a href=\"https:\/\/dk.trustpilot.com\/review\/vonfritz.com\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->"
+        "liquid": "<!-- TrustBox widget - Slider -->\n<div class=\"trustpilot-widget\" data-locale=\"da-DK\" data-template-id=\"54ad5defc6454f065c28af8b\" data-businessunit-id=\"638c76f6510ed557bbfa6ada\" data-style-height=\"240px\" data-style-width=\"100%\" data-theme=\"light\" data-stars=\"5\" data-review-languages=\"da\">\n  <a href=\"https://dk.trustpilot.com/review/vonfritz.com\" target=\"_blank\" rel=\"noopener\">Trustpilot</a>\n</div>\n<!-- End TrustBox widget -->"
       }
     },
     "16493357443a88c7d8": {
@@ -175,13 +153,13 @@
       "type": "apps",
       "blocks": {
         "532e6b8e-cc10-447e-8b29-0d7be0f98244": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "title": "",
             "title_color": "",
             "alignment": "center",
             "background_color": "",
-            "html_area": "<style>.shopify-app-block{margin-bottom:60px;}<\/style>"
+            "html_area": "<style>.shopify-app-block{margin-bottom:60px;}</style>"
           }
         }
       },
@@ -234,10 +212,10 @@
         "heading_size": 28,
         "margin_heading": true,
         "heading_size_mobile": 24,
-        "content": "<p>\"Jeg har med vonFritz en drøm og et ønske om at bidrage til en grønnere verden. En verden hvor vi kommer væk fra køb-og-smid-væk kulturen og i stedet fokuserer på kvalitet og det gode håndværk. Jeg tror på at æstetik og etik kan forenes således at det smukke økologiske sengetøj, håndklæder og viskestykker vi fremstiller, ikke gør skade på vores klode eller på os.\" <\/p>",
+        "content": "<p>\"Jeg har med vonFritz en drøm og et ønske om at bidrage til en grønnere verden. En verden hvor vi kommer væk fra køb-og-smid-væk kulturen og i stedet fokuserer på kvalitet og det gode håndværk. Jeg tror på at æstetik og etik kan forenes således at det smukke økologiske sengetøj, håndklæder og viskestykker vi fremstiller, ikke gør skade på vores klode eller på os.\" </p>",
         "profile_name": "Tina Andersen",
         "profile_title": "CEO & Founder",
-        "profile_image": "shopify:\/\/shop_images\/VonFritz_bomaerke_blaagroen_Final_Pantone.png",
+        "profile_image": "shopify://shop_images/VonFritz_bomaerke_blaagroen_Final_Pantone.png",
         "max_content": true,
         "max_content_size": 120,
         "max_box_size": 50,
@@ -286,7 +264,7 @@
       "settings": {
         "subheading": "",
         "title": "",
-        "html": "<!-- TrustBox widget - Micro Star -->\n<div class=\"trustpilot-widget\" data-locale=\"da-DK\" data-template-id=\"5419b732fbfb950b10de65e5\" data-businessunit-id=\"638c76f6510ed557bbfa6ada\" data-style-height=\"24px\" data-style-width=\"100%\" data-theme=\"light\">\n  <a href=\"https:\/\/dk.trustpilot.com\/review\/vonfritz.com\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->"
+        "html": "<!-- TrustBox widget - Micro Star -->\n<div class=\"trustpilot-widget\" data-locale=\"da-DK\" data-template-id=\"5419b732fbfb950b10de65e5\" data-businessunit-id=\"638c76f6510ed557bbfa6ada\" data-style-height=\"24px\" data-style-width=\"100%\" data-theme=\"light\">\n  <a href=\"https://dk.trustpilot.com/review/vonfritz.com\" target=\"_blank\" rel=\"noopener\">Trustpilot</a>\n</div>\n<!-- End TrustBox widget -->"
       }
     },
     "70934f23-23d7-4b49-95b8-4293e2b4e1a3": {
