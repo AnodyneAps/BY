@@ -1,29 +1,5 @@
   <footer id="section-{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="footer" class="Footer {% if add_top_margin %}Footer--withMargin{% endif %}" role="contentinfo">
   
-  <div class="Footer__Newsletter-home">
-      <div class="Footer__Inner">
-        <h3 class="Heading u-h3">{{ section.settings.newsletter_header }}</h3>
-  
-        {%- assign newsletter_id = 'footer-' | append: section.id -%}
-  
-        {%- form 'customer', id: newsletter_id, class: 'Newsletter Form' -%}
-          {%- if form.posted_successfully? -%}
-            <p class="Form__Alert Alert Alert--success">{{ 'home_page.newsletter.success' | t }}</p>
-          {%- else -%}
-            {%- if form.errors -%}
-              <p class="Form__Alert Alert Alert--error">{{ form.errors.messages['email'] }}</p>
-            {%- endif -%} 
-  
-            <div class="Newsletter__Email">
-              <input type="hidden" name="contact[tags]" value="newsletter">
-              <input type="email" name="contact[email]" class="Form__Input newsletter__emial" aria-label="{{ 'home_page.newsletter.input' | t }}" placeholder="{{ 'home_page.newsletter.input' | t }}" required><br>
-              <button type="submit" class="Form__Submit Button Button--primary Button--full">{{ 'home_page.newsletter.submit' | t }}</button>
-            </div>
-          {%- endif -%}
-        {%- endform -%}
-      </div>
-  </div>
-  
   <div class="Footer_Box">
     <div class="Footer__Inner">
   
