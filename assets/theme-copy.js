@@ -2453,7 +2453,7 @@
 									(this.delegateElement = new domDelegate.Delegate(this.element)),
 									(this.toolbarElement = this.element.querySelector(".CollectionToolbar")),
 									(this.collectionInnerElement = this.element.querySelector(".CollectionInner__Products")),
-									(this.options = JSON.parse(this.element.getAttribute("data-section-settings"))),
+									(this.settings = JSON.parse(this.element.getAttribute("data-section-settings")));
 							var n = document.getElementById("collection-sort-popover");
 							n && (this.sortPopover = new g(n, { onValueChanged: this._sortByChanged.bind(this) }));
 							var o = document.getElementById("collection-filter-drawer");
