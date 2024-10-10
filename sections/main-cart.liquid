@@ -61,7 +61,7 @@
 
             <div class="Cart__Recap">
               {%- capture shipping_and_taxes_notice -%}{{ 'cart.general.shipping_and_taxes_notice' | t }}{%- endcapture -%}
-
+<p><input style="-webkit-appearance: checkbox; float:none; vertical-align: middle;" type="checkbox" id="effectiveAppsAgreeCB" onchange="termsAndConditionsCheckboxChanged(this);">&nbsp;<label style="display:inline; float:none" for="agree">Jeg har læst og godkendt vonFritz's <span style="text-decoration: underline;"><a href="https://vonfritz.com/policies/terms-of-service" target="_blank" rel="noopener">Handelsbetingelser</a></span></label></p>
               {%- if cart.cart_level_discount_applications != blank -%}
                 {%- for discount_application in cart.cart_level_discount_applications -%}
                   <p class="Cart__Discount Heading u-h6">{{ 'cart.general.discount' | t }} ({{ discount_application.title }}): -<span>{{ discount_application.total_allocated_amount | money }}</span></p>
