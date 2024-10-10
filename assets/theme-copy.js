@@ -2219,7 +2219,7 @@
 									(this.element = i),
 									(this.delegateElement = new domDelegate.Delegate(this.element)),
 									(this.documentDelegate = new domDelegate.Delegate(document.documentElement)),
-									(this.options = JSON.parse(this.element.getAttribute("data-section-settings"))),
+									(this.options = this.element.getAttribute("data-section-settings")),
 									(this.itemCount = this.options.itemCount),
 									(this.isCartNoteOpen = !1),
 									this.options.drawer && (this.sidebarDrawer = new v(this.element, { onClose: this._onDrawerClosed.bind(this) })),
