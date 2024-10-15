@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -42,7 +42,7 @@
       "settings": {
         "subheading": "",
         "title": "",
-        "html": "<!-- TrustBox widget - Slider -->\n<div class=\"trustpilot-widget\" data-locale=\"da-DK\" data-template-id=\"54ad5defc6454f065c28af8b\" data-businessunit-id=\"638c76f6510ed557bbfa6ada\" data-style-height=\"240px\" data-style-width=\"100%\" data-theme=\"light\" data-stars=\"5\" data-review-languages=\"da\">\n  <a href=\"https:\/\/dk.trustpilot.com\/review\/vonfritz.com\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->"
+        "html": "<!-- TrustBox widget - Slider -->\n<div class=\"trustpilot-widget\" data-locale=\"da-DK\" data-template-id=\"54ad5defc6454f065c28af8b\" data-businessunit-id=\"638c76f6510ed557bbfa6ada\" data-style-height=\"240px\" data-style-width=\"100%\" data-theme=\"light\" data-stars=\"5\" data-review-languages=\"da\">\n  <a href=\"https://dk.trustpilot.com/review/vonfritz.com\" target=\"_blank\" rel=\"noopener\">Trustpilot</a>\n</div>\n<!-- End TrustBox widget -->"
       }
     },
     "16334226477fd6df41": {
@@ -51,17 +51,17 @@
         "usp_autoplay": true,
         "usp_cycle_speed": 5,
         "icon_selector1": "package",
-        "icon_1_heading": "Gratis levering til pakkeshop",
-        "icon_1_richtext": "<p>Vi tilbyder altid fri fragt til din nærmeste PostNord-pakkeshop. <\/p>",
+        "icon_1_heading": "Gratis levering",
+        "icon_1_richtext": "<p>Vi tilbyder altid fri fragt til din adresse.</p>",
         "icon_selector2": "shipping",
-        "icon_2_heading": "30 dages returret og gratis ombytning",
-        "icon_2_richtext": "<p>Vi lover selvfølgelig altid  30 dages returret og nem og gratis ombytning hos vonFritz.<\/p>",
+        "icon_2_heading": "30 dages returret",
+        "icon_2_richtext": "<p>Vi lover selvfølgelig altid  30 dages returret.</p>",
         "icon_selector3": "heart",
         "icon_3_heading": "Professionel kundeservice",
-        "icon_3_richtext": "<p>Har du brug for hjælp? Tøv ikke med at tage kontakt til os.<\/p>",
+        "icon_3_richtext": "<p>Har du brug for hjælp? Tøv ikke med at tage kontakt til os.</p>",
         "icon_selector4": "cards",
         "icon_4_heading": "Nem og sikker betaling",
-        "icon_4_richtext": "<p>Når du handler hos os, betaler du med kendte og sikre betalingsløsninger<\/p>"
+        "icon_4_richtext": "<p>Når du handler hos os, betaler du med kendte og sikre betalingsløsninger</p>"
       }
     },
     "1633105453d9ab1568": {
@@ -71,7 +71,7 @@
           "type": "review",
           "settings": {
             "review_heading": "Jeg kan klart se en forskel",
-            "review_richtext": "<p>Jeg kan klart se en forskel. Prøvede under en stram kjole og der er ingen tvivl om, at i løfter min bagdel. Positivt overrasket!<\/p>",
+            "review_richtext": "<p>Jeg kan klart se en forskel. Prøvede under en stram kjole og der er ingen tvivl om, at i løfter min bagdel. Positivt overrasket!</p>",
             "review_name": "Elisabeth Bach"
           }
         },
@@ -79,7 +79,7 @@
           "type": "review",
           "settings": {
             "review_heading": "Utroligt blødt",
-            "review_richtext": "<p>Utrolig blødt at have på, strammer op lige hvor det skal og er på intet tidspunkt ubehageligt. Jeg vil klart anbefale Shabes.<\/p>",
+            "review_richtext": "<p>Utrolig blødt at have på, strammer op lige hvor det skal og er på intet tidspunkt ubehageligt. Jeg vil klart anbefale Shabes.</p>",
             "review_name": "Heidi Boll"
           }
         },
@@ -87,7 +87,7 @@
           "type": "review",
           "settings": {
             "review_heading": "Mit tøj sidder pænere!",
-            "review_richtext": "<p>Shabes støtter og optimerer mine former samtidig med at det får mit tøj til at sidde pænere, end da jeg købte det.<\/p>",
+            "review_richtext": "<p>Shabes støtter og optimerer mine former samtidig med at det får mit tøj til at sidde pænere, end da jeg købte det.</p>",
             "review_name": "Trine Rasmussen"
           }
         },
@@ -95,7 +95,7 @@
           "type": "review",
           "settings": {
             "review_heading": "Kan klart anbefale SHABES",
-            "review_richtext": "<p>Sidder behageligt! Jeg kan klart anbefale shapewear fra Shabes. <\/p>",
+            "review_richtext": "<p>Sidder behageligt! Jeg kan klart anbefale shapewear fra Shabes. </p>",
             "review_name": "Jill Lyhne"
           }
         }
@@ -128,7 +128,7 @@
             "icon-color": "#614f42",
             "icon_size": 200,
             "icon_heading": "Produktet virker – Maksimum løfteeffekt!",
-            "icon_text": "<p>Vores opstrammende materialer kombineret med konstruktionen i vores shapewear sikrer dig, at numsen altid sidder som den skal, at maven og lårene altid glattes ud, en timeglasfigur og et smil på læben. Vi har 100% tilfredshedsgaranti.<\/p>"
+            "icon_text": "<p>Vores opstrammende materialer kombineret med konstruktionen i vores shapewear sikrer dig, at numsen altid sidder som den skal, at maven og lårene altid glattes ud, en timeglasfigur og et smil på læben. Vi har 100% tilfredshedsgaranti.</p>"
           }
         },
         "1633105440fb57a17a-1": {
@@ -138,7 +138,7 @@
             "icon-color": "#d8beac",
             "icon_size": 200,
             "icon_heading": "Behageligt for kroppen hele dagen!",
-            "icon_text": "<p>Vores bløde og behagelige materialer får dig helt til at glemme, at du har vores shapewear på. Vi mener, at det bedste shapewear er det shapewear, som du har lyst til at gå med. Når du handler hos Shabes, har vi dig og din krop i fokus. Husk vi har fri retur! <\/p>"
+            "icon_text": "<p>Vores bløde og behagelige materialer får dig helt til at glemme, at du har vores shapewear på. Vi mener, at det bedste shapewear er det shapewear, som du har lyst til at gå med. Når du handler hos Shabes, har vi dig og din krop i fokus. Husk vi har fri retur! </p>"
           }
         },
         "1633105440fb57a17a-2": {
@@ -148,7 +148,7 @@
             "icon-color": "#d8beac",
             "icon_size": 140,
             "icon_heading": "Venlig og professionel kundeservice!",
-            "icon_text": "<p>For at give dig den bedste oplevelse er vores designere altid online og klar til at rådgive dig fra 09-18 hver dag. Det er ikke altid nemt at vælge det rigtige shapewear, derfor er det vigtigt for os at du føler, at du får den fornødne hjælp. <\/p>"
+            "icon_text": "<p>For at give dig den bedste oplevelse er vores designere altid online og klar til at rådgive dig fra 09-18 hver dag. Det er ikke altid nemt at vælge det rigtige shapewear, derfor er det vigtigt for os at du føler, at du får den fornødne hjælp. </p>"
           }
         }
       },
@@ -181,10 +181,10 @@
         "max_box_size": 50,
         "subheading": "",
         "title": "Title",
-        "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>",
+        "content": "<p>Add your own custom content to give more information about your store, availability details...</p>",
         "subheading_2": "",
         "title_2": "Title",
-        "content_2": "<p>Add your own custom content to give more information about your store, availability details...<\/p>",
+        "content_2": "<p>Add your own custom content to give more information about your store, availability details...</p>",
         "text_align": "left",
         "heading_size": 42,
         "sub_heading_size": 20,
