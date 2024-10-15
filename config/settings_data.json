@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "heading_color": "#252525",
@@ -62,10 +62,10 @@
     "cart_enable_notes": false,
     "cart_show_free_shipping_threshold": true,
     "cart_free_shipping_threshold": "399",
-    "social_facebook": "https:\/\/www.facebook.com\/ByFritzDenmark",
-    "social_instagram": "https:\/\/www.instagram.com\/vonfritz_com",
-    "favicon": "shopify:\/\/shop_images\/android-chrome-192x192.png",
-    "checkout_logo_image": "shopify:\/\/shop_images\/vonfritz_logo_r.png",
+    "social_facebook": "https://www.facebook.com/ByFritzDenmark",
+    "social_instagram": "https://www.instagram.com/vonfritz_com",
+    "favicon": "shopify://shop_images/android-chrome-192x192.png",
+    "checkout_logo_image": "shopify://shop_images/vonfritz_logo_r.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "medium",
     "checkout_body_background_color": "#ffffff",
@@ -80,7 +80,7 @@
           "primary_menu": "main-menu",
           "secondary_menu": "",
           "show_social_media": true,
-          "menu_image": "shopify:\/\/shop_images\/Signature_-_Eiucalyptus.jpg"
+          "menu_image": "shopify://shop_images/Signature_-_Eiucalyptus.jpg"
         }
       },
       "announcement": {
@@ -92,8 +92,8 @@
           "background": "#252525",
           "text_color": "#ffffff",
           "enable_bar_one": false,
-          "content": "<!-- TrustBox widget - Micro Star --> <div class=\"trustpilot-widget\" data-locale=\"da-DK\" data-template-id=\"5419b732fbfb950b10de65e5\" data-businessunit-id=\"638c76f6510ed557bbfa6ada\" data-style-height=\"24px\" data-style-width=\"100%\" data-theme=\"light\">   <a href=\"https:\/\/dk.trustpilot.com\/review\/vonfritz.com\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a> <\/div> <!-- End TrustBox widget -->",
-          "link": "shopify:\/\/collections\/all",
+          "content": "<!-- TrustBox widget - Micro Star --> <div class=\"trustpilot-widget\" data-locale=\"da-DK\" data-template-id=\"5419b732fbfb950b10de65e5\" data-businessunit-id=\"638c76f6510ed557bbfa6ada\" data-style-height=\"24px\" data-style-width=\"100%\" data-theme=\"light\">   <a href=\"https://dk.trustpilot.com/review/vonfritz.com\" target=\"_blank\" rel=\"noopener\">Trustpilot</a> </div> <!-- End TrustBox widget -->",
+          "link": "shopify://collections/all",
           "fadein_one": "Gratis fragt ved køb over 399,-",
           "icon_selector1": "material",
           "fadein_two": "",
@@ -149,7 +149,7 @@
           "enable_transparent_header_collection": false,
           "show_transparent_header_border": false,
           "transparent_text_color": "#ffffff",
-          "transparent_logo": "shopify:\/\/shop_images\/vonfritz_logo_r.png"
+          "transparent_logo": "shopify://shop_images/vonfritz_logo_r.png"
         }
       },
       "footer": {
@@ -160,7 +160,7 @@
           "language_selector_header": "",
           "newsletter_header": "Skriv dig op til vores nyhedsbrev og hold dig opdateret om nye produkter og tilbud.",
           "text_box_header": "Om vonFritz®",
-          "text_box_text": "<p>vonFritz er 100% oeko tex certificeret og indeholder ingen skadelige kemikalier og stoffer. <\/p><p>Dyk ned i et univers af lækkert sengetøj og bløde håndklæder, og lad dig inspirere af skønheden og kvaliteten i vores sortiment. Forkæl dig selv med vores nøje udvalgte produkter og mærk forskellen hver eneste dag 💞.<\/p>",
+          "text_box_text": "<p>vonFritz er 100% oeko tex certificeret og indeholder ingen skadelige kemikalier og stoffer. </p><p>Dyk ned i et univers af lækkert sengetøj og bløde håndklæder, og lad dig inspirere af skønheden og kvaliteten i vores sortiment. Forkæl dig selv med vores nøje udvalgte produkter og mærk forskellen hver eneste dag.</p>",
           "linkbox_1_header": "Information",
           "linkbox_1_menu": "information",
           "linkbox_2_header": "Kundeservice",
@@ -176,10 +176,10 @@
           "contact_box_day_weekend_time": "10.00-15.00\n<br><br>\nVi bestræber os på at svare inden for 24 timer på hverdage.",
           "show_social_links": true,
           "icon_facebook_selector": "facebook",
-          "facebook__link": "https:\/\/www.facebook.com\/ByFritzDenmark",
+          "facebook__link": "https://www.facebook.com/ByFritzDenmark",
           "facebook__text": "Facebook",
           "icon_instagram_selector": "instagram",
-          "instagram__link": "https:\/\/www.instagram.com\/vonfritz_com\/",
+          "instagram__link": "https://www.instagram.com/vonfritz_com/",
           "instagram__text": "Instagram",
           "icon_youtube_selector": "none",
           "youtube__link": "",
@@ -188,7 +188,7 @@
           "linkedin__link": "",
           "linkedin__text": "",
           "copyright_text": "2024, Bjorna ApS. All rights reserved",
-          "copyright_text_company": "<p>CVR: 31618088<\/p>"
+          "copyright_text_company": "<p>CVR: 31618088</p>"
         }
       },
       "popup": {
@@ -199,7 +199,7 @@
           "show_only_for_visitors": false,
           "show_only_once": false,
           "title": "Gå ikke glip af noget",
-          "content": "<p>Tilmeld dig til vores nyhedsbrev og hold dig opdateret om alt det nye der sker.<\/p>",
+          "content": "<p>Tilmeld dig til vores nyhedsbrev og hold dig opdateret om alt det nye der sker.</p>",
           "show_newsletter": false,
           "apparition_delay": 3
         }
@@ -210,25 +210,25 @@
     ],
     "blocks": {
       "34740088327560990": {
-        "type": "shopify:\/\/apps\/dcart\/blocks\/app-embed\/731e2611-8bdf-4514-b5e4-f64f1cae3fb7",
+        "type": "shopify://apps/dcart/blocks/app-embed/731e2611-8bdf-4514-b5e4-f64f1cae3fb7",
         "disabled": false,
         "settings": {
         }
       },
       "16735461377607925125": {
-        "type": "shopify:\/\/apps\/rt-terms-and-conditions-box\/blocks\/app-embed\/17661ca5-aeea-41b9-8091-d8f7233e8b22",
+        "type": "shopify://apps/rt-terms-and-conditions-box/blocks/app-embed/17661ca5-aeea-41b9-8091-d8f7233e8b22",
         "disabled": true,
         "settings": {
         }
       },
       "534977871531306417": {
-        "type": "shopify:\/\/apps\/tnc-terms-checkbox\/blocks\/app-embed\/2b45c8fb-5ee2-4392-8a72-b663da1d38ad",
+        "type": "shopify://apps/tnc-terms-checkbox/blocks/app-embed/2b45c8fb-5ee2-4392-8a72-b663da1d38ad",
         "disabled": false,
         "settings": {
         }
       },
       "5061257265103808445": {
-        "type": "shopify:\/\/apps\/r-terms-conditions\/blocks\/embed-block\/471882a9-9b1b-4918-8943-6c66b60c94ea",
+        "type": "shopify://apps/r-terms-conditions/blocks/embed-block/471882a9-9b1b-4918-8943-6c66b60c94ea",
         "disabled": true,
         "settings": {
         }
