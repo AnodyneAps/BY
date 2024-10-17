@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -56,7 +56,7 @@
           "settings": {
             "show_price_in_button": false,
             "show_payment_button": true,
-            "product_counter_text": "<p>Vi pakker din ordre om:{{ product.title }}<\/p>",
+            "product_counter_text": "<p>Vi pakker din ordre om:{{ product.title }}</p>",
             "show_product_counter": false,
             "product__returndate-text": "",
             "show_product_trustpilot_widget": false
@@ -81,23 +81,15 @@
           "type": "content",
           "settings": {
             "title": "Materialer",
-            "content": "<p>{{ product.metafields.content.materialer.value }}<\/p>",
+            "content": "<p>{{ product.metafields.content.materialer.value }}</p>",
             "page": ""
-          }
-        },
-        "17147ba3-3eb8-4b38-bf0a-81e6a99fb9a1": {
-          "type": "content",
-          "settings": {
-            "title": "Tekstiler med omhu",
-            "content": "<p>Med vonFritz har jeg gentænkt fremstillingen af boligtekstiler ved at kombinere min kærlighed for design, kvalitet og håndværk med nøje gennemtænkte bæredygtige materialer. Fælles for alle materialerne er, at de er naturmaterialer. <\/p><p>Jeg skaber smukt økologisk sengetøj, håndklæder og viskestykker af høj kvalitet og med lang levetid. Kvaliteterne udvikles således, at produkterne kan bruges igen og igen og endda gå i arv med den rigtige pleje. <\/p>",
-            "page": "baeredygtighed-info"
           }
         },
         "c0ab2312-1a63-481b-98d5-778ca72c7b2a": {
           "type": "content",
           "settings": {
             "title": "Pleje",
-            "content": "<p>{{ product.metafields.content.pleje.value }}<\/p>",
+            "content": "<p>{{ product.metafields.content.pleje.value }}</p>",
             "page": "care"
           }
         }
@@ -111,7 +103,6 @@
         "buy_buttons_DJnMaB",
         "2bc5c75c-e4ca-40f7-ba89-d340007f92cb",
         "0ea1b043-eff1-4e99-946d-d1923fd15e88",
-        "17147ba3-3eb8-4b38-bf0a-81e6a99fb9a1",
         "c0ab2312-1a63-481b-98d5-778ca72c7b2a"
       ],
       "settings": {
@@ -126,7 +117,7 @@
       "type": "apps",
       "blocks": {
         "instafeed_app_block_Lw4LkP": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "title": "",
             "title_color": "",
@@ -149,14 +140,14 @@
       "settings": {
         "subheading": "",
         "title": "",
-        "html": "<!-- TrustBox widget - Slider -->\n<div class=\"trustpilot-widget\" data-locale=\"da-DK\" data-template-id=\"54ad5defc6454f065c28af8b\" data-businessunit-id=\"638c76f6510ed557bbfa6ada\" data-style-height=\"240px\" data-style-width=\"100%\" data-theme=\"light\" data-stars=\"5\" data-review-languages=\"da\">\n  <a href=\"https:\/\/dk.trustpilot.com\/review\/vonfritz.com\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->"
+        "html": "<!-- TrustBox widget - Slider -->\n<div class=\"trustpilot-widget\" data-locale=\"da-DK\" data-template-id=\"54ad5defc6454f065c28af8b\" data-businessunit-id=\"638c76f6510ed557bbfa6ada\" data-style-height=\"240px\" data-style-width=\"100%\" data-theme=\"light\" data-stars=\"5\" data-review-languages=\"da\">\n  <a href=\"https://dk.trustpilot.com/review/vonfritz.com\" target=\"_blank\" rel=\"noopener\">Trustpilot</a>\n</div>\n<!-- End TrustBox widget -->"
       }
     },
     "16690313470e8c81fb": {
       "type": "apps",
       "blocks": {
         "61e27c18-7be8-4631-b0ab-f0e8258d9ed2": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "title": "",
             "title_color": "",
