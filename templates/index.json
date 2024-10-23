@@ -16,8 +16,8 @@
           "type": "video",
           "settings": {
             "video_link": "",
-            "video_image": "shopify://shop_images/Hero2.jpg",
-            "overlay_opacity": 66,
+            "video_image": "shopify://shop_images/sb2.jpg",
+            "overlay_opacity": 43,
             "svg__title": "none",
             "title": "",
             "text": "",
