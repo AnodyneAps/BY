@@ -143,7 +143,7 @@
           "show_currency_selector": false,
           "show_locale_selector": false,
           "navigation_menu": "main-desktop-menu",
-          "navigation_style": "inline",
+          "navigation_style": "logoLeft",
           "show_icons": true,
           "enable_transparent_header": true,
           "enable_transparent_header_collection": false,
