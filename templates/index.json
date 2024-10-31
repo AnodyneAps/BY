@@ -106,6 +106,40 @@
         "blackdays_badge_text": "Op til -30%"
       }
     },
+    "featured_collections_46XwEy": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_Q64FE8": {
+          "type": "collection",
+          "settings": {
+            "collection": "all",
+            "title": "",
+            "text_box": "",
+            "grid_items_count": 8,
+            "button_text": "View all products"
+          }
+        }
+      },
+      "block_order": [
+        "collection_Q64FE8"
+      ],
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": 26,
+        "margin_heading": false,
+        "heading_size_mobile": 15,
+        "background-color": "#fafafa",
+        "background_img": "none",
+        "layout_mode": "carousel",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 4,
+        "show_blackdays_badge": false,
+        "blackdays_badge_text": ""
+      }
+    },
     "998501e2-b1e0-42e0-abf9-aa7ce5cd0b27": {
       "type": "custom-liquid",
       "disabled": true,
@@ -246,6 +280,7 @@
   "order": [
     "16493219980674aef0",
     "1649338946aef6d2c0",
+    "featured_collections_46XwEy",
     "998501e2-b1e0-42e0-abf9-aa7ce5cd0b27",
     "1669031576d724798f",
     "1632827034e58962e0",
