@@ -45,7 +45,7 @@
           "settings": {
             "hide_mobile": false,
             "hide_link": false,
-            "collection": "sengetoj",
+            "collection": "all",
             "image": "shopify://shop_images/Signature_-_Eiucalyptus.jpg",
             "image_alignment": "center center",
             "content_position": "bottomCenter",
