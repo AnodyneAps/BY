@@ -16,7 +16,7 @@
           "type": "video",
           "settings": {
             "video_link": "",
-            "video_image": "shopify://shop_images/home_image_1.png",
+            "video_image": "shopify://shop_images/von-hero-light.jpg",
             "overlay_opacity": 2,
             "svg__title": "none",
             "title": "",
@@ -46,7 +46,7 @@
             "hide_mobile": false,
             "hide_link": false,
             "collection": "all",
-            "image": "shopify://shop_images/home_image_1_1.png",
+            "image": "shopify://shop_images/Signature_-_Eiucalyptus.jpg",
             "image_alignment": "center center",
             "content_position": "bottomCenter",
             "subheading": "",
