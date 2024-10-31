@@ -17,7 +17,7 @@
           "settings": {
             "video_link": "",
             "video_image": "shopify://shop_images/home_image_1.png",
-            "overlay_opacity": 43,
+            "overlay_opacity": 2,
             "svg__title": "none",
             "title": "",
             "text": "",
