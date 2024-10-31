@@ -106,36 +106,6 @@
       },
       "header": {
         "type": "header",
-        "blocks": {
-          "mega_menu_Azi8wY": {
-            "type": "mega_menu",
-            "settings": {
-              "navigation_mega_menu": "",
-              "push_1_heading": "Example heading",
-              "push_1_subheading": "Example sub-heading",
-              "push_1_url": "",
-              "push_2_heading": "Example heading",
-              "push_2_subheading": "Example sub-heading",
-              "push_2_url": ""
-            }
-          },
-          "9282d9f0-b93b-480c-a3a7-9e21b223bf5c": {
-            "type": "mega_menu",
-            "settings": {
-              "navigation_mega_menu": "",
-              "push_1_heading": "Example heading",
-              "push_1_subheading": "Example sub-heading",
-              "push_1_url": "",
-              "push_2_heading": "Example heading",
-              "push_2_subheading": "Example sub-heading",
-              "push_2_url": ""
-            }
-          }
-        },
-        "block_order": [
-          "mega_menu_Azi8wY",
-          "9282d9f0-b93b-480c-a3a7-9e21b223bf5c"
-        ],
         "settings": {
           "use_sticky_header": false,
           "logo_max_width": 145,
