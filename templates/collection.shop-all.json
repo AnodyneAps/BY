@@ -190,13 +190,6 @@
         "sub_heading_size": 20,
         "richtext_size": 16
       }
-    },
-    "1662549621f8c6726f": {
-      "type": "collection_seo",
-      "settings": {
-        "max_content": true,
-        "max_box_size": 140
-      }
     }
   },
   "order": [
@@ -205,7 +198,6 @@
     "16334226477fd6df41",
     "1633105453d9ab1568",
     "1633105440fb57a17a",
-    "1639742442018b3a2d",
-    "1662549621f8c6726f"
+    "1639742442018b3a2d"
   ]
 }
