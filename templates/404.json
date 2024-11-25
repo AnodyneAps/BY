@@ -13,8 +13,8 @@
       "type": "text-with-image",
       "settings": {
         "height": false,
-        "subheading": "dette produkt er desværre udsolgt",
-        "title": "UDSOLGT",
+        "subheading": "",
+        "title": "Dette produkt er desværre udsolgt",
         "image_position": "right",
         "content": "<p>Gå på opdagelse i nogle af vores andre lækre produkter</p>",
         "text_align": "left",
