@@ -34,8 +34,7 @@
       "block_order": [
         "16493219983c170ed0-0"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "1649338946aef6d2c0": {
       "type": "collection-list",
@@ -53,7 +52,7 @@
             "title": "{{ block.settings.collection.title }}",
             "richtext": "",
             "button_text": "Shop nu",
-            "button_link": "shopify://collections/sengetoj",
+            "button_link": "shopify://collections/all",
             "apply_overlay": true,
             "apply_overlay_extra": false,
             "add_logo": false,
