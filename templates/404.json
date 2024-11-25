@@ -1,12 +1,56 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
+    "text_with_image_zLML7Q": {
+      "type": "text-with-image",
+      "settings": {
+        "height": false,
+        "subheading": "dette produkt er desværre udsolgt",
+        "title": "UDSOLGT",
+        "image_position": "right",
+        "content": "<p>Gå på opdagelse i nogle af vores andre lækre produkter</p>",
+        "text_align": "left",
+        "heading_size": 26,
+        "sub_heading_size": 20,
+        "richtext_size": 14,
+        "link_text": "",
+        "link_url": "",
+        "button_size": 16,
+        "button_color": "#ffffff",
+        "button_border_color": "#ffffff",
+        "button_fill": "#ffffff",
+        "button_color_hoover": "#342E29",
+        "button_fill_hoover": "#ffffff"
+      }
+    },
+    "shop_now_hFrpW6": {
+      "type": "shop-now",
+      "settings": {
+        "title": "Andre købte også....",
+        "collection": "sengetoj",
+        "grid_items_count": 6,
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false
+      }
+    },
     "main": {
       "type": "main-not-found",
-      "settings": {
-      }
+      "disabled": true,
+      "settings": {}
     }
   },
   "order": [
+    "text_with_image_zLML7Q",
+    "shop_now_hFrpW6",
     "main"
   ]
 }
